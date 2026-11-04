@@ -37,6 +37,10 @@ function syncUrl() {
     location.pathname + (params.size ? '?' + params.toString() : '')
   )
 }
+function selectTopic(value) {
+  topic.value = value
+  syncUrl()
+}
 const results = computed(() =>
   searchDocuments(catalog, query.value, topic.value).filter(
     (d) => status.value === 'all' || d.status === status.value
@@ -75,20 +79,14 @@ function reset() {
     <div class="filter-chips" aria-label="자료 주제">
       <button
         :aria-pressed="topic === 'all'"
-        @click="
-          topic = 'all'
-          syncUrl()
-        "
+        @click="selectTopic('all')"
       >
         전체 {{ catalog.length }}</button
       ><button
         v-for="category in categories"
         :key="category.id"
         :aria-pressed="topic === category.id"
-        @click="
-          topic = category.id
-          syncUrl()
-        "
+        @click="selectTopic(category.id)"
       >
         {{ category.label }}
       </button>
