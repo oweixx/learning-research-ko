@@ -4,7 +4,9 @@
   "type": "module",
   "engines": { "node": ">=22" },
   "scripts": {
-    "site:prepare": "node scripts/prepare-site.mjs",
+    "editorial:prepare": "node scripts/prepare-editorial.mjs",
+    "editorial:check": "node scripts/prepare-editorial.mjs --check",
+    "site:prepare": "node scripts/prepare-editorial.mjs --check && node scripts/prepare-site.mjs",
     "site:dev": "npm run site:prepare && vitepress dev site --host 127.0.0.1",
     "site:build": "npm run site:prepare && vitepress build site",
     "site:preview": "vitepress preview site --host 127.0.0.1",

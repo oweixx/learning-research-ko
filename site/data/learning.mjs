@@ -1,5 +1,12 @@
 export const categories = [
   {
+    id: 'essentials',
+    label: '핵심 원칙과 용어',
+    icon: 'book',
+    description: '다시 펼쳐 보는 원칙과 쉬운 용어 풀이',
+    ids: ['handbook', 'glossary']
+  },
+  {
     id: 'start',
     label: '연구 입문',
     icon: 'compass',
@@ -390,6 +397,7 @@ export const templates = [
 ]
 
 export const statusLabels = {
+  editorial: '한국어판 편집 자료',
   translated: '본문·도표 대조 완료',
   body_translated: '본문 번역',
   reading_guide_only: '소개·요약',
@@ -397,6 +405,7 @@ export const statusLabels = {
   reference: '자료 안내'
 }
 export const statusDescriptions = {
+  editorial: '기존 번역을 바탕으로 한국어판에서 정리한 해설입니다. 각 항목에서 관련 문서로 연결됩니다.',
   translated:
     '공개 본문과 학습용 도표를 대조했습니다. 링크된 외부 자료는 별도입니다.',
   body_translated:

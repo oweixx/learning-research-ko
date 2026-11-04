@@ -1,5 +1,13 @@
 # 심사 의견에 답변하는 법
 
+<!-- editorial:summary -->
+**세 줄로 먼저 읽기 · 한국어판 요약**
+
+- 심사자별 의견 전체를 읽고 핵심 우려와 질문의 맥락을 파악합니다.
+- 질문받은 내용에 먼저 직접 답하고 필요한 설명과 근거를 덧붙입니다.
+- 중요한 우려에 정확하고 설득력 있게 답했는지 반복해서 확인합니다.
+<!-- /editorial:summary -->
+
 [연구 가이드 목록](./README.md) · [한국어판 처음으로](../../README.md)
 
 원문: [공개 Notion](https://pengsida.notion.site/af99ce47103e4917b6a5bd1fd4b3c022) · [Sida Peng의 Learning Research](https://github.com/pengsida/learning_research)
@@ -44,3 +52,10 @@
 원저자는 긴 심사평에도 평가를 좌우하는 핵심 쟁점은 몇 개일 때가 많다고 설명합니다. 모든 질문에 성실히 답하되, 초안 이후의 검토에서는 특히 그 핵심 쟁점에 시간을 들이라는 뜻입니다.
 
 > 첨부 범위: 공개된 설명과 도표는 한국어로 옮겼습니다. 별도 PDF 예시와 편집용 draw.io 파일의 전문 대조는 첨부 자료 상태에 따로 기록합니다.
+
+<!-- editorial:connections -->
+## 읽기의 연결 · 한국어판 안내
+
+- **먼저 읽으면:** [논문을 검토하는 기준](./reviewing-papers.md) — 심사자가 기여와 근거를 어떤 기준으로 보는지 이해합니다.
+- **이어서 적용하면:** [논문 고쳐 쓰기: 구성과 문장 연결](./revising-papers.md) — 답변에서 확인한 설명의 빈틈을 본문 수정에도 반영합니다.
+<!-- /editorial:connections -->

@@ -1,5 +1,13 @@
 # 문제 해결안을 설계하는 힘 기르기
 
+<!-- editorial:summary -->
+**세 줄로 먼저 읽기 · 한국어판 요약**
+
+- 기존 기술·핵심 생각·미해결 문제를 축적하고 다른 분야의 해법까지 살펴봅니다.
+- 현재 방법이 실패하는 원인 후보를 실험으로 확인합니다.
+- 문제를 하위 문제로 나누고 사용할 수 있는 해법을 연결해 전체 해결안을 만듭니다.
+<!-- /editorial:summary -->
+
 [연구 가이드 목록](./README.md) · [한국어판 처음으로](../../README.md)
 
 원문: [공개 Notion](https://pengsida.notion.site/997f611cd2e24ef1a62210ff099948e2) · [Sida Peng의 Learning Research](https://github.com/pengsida/learning_research)
@@ -37,3 +45,10 @@
 - 실제로 매우 어려운 미해결 문제일 수 있습니다.
 
 마지막 가능성부터 단정하지 말고, 문헌 조사와 토론으로 앞의 두 가능성을 먼저 점검하세요.
+
+<!-- editorial:connections -->
+## 읽기의 연결 · 한국어판 안내
+
+- **먼저 읽으면:** [프로젝트의 핵심 기술 문제 분석 양식](./technical-problem-template.md) — 해결해야 할 근본 문제와 하위 문제를 먼저 정리합니다.
+- **이어서 적용하면:** [아이디어를 검증할 탐색적 실험을 설계하는 법](./exploratory-experiments.md) — 설계한 해법을 확인할 미지수를 나누고 검증 순서를 정합니다.
+<!-- /editorial:connections -->

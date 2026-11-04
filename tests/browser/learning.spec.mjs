@@ -10,6 +10,41 @@ test('상단 검색 결과를 확인하고 키보드로 닫을 수 있다', asyn
   await expect(page.locator('#localsearch-input')).not.toBeVisible()
 })
 
+test('요약·도식·예시를 읽고 용어와 관련 문서로 이동한다', async ({ page }, testInfo) => {
+  await page.goto('guide/reading-papers.html')
+  await expect(page.locator('.editorial-summary li')).toHaveCount(3)
+  await expect(page.locator('.reading-tools')).not.toHaveAttribute('open', '')
+  await expect(page.locator('.personal-records')).not.toHaveAttribute('open', '')
+  await expect(page.locator('.editorial-flow li')).toHaveCount(4)
+  await expect(page.locator('.editorial-example')).toContainText('가상 예시')
+  await expect(page.locator('.editorial-connections')).toContainText('분야 전체의 흐름')
+  await page.screenshot({ path: `test-results/editorial-top-${testInfo.project.name}.png` })
+  await page.locator('.editorial-flow').screenshot({ path: `test-results/editorial-flow-${testInfo.project.name}.png` })
+  await page.locator('.editorial-example').screenshot({ path: `test-results/editorial-example-${testInfo.project.name}.png` })
+  await page.locator('.term-definition a').first().click()
+  await expect(page).toHaveURL(/glossary\.html#/)
+  await expect(page.locator('.vp-doc h1')).toHaveText(/연구 용어를 쉬운 말로/)
+  const targetExists = await page.evaluate(() => !!document.getElementById(decodeURIComponent(location.hash.slice(1))))
+  expect(targetExists).toBe(true)
+  await page.goto('guide/handbook.html')
+  await expect(page.locator('.vp-doc h3')).toHaveCount(24)
+  await page.locator('.vp-doc a[href*="reading-papers.html#"]').first().click()
+  await expect(page).toHaveURL(/reading-papers\.html#/)
+  await expect(page.locator('.editorial-summary')).toBeVisible()
+  await page.locator('.editorial-connections a[href*="literature-tree"]').click()
+  await expect(page).toHaveURL(/literature-tree\.html/)
+  await expect(page.locator('.reading-tools')).not.toHaveAttribute('open', '')
+  await page.goto('guide/figure-template-access.html')
+  await expect(page.locator('.editorial-summary')).toHaveCount(0)
+  for (const url of ['guide/handbook.html', 'guide/glossary.html', 'guide/experiment-failures.html']) {
+    await page.goto(url)
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1), url).toBe(true)
+  }
+  await page.emulateMedia({ media: 'print' })
+  await expect(page.locator('.reading-tools')).not.toBeVisible()
+  await expect(page.locator('.editorial-flow')).toBeVisible()
+})
+
 test('홈과 자료실에서 한국어 본문 검색, 필터, 새로고침이 동작한다', async ({
   page
 }, testInfo) => {
@@ -39,7 +74,7 @@ test('홈과 자료실에서 한국어 본문 검색, 필터, 새로고침이 �
     page.getByRole('heading', { name: '아직 찾는 자료가 보이지 않아요.' })
   ).toBeVisible()
   await page.getByRole('button', { name: '검색 조건 초기화' }).click()
-  await expect(page.locator('.doc-card')).toHaveCount(78)
+  await expect(page.locator('.doc-card')).toHaveCount(80)
   expect(errors).toEqual([])
 })
 
@@ -47,13 +82,17 @@ test('읽음, 북마크, 개인 메모와 글자 크기를 저장하고 학습 �
   page
 }, testInfo) => {
   await page.goto('guide/reading-papers.html')
+  await page.locator('.reading-tools > summary').click()
   await page.getByRole('button', { name: '읽음 표시', exact: true }).click()
   await page.getByRole('button', { name: '북마크', exact: true }).click()
+  await page.locator('.personal-records > summary').click()
   await page
     .getByLabel('이 문서의 개인 메모')
     .fill('질문을 정리한 뒤 직접 실험해 보자.')
   await page.getByLabel('본문 글자 크기').selectOption('20')
   await page.reload()
+  await page.locator('.reading-tools > summary').click()
+  await page.locator('.personal-records > summary').click()
   await expect(
     page.getByRole('button', { name: '읽음 표시됨', exact: true })
   ).toHaveAttribute('aria-pressed', 'true')
@@ -154,6 +193,7 @@ test('손상된 백업을 거부하고 저장 실패를 알린다', async ({ pag
     }
   })
   await page.goto('guide/reading-papers.html')
+  await page.locator('.reading-tools > summary').click()
   await page.getByRole('button', { name: '북마크', exact: true }).click()
   await expect(page.locator('.storage-alert')).toContainText(
     '브라우저에 저장하지 못했습니다'

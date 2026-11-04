@@ -34,7 +34,7 @@ const lastUrl = computed(() =>
           논문을 읽는 첫날부터 나의 연구를 세상에 전하는 순간까지.<br
             class="desktop-break"
           />
-          읽고, 질문하고, 직접 기록하며 연구하는 힘을 기르세요.
+          핵심 요약과 흐름도, 구체적인 예시를 따라 연구의 원칙을 읽어 보세요.
         </p>
         <div class="hero-actions">
           <a class="button primary" :href="withBase('/paths.html')"
@@ -47,7 +47,7 @@ const lastUrl = computed(() =>
           <span
             >한국어 자료 <strong>{{ catalog.length }}편</strong></span
           ><span>학습 경로 <strong>5가지</strong></span
-          ><span>나만의 <strong>연구 노트</strong></span>
+          ><span>다시 읽는 <strong>핵심 원칙</strong></span>
         </div>
       </div>
       <div
@@ -159,14 +159,14 @@ const lastUrl = computed(() =>
           <Icon name="pen" :size="38" /><span></span><span></span><span></span>
         </div>
         <div>
-          <p class="eyebrow">MAKE IT YOUR OWN</p>
-          <h2>읽은 내용을 나의 연구로.</h2>
+          <p class="eyebrow">PRINCIPLES TO RETURN TO</p>
+          <h2>필요할 때, 핵심으로 돌아오세요.</h2>
           <p>
-            논문 정리부터 실험 계획까지, 질문에 답하며 생각을 구체화하세요.<br />작성한
-            노트는 브라우저에 저장하고 파일로 가져갈 수 있습니다.
+            논문 읽기, 문제 선택, 실험과 글쓰기에서 기억할 24가지 원칙.<br />짧게
+            되짚고, 맥락이 필요하면 원래 문서로 이어 읽으세요.
           </p>
-          <a class="button secondary" :href="withBase('/notebook.html')"
-            >첫 연구 노트 만들기 <Icon name="arrow" :size="18"
+          <a class="button secondary" :href="withBase('/guide/handbook.html')"
+            >연구 원칙 펼쳐 보기 <Icon name="arrow" :size="18"
           /></a>
         </div>
       </section>
@@ -174,8 +174,8 @@ const lastUrl = computed(() =>
         <Icon name="info" :size="20" />
         <p>
           Sida Peng의 Learning Research를 바탕으로 만든 비공식 한국어 학습
-          공간입니다. 번역·요약·접근 제한을 구분하며, 학습 경로와 작성 양식은
-          한국어판에서 추가했습니다.
+          공간입니다. 번역·요약·접근 제한을 구분하며, 세 줄 요약·도식·비교 예시와
+          용어 풀이, 읽기 연결은 한국어판에서 추가했습니다.
           <a :href="withBase('/guide/translation.html')">출처와 번역 범위</a>
         </p>
       </div>

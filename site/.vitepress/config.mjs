@@ -10,7 +10,7 @@ export default defineConfig({
   title: '연구를 배우는 법',
   titleTemplate: ':title · Learning Research',
   description:
-    '논문 읽기부터 실험, 글쓰기, 발표까지. 한국어로 읽고 직접 기록하는 연구 학습 공간.',
+    '논문 읽기부터 실험, 글쓰기, 발표까지. 요약·도식·예시로 이해하는 한국어 연구 가이드.',
   base: '/learning-research-ko/',
   srcDir: '.generated',
   cleanUrls: false,
@@ -35,8 +35,12 @@ export default defineConfig({
     nav: [
       { text: '학습 경로', link: '/paths' },
       { text: '자료실', link: '/library' },
-      { text: '연구 노트', link: '/notebook' },
-      { text: '내 서재', link: '/bookshelf' }
+      { text: '핵심 원칙', link: '/guide/handbook' },
+      { text: '용어집', link: '/guide/glossary' },
+      { text: '개인 기록', items: [
+        { text: '연구 노트', link: '/notebook' },
+        { text: '내 서재', link: '/bookshelf' }
+      ] }
     ],
     sidebar: [
       {

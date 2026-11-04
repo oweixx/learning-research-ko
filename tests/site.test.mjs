@@ -11,6 +11,12 @@ import {
   noteMarkdown
 } from '../site/lib/storage.mjs'
 import { tracks, templates, categories } from '../site/data/learning.mjs'
+import { summaries } from '../site/data/editorial.mjs'
+import { flows, examples } from '../site/data/editorial-examples.mjs'
+import { connections } from '../site/data/reading-connections.mjs'
+import { glossary } from '../site/data/glossary.mjs'
+import { readerMarkdown } from '../site/lib/editorial.mjs'
+import { renderHighlights } from '../site/lib/content.mjs'
 
 const catalog = JSON.parse(
   readFileSync(
@@ -19,6 +25,69 @@ const catalog = JSON.parse(
   )
 )
 const validIds = new Set(catalog.map((d) => d.id))
+const source = (id) => readFileSync(new URL('../' + catalog.find(d => d.id === id).sourcePath, import.meta.url), 'utf8')
+
+test('편집 자료의 출처·연결이 유효하고 짧은 접근 안내를 본문처럼 요약하지 않는다', () => {
+  for (const [id, summary] of Object.entries(summaries)) {
+    assert.ok(validIds.has(id), id)
+    assert.equal(summary.length, 3, id)
+    assert.ok(summary.every(line => line.length > 20 && line.length < 130), id)
+    assert.ok(!['blocked'].includes(catalog.find(d => d.id === id).status), id)
+  }
+  for (const id of ['working-state', 'figure-template-access', 'project-page-resources']) assert.equal(summaries[id], undefined)
+  for (const [id, [before, whyBefore, next, whyNext]] of Object.entries(connections)) {
+    assert.ok(validIds.has(id) && validIds.has(next), id)
+    assert.notEqual(next, id)
+    assert.ok(whyNext.length > 10)
+    if (before) {
+      assert.ok(validIds.has(before) && whyBefore.length > 10, id)
+      assert.notEqual(before, id)
+      assert.notEqual(before, next)
+    }
+  }
+  for (const id of [...Object.keys(flows), ...Object.keys(examples)]) assert.ok(summaries[id], id)
+  for (const term of glossary) assert.ok(validIds.has(term.source), term.id)
+})
+
+test('원칙 모음의 강조 구절 24개는 각각 연결한 번역 본문에 실제로 존재한다', () => {
+  const handbook = source('handbook')
+  const sections = handbook.split(/\n### \d+\. /).slice(1)
+  assert.equal(sections.length, 24)
+  for (const block of sections) {
+    const phrase = block.match(/\*\*([^*]+)\*\*/)?.[1]
+    const target = block.match(/\]\(\.\.\/notion\/([^#)]+\.md)/)?.[1]
+    assert.ok(phrase && target, block)
+    const original = readFileSync(new URL('../docs/notion/' + target, import.meta.url), 'utf8')
+    assert.ok(original.includes(`**${phrase}**<!-- highlight -->`), phrase)
+  }
+})
+
+test('독서 레이아웃은 출처를 접어도 본문·코드·제목을 보존한다', () => {
+  const content = '# 제목\n\n[목록](./README.md)\n\n원문: [출처](https://example.org)\n\n첫 본문\n\n## 원래 제목\n\n```text\n원문: 코드 안의 내용\n\n다음 줄\n```'
+  const rendered = readerMarkdown(content)
+  assert.ok(rendered.includes('<ReadingTools>\n\n[목록]'))
+  assert.ok(rendered.includes('</ReadingTools>\n\n첫 본문'))
+  assert.ok(rendered.includes('## 원래 제목'))
+  assert.ok(rendered.includes('```text\n원문: 코드 안의 내용\n\n다음 줄\n```'))
+})
+
+test('용어의 다른 의미와 직접 인용·코드에 풀이를 끼워 넣지 않는다', () => {
+  for (const id of ['undergraduate-to-research', 'research-vs-coursework']) assert.ok(!source(id).includes('<!-- term:generalization -->'))
+  assert.ok(source('reading-papers').includes('‘볼륨 렌더링이 무엇인가’'))
+  for (const doc of catalog.filter(d => connections[d.id])) {
+    const body = source(doc.id)
+    const ids = [...body.matchAll(/<!-- term:([a-z]+) -->/g)].map(m => m[1])
+    assert.equal(ids.length, new Set(ids).size, doc.id)
+    for (const code of body.matchAll(/^```[^\n]*\n[\s\S]*?^```/gm)) assert.ok(!code[0].includes('<!-- term:'), doc.id)
+    for (const selected of body.matchAll(/\*\*([^*\n]+)\*\*<!-- highlight -->/g)) assert.ok(!selected[1].includes('<!-- term:'), doc.id)
+  }
+  assert.equal(renderHighlights('```md\n**예시**<!-- highlight -->\n```'), '```md\n**예시**<!-- highlight -->\n```')
+})
+
+test('한글 및 숫자로 시작하는 제목 링크를 저장된 VitePress 앵커와 맞춘다', () => {
+  const result = rewriteLinks('[절](./b.md#3-단계)', 'a.md', new Set(['b.md']))
+  assert.ok(result.includes('#_3-' + '단계'.normalize('NFKD')))
+})
 
 test('학습 경로와 양식이 실제 문서를 가리키며 모든 문서가 한 주제에 속한다', () => {
   for (const track of tracks) {
@@ -67,7 +136,7 @@ test('상대 경로를 사이트로 연결하면서 코드와 외부 링크, 앵
     'docs/notion/finding-papers.md',
     new Set(['docs/notion/reading-papers.md'])
   )
-  assert.ok(result.includes('/guide/reading-papers.md#세-단계'))
+  assert.ok(result.includes('/guide/reading-papers.md#' + '세-단계'.normalize('NFKD')))
   assert.ok(result.includes('[외부](https://example.org)'))
   assert.ok(result.includes('[코드](./reading-papers.md)'))
   assert.throws(() =>

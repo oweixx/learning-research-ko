@@ -1,5 +1,13 @@
 # 선배 연구자에게 효과적으로 도움받기
 
+<!-- editorial:summary -->
+**세 줄로 먼저 읽기 · 한국어판 요약**
+
+- 어려움과 지금까지의 생각을 정리한 뒤 적절한 시점에 도움을 요청합니다.
+- 막힌 문제를 구체적으로 설명하고 수치·시각화·관찰 패턴을 보여 줍니다.
+- 관찰과 가설, 이미 해 본 시도를 구분해 함께 판단할 지점을 분명히 합니다.
+<!-- /editorial:summary -->
+
 [연구 가이드 목록](./README.md) · [한국어판 처음으로](../../README.md)
 
 원문: [공개 Notion](https://pengsida.notion.site/13f822dc3a5e4242ab1282789a47c346) · [Sida Peng의 Learning Research](https://github.com/pengsida/learning_research)
@@ -41,3 +49,26 @@
 관련 자료: [논문 읽기](./reading-papers.md), [아이디어 기르기](./research-ideas.md), [논문 검토](./reviewing-papers.md), [실패 원인 분석](./experiment-failures.md), [실험 결과 열 가지 질문](./experiment-questions.md), [실험 기록](./experiment-records.md), [논문 작성 템플릿](./paper-writing-template.md), [글쓰기 연습](./writing-practice.md), [연구자들의 글쓰기 경험](./writing-resources.md).
 
 > 번역자 주: 원문에서 반복되는 도입부와 동일한 표는 한 번씩만 실었습니다. 고유한 항목은 모두 유지했습니다.
+
+<!-- editorial:example -->
+## 한국어판 비교 예시: 도움 요청: 막힌 지점과 조언받을 대상을 분명하게
+
+이해를 돕기 위해 만든 가상 예시입니다. 원저자의 발언이나 실제 실험 결과가 아닙니다.
+
+### 아쉬운 예
+
+> 코드가 이해되지 않습니다. 전체를 설명해 주세요.
+
+### 개선한 예
+
+> 입력부터 특징 추출까지는 확인했습니다. 그다음 좌표 변환의 출력이 논문에서 기대한 범위와 다릅니다. 입력 단위와 텐서 형태는 점검했지만 변환 방향은 아직 확신이 없습니다. 제가 정리한 계산 순서에서 어느 가정을 먼저 확인하면 좋을지 조언을 부탁드립니다.
+
+**달라진 점:** 이해한 범위·관찰한 차이·이미 확인한 항목·아직 모르는 점을 나눠 상대가 도움을 줄 위치를 알 수 있게 했습니다.
+<!-- /editorial:example -->
+
+<!-- editorial:connections -->
+## 읽기의 연결 · 한국어판 안내
+
+- **먼저 읽으면:** [문제를 해결하는 연구 미팅](./research-meetings.md) — 문제·가설·시도·다음 후보를 구분하는 구조를 먼저 봅니다.
+- **이어서 적용하면:** [실험이 잘되지 않는 원인 찾기](./experiment-failures.md) — 받은 조언을 원인 후보를 구별할 실험으로 연결합니다.
+<!-- /editorial:connections -->

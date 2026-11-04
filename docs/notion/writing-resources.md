@@ -19,3 +19,9 @@
 
 함께 읽기: [논문 작성 템플릿](./paper-writing-template.md), [논문 고쳐 쓰기](./revising-papers.md).
 
+<!-- editorial:connections -->
+## 읽기의 연결 · 한국어판 안내
+
+- **먼저 읽으면:** [논문 쓰기를 연습하는 법](./writing-practice.md) — 논문을 읽고 핵심을 설명하는 일상적인 연습을 먼저 봅니다.
+- **이어서 적용하면:** [논문 고쳐 쓰기: 구성과 문장 연결](./revising-papers.md) — 문단의 목적과 연결을 이미 쓴 글에 적용합니다.
+<!-- /editorial:connections -->

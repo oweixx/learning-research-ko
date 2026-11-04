@@ -19,3 +19,9 @@
 
 함께 읽기: [연구 코드 읽기](./reading-research-code.md), [디버깅의 아홉 가지 원칙](./debugging-guide.md).
 
+<!-- editorial:connections -->
+## 읽기의 연결 · 한국어판 안내
+
+- **먼저 읽으면:** [논문과 알고리즘의 코드를 공부하는 법](./reading-research-code.md) — 직접 읽고 구현하면서 코드 구조가 중요한 이유를 경험합니다.
+- **이어서 적용하면:** [AI와 함께 코딩할 때 필요한 역량](./ai-assisted-programming.md) — AI를 사용해도 전체 구조와 검증 책임을 이해하는 관점으로 이어갑니다.
+<!-- /editorial:connections -->

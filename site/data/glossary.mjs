@@ -1,0 +1,18 @@
+export const glossary = [
+  { id: 'baseline', title: '기준 방법', aliases: ['베이스라인', '기준 방법'], short: '새 방법의 효과를 비교할 기준이 되는 방법', detail: '비교하려는 질문에 맞는 기준을 고르고 데이터와 평가 조건을 맞추어 해석합니다. 기준 방법이 약하다는 이유만으로 새 방법의 가치가 입증되지는 않습니다.', source: 'reviewing-papers' },
+  { id: 'ablation', title: '구성 요소 제거 실험', aliases: ['구성 요소 제거 실험', '제거 실험', 'ablation'], short: '일부 요소를 빼거나 바꾸어 그 역할을 살피는 실험', detail: '전체 성능 비교가 방법 전체의 결과를 보여 준다면, 이 실험은 구성 요소와 설계 선택의 영향을 묻습니다. 바꾼 요소 외의 조건과 상호작용도 고려해야 합니다.', source: 'paper-writing-template' },
+  { id: 'insight', title: '핵심 통찰', aliases: ['통찰', 'insight'], short: '문제를 푸는 방향을 이끄는 핵심 생각', detail: '구체적인 모듈 이름이나 구현 목록보다 상위 수준의 생각입니다. 어떤 난점에 왜 도움이 되는지 설명할 수 있어야 합니다.', source: 'reading-papers' },
+  { id: 'novelty', title: '독창성', aliases: ['독창성', 'novelty'], short: '기존 연구와 비교해 새롭게 제시한 점', detail: '흥미로운 응용이나 새로운 이름만으로 판단하지 않습니다. 기존 지식과 무엇이 달라졌는지, 독자가 무엇을 새롭게 배우는지 설명합니다.', source: 'research-ideas' },
+  { id: 'generalization', title: '일반화', aliases: ['일반화'], short: '학습에 사용하지 않은 데이터나 조건에서도 작동하는 능력', detail: '학습 데이터에서의 성공과 구분해서 평가합니다. 어떤 새로운 데이터와 조건을 시험했는지 명시해야 일반화 주장의 범위를 알 수 있습니다.', source: 'experiment-questions', only: ['experiment-failures', 'experiment-log-march24', 'experiment-questions', 'exploratory-experiments'] },
+  { id: 'overfitting', title: '과적합', aliases: ['과적합'], short: '학습 데이터에 맞지만 새로운 데이터에서는 성능이 떨어지는 현상', detail: '작은 학습 표본에 일부러 맞추어 보는 것은 구현의 작동 여부를 점검하는 방법이 될 수 있습니다. 그 성공이 일반화 성능을 입증하는 것은 아닙니다.', source: 'exploratory-experiments' },
+  { id: 'hyperparameter', title: '하이퍼파라미터', aliases: ['하이퍼파라미터'], short: '학습률 등 학습 과정이나 모델 구성을 정하는 설정값', detail: '현재 데이터와 조건에 맞는지 확인하고 실험 기록에 남깁니다. 여러 설정을 동시에 바꾸면 결과 차이의 원인을 구별하기 어려워집니다.', source: 'experiment-failures' },
+  { id: 'pipeline', title: '처리 과정', aliases: ['파이프라인', 'pipeline'], short: '입력이 여러 처리 단계를 거쳐 출력이 되는 흐름', detail: '입력·모듈·중간 출력·최종 출력을 먼저 문장으로 적으면 각 구성 요소의 위치와 역할을 설명하기 쉽습니다.', source: 'games003-week1' },
+  { id: 'rendering', title: '렌더링', aliases: ['렌더링'], short: '장면 표현과 시점 등의 정보로 영상을 만드는 과정', detail: '이 자료에서는 주로 3차원 장면이나 인체 표현에서 관측 영상을 합성하는 문맥으로 쓰입니다. 장면을 추정하는 재구성과 구별해서 읽습니다.', source: 'learning-plan' },
+  { id: 'latent', title: '잠재 표현', aliases: ['잠재 변수', '잠재 공간'], short: '관측을 설명하거나 생성하는 데 쓰는 내부 표현', detail: '원자료 자체와 구분되는 표현입니다. 어떤 정보를 담고 어떻게 학습·활용되는지는 각 방법의 정의와 가정을 확인해야 합니다.', source: 'phase-character-control' },
+  { id: 'phase', title: '위상', aliases: ['위상'], short: '주기 운동에서 현재 어느 지점에 있는지를 나타내는 상태', detail: '이 용어집에서는 캐릭터 동작의 주기라는 문맥을 다룹니다. 반복 속도를 나타내는 주파수와 다르며, 수학의 다른 분야에서 쓰는 위상과도 문맥을 구분합니다.', source: 'phase-character-control', only: ['phase-character-control'] },
+  { id: 'nan', title: 'NaN', aliases: ['NaN'], short: '유효한 수치 결과로 표현되지 않았음을 나타내는 값', detail: '입력부터 중간 연산을 따라가며 처음 나타난 지점을 찾습니다. 나눗셈·로그·제곱근 등 연산의 입력 범위와 수치 상태를 확인하는 출발점입니다.', source: 'nan-debugging' },
+  { id: 'qualitative', title: '정성 평가', aliases: ['정성적', '정성 평가'], short: '시각화와 사례 관찰로 결과의 특성을 살피는 평가', detail: '어떤 조건에서 무엇이 잘되거나 실패했는지 드러내는 데 도움이 됩니다. 보기 좋은 사례만 고르지 말고 수치 결과와 함께 해석합니다.', source: 'experiment-records' },
+  { id: 'quantitative', title: '정량 평가', aliases: ['정량적', '정량 결과', '정량 평가'], short: '정해진 지표를 수치로 측정해 결과를 비교하는 평가', detail: '수치의 의미는 지표·데이터·평가 조건에 달려 있습니다. 시각화와 함께 보면 평균 수치만으로 놓치기 쉬운 실패도 살펴볼 수 있습니다.', source: 'experiment-records' }
+]
+
+export const glossaryAnchor = (term) => `${term.title.replaceAll(' ', '-')}-${term.id}`.toLowerCase()

@@ -1,5 +1,13 @@
 # 디버깅의 아홉 가지 원칙
 
+<!-- editorial:summary -->
+**세 줄로 먼저 읽기 · 한국어판 요약**
+
+- 추측을 로그·중간값·시각화·중단점으로 확인합니다.
+- 한 번에 하나씩 바꾸어 어떤 변경이 문제에 영향을 주었는지 추적합니다.
+- 수정 뒤에는 처음 문제를 재현했던 조건에서 다시 확인합니다.
+<!-- /editorial:summary -->
+
 [문서 목록](./README.md) · [Notion 원문](https://pengsida.notion.site/1b69debf803a4c268fc8a09a9a748bbf)
 
 원저자는 코드 문제로 실험이 멈추는 일을 줄이기 위해 이 자료를 정리했습니다. 질문에 답할 때 해결 방법뿐 아니라 어떤 디버깅 원칙을 적용했는지도 설명하겠다고 합니다.
@@ -22,3 +30,9 @@
 
 함께 읽기: [실험 기록](./experiment-records.md), [NaN 점검](./nan-debugging.md).
 
+<!-- editorial:connections -->
+## 읽기의 연결 · 한국어판 안내
+
+- **먼저 읽으면:** [실험이 잘되지 않는 원인 찾기](./experiment-failures.md) — 구현 오류와 방법의 한계를 구별하는 큰 흐름을 봅니다.
+- **이어서 적용하면:** [코드에서 NaN이 발생하는 대표적인 원인](./nan-debugging.md) — NaN이 생기는 구체적인 경우에 원인 추적을 적용합니다.
+<!-- /editorial:connections -->

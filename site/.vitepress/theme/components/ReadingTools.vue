@@ -47,7 +47,8 @@ onBeforeUnmount(() => {
 })
 </script>
 <template>
-  <div v-if="doc" class="reading-tools">
+  <details v-if="doc" :key="doc.id" class="reading-tools">
+    <summary>출처·번역 범위와 읽기 설정 <span>{{ doc.statusLabel }} · 약 {{ doc.minutes }}분</span></summary>
     <div class="reading-meta">
       <span
         class="status-badge"
@@ -57,9 +58,10 @@ onBeforeUnmount(() => {
       ><span class="reading-time"
         ><Icon name="clock" :size="15" />약 {{ doc.minutes }}분</span
       ><a :href="doc.sourceUrl" target="_blank" rel="noopener noreferrer"
-        >원문 보기 <Icon name="external" :size="13"
+        >{{ doc.status === 'editorial' ? '편집 원고 보기' : '원문 보기' }} <Icon name="external" :size="13"
       /></a>
     </div>
+    <div class="source-preamble"><slot /></div>
     <div class="reading-controls">
       <div>
         <button
@@ -91,5 +93,5 @@ onBeforeUnmount(() => {
       >
     </div>
     <p class="scope-description">{{ doc.statusDescription }}</p>
-  </div>
+  </details>
 </template>

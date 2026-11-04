@@ -1,5 +1,13 @@
 # 관련 논문을 찾는 방법
 
+<!-- editorial:summary -->
+**세 줄로 먼저 읽기 · 한국어판 요약**
+
+- 현재 논문의 과제·기술 구조·해결할 문제를 파악한 뒤 검색어를 정합니다.
+- 참고문헌과 후속 인용을 따라가며 관련 연구의 범위를 넓힙니다.
+- 검색 도구나 AI가 추천한 논문은 제목·저자·원문을 직접 대조합니다.
+<!-- /editorial:summary -->
+
 [연구 가이드 목록](./README.md) · [한국어판 처음으로](../../README.md)
 
 원문: [공개 Notion](https://pengsida.notion.site/c278dab7e4764d61a92c1fd1ef3135b1) · [Sida Peng의 Learning Research](https://github.com/pengsida/learning_research)
@@ -39,3 +47,10 @@
 이어지는 스크린샷에서는 Google에 `text-driven scene-aware motion synthesis`, arXiv에 `cs.CV text scene human motion`을 입력합니다. Google 화면에는 텍스트 기반 동작 생성기의 상호작용, 장면을 고려한 사람 동작 생성 네트워크, 다양하고 자연스러운 장면 기반 3D 동작 연구가 표시됩니다. arXiv 화면에는 사회적 움직임 예측 기반 로봇 상호작용, 접촉을 고려한 3D 사람·물체 상호작용 생성인 CG-HOI, 다중 조건 확산 모델을 이용한 언어 기반 장면 합성이 나옵니다.
 
 이 화면들은 검색 과정을 보여 주는 당시의 예시입니다. 현재 검색 순위나 논문의 완전한 관련성을 보증하는 목록은 아닙니다. **추천된 논문은 제목·저자·원문을 직접 확인하세요.**<!-- highlight -->
+
+<!-- editorial:connections -->
+## 읽기의 연결 · 한국어판 안내
+
+- **먼저 읽으면:** [연구에서 검색 능력이 중요한 이유](./search-skills.md) — 검색이 연구의 새로움을 판단하는 데 필요한 이유를 봅니다.
+- **이어서 적용하면:** [읽고 나서 남는 논문 읽기](./reading-papers.md) — 찾은 논문을 문제·방법·근거·한계로 나누어 읽습니다.
+<!-- /editorial:connections -->

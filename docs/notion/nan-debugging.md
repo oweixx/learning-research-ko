@@ -23,3 +23,10 @@ if torch.isnan(number):
 ```
 
 > **번역자 주:** 위 코드는 원문의 예시를 유지한 것입니다. `number`가 여러 원소를 가진 텐서라면 조건을 `torch.isnan(number).any()`로 바꾸어, NaN이 하나라도 있는지를 확인할 수 있습니다.
+
+<!-- editorial:connections -->
+## 읽기의 연결 · 한국어판 안내
+
+- **먼저 읽으면:** [디버깅의 아홉 가지 원칙](./debugging-guide.md) — 재현·관찰·단일 변경·재검증의 기본을 먼저 읽습니다.
+- **이어서 적용하면:** [실험 결과를 분석할 때 던질 질문](./experiment-questions.md) — 수치 오류를 해결한 뒤 데이터와 알고리즘 수준의 점검도 이어갑니다.
+<!-- /editorial:connections -->

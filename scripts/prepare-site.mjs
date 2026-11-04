@@ -1,6 +1,8 @@
 import { readFile, writeFile, mkdir, readdir, cp } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { readerMarkdown } from '../site/lib/editorial.mjs'
+import { summaries } from '../site/data/editorial.mjs'
 import {
   categories,
   statusLabels,
@@ -30,7 +32,7 @@ const paths = [
   'TRANSLATION.md',
   'PUBLISHING.md'
 ]
-for (const folder of ['docs/notion', 'docs/external']) {
+for (const folder of ['docs/notion', 'docs/external', 'docs/guides']) {
   for (const file of (await readdir(path.join(root, folder))).sort())
     if (file.endsWith('.md')) paths.push(`${folder}/${file}`)
 }
@@ -55,7 +57,7 @@ for (const sourcePath of paths) {
   const meta = metadata.get(sourcePath)
   const category = categories.find((c) => c.ids.includes(id))
   if (!category) throw new Error(`분류가 없는 문서: ${id}`)
-  const status =
+  const status = sourcePath.startsWith('docs/guides/') ? 'editorial' :
     meta?.translation_status ||
     (['getting-started', 'advanced'].includes(id) ? 'translated' : 'reference')
   const text = plainText(body)
@@ -65,24 +67,27 @@ for (const sourcePath of paths) {
     sourcePath,
     url: routeFor(sourcePath),
     category: category.id,
-    description: excerpt(body),
+    description: summaries[id]?.[0] || excerpt(body),
     status,
     statusLabel: statusLabels[status],
     statusDescription: statusDescriptions[status],
     sourceUrl:
-      meta?.source_url || `https://github.com/pengsida/learning_research`,
+      meta?.source_url || (status === 'editorial' ? `https://github.com/oweixx/learning-research-ko/blob/master/${sourcePath}` : `https://github.com/pengsida/learning_research`),
     minutes: Math.max(1, Math.ceil(text.length / 600)),
     text
   }
   documents.push(doc)
   if (!body.startsWith('# ')) body = `# ${title}\n\n${body}`
+  body = readerMarkdown(body)
   body = rewriteLinks(body, sourcePath, known)
   body = renderHighlights(body)
   const frontmatter = {
     title,
     description: doc.description,
     pageId: id,
-    sourcePath
+    sourcePath,
+    prev: false,
+    next: false
   }
   await writeFile(
     path.join(generated, 'guide', `${id}.md`),

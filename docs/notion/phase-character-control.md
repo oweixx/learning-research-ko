@@ -1,12 +1,20 @@
 # 캐릭터 제어에서 위상을 사용하는 방법
 
+<!-- editorial:summary -->
+**세 줄로 먼저 읽기 · 한국어판 요약**
+
+- 위상은 주기 운동에서 현재 어느 상태인지 나타내며 주파수와 구별됩니다.
+- 위상에 따라 제어 규칙을 달리하거나 여러 주기 운동을 조합할 수 있습니다.
+- 학습한 위상 표현을 캐릭터 동작의 상태와 전환을 다루는 데 활용하는 사례를 읽습니다.
+<!-- /editorial:summary -->
+
 [연구 가이드 목록](./README.md) · [한국어판 처음으로](../../README.md)
 
 원문: [공개 Notion](https://pengsida.notion.site/1703fe292ff1809e92d2ff48f47e06de) · [Sida Peng의 Learning Research](https://github.com/pengsida/learning_research)
 
 원문 확인일: 2026년 11월 4일. 아래의 조언과 견해는 별도 표시가 없으면 원저자의 설명입니다.
 
-이 글은 위상, Local Motion Phase, DeepPhase를 차례로 설명하는 원저자의 학습 노트입니다. 엄밀한 알고리즘 명세보다는 개념의 흐름을 설명하는 데 초점을 둡니다.
+이 글은 위상<!-- term:phase -->([주기 운동에서 현재 어느 지점에 있는지를 나타내는 상태](../guides/glossary.md#위상-phase))<!-- /term -->, Local Motion Phase, DeepPhase를 차례로 설명하는 원저자의 학습 노트입니다. 엄밀한 알고리즘 명세보다는 개념의 흐름을 설명하는 데 초점을 둡니다.
 
 참고한 해설: [PFNN](https://zhuanlan.zhihu.com/p/485607474), [Local Motion Phase](https://zhuanlan.zhihu.com/p/486996982), [DeepPhase](https://zhuanlan.zhihu.com/p/562089658).
 
@@ -55,3 +63,9 @@ DeepPhase는 **오토인코더를 학습해 모션 데이터에서 위상 벡터
 5. 추출한 위상 벡터가 포함된 데이터로 네트워크를 학습합니다.
 
 이처럼 원문은 사람이 정한 단일 위상에서 여러 국소 위상으로, 다시 데이터에서 학습한 위상 표현으로 이어지는 흐름을 설명합니다.
+
+<!-- editorial:connections -->
+## 읽기의 연결 · 한국어판 안내
+
+- **이어서 적용하면:** [문제 해결안을 설계하는 힘 기르기](./designing-solutions.md) — 위상 사례를 읽은 뒤 다른 문제에 쓸 기술을 축적하고 연결하는 관점을 봅니다.
+<!-- /editorial:connections -->

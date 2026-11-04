@@ -18,11 +18,6 @@ const template = computed(
     templates.find((t) => t.source === doc.value?.id) ||
     templates.find((t) => t.id === track.value?.template)
 )
-const related = computed(() =>
-  catalog
-    .filter((d) => d.id !== doc.value?.id && d.category === doc.value?.category)
-    .slice(0, 3)
-)
 function exportMemo() {
   downloadText(
     `memo-${doc.value.id}.md`,
@@ -32,7 +27,9 @@ function exportMemo() {
 }
 </script>
 <template>
-  <div v-if="doc" class="reading-after">
+  <div v-if="doc" :key="doc.id" class="reading-after">
+    <details class="personal-records">
+      <summary>개인 메모와 연구 노트<span v-if="record.note"> · 저장한 메모 있음</span></summary>
     <section class="reading-memo">
       <div class="section-heading">
         <h2><Icon name="pen" :size="20" />읽고 남기는 내 생각</h2>
@@ -75,16 +72,7 @@ function exportMemo() {
         >노트 작성 <Icon name="arrow" :size="16"
       /></a>
     </section>
-    <section v-if="related.length" class="related-reading">
-      <h2>함께 읽으면 좋은 글</h2>
-      <a
-        v-for="item in related"
-        :key="item.id"
-        :href="withBase(item.url + '.html')"
-        ><span>{{ item.title }}</span
-        ><Icon name="arrow" :size="18"
-      /></a>
-    </section>
+    </details>
     <a
       v-if="track"
       class="back-to-path"

@@ -12,3 +12,9 @@
 
 함께 읽기: [연구와 수업 공부의 차이](./research-vs-coursework.md).
 
+<!-- editorial:connections -->
+## 읽기의 연결 · 한국어판 안내
+
+- **먼저 읽으면:** [연구를 배우는 방식과 수업을 듣는 방식](./research-vs-coursework.md) — 수업과 연구가 다른 이유를 먼저 읽습니다.
+- **이어서 적용하면:** [학습 계획 예시](./learning-plan.md) — 달라진 학습 방식을 구체적인 공부와 구현 계획으로 옮깁니다.
+<!-- /editorial:connections -->

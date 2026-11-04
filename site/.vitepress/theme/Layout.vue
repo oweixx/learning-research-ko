@@ -1,7 +1,6 @@
 <script setup>
 import { computed } from 'vue'
 import DefaultTheme from 'vitepress/theme'
-import ReadingTools from './components/ReadingTools.vue'
 import ReadingAfter from './components/ReadingAfter.vue'
 import { useLearningStore } from './store.js'
 const { state, storageError } = useLearningStore()
@@ -12,7 +11,6 @@ const readingStyle = computed(() => ({
 <template>
   <div :style="readingStyle">
     <DefaultTheme.Layout
-      ><template #doc-before><ReadingTools /></template
       ><template #doc-after><ReadingAfter /></template
       ><template #layout-top
         ><div v-if="storageError" class="storage-alert" role="alert">

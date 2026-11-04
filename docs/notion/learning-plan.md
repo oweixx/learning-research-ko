@@ -1,5 +1,13 @@
 # 학습 계획 예시
 
+<!-- editorial:summary -->
+**세 줄로 먼저 읽기 · 한국어판 요약**
+
+- 배경지식을 공부하는 일과 논문·코드를 깊게 이해하는 일을 단계별로 연결합니다.
+- NeRF 예시처럼 직접 데이터를 마련하고 구현을 실행하며 이해를 확인합니다.
+- 자료를 한꺼번에 훑기보다 한 편씩 꼼꼼히 읽는 방식에 주목합니다.
+<!-- /editorial:summary -->
+
 [한국어판 처음으로](../../README.md) · [외부 자료 진행 현황](../external/README.md)
 
 출처: [Sida Peng의 원문](https://pengsida.notion.site/8911dcc5922b4442a80d4407926e65bf) · [원본 저장소](https://github.com/pengsida/learning_research)
@@ -55,3 +63,10 @@ DFF 실험을 하면서 관련 논문을 읽습니다. **한꺼번에 전부 읽
 | --- | --- |
 | 각 시점의 이미지에서 전경 마스크를 추정합니다. | NeuFa: Learning Neural Implicit Surfaces with Foreground-aware Volume Rendering. 일반적인 현저성 지도(saliency map)와 해당 목적에 맞춘 비지도 분할 결과를 결합해 전경 마스크의 품질을 높입니다. |
 | 사전 학습된 2차원 이미지 특징으로 신경장의 특징을 개선해 분할 성능을 높입니다. | NeRF-SOS: Any-View Self-supervised Object Segmentation from Complex Real-World Scenes. 분할을 돕는 대조 손실(contrastive loss)을 제안합니다. |
+
+<!-- editorial:connections -->
+## 읽기의 연결 · 한국어판 안내
+
+- **먼저 읽으면:** [연구 입문: 기초 학습부터 첫 논문까지](../../getting_started_in_research.md) — 자신이 어느 학습 단계에 있는지 먼저 확인합니다.
+- **이어서 적용하면:** [논문과 알고리즘의 코드를 공부하는 법](./reading-research-code.md) — 계획에 들어간 논문 구현 학습을 실제 과제로 진행합니다.
+<!-- /editorial:connections -->

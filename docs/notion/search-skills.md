@@ -1,5 +1,13 @@
 # 연구에서 검색 능력이 중요한 이유
 
+<!-- editorial:summary -->
+**세 줄로 먼저 읽기 · 한국어판 요약**
+
+- 새 문제를 다루기 전에 무엇이 이미 밝혀졌는지 조사합니다.
+- 자신의 발견을 다른 연구와 비교해야 새로 알게 된 점을 판단할 수 있습니다.
+- 검색은 필요한 정보를 찾고 기존 지식과 현재 문제를 연결하는 연구 역량입니다.
+<!-- /editorial:summary -->
+
 [연구 가이드 목록](./README.md) · [한국어판 처음으로](../../README.md)
 
 원문: [공개 Notion](https://pengsida.notion.site/27409ef7cd1c4e7d8b6365cd732348e2) · [Sida Peng의 Learning Research](https://github.com/pengsida/learning_research)
@@ -18,3 +26,9 @@
 6. **학술 교류와 협력:** 관련 전문가와 기관을 찾아 연락하고, 결과를 공유하며 협력이나 지원의 기회를 만들 수 있습니다.
 
 검색 능력은 연구의 효율과 정확성을 높이고, 연구를 더 깊게 진행하며 다른 연구자와 교류하는 데 기여합니다.
+
+<!-- editorial:connections -->
+## 읽기의 연결 · 한국어판 안내
+
+- **이어서 적용하면:** [관련 논문을 찾는 방법](./finding-papers.md) — 정보 탐색의 필요성을 구체적인 논문 검색 절차로 옮깁니다.
+<!-- /editorial:connections -->

@@ -14,3 +14,8 @@
 
 현재 읽을 수 있는 관련 문서: [연구 결과 시연하기](./research-demos.md), [연구의 영향력 높이기](./research-impact.md).
 
+<!-- editorial:connections -->
+## 읽기의 연결 · 한국어판 안내
+
+- **이어서 적용하면:** [관심을 끄는 연구 데모와 응용 만들기](./research-demos.md) — 접근할 수 없는 내부 자료 대신 공개된 시연 구성의 원칙을 읽습니다.
+<!-- /editorial:connections -->

@@ -53,7 +53,12 @@ export function rewriteLinks(markdown, sourcePath, knownPaths) {
               const url = knownPaths.has(target)
                 ? `${routeFor(target)}.md`
                 : `https://github.com/oweixx/learning-research-ko/blob/master/${encodeURI(target)}`
-              return `[${label}](${url}${fragment ? '#' + fragment : ''})`
+              // VitePress decomposes Hangul and prefixes numeric heading IDs.
+              // Keep the original IDs so saved reading positions still work.
+              const anchor = fragment && knownPaths.has(target)
+                ? decodeURIComponent(fragment).normalize('NFKD').replace(/^(\d)/, '_$1')
+                : fragment
+              return `[${label}](${url}${anchor ? '#' + anchor : ''})`
             }
           )
     )

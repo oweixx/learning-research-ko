@@ -37,6 +37,18 @@ def render(path: str, content: str, mapping: dict) -> tuple[str, str]:
         )
         for chunk in re.split(r"(^```[^\n]*\n[\s\S]*?^```\s*$)", body, flags=re.MULTILINE)
     )
+    # Keep the explanation visible when a term link becomes a native page mention.
+    def term_note(match: re.Match) -> str:
+        note = match.group(1)
+        def term_link(link: re.Match) -> str:
+            label, destination = link.groups()
+            target = posixpath.normpath(posixpath.join(posixpath.dirname(path), urlsplit(destination).path))
+            if target in mapping:
+                page_id = mapping[target]["id"].replace("-", "")
+                return f'{label}; <mention url="https://app.notion.com/p/{page_id}" />'
+            return link.group(0)
+        return LINK.sub(term_link, note)
+    body = re.sub(r"<!-- term:[a-z]+ -->([\s\S]*?)<!-- /term -->", term_note, body)
     body = re.sub(r"<!--[\s\S]*?-->", "", body)
 
     def replace(match: re.Match) -> str:
@@ -64,6 +76,7 @@ def render(path: str, content: str, mapping: dict) -> tuple[str, str]:
 
 def document_paths() -> list[str]:
     paths = ["README.md", "getting_started_in_research.md", "getting_advanced_in_research.md", "changelog", "TRANSLATION.md", "PUBLISHING.md", "docs/notion/README.md", "docs/external/README.md", "docs/external/reading-guide.md"]
+    paths += [p.relative_to(ROOT).as_posix() for p in sorted((ROOT / "docs/guides").glob("*.md"))]
     manifest = json.loads((ROOT / "translation/notion-source-manifest.json").read_text(encoding="utf-8"))
     paths += [p["translation_path"] for p in manifest["direct_pages"] + manifest["linked_pages"] if p.get("translation_path")]
     catalog = json.loads((ROOT / "translation/external-sources.json").read_text(encoding="utf-8"))

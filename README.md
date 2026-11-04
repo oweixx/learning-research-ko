@@ -2,9 +2,11 @@
 
 연구를 처음 시작하는 학부생과 대학원생을 위한 안내서입니다. 연구 주제를 찾고, 아이디어를 구체화하고, 실험을 설계하고, 논문과 발표로 성과를 전달하는 과정을 다룹니다.
 
-**[한국어 학습 사이트에서 읽기](https://oweixx.github.io/learning-research-ko/)** · [학습 경로](https://oweixx.github.io/learning-research-ko/paths.html) · [전체 자료 검색](https://oweixx.github.io/learning-research-ko/library.html) · [연구 노트](https://oweixx.github.io/learning-research-ko/notebook.html)
+**[한국어 학습 사이트에서 읽기](https://oweixx.github.io/learning-research-ko/)** · [학습 경로](https://oweixx.github.io/learning-research-ko/paths.html) · [전체 자료 검색](https://oweixx.github.io/learning-research-ko/library.html) · [핵심 원칙](./docs/guides/handbook.md) · [용어집](./docs/guides/glossary.md)
 
-학습 사이트에서는 다섯 가지 추천 경로, 본문 검색과 주제 필터, 읽음·북마크·개인 메모, 네 가지 연구 양식, 기록의 백업·복원을 이용할 수 있습니다. 개인 기록은 현재 브라우저에만 저장됩니다. 학습 경로와 양식은 한국어판에서 추가한 보조 자료이며 원문과 구분합니다.
+학습 사이트에서는 세 줄 요약, 과정 도식, 가상 비교 예시, 용어 풀이와 문서별 읽기 연결을 함께 볼 수 있습니다. 24가지 핵심 원칙을 모은 안내서와 다섯 가지 학습 경로, 본문 검색도 제공합니다. 이 해설들은 한국어판에서 추가한 편집 자료이며 원문 번역과 구분합니다.
+
+읽음·북마크·개인 메모와 연구 노트는 ‘개인 기록’에서 이용할 수 있습니다. 기록은 현재 브라우저에 저장되며 내 서재에서 백업·복원할 수 있습니다.
 
 이 저장소는 [Sida Peng의 Learning Research](https://github.com/pengsida/learning_research)를 한국어로 옮긴 **비공식 번역본**입니다. 저장소에 포함된 문서 4개를 모두 번역했으며, 원저자의 경험과 관점을 유지했습니다.
 
@@ -18,6 +20,8 @@
 
 | 지금 필요한 것 | 읽을 문서 |
 | --- | --- |
+| 필요한 연구 원칙을 짧게 다시 확인하기 | [다시 펼쳐 보는 연구 원칙](./docs/guides/handbook.md) |
+| 낯선 연구 용어를 쉬운 말로 이해하기 | [연구 용어집](./docs/guides/glossary.md) |
 | 연구를 처음 시작하기 위한 학습 순서 | [연구 입문: 기초 학습부터 첫 논문까지](./getting_started_in_research.md) |
 | 연구 아이디어, 글쓰기, 실험 역량 키우기 | [연구 역량을 키우는 법](./getting_advanced_in_research.md) |
 | 원문 자료의 업데이트 내역 | [원문 변경 이력](./changelog) |

@@ -1,5 +1,13 @@
 # 연구 역량을 키우는 법
 
+<!-- editorial:summary -->
+**세 줄로 먼저 읽기 · 한국어판 요약**
+
+- 연구에는 문제와 해결책을 구체화하는 능력, 전달하는 능력, 실험하는 능력이 함께 필요합니다.
+- 논문 읽기·미팅·글쓰기와 직접 코딩하고 결과를 분석하는 연습을 연결합니다.
+- 실제 프로젝트를 수행하면서 부족한 역량을 확인하고 다른 연구자의 경험도 참고합니다.
+<!-- /editorial:summary -->
+
 [처음으로](./README.md) · [이전: 연구 입문](./getting_started_in_research.md)
 
 > 이 문서는 원저자의 연구 경험을 옮긴 글입니다. 일부 Notion 문서는 [한국어판](./docs/notion/README.md)으로 읽을 수 있습니다. 그 밖의 외부 자료는 원어로 제공됩니다.
@@ -40,3 +48,10 @@
 7. [Wujun Li: 학부생의 연구 역량을 기르는 법](./docs/external/reading-guide.md) · [원문](https://pengsida.net/files/Wujun_Li_Undergraduate_learning_research.pdf)
 8. [Xintao Wang의 연구용 프로그래밍과 실험 노하우](./docs/external/reading-guide.md) · [원문](https://www.yuque.com/xinntao/nm1yxs/uwzezu0qebdxs38t)
 9. [Richard Hamming의 연구 조언](./docs/external/reading-guide.md) · [원문](https://github.com/user-attachments/files/18051592/YouAndYourResearch.pdf)
+
+<!-- editorial:connections -->
+## 읽기의 연결 · 한국어판 안내
+
+- **먼저 읽으면:** [연구 입문: 기초 학습부터 첫 논문까지](./getting_started_in_research.md) — 기초 학습부터 독립적인 프로젝트까지의 큰 흐름을 먼저 봅니다.
+- **이어서 적용하면:** [연구 프로젝트를 수행하는 법](./docs/notion/research-project.md) — 세 가지 역량이 실제 프로젝트의 각 단계에서 어떻게 연결되는지 봅니다.
+<!-- /editorial:connections -->

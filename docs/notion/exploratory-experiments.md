@@ -1,5 +1,13 @@
 # 아이디어를 검증할 탐색적 실험을 설계하는 법
 
+<!-- editorial:summary -->
+**세 줄로 먼저 읽기 · 한국어판 요약**
+
+- 한 실험에서 동시에 탐색할 요소와 해결할 난제의 수를 줄입니다.
+- 단순한 설정에서 시작하되 지금 가장 중요한 미지수를 먼저 확인합니다.
+- 작은 예제로 줄여도 검증하려는 핵심 기술적 난제는 남겨 둡니다.
+<!-- /editorial:summary -->
+
 [연구 가이드 목록](./README.md) · [한국어판 처음으로](../../README.md)
 
 출처: [공개 Notion 원문](https://pengsida.notion.site/849f6606e5fb49b5b73a3778de64e43e) · [Sida Peng의 Learning Research](https://github.com/pengsida/learning_research)
@@ -31,5 +39,12 @@
 원문은 다음을 예로 듭니다.
 
 1. NeRF 연구팀이 초기에 2차원 이미지에서 실험한 사례.
-2. 네트워크를 본격적으로 학습하기 전에 샘플 하나에 과적합(overfitting)시켜 보기.
+2. 네트워크를 본격적으로 학습하기 전에 샘플 하나에 과적합<!-- term:overfitting -->([학습 데이터에 맞지만 새로운 데이터에서는 성능이 떨어지는 현상](../guides/glossary.md#과적합-overfitting))<!-- /term -->(overfitting)시켜 보기.
 3. 작은 학습 데이터셋으로 네트워크를 학습해 보기.
+
+<!-- editorial:connections -->
+## 읽기의 연결 · 한국어판 안내
+
+- **먼저 읽으면:** [탐색적 실험은 최소한의 검증부터 시작하기](./minimum-experiment.md) — 핵심 질문과 측정 가능한 판단 기준부터 정합니다.
+- **이어서 적용하면:** [실험 기록 작성하기](./experiment-records.md) — 각 단계에서 얻은 결과와 다음 행동을 기록합니다.
+<!-- /editorial:connections -->

@@ -105,6 +105,23 @@ python scripts/check_docs.py --require-external
 
 ## GitHub와 Notion 연결
 
+### 한국어판 편집 원고 수정
+
+요약은 `site/data/editorial.mjs`, 도식·가상 예시는 `site/data/editorial-examples.mjs`, 읽기 연결은 `site/data/reading-connections.mjs`, 용어 풀이는 `site/data/glossary.mjs`에서 관리합니다. 연구 원칙 모음집은 [handbook.md](./docs/guides/handbook.md)를 직접 편집합니다.
+
+```sh
+npm run editorial:prepare
+npm run site:build
+npm run test:site
+npm run test:browser
+python scripts/check_docs.py
+python scripts/check_site.py
+```
+
+첫 명령은 편집 원고에서 각 Markdown의 표시된 편집 구역만 갱신합니다. 기존 본문과 강조 구절은 유지합니다. 생성된 구역을 직접 바꾸기보다 원고를 수정하고 재생성하세요. 빌드는 원고와 Markdown이 어긋나면 실패하며, 문서·제목 연결도 별도로 검사합니다. 새 문서를 추가할 때는 사이트 분류와 Notion 게시 대상·페이지 매핑을 함께 갱신합니다.
+
+### Notion 게시 절차
+
 GitHub의 Markdown 파일을 기준 문서로 삼고 연결된 Notion 도구로 게시합니다. Notion에서 손으로 수정한 내용을 GitHub로 자동 가져오는 양방향 동기화나 상시 백그라운드 작업은 설정하지 않았습니다.
 
 1. 문서를 수정하고 원문·링크를 검수합니다.

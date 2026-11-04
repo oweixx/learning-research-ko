@@ -1,5 +1,13 @@
 # Linux 연구 환경 설정 노트
 
+<!-- editorial:summary -->
+**세 줄로 먼저 읽기 · 한국어판 요약**
+
+- 연구용 Linux 환경의 명령과 설정 예시를 필요한 항목별로 참고합니다.
+- 오래된 버전과 개인 설정이 포함되어 있으므로 자신의 환경을 확인한 뒤 적용합니다.
+- 환경 삭제·채널 변경·키 관리처럼 영향이 큰 작업은 각 명령의 범위를 이해하고 실행합니다.
+<!-- /editorial:summary -->
+
 [문서 목록](./README.md) · [Notion 원문](https://pengsida.notion.site/59569d7b66954578b21bf1dc6ea35776)
 
 이 문서는 원문에 기록된 Linux 서버 설정 경험을 한국어로 옮겼습니다. **오래된 버전·개인 설정이 포함되어 있으며**<!-- highlight -->, 현재의 설치 지침과 다른 부분은 번역자 주로 구분했습니다. 아래 명령은 설명용이며 번역 작업 중 실행하지 않았습니다.
@@ -198,3 +206,8 @@ chmod 600 ~/.ssh/authorized_keys
 
 원문의 [로그인 문제 참고 글](https://serverfault.com/questions/525045/ssh-connection-asks-for-password-although-key-is-accepted).
 
+<!-- editorial:connections -->
+## 읽기의 연결 · 한국어판 안내
+
+- **이어서 적용하면:** [클린 코드 읽기 길잡이](./clean-code-guide.md) — 실행 환경을 마련한 뒤 변경과 재실행을 추적하기 좋은 코드를 생각합니다.
+<!-- /editorial:connections -->

@@ -1,5 +1,13 @@
 # AI를 활용한 영어 논문 작성
 
+<!-- editorial:summary -->
+**세 줄로 먼저 읽기 · 한국어판 요약**
+
+- 각 문장에 담을 내용을 알 수 있을 만큼 개요를 구체화한 뒤 AI를 활용합니다.
+- 문단별 중심 정보와 연결을 검토하고 실제로 쓰면서 개요를 계속 고칩니다.
+- AI의 문장을 직접 다듬고 기술적 주장이 정확한지는 저자가 확인합니다.
+<!-- /editorial:summary -->
+
 [문서 목록](./README.md) · [Notion 원문](https://pengsida.notion.site/1143fe292ff180feb5d0fe76d05e085b)
 
 핵심은 먼저 전달할 내용을 정하고, **각 문장에 무엇을 쓸지 알 정도로 개요를 구체화한 뒤**<!-- highlight --> AI의 도움을 받는 것입니다.
@@ -91,3 +99,9 @@
 
 함께 읽기: [논문 고쳐 쓰기](./revising-papers.md).
 
+<!-- editorial:connections -->
+## 읽기의 연결 · 한국어판 안내
+
+- **먼저 읽으면:** [논문 작성의 순서와 문단 구성 템플릿](./paper-writing-template.md) — AI에 전달하기 전에 논리와 기여를 먼저 정리합니다.
+- **이어서 적용하면:** [논문 고쳐 쓰기: 구성과 문장 연결](./revising-papers.md) — 생성된 문장의 의미와 순서를 검토하고 자신의 글로 다듬습니다.
+<!-- /editorial:connections -->

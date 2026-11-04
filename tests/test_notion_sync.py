@@ -13,6 +13,12 @@ SPEC.loader.exec_module(sync)
 
 
 class RenderTests(unittest.TestCase):
+    def test_editorial_term_keeps_definition_and_native_glossary_link(self):
+        source = '# 제목\n\n통찰<!-- term:insight -->([핵심 생각](../guides/glossary.md#핵심-통찰-insight))<!-- /term -->'
+        _, body = sync.render('docs/notion/a.md', source, {'docs/guides/glossary.md': {'id': 'abc-def'}})
+        self.assertIn('통찰(핵심 생각; <mention url="https://app.notion.com/p/abcdef" />)', body)
+        self.assertNotIn('<!--', body)
+
     def test_local_page_uses_native_mention(self):
         title, body = sync.render("docs/notion/a.md", "# 제목\n\n[목록](./README.md)", {"docs/notion/README.md": {"id": "1234-5678"}})
         self.assertEqual(title, "제목")

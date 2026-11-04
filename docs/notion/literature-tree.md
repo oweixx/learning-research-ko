@@ -1,5 +1,13 @@
 # 연구 흐름을 정리하는 문헌 지도 만들기
 
+<!-- editorial:summary -->
+**세 줄로 먼저 읽기 · 한국어판 요약**
+
+- 분야의 연구 과제를 나누고 각 과제를 처음 제시한 논문을 표시합니다.
+- 논문 목록에 그치지 않고 기술적 난점과 이를 해결한 핵심 생각을 연결합니다.
+- 이해가 깊어질 때마다 새로운 과제와 관계를 추가하며 문헌 지도를 갱신합니다.
+<!-- /editorial:summary -->
+
 [연구 가이드 목록](./README.md) · [한국어판 처음으로](../../README.md)
 
 원문: [공개 Notion](https://pengsida.notion.site/f8b36e484b344a2893a94e4608b72ec2) · [Sida Peng의 Learning Research](https://github.com/pengsida/learning_research)
@@ -38,3 +46,10 @@
 원문의 [역렌더링 분야 예시](https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJPwBpdn0u1B3aO2PVzN67Mw4)는 별도 접근 권한이 필요한 DingTalk 문서입니다. 원저자는 이 자료를 예시로만 제공하며 앞으로 갱신하지 않는다고 밝혔습니다.
 
 글과 예시만으로는 의도가 충분히 전달되지 않을 수 있습니다. 문헌 검토는 아이디어를 기르는 핵심 과정이므로, 연구실 선배들과 실제로 어떻게 정리하는지 자주 이야기해 보세요.
+
+<!-- editorial:connections -->
+## 읽기의 연결 · 한국어판 안내
+
+- **먼저 읽으면:** [읽고 나서 남는 논문 읽기](./reading-papers.md) — 개별 논문의 핵심 생각과 근거를 먼저 파악합니다.
+- **이어서 적용하면:** [분야를 보는 안목과 연구 주제 선정](../external/research-topic-selection.md) — 정리한 문헌 지도로 남은 중요한 문제와 과제 후보를 찾습니다.
+<!-- /editorial:connections -->
