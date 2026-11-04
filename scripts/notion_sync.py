@@ -29,6 +29,14 @@ def render(path: str, content: str, mapping: dict) -> tuple[str, str]:
     lines = content.splitlines()
     title = lines[0].removeprefix("# ") if lines and lines[0].startswith("# ") else {"changelog": "원문 변경 이력"}.get(path, path)
     body = "\n".join(lines[1:] if lines and lines[0].startswith("# ") else lines).strip()
+    # Source highlights remain bold on GitHub and use native color in Notion.
+    body = "".join(
+        chunk if chunk.startswith("```") else re.sub(
+            r"\*\*([^*\n]+)\*\*<!-- highlight -->",
+            r'<span color="yellow_bg">**\1**</span>', chunk
+        )
+        for chunk in re.split(r"(^```[^\n]*\n[\s\S]*?^```\s*$)", body, flags=re.MULTILINE)
+    )
     body = re.sub(r"<!--[\s\S]*?-->", "", body)
 
     def replace(match: re.Match) -> str:

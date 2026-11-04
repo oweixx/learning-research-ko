@@ -10,43 +10,43 @@
     },
     {
       "path": "docs/external/ccf-retrospective.md",
-      "sha256": "bcecc226e50c080f5b8b494de926cce3bb37b2d5c4c19ad265eaf252e076df8c",
+      "sha256": "5ed1d331ef0e3651e5dc6221f890d59dd0547d4444d72ee6217b08d95bcf3a4d",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/external/course-guide.md",
-      "sha256": "f0803773e5d7bf12d39ddd981755a6eb6bb0f828869bdeda473b50b70a2d9163",
+      "sha256": "06143a74a34abbda485c78781e145d914014983aeead164eca5037b4d468dba1",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/external/games003-week1.md",
-      "sha256": "d1940f1975d53abd16b8c39c1864bd9df292da291cd041093be5579782024229",
+      "sha256": "49d2dbaf64b67c33ece4d8f64361e4784d0b3ddf04c644a2660b25a1c7a653b8",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/external/games003-week3.md",
-      "sha256": "50f8cd91979d942f9ddf9160676a462097f62a90543f25e82e60f8358a7dd76d",
+      "sha256": "b32d975b0e192219772a673fae7667e7a25b6f9b6091337fa3e1b3059fc923f8",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/external/games003-week5.md",
-      "sha256": "2e8ca8f5abe2aee339b83a913d040a9d1fe82854c9a6834a7fdddd364d522cb2",
+      "sha256": "1b0bc167cc8cebfd9c72e0c55e1c549a08cc6238ccc684b4354abca52ff0c618",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/external/learning-process-slides.md",
-      "sha256": "7797d483d12cebae55f255d6d3f9c6f926ff7997b7ccca5a76c17bfb1b210688",
+      "sha256": "d7946113b019fac8b3a4b15c9705da039949a203a74d73652382ba636f570b3e",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/external/reading-guide.md",
-      "sha256": "04c402ab14b0e33f05ada294f7baf417597833638cdc77e6a4b7633142decb56",
+      "sha256": "5ed36fada4b3981f39301218d1a598397dc90175ab65dc473dfc6ed77dae300a",
       "published_on": "2026-11-04",
       "action": "updated"
     },
@@ -58,235 +58,235 @@
     },
     {
       "path": "docs/external/research-experience-slides.md",
-      "sha256": "b0e028e6adbcac371bddec636a88759aefce80c0aa00112ce2904cd3377563e0",
+      "sha256": "186d43f36028fdd9d1c99c85da31c3122c39da92cd743ae6da465c825d01fdd8",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/external/research-topic-selection.md",
-      "sha256": "941247f07ac1406feb83864e23eeeb0847a6e4156714909949e0020e3827cf30",
+      "sha256": "720c85e4481d2d52d80ae8e1decaec749cef664a6ae7d2b87efceb96d662cb57",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/academic-talks.md",
-      "sha256": "40f9464e30c9ef40a90b32619963b79164233f7d725930d388037a37c1ffed26",
+      "sha256": "cbd8bcfed0ddd079549dece787184b361886966db58c497209546580e914c19d",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/ai-assisted-programming.md",
-      "sha256": "e63440e45536b8ad5e2873de8462c4715a8397e92177a40394ed0dbb0d7d6836",
+      "sha256": "7ba89dd4a05494c8a7e708c641a9f86a01c3ef0bd69d019dbf4afde4fcb2fb57",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/ai-assisted-writing.md",
-      "sha256": "a7d5388893e9b88a885b16a20e777243e1b812dc7cf5ab986d9b60fd2e498c10",
+      "sha256": "2a6ede38368977e660cc453340ed714a57640780b5e44ad3064e371bc1636ee1",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/asking-senior-researchers.md",
-      "sha256": "22174f31b6f1c3fa1fed6d782e838381278d888831b3fcfa2d093bdf0e5d5835",
+      "sha256": "ef4664a79e8783f9d6df7abd828e0a27709d9f051970885f7e1a724bbc97b549",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/choosing-research.md",
-      "sha256": "47b95c8c223ece061bddb071ac3ba6c5ee9806e71f88fe9a595ad4a130f2f654",
+      "sha256": "7e41ebb9dcb5626fb61e93cb7d33a476ca1e838d23ce58f0f82ff2b350413f47",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/clean-code-guide.md",
-      "sha256": "e4af8258f61dcca72eba4cf6a4a303d562ad0e87aaf18304160b541dd9ee51a3",
+      "sha256": "c3e05e6ce8d02610db3cc288f39ef6fdfb62ce1ad53b6dc8eb4cfafe78317aef",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/debugging-guide.md",
-      "sha256": "02f6f906f9508963602d3bed2f8a52dbadf6341e223219bd012d651714d65a81",
+      "sha256": "a1e3b56426bb0eb3b1129516d025ba797c45aabef91684ffb0c93f998ac9abc1",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/designing-solutions.md",
-      "sha256": "5cd925f247bcc58a0a54f1cdf8a258303830840a7e7fae235221a03e090ee381",
+      "sha256": "b4cd5b77c843a56e0ce62d7bafea6e8d54d78d60c4121d989ff295b1b5c189ce",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/experiment-failures.md",
-      "sha256": "02c35140caf960d6fb3e2d310ff76a1fd5f024b41d33add0d25af3c0d27aa00d",
+      "sha256": "aee60b6776039bc4632e23c772cee15f06ebd16e9806fd01d497ebdacef20104",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/experiment-log-march24.md",
-      "sha256": "182e01d2fb1e855458cff487c4c18d543b92771330fa95c4d73e5ee65ac0106f",
+      "sha256": "aae1eccfea028766f92799c3fc678cab69e0b8bcb5e04d9a9a319f7fb0847fb3",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/experiment-pitfalls.md",
-      "sha256": "44c1370d473bcac730918b0f68038b96473b327b4cf2ca4c3958b6fb050612f1",
+      "sha256": "c6b83c13b91ecc0bec1111fa1eae804ae9c7ca05a3a51a29dea21da4120f17f4",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/experiment-questions.md",
-      "sha256": "0dbb5727b19548139b1bceb61f726994ff8fa29f019d3e27e81d851519c7c67f",
+      "sha256": "3ebc13fb75c3004d1c0a489c44216a6fdf235c0c0329a2bff432e407dab563d4",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/experiment-record-template.md",
-      "sha256": "59380f58a1afbbbbf5a5347ad31799b3a318fcd561232c92222e399391ed536f",
+      "sha256": "8e80084be14484c072854cf6f403c9dd9d4bab25f8ed75f8e68335d8a05d7bb2",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/experiment-records.md",
-      "sha256": "3b5f9bf0518529a4817341baf45abdd36d210a75f5fc2ad1dbf13d530b391751",
+      "sha256": "cb565ee674c7e4402bd7dafbcbb7054df107b59b5a93d1e1a4ce5a36187e8a7e",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/exploratory-experiments.md",
-      "sha256": "18997f4aca0b3deaee9a2d335c41c6e2e1b14212ef27cdd708edb16c2ac4fe5d",
+      "sha256": "2dfe0b6ecc5acfff9792a6bd319160202d87fd0bba7900823d3444ae2efe39b8",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/figure-template-access.md",
-      "sha256": "98efa64b43f217d8e5a8be02c1e663466d2d2e03a0ce16bc5f2d5f3c421d2628",
+      "sha256": "35d82f22586630590a7a47270850c5ec076747ed54fc8f444e55de88a66a05c6",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/finding-papers.md",
-      "sha256": "b1a500d1998068f86b067c86ef747b61545396ad00eb0b6ee575acd5421da239",
+      "sha256": "494ad6b99847cc0f73b28e8032d48b9cb095eac390886e8abbd13db599e42489",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/first-principles.md",
-      "sha256": "15e0792565f3fb31b0775f40061bd71d5f31b2249d472c56666ae2e8f733c7bb",
+      "sha256": "2979907d9a4e869e7926844050bbfcc2b65ce0b6b164438cb8c31abc73f622bd",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/getting-to-know-colleagues.md",
-      "sha256": "0a3d80185f7f3453b79975c90f0dd5ca06b0990c9789536b0e33c433267d9e50",
+      "sha256": "4ae53ae9da5d46a826c7522428304b01cc745ef649b61623803785b5b70ed31b",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/goal-driven-research.md",
-      "sha256": "7a1c7dce099bedcb6d7717891a3bb65f2852adb08823c6ba9f77b6de682c7d9e",
+      "sha256": "1b99741d898ca5cdd7628e7f047c7331b01970a82e106d7faf33d16c2c0821e9",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/independent-literature-search.md",
-      "sha256": "4301a76874ffe05fbdc9940573a973aad897cd3cedc034665288aac2e91f227b",
+      "sha256": "1319d98d011a8abeee3158ea5d3e2c5672c193e06a4a3a6efdcaf2a6da42a7a0",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/joining-a-lab.md",
-      "sha256": "4e4b6ec58c660c2d8a4b1d0ef809eee4972483a5167848fd2f0a2e4c0f85189a",
+      "sha256": "abffda372c0895f055c3fa01a0303801839ccf14cc687fad4b83d0a348b8ae9a",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/learning-from-mentors.md",
-      "sha256": "36037e414ac3556da08451d816755d64f9f7aaac5bf9300af6d39d540bdc00b4",
+      "sha256": "fbde5349efa503a261d55db80ee78b4957d2351afc55fa161cd81dd8394cc4af",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/learning-plan.md",
-      "sha256": "ac4956dff33e5efd8e8aac00fe41eb8d9ab898d8efdd499614b7846b72045b6a",
+      "sha256": "32d5f15f783a4d6f744cb3f4fea0420402fb9f5793253058c9a4adc4528ec8f1",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/linux-research-environment.md",
-      "sha256": "dc3c9acd419e9f58c4bdf9596cf27a28cf3437a5ee577251a4900881ff074b04",
+      "sha256": "e95a594656d77786292448a570e67a228fc2836c808ce753d401457371caa20b",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/literature-tree.md",
-      "sha256": "a2dac40cf55328109bdd41f28223fa7188bc53a67d80d81ee5490026dda1248e",
+      "sha256": "17dda154ed45f887f90ec47114fbad4108598e15ef8cd5fc6343f9e4479ef98b",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/meaningful-goals.md",
-      "sha256": "f5dcb9593fb211ee95a97b1fd363e825af0e0e1d21b356d611f7a292cd029d8c",
+      "sha256": "1715b46fa05db657bd92327e45b1344fd109f6f5ed7640050dedb2454e7ec5e8",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/mental-overload.md",
-      "sha256": "9528849134312ca9eb3558e00a95bb9c83f7dbd2c048da6a94fa530b18fc3ba5",
+      "sha256": "ecffb65f03dd422a351daeee3bccb5358555ddb374a6eac83da3cbb0cda89f06",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/minimum-experiment.md",
-      "sha256": "6c727509d9867e813fb09e39a9252c3a6496324f3c8fca005013045ea8986ea1",
+      "sha256": "1f51a8da6d5cabae7277b2ae57b49be6241b15bab05fcc169893018689dcb38c",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/nan-debugging.md",
-      "sha256": "fed00811d0211a7a4829821f525f892a0639320684067c224d1798680edca7f9",
+      "sha256": "0677fb66cedd9b41af382f32b07ad7bb41fae8868729214ba663f92bbf25a9d3",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/paper-writing-pitfalls.md",
-      "sha256": "159c39349a8a257aaaae930d12684210e938d801e52598a94dd3cb83ef691237",
+      "sha256": "e6a378b9dc8c3968622f432ca5fdd82a9b27ed9aa9787f55d97ac972ec0a02f8",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/paper-writing-template.md",
-      "sha256": "494a786c7741e78e30ce13ab46887a1e4fb12fba5d3f485b74d5f4961a7d84a6",
+      "sha256": "5127d69e969f6a7e3ce8eebe5f7b5963abed278ee85bd14d24a70da5f17c4b02",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/phase-character-control.md",
-      "sha256": "5fccf705b28dc662d1c91b29855b663756bf0c34cdbb959d523c6a6f2b01b1dc",
+      "sha256": "b2e75b2ec42464c8fa0dca583fae878d99d4b2d1a84612b965f6ab7a896fb57d",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/presentation-design.md",
-      "sha256": "c86aa34c7ecc5687ff4bc323711a15e7ba2aa5ada198894f0ecef89f6300c0a2",
+      "sha256": "bfcd67f2ab8f01ecaf084c081e6d15e17a9b4c6faf2c7010ec71fbd485920952",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/project-page-resources.md",
-      "sha256": "1f7c29d269bdbbb51ca24a6c632dbd4429de94bf30d7a36ca8ef2b1072bec57a",
+      "sha256": "27b08912013863fa226b4b9679040f51ced3a7fbf8fa0bf38944b1b58e9b3c82",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/reading-papers.md",
-      "sha256": "7a684bcc213995b09b50773e6f87f170ab4618d9356a35f12d05bea06891a186",
+      "sha256": "75ef91a80b4f076fcbfcf74f58dadb911501ff03301155282629af123fb95106",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/reading-research-code.md",
-      "sha256": "df6d65af70986c71ff6d01f4c1b37511c421519605922659935df71ac66e982d",
+      "sha256": "e293d885154e2bfb90f616b77a1f0736a7c8dc5d67ac69f55f695d1d7adbc1db",
       "published_on": "2026-11-04",
       "action": "updated"
     },
@@ -298,157 +298,157 @@
     },
     {
       "path": "docs/notion/rebuttal.md",
-      "sha256": "d3ae2baecfd59143d5f0973b94efc45aadfe6ad130d3ad892ba4ef4e89573292",
+      "sha256": "b3277739c07b76abf989ddcd01d44f3164794bc0557fff312a057866f30e0682",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/research-communication.md",
-      "sha256": "5c7e5fde91b10b13354ac452fa0a1bd2d8244240d3e0eef201b1b49448391d05",
+      "sha256": "8981922fe3340e6b25efc96608c093fd6b957f9c95c57e094000d34c691121e4",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/research-demos.md",
-      "sha256": "2e40cc4753a0aa6f22c81520b36e715d337e64e0e45ca1e264df4b21e2787ed9",
+      "sha256": "6ae8c7bb1bd6d520dd5db0b76cfabe0c4b482ceafa43d9a3801e9af96872c906",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/research-ideas.md",
-      "sha256": "3e119b486d15055f9fa6ca5c9573b234f44be414e550ad726195c228ca535bfe",
+      "sha256": "5f5de558dff69f4a88296eafa40af9d231a7854084bf0edd335cf776a322db38",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/research-impact.md",
-      "sha256": "7b3261bbb20b0ac515d70426a445bcd33218577ee7ad4e7ff91ede7490519add",
+      "sha256": "686867ac72cf889df43707e80c8a7394bcbab01221bd9b561b1d2fa8c7acd827",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/research-life-pitfalls.md",
-      "sha256": "cdf6ba1f2f6245f70dbafc90abda14a11f378aba05dc84889774ea95461556fb",
+      "sha256": "48172f50a621f3cfc0e0a479a4079589290a2d075220135cdca211dd18de075e",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/research-meetings.md",
-      "sha256": "716f4fc046f5a9eb9f6e2a4ccd6ad3894338149638fed2234bffbf00038f736f",
+      "sha256": "0904255746198f1ab6c3aa21380ff57e8b1856ab739f35895a144b2216203ac4",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/research-project.md",
-      "sha256": "474c85c9a061cbb64a374bad5f26855bec3a197c7d9d4324bb11c1215e706385",
+      "sha256": "bd931d8a55ff91f230f5bd7c901c36371be943c9b9a819595cf1c83746db11f9",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/research-taste.md",
-      "sha256": "26a15074d69a0ae7dd6640b6166b3e87ab451ead1c9d5859ee0d35d5cfa0050e",
+      "sha256": "01b8b09a4faaa43129d9407512ca856ece12295db4d6f17b0db7b839ddb648bd",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/research-vs-coursework.md",
-      "sha256": "f85be5e719aaef4b023e1ce18b58a822c8b063400c77f670755211571e88e3d9",
+      "sha256": "7ae29fecdb2ab40f6e06b06a982a31c3e67ac677dc898f90917228041388bc1a",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/researcher-qualities.md",
-      "sha256": "a6336d0526e2e08e97762f1c14f0795fad737be153ec43ed1af24fbafe62d668",
+      "sha256": "6699758e700445b9e5ec9610a4c18fc9238431b3f4947512ec2d45196b5707d4",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/reviewing-papers.md",
-      "sha256": "345e21b507afbd75006f4600ae65e0974288ea6f5c5bc1f62d4c55a688e2a7bc",
+      "sha256": "159bc7e31400cc94f550b568921fe7ff07d7af58e90c35edbb3d6cc2f7861e32",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/revising-papers.md",
-      "sha256": "20e5ba5e8582cb5fbb50aac98c8143707dafc4c0efc120be8ea4920ff4ec42fd",
+      "sha256": "f06bb7292f1099b80ecfff7cd7dce38603111a5d2a3ec23d8c78289cfaa6674b",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/science-and-mathematics.md",
-      "sha256": "fac3de34b79f0537564f369b29d4b2fada0c6b7a2d8aba38493c075784bcc9d1",
+      "sha256": "5345ba31aaab730f34749e40f1d27367ecfd0c68837c4e925b6feac55c232d3c",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/search-skills.md",
-      "sha256": "a0b2a8c0b22592676bf9f7dbf8a4902f94c386962a8cdf3019eb08b70f473115",
+      "sha256": "75a0825495b3e82597020910392b647da4bc768dde498edd08485a9d44a55e5c",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/sebastian-starke.md",
-      "sha256": "b7c9dbaab19bc22a61477c1c7c2d38e7aa76e758b2ce5ef228203e0c6f152e2c",
+      "sha256": "99e80c944e978c529bf7152e226dbb0bafa3b8011954d3af9830169bbf781491",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/solution-pitfalls.md",
-      "sha256": "c8c900e34c89f060b7bfd720c58cb7647acaa004b00252f4903317e59fc790dc",
+      "sha256": "8771088b057213c550cdbe92e5f74711343ca06cd28342d0aa46b54f96f029da",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/student-mindset.md",
-      "sha256": "30d25839e64e0f36e8ace6962a9561c6588417b403c14d0c9c8c7d107fa6d052",
+      "sha256": "7e39fabd3417a8f434aa9f207958f34bf622149f2536a93e6a23dc186612b502",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/technical-problem-template.md",
-      "sha256": "3e3ae541353f4cfaa4b4875c96eb461ba3072f68f9200f8f05b1d5d7fd66e4ad",
+      "sha256": "21e0dd1c4f16bb7b350ab70ffab9ddabf728c3dae00428375ff7160195e34781",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/undergraduate-to-research.md",
-      "sha256": "79a327b8454832a3ab72b849ad43ee67e13c43e55eaff03e88428bf33c35c906",
+      "sha256": "4e05b02de546350249dc9e27c8e4a27353aa7ca17fe47ee6eaf6bd2a48e93be2",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/working-state.md",
-      "sha256": "7c407f1d0ce1b08ffd6769e9ae7e661a43c516215d98e09e47687b76dba8bf8f",
+      "sha256": "40c71880789ded15bf388ba0b62978fb83fe070f7ce0d4f469993f08b387f9f2",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/writing-outline-example.md",
-      "sha256": "9a023edba2b426cc59b48b981b0ea46a82eba1eafb0d08deaa29a99f69a7ef57",
+      "sha256": "48773de37da8e1c8dbf9742fb16c971ef24f5cda76ce951fd2ca6c396f027a16",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/writing-practice.md",
-      "sha256": "57e48b00c7dac834fd4eb16e29e71c2f1539425154712e2e9811a67496bb4d10",
+      "sha256": "8c406a21f60dd8b220946ae11d38186dfcc7d332a2561a526ed0ffd18275ff4e",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "docs/notion/writing-resources.md",
-      "sha256": "6e683b3cc87a12418961cb38c9ca804b9ed85ed60b9490ed1e6b10605e783e09",
+      "sha256": "be0d31111efbc2ebe9bafaa73ee18e90aae74886e72a36464f60e36085b7ed04",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "getting_advanced_in_research.md",
-      "sha256": "aa49fce2a42a72261ecbff4cba89bba0da52c38f1d6afa919b189e7092448ef4",
+      "sha256": "c37d690e2cf214750779ba6dea3423704822a55e0f8266f3b73a6ad13b73f51c",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "getting_started_in_research.md",
-      "sha256": "f8e1d2d44f16a6da16e55bab43950f8f26bb78eda912c426dfe32ae5cec2a83b",
+      "sha256": "cc6332c94ffe0735f749f997eb03dce0a4bc3cf7f1ca44feddd01d13debb2c55",
       "published_on": "2026-11-04",
       "action": "updated"
     },
@@ -466,7 +466,7 @@
     },
     {
       "path": "TRANSLATION.md",
-      "sha256": "b256a41267faacc0627d6e5ae763a27b59a1fbc8d3280277adc9dbc0f4505073",
+      "sha256": "78128f895e546374763f12fb82f067262adf6c80cfe59097f49677edffe7f9f1",
       "published_on": "2026-11-04",
       "action": "updated"
     }

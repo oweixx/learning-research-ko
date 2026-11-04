@@ -25,6 +25,8 @@
   --warm: #f4edda;
   --border: #e0e5da;
   --body-width: 1180px;
+  --editorial-highlight-bg: #f8e8a6;
+  --editorial-highlight-ink: #34301c;
 }
 .dark {
   --vp-c-bg: #17201e;
@@ -45,6 +47,20 @@
   --accent-ink: #10291f;
   --warm: #3c3525;
   --border: #35463d;
+  --editorial-highlight-bg: #554921;
+  --editorial-highlight-ink: #fff1bd;
+}
+.vp-doc mark.editorial-highlight {
+  background: var(--editorial-highlight-bg);
+  color: var(--editorial-highlight-ink);
+  border-radius: 0.15em;
+  padding: 0.06em 0.08em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+.vp-doc mark.editorial-highlight strong {
+  color: inherit;
+  font-weight: 650;
 }
 * {
   box-sizing: border-box;
@@ -2348,6 +2364,14 @@ textarea::placeholder {
   }
 }
 @media print {
+  .vp-doc mark.editorial-highlight {
+    background: transparent;
+    color: #111;
+    padding: 0;
+  }
+  .vp-doc mark.editorial-highlight strong {
+    font-weight: 700;
+  }
   .VPNav,
   .VPSidebar,
   .VPDocAside,

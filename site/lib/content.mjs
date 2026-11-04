@@ -14,6 +14,22 @@ export const slugFor = (file) =>
   special[file] || path.posix.basename(file, '.md')
 export const routeFor = (file) => `/guide/${slugFor(file)}`
 
+// Editors select passages in the source, never by keyword or at runtime.
+// GitHub renders the bold text and hides the marker; Pages adds the color.
+export function renderHighlights(markdown) {
+  return markdown
+    .split(/(^```[^\n]*\n[\s\S]*?^```\s*$)/m)
+    .map((chunk) =>
+      chunk.startsWith('```')
+        ? chunk
+        : chunk.replace(
+            /\*\*([^*\n]+)\*\*<!-- highlight -->/g,
+            '<mark class="editorial-highlight">**$1**</mark>'
+          )
+    )
+    .join('')
+}
+
 export function rewriteLinks(markdown, sourcePath, knownPaths) {
   return markdown
     .split(/(^```[^\n]*\n[\s\S]*?^```\s*$)/m)

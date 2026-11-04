@@ -2,7 +2,7 @@
 
 [문서 목록](./README.md) · [Notion 원문](https://pengsida.notion.site/59569d7b66954578b21bf1dc6ea35776)
 
-이 문서는 원문에 기록된 Linux 서버 설정 경험을 한국어로 옮겼습니다. 오래된 버전·개인 설정이 포함되어 있으며, 현재의 설치 지침과 다른 부분은 번역자 주로 구분했습니다. 아래 명령은 설명용이며 번역 작업 중 실행하지 않았습니다.
+이 문서는 원문에 기록된 Linux 서버 설정 경험을 한국어로 옮겼습니다. **오래된 버전·개인 설정이 포함되어 있으며**<!-- highlight -->, 현재의 설치 지침과 다른 부분은 번역자 주로 구분했습니다. 아래 명령은 설명용이며 번역 작업 중 실행하지 않았습니다.
 
 ## 셸 설정
 
@@ -89,7 +89,7 @@ conda init zsh
 source ~/.zshrc
 ```
 
-conda를 찾지 못하면 실제 설치 경로와 초기화 상태를 확인합니다. 원문은 ~/.bashrc의 내용을 ~/.zshrc로 복사하는 방법을 소개하지만, 파일 전체를 무조건 복사하면 다른 셸 전용 구문도 옮겨집니다. 필요한 conda 초기화만 적용하는 편이 적절합니다.
+conda를 찾지 못하면 실제 설치 경로와 초기화 상태를 확인합니다. 원문은 ~/.bashrc의 내용을 ~/.zshrc로 복사하는 방법을 소개하지만, 파일 전체를 무조건 복사하면 다른 셸 전용 구문도 옮겨집니다. **필요한 conda 초기화만 적용하는 편이 적절합니다.**<!-- highlight -->
 
 ### 환경 관리
 
@@ -102,7 +102,7 @@ conda activate your_env_name
 conda deactivate
 ```
 
-다음 두 명령은 같은 의미이며, 지정한 환경의 패키지를 모두 삭제합니다.
+다음 두 명령은 같은 의미이며, **지정한 환경의 패키지를 모두 삭제합니다.**<!-- highlight -->
 
 ```sh
 conda remove -n your_env_name --all
@@ -122,7 +122,7 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/
 conda config --set show_channel_urls yes
 ```
 
-특히 free는 과거 채널입니다. 기존 채널 설정을 확인한 뒤 프로젝트에 필요한 것만 선택하세요.
+특히 free는 과거 채널입니다. **기존 채널 설정을 확인한 뒤 프로젝트에 필요한 것만 선택하세요.**<!-- highlight -->
 
 ## pip 사용
 
@@ -181,7 +181,7 @@ python -c "import torch; print(torch.cuda.is_available())"
 
 ## SSH 공개 키 로그인
 
-로컬 공개 키의 내용을 서버의 ~/.ssh/authorized_keys에 추가합니다. 원문에서는 id_rsa.pub와 ssh-keygen -t rsa를 사용합니다. 공개 키 파일과 비밀 키를 혼동하지 마세요.
+로컬 공개 키의 내용을 서버의 ~/.ssh/authorized_keys에 추가합니다. 원문에서는 id_rsa.pub와 ssh-keygen -t rsa를 사용합니다. **공개 키 파일과 비밀 키를 혼동하지 마세요.**<!-- highlight -->
 
 원문은 복사 오류를 줄이기 위해 공개 키를 temp.pub로 먼저 옮긴 다음 서버에서 다음과 같이 추가하는 방법을 제시합니다.
 

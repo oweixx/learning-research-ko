@@ -4,7 +4,7 @@
 
 > 이 문서는 원저자의 연구 경험을 옮긴 글입니다. 일부 Notion 문서는 [한국어판](./docs/notion/README.md)으로 읽을 수 있습니다. 그 밖의 외부 자료는 원어로 제공됩니다.
 
-논문 한 편을 완성하려면 크게 세 가지 역량이 필요합니다. **아이디어를 구체화하는 능력, 연구를 글과 발표로 전달하는 능력, 실험하는 능력**입니다. 아이디어를 구체화한다는 것은 중요한 연구 문제를 찾고 그에 대한 해결책을 제안하는 일까지 포함합니다.
+논문 한 편을 완성하려면 크게 세 가지 역량이 필요합니다. **아이디어를 구체화하는 능력, 연구를 글과 발표로 전달하는 능력, 실험하는 능력**<!-- highlight -->입니다. 아이디어를 구체화한다는 것은 중요한 연구 문제를 찾고 그에 대한 해결책을 제안하는 일까지 포함합니다.
 
 ## 1. 중요한 문제를 찾고 해결책 구상하기
 
@@ -21,7 +21,7 @@
 
 ## 3. 직접 실험하고 결과 분석하기
 
-코드를 작성하고 실험을 수행하면서 실험 역량을 쌓습니다. 특히 [실험이 기대대로 되지 않는 원인 분석하기](./docs/notion/experiment-failures.md) · [원문](https://pengsida.notion.site/1aee6e718de6472f834d13da8f4ff097)와 [실험 기록 작성하기](./docs/notion/experiment-records.md)를 꾸준히 연습해 보세요. ([원문](https://pengsida.notion.site/caf34717f4c046c69ee7e14ea953c46f))
+**코드를 작성하고 실험을 수행하면서 실험 역량을 쌓습니다.**<!-- highlight --> 특히 [실험이 기대대로 되지 않는 원인 분석하기](./docs/notion/experiment-failures.md) · [원문](https://pengsida.notion.site/1aee6e718de6472f834d13da8f4ff097)와 [실험 기록 작성하기](./docs/notion/experiment-records.md)를 꾸준히 연습해 보세요. ([원문](https://pengsida.notion.site/caf34717f4c046c69ee7e14ea953c46f))
 
 ## 프로젝트를 통해 역량을 함께 기르기
 

@@ -10,6 +10,7 @@ import {
   slugFor,
   routeFor,
   rewriteLinks,
+  renderHighlights,
   plainText,
   excerpt
 } from '../site/lib/content.mjs'
@@ -76,6 +77,7 @@ for (const sourcePath of paths) {
   documents.push(doc)
   if (!body.startsWith('# ')) body = `# ${title}\n\n${body}`
   body = rewriteLinks(body, sourcePath, known)
+  body = renderHighlights(body)
   const frontmatter = {
     title,
     description: doc.description,
