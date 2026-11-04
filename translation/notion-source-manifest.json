@@ -1,0 +1,1120 @@
+{
+  "checked_on": "2026-11-04",
+  "scope": "원본 저장소가 직접 연결한 Notion 18개와 그 본문에서 발견한 첫 단계 연결 문서 44개. 더 깊은 하위 문서까지 조사한 최종 목록은 아닙니다.",
+  "source_cache": "원문 응답과 이미지는 로컬 .git/notion-cache에만 보관하며 공개 저장소에는 포함하지 않습니다.",
+  "completion_rule": "translated는 해당 페이지 본문과 그 페이지에 포함된 도표의 번역·대조 완료를 뜻합니다. 링크된 별도 페이지, 교재, 강의는 별도로 추적합니다.",
+  "direct_pages": [
+    {
+      "id": "74aef88b9187439fa4e301704f6eb49a",
+      "title": "뛰어난 연구자들의 글쓰기 경험",
+      "source_url": "https://pengsida.notion.site/74aef88b9187439fa4e301704f6eb49a",
+      "fetched_on": "2026-11-04",
+      "source_last_edited_at": "2026-10-31T09:01:59.803Z",
+      "content_sha256": "25b738c8bb06370661e660a02b10a6d4be174b8537252e07bcb9a7499e7191c4",
+      "content_characters": 1530,
+      "omission_check": "조회 결과에 잘림 또는 알 수 없는 블록에 대한 경고가 없었습니다.",
+      "media": [
+        {
+          "type": "file",
+          "reference": "notion-file-block://6f11bf77-4046-4120-86d8-67ecaafddca2/d654c4b6-5711-4fcf-9bcb-16ff31bac72c?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=how_to_write_a_good_CVPR_submission.pdf"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://483f6925-fd06-4d65-9dbb-9eeab06e36ff/566b7cfd-3fac-48c2-a140-b0a0705d7fbe?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "file",
+          "reference": "notion-file-block://e7914ff6-4c26-427d-9a4f-ee3f4a33cdd3/48cdbf3a-810c-47ac-b066-63b470a9b76c?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=paper_chairs_writing.pdf"
+        },
+        {
+          "type": "file",
+          "reference": "notion-file-block://9228d4c2-6649-4bbc-ae35-f0a948142232/b8bb5b18-5449-431d-bd49-433733ea5740?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Writing_Science.pdf"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://0690a8b2-6b0d-4fe5-8773-5b38c8ff30c3/88297f91-31f0-4607-8e16-82e9f499f798?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "file",
+          "reference": "notion-file-block://1cadf4cd-f842-4d48-951f-b4cf09c25bc3/afb153ec-eddd-4d51-b6c2-71610222ac94?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=does-my-writing-flow.pdf"
+        }
+      ],
+      "translation_status": "pending",
+      "translation_path": null,
+      "review_notes": null
+    },
+    {
+      "id": "1713fe292ff1808eb33be93ea2d79ad9",
+      "title": "박사과정 연구자의 좋은 본보기: Sebastian Starke",
+      "source_url": "https://pengsida.notion.site/Sebastian-Starke-1713fe292ff1808eb33be93ea2d79ad9?pvs=4",
+      "fetched_on": "2026-11-04",
+      "source_last_edited_at": "2025-06-25T01:17:30.126Z",
+      "content_sha256": "0206df1c5c29b9a417c857ce3068b6c2c395aac6811d981ac6e09e40adb06e03",
+      "content_characters": 3336,
+      "omission_check": "조회 결과에 잘림 또는 알 수 없는 블록에 대한 경고가 없었습니다.",
+      "media": [],
+      "translation_status": "translated",
+      "translation_path": "docs/notion/sebastian-starke.md",
+      "review_notes": "도입부, 다섯 가지 연구 방식, 여섯 가지 반성, 맺음말과 작성일을 대조했습니다. 별도 논문 노트는 원문 링크로 유지합니다. 통계와 평가가 작성 당시 원저자의 관찰임을 표시했습니다."
+    },
+    {
+      "id": "c13c7e52aab64c1a8e3576b97fcb9851",
+      "title": "논문 쓰기를 연습하는 법",
+      "source_url": "https://pengsida.notion.site/c13c7e52aab64c1a8e3576b97fcb9851",
+      "fetched_on": "2026-11-04",
+      "source_last_edited_at": "2023-08-09T11:30:17.928Z",
+      "content_sha256": "0220450f02c6e2d1a396598673e1d351190f7322d9ec5b1b650a5fa905c2ebba",
+      "content_characters": 347,
+      "omission_check": "조회 결과에 잘림 또는 알 수 없는 블록에 대한 경고가 없었습니다.",
+      "media": [],
+      "translation_status": "translated",
+      "translation_path": "docs/notion/writing-practice.md",
+      "review_notes": "원문 본문의 세 가지 연습 방법과 첫 번째 방법의 하위 항목 두 개를 대조했습니다. 첨부 이미지나 파일은 없습니다."
+    },
+    {
+      "id": "c1a22465a0fa4b15a12985223916048e",
+      "title": "논문 작성 템플릿",
+      "source_url": "https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e",
+      "fetched_on": "2026-11-04",
+      "source_last_edited_at": "2026-06-05T11:14:02.050Z",
+      "content_sha256": "9265328af5085ebe93028b859de30b40060ba0406191a5b07cd2f61b3b939aa9",
+      "content_characters": 49366,
+      "omission_check": "조회 결과에 잘림 또는 알 수 없는 블록에 대한 경고가 없었습니다.",
+      "media": [
+        {
+          "type": "file",
+          "reference": "notion-file-block://2f33fe29-2ff1-8034-9d07-d83a9fa262c6/b967f438-297a-4b23-ae38-74b11c5df93a?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C%E8%A7%84%E5%88%92.drawio"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://2f33fe29-2ff1-803c-aa1c-fcdf1d47e716/a8ae5a4f-02b4-4430-bc0c-1f919387f112?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=page1.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://2f33fe29-2ff1-809c-9f29-eb2954c826b5/1c16dd8c-0c8e-4d66-b433-cc2d14003ffc?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=180c747c-a47d-4ecc-8520-6d9e30d25728.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://2f33fe29-2ff1-801e-8a21-d0dbdbb89bdf/76bf1a25-cd42-4af8-be93-6bc9a2ab8765?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=83930b48-c627-4b05-aac1-630121ff5c3a.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://2f33fe29-2ff1-80dc-89ef-f2a8aabdb8ae/12b8764e-f22a-4bc0-838a-8e07ba89c530?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=page4.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://da0c83a1-2795-4ce7-bf18-d1a2703b68c8/815d0c8a-2b68-44a5-abbf-a9faca613f9e?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "file",
+          "reference": "notion-file-block://95a8838e-bc2c-49fe-a8aa-e4a073a9c840/f555d465-8e65-42f6-b95c-f754ebe8d0af?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=does-my-writing-flow.pdf"
+        },
+        {
+          "type": "file",
+          "reference": "notion-file-block://b5416686-09a4-47dd-bae6-431af7bcfae8/8f97609d-1caa-48de-a1df-ad5be53e996e?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=neuralbody.ai"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://3684005d-ef7a-4c67-8a4b-7e1bfdb1beab/983b7c2e-be08-4169-83ba-5e1f5710b3d1?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "file",
+          "reference": "notion-file-block://2dcb18fd-b953-4b16-b010-54919331ed47/008448e1-2f6a-4ad2-845d-f26927f6d675?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=instant_ngp.ai"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://6e28cb54-e3e8-4aa3-8acd-f3fea3d75344/91a4d6f8-4788-4ee7-8459-e513061f3a65?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "file",
+          "reference": "notion-file-block://14c3fe29-2ff1-8037-a6b3-db19ec1e6ec4/f8ca731d-407e-41f0-aa0b-f930aea6d9c2?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Method%25E5%2586%2599%25E4%25BD%259C%25E5%25B8%25B8%25E8%25A7%2581%25E9%2597%25AE%25E9%25A2%2598.pdf"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://4d4c5614-5ad9-4bc5-8d3e-e2cd4e4c4066/8307a05b-9808-41c2-af60-5140c5fc2d6b?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://13d3fe29-2ff1-8061-8451-e5c7de1408c3/4c5681c8-4ae0-4921-9bc8-f5f41fe74017?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://13d3fe29-2ff1-8079-8c40-eb63190ab9f3/1d96ec63-f89e-4432-bce9-3a8d84649a55?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://1af3fe29-2ff1-805e-8696-ce9b5e60aac9/16dfea3e-67ab-4807-bbdd-07adc0c94aae?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://13d3fe29-2ff1-80c1-bd58-f6799d9e65ed/b9043789-150b-4154-a08e-891236a40517?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://13d3fe29-2ff1-8080-9fce-fc90d9d09f1e/d10c8832-faf1-40d4-b978-f078c064a83e?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://13d3fe29-2ff1-8042-869d-c3502b33ada3/8a2d2375-0f36-44a3-bec0-63e9020186f2?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://f3142bf8-909a-4052-b4b1-c21eb1fd081f/8b8babfb-70a5-4dd6-92e0-5ec85db4058d?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://84bd5d74-4dfc-4915-a6b9-5f565558deb9/22237095-a0bf-4920-b9c0-7b48076370c8?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://972389c9-e134-43ee-b6c3-029d23f0751b/6736cb5f-0aff-4e83-bef8-c4d342f0d923?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://3745210f-97ec-4daf-8f3e-98f066df432a/25eb5132-931b-458e-8f9b-2c774f4b6f3d?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://fc7ace48-9521-4a9f-8211-d9efcc456733/60269689-8f65-4be5-b109-9bf20173e3be?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        }
+      ],
+      "translation_status": "pending",
+      "translation_path": null,
+      "review_notes": null
+    },
+    {
+      "id": "af99ce47103e4917b6a5bd1fd4b3c022",
+      "title": "심사 의견에 답변하는 법: 리버털(rebuttal)",
+      "source_url": "https://pengsida.notion.site/rebuttal-af99ce47103e4917b6a5bd1fd4b3c022",
+      "fetched_on": "2026-11-04",
+      "source_last_edited_at": "2026-05-08T02:53:00.149Z",
+      "content_sha256": "41d5a8e5b5a8624aff7fa117d47a42634ae97a1a6a537e38639d4401b640283e",
+      "content_characters": 2688,
+      "omission_check": "조회 결과에 잘림 또는 알 수 없는 블록에 대한 경고가 없었습니다.",
+      "media": [
+        {
+          "type": "file",
+          "reference": "notion-file-block://35a3fe29-2ff1-8038-842f-dd7322e8de9e/6ff1ea4f-4a26-4434-9c48-6dd7e11e7ecd?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Rebuttal%E8%AF%AD%E8%A8%80%E9%A3%8E%E6%A0%BC%E7%A4%BA%E4%BE%8B.pdf"
+        },
+        {
+          "type": "file",
+          "reference": "notion-file-block://2f13fe29-2ff1-80d1-abc9-eb44869ca9cd/a4d05740-5617-497d-b380-ac50efcf4ae0?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Rebuttal%E6%95%B4%E7%90%86%E6%A8%A1%E6%9D%BF.drawio"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://3553fe29-2ff1-8082-9544-f8223557b369/d11ca5fc-12cd-416d-9689-3e0f497b8f0f?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png"
+        }
+      ],
+      "translation_status": "pending",
+      "translation_path": null,
+      "review_notes": null
+    },
+    {
+      "id": "b43507ef26d044bd888ac29f4736e116",
+      "title": "연구 프로젝트를 수행하는 법: 박사과정 연구자가 갖춰야 할 역량",
+      "source_url": "https://pengsida.notion.site/research-project-b43507ef26d044bd888ac29f4736e116",
+      "fetched_on": "2026-11-04",
+      "source_last_edited_at": "2026-06-09T13:01:33.120Z",
+      "content_sha256": "cd38037c854acf930e9c4e2f963423b1f17f03dac88c10441e4f7e50c5dc74fb",
+      "content_characters": 14405,
+      "omission_check": "조회 결과에 잘림 또는 알 수 없는 블록에 대한 경고가 없었습니다.",
+      "media": [],
+      "translation_status": "translated",
+      "translation_path": "docs/notion/research-project.md",
+      "review_notes": "원문의 세 표를 읽기 쉬운 절과 단계로 재구성했습니다. 연구 태도 7개, 역량 8개, 수행 단계 15개와 각 설명·학습 자료를 대조했습니다. 첨부 파일과 이미지는 없으며 연결된 별도 문서는 번역 완료 범위에 포함하지 않습니다."
+    },
+    {
+      "id": "810f02670691444f8c94cc3d5b76dcbc",
+      "title": "학술 발표 슬라이드를 만드는 법",
+      "source_url": "https://pengsida.notion.site/slides-810f02670691444f8c94cc3d5b76dcbc",
+      "fetched_on": "2026-11-04",
+      "source_last_edited_at": "2024-07-08T05:52:03.215Z",
+      "content_sha256": "b94123d81ba1508a46b8f48b40d8745b35cb482d33526f04f4b8b1a78ee364b1",
+      "content_characters": 3544,
+      "omission_check": "조회 결과에 잘림 또는 알 수 없는 블록에 대한 경고가 없었습니다.",
+      "media": [
+        {
+          "type": "image",
+          "reference": "notion-file-block://c5db4099-6047-40f2-9406-806ea5fbeffa/4320cd20-686c-4846-89a2-fb0b4db41808?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://d5fa0ede-5149-4065-999c-73f19d646e13/bd92df9d-7a06-43a6-86f3-de7b4988c6f4?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://f211f196-e37a-4e1f-9328-8b14bfab0d2e/60564a9a-e5ab-4ee4-9451-e0e652fe850d?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://4e4204cf-840a-4bff-a791-f29ee633811b/26c877e2-2299-491e-b867-7ebb6fc71287?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://868d2d02-e244-4d14-a03f-d65e3c58daa5/4741ff25-87d4-48ec-b189-396f02dba60d?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://73f2a9c7-1760-4d9c-8011-35c5f088f874/8e2db037-f524-4bdd-b33d-510ac9ad9a57?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://fd5835f6-b093-4ab5-aa37-3e611f3c8750/a16eed09-d03d-4544-855d-2a37ceb8e3d2?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://aa6c615d-dc0a-447c-ab00-a718a102d0ec/6a0a64c6-32ff-41eb-baca-a90c5f2a744d?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://e6bcdaac-fb3a-4d51-988e-cae62aa019b8/c88f22f8-0efa-4a7b-ac65-a3a90e5d34d6?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://482786d5-a097-4122-9d0b-f87ad8696f0a/1ab1ecc0-7de2-48bb-912a-f4593ad7023d?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://8b380bda-e8c8-46d3-8f20-c9d2d84807f5/a788c776-2714-4bc0-ba4d-e629525515db?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://cd41062d-8b7f-487a-91d0-eea7d9779c32/e7b34d49-d4e5-41a9-8b6d-8a01209773b0?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        }
+      ],
+      "translation_status": "pending",
+      "translation_path": null,
+      "review_notes": null
+    },
+    {
+      "id": "1d13fe292ff180de91afcb7f2eb57b69",
+      "title": "면접 질문을 통해 돌아보는 연구자의 중요한 자질",
+      "source_url": "https://www.notion.so/1d13fe292ff180de91afcb7f2eb57b69?pvs=4",
+      "fetched_on": "2026-11-04",
+      "source_last_edited_at": "2025-06-25T01:17:41.410Z",
+      "content_sha256": "71d2c535203e35fde0d8d280bc6049b220a85ee436709d8ef95ac5dc0f1215f2",
+      "content_characters": 2130,
+      "omission_check": "조회 결과에 잘림 또는 알 수 없는 블록에 대한 경고가 없었습니다.",
+      "media": [],
+      "translation_status": "pending",
+      "translation_path": null,
+      "review_notes": null
+    },
+    {
+      "id": "1753fe292ff180948215cf82cd2b30ae",
+      "title": "프로젝트의 핵심 기술 문제 분석 템플릿",
+      "source_url": "https://www.notion.so/Project-1753fe292ff180948215cf82cd2b30ae?pvs=4",
+      "fetched_on": "2026-11-04",
+      "source_last_edited_at": "2026-02-13T01:58:02.455Z",
+      "content_sha256": "e8f1cf12c8f9f3ff050d36e245182c6c8098fd736da7588d9c92c9855f3a9d8c",
+      "content_characters": 3721,
+      "omission_check": "조회 결과에 잘림 또는 알 수 없는 블록에 대한 경고가 없었습니다.",
+      "media": [
+        {
+          "type": "image",
+          "reference": "notion-file-block://19a3fe29-2ff1-8071-89d3-c8b845dcf4d9/6ea94f99-bb4e-4dea-adc2-aa7d638642a5?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://1bd3fe29-2ff1-8095-940b-ecd20dc635a3/f4cb1e2d-0877-42c0-be96-8194e85a5dc9?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png"
+        }
+      ],
+      "translation_status": "pending",
+      "translation_path": null,
+      "review_notes": null
+    },
+    {
+      "id": "c278dab7e4764d61a92c1fd1ef3135b1",
+      "title": "논문을 찾는 법",
+      "source_url": "https://www.notion.so/pengsida/c278dab7e4764d61a92c1fd1ef3135b1",
+      "fetched_on": "2026-11-04",
+      "source_last_edited_at": "2026-01-29T00:21:00.976Z",
+      "content_sha256": "79c41526561b690c1a6181e816f739cda52a0c66edac7fcafb8c6f91832a9b4e",
+      "content_characters": 1053,
+      "omission_check": "조회 결과에 잘림 또는 알 수 없는 블록에 대한 경고가 없었습니다.",
+      "media": [
+        {
+          "type": "image",
+          "reference": "notion-file-block://2f73fe29-2ff1-800f-a36b-c83ae3567e6a/02755319-3d6f-43b2-8d0b-d82704cab501?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://bf761200-958c-4701-bdfd-6389010b54d3/6508b956-06bd-4eb9-a637-c8d392839624?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://289f2ea6-d5e5-4c27-a697-54e027c87bb0/d30fe2c2-b1e1-48fc-81ed-3de65273d472?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://50ea5c96-b828-48de-8f2e-bacc2079d76f/a4d03b78-c83b-48b0-96d5-0296e5a30b0c?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        }
+      ],
+      "translation_status": "pending",
+      "translation_path": null,
+      "review_notes": null
+    },
+    {
+      "id": "d192db870bc64436ae4a4a590b36772a",
+      "title": "논문을 효과적으로 읽는 법",
+      "source_url": "https://www.notion.so/pengsida/d192db870bc64436ae4a4a590b36772a",
+      "fetched_on": "2026-11-04",
+      "source_last_edited_at": "2026-06-08T02:14:38.392Z",
+      "content_sha256": "254d18ecdd127aa9847d1413c696111d3208bd42ad1f2c839cd990c137ad4890",
+      "content_characters": 1596,
+      "omission_check": "조회 결과에 잘림 또는 알 수 없는 블록에 대한 경고가 없었습니다.",
+      "media": [
+        {
+          "type": "image",
+          "reference": "notion-file-block://2ec3fe29-2ff1-8054-aea9-e76954c77c63/e4221350-d520-470e-8288-24562c0ed90e?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://c393cc8d-82da-4bf4-b4f0-18e4beef380d/cc91c755-22a4-4ee4-8484-a82a9d63638e?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=8328e23b-2a87-43e3-b6a3-4e950413a7fc.jpg"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://1de4f675-cd95-4f73-a5d2-5c15432bdc23/222add3c-1d3d-46ab-93e0-3a4cb86f6a09?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=aec8460b-1521-4209-8abd-d08c2bfdf2ac.jpg"
+        }
+      ],
+      "translation_status": "pending",
+      "translation_path": null,
+      "review_notes": null
+    },
+    {
+      "id": "1aee6e718de6472f834d13da8f4ff097",
+      "title": "실험이 기대대로 되지 않는 원인 분석하기",
+      "source_url": "https://pengsida.notion.site/1aee6e718de6472f834d13da8f4ff097",
+      "fetched_on": "2026-11-04",
+      "source_last_edited_at": "2024-10-03T00:13:19.784Z",
+      "content_sha256": "1fea074bc6b068e8559342b8ccd8eec49284984a48ca504070ef33d9fd3edad4",
+      "content_characters": 6174,
+      "omission_check": "조회 결과에 잘림 또는 알 수 없는 블록에 대한 경고가 없었습니다.",
+      "media": [
+        {
+          "type": "image",
+          "reference": "notion-file-block://776cbdc6-b8bb-4848-a909-454624dc8f86/de108a13-9686-4116-8bd9-8bcc8c7f1445?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://56a23210-32a3-4033-8a37-322688efa8cf/1526a5b0-ce71-4883-b16a-42e1407c9c4c?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://501858ad-4c5d-4733-ac5d-a6a1a3a22ad9/57774e5b-58b9-4c31-aeac-b19d9c01b78f?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://55b8c1be-ae21-480a-a1c5-cedde59cbad2/42e206f3-ddff-4513-b68f-efdbf529b24c?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://465263f6-8cc8-4a80-9538-66e72a98d5f7/c37b5d15-a854-4288-9c2b-659c8d049d5f?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://e587b0e7-e236-44cc-bd05-394a1ef7ee7c/6909e8fa-c751-43ea-91ec-7970de80e559?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "file",
+          "reference": "notion-file-block://5beae0a0-35db-471f-9011-ce6b4105c4fd/6d0e9367-b6e9-4ea1-ae91-425a03aa85e0?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=doresearch.pdf"
+        },
+        {
+          "type": "file",
+          "reference": "notion-file-block://64f3b300-aef3-471a-9432-7dea4afbd662/f9ecc77a-b91a-44d5-8801-0179279a94a5?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E6%259D%25A8%25E6%25A4%258D%25E9%25BA%259F%25E7%259A%2584%25E7%25A7%2591%25E7%25A0%2594%25E7%25BB%258F%25E9%25AA%258C.pdf"
+        }
+      ],
+      "translation_status": "pending",
+      "translation_path": null,
+      "review_notes": null
+    },
+    {
+      "id": "caf34717f4c046c69ee7e14ea953c46f",
+      "title": "실험 기록 작성하기",
+      "source_url": "https://pengsida.notion.site/caf34717f4c046c69ee7e14ea953c46f",
+      "fetched_on": "2026-11-04",
+      "source_last_edited_at": "2023-10-28T09:24:46.244Z",
+      "content_sha256": "ba7a93e87e9c8c63952d8bcea429acbec7cd22000d453b60df488d45cb23f061",
+      "content_characters": 668,
+      "omission_check": "조회 결과에 잘림 또는 알 수 없는 블록에 대한 경고가 없었습니다.",
+      "media": [],
+      "translation_status": "translated",
+      "translation_path": "docs/notion/experiment-records.md",
+      "review_notes": "본문의 다섯 항목과 원문에 있는 하위 페이지 두 개의 제목·링크를 대조했습니다. 하위 페이지 본문은 별도 자료로 추적합니다."
+    },
+    {
+      "id": "da6ce171c13846b7a7ffaa7473ffa6ea",
+      "title": "연구 아이디어를 발전시키는 법",
+      "source_url": "https://pengsida.notion.site/idea-da6ce171c13846b7a7ffaa7473ffa6ea",
+      "fetched_on": "2026-11-04",
+      "source_last_edited_at": "2026-08-19T05:37:12.657Z",
+      "content_sha256": "9e89d8907b7de9512e775e32ec7176dee62a7cec6c8abbf809ddf824572547e6",
+      "content_characters": 9756,
+      "omission_check": "조회 결과에 잘림 또는 알 수 없는 블록에 대한 경고가 없었습니다.",
+      "media": [
+        {
+          "type": "file",
+          "reference": "notion-file-block://8024fdad-b9e8-4210-b20d-4318085ec552/914bd0cd-928d-4ad4-8497-7829a16ca237?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=John_Schulman%25E7%259A%2584%25E7%25A7%2591%25E7%25A0%2594%25E7%25BB%258F%25E9%25AA%258C.pdf"
+        },
+        {
+          "type": "file",
+          "reference": "notion-file-block://cf8cadb3-976d-4f8a-a923-1ab3172443f7/95f5f8fa-0285-4f85-8342-638736a07836?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Michael_Nielsen%25E7%259A%2584%25E7%25A7%2591%25E7%25A0%2594%25E7%25BB%258F%25E9%25AA%258C.pdf"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://1933fe29-2ff1-8087-b9e9-f02acc5a237e/b46ad1d2-b496-4737-afa6-7cd1c0b83a9b?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://1933fe29-2ff1-805f-b1fe-cb7141fd116b/3df343dd-5dc1-4a96-b200-36e148aefc20?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://1933fe29-2ff1-8049-8cb0-dff8ef49d81c/d9e05db2-bfb9-4166-94c7-f9d38344da9b?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://1933fe29-2ff1-80f1-b7cd-fdcae42eab2a/a6b6d15c-f65d-4478-b74b-427f615b5455?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://b803c4be-c27c-4e29-aeff-64de4fa51c7e/2becd311-d5e4-4644-a63e-5af5aa2affbf?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://9f10858e-51bd-49b9-8c23-fff3d0b3f488/301e769d-cb50-4fef-be25-d87fe03b5487?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=problem-driven_research.png"
+        }
+      ],
+      "translation_status": "pending",
+      "translation_path": null,
+      "review_notes": null
+    },
+    {
+      "id": "d697ef578d784c869d4f8314f0d617da",
+      "title": "매주 연구 미팅에서 슬라이드로 발표하기",
+      "source_url": "https://pengsida.notion.site/meet-ppt-d697ef578d784c869d4f8314f0d617da",
+      "fetched_on": "2026-11-04",
+      "source_last_edited_at": "2025-10-10T13:49:00.021Z",
+      "content_sha256": "462cff67c8f213adfaa5c135ffb5508779a3dfcccddb51ac812b9a1af1c842e6",
+      "content_characters": 5294,
+      "omission_check": "조회 결과에 잘림 또는 알 수 없는 블록에 대한 경고가 없었습니다.",
+      "media": [
+        {
+          "type": "image",
+          "reference": "notion-file-block://f2727348-6274-4b6b-b102-54c15ed41293/c747a933-a4b9-4188-a6c1-f324620ac3ba?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://ace8dab1-b79e-4c65-9a72-c2bc50f5d049/d66a5e72-e130-4f94-8cc6-ae88e7c0c87f?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://219f3d4c-35e3-4aaa-930e-2750c67930b6/8247955c-45ac-4ba8-ae67-a72c675c4cb9?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://12470c1b-5b94-4c98-a239-e6179fc28455/b6c87cef-73c1-4032-916d-72be837c7f8e?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://c573c7c2-ab3c-44d9-87df-f380caf52191/265923cc-c2bf-480f-a1be-1406b755da02?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://7d0e8631-2c63-459a-89e3-eb21de8b3fcc/7cb86ed2-7d2f-415b-9ad3-74b7a328156f?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://1543fe29-2ff1-805e-87fb-d4d9ea5ef013/dc1083fe-a7d5-4555-8c55-7c5ddcf5a522?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://b1920a87-377e-4876-bd7c-eb2eefc6b98e/1c171f9e-62c2-4f7b-ba89-5d8b3cb54268?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://14c3fe29-2ff1-8085-8d7f-e4f930de1110/f4bd54a8-3f39-4ff9-8309-1364359d57f2?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png"
+        }
+      ],
+      "translation_status": "pending",
+      "translation_path": null,
+      "review_notes": null
+    },
+    {
+      "id": "59569d7b66954578b21bf1dc6ea35776",
+      "title": "자주 사용하는 도구와 환경 설정",
+      "source_url": "https://pengsida.notion.site/59569d7b66954578b21bf1dc6ea35776",
+      "fetched_on": "2026-11-04",
+      "source_last_edited_at": "2023-05-26T13:41:42.185Z",
+      "content_sha256": "60bf3e87ff41702b241d21cf7551d332ca5e97e5fc09ef1be71e37a843302836",
+      "content_characters": 6139,
+      "omission_check": "조회 결과에 잘림 또는 알 수 없는 블록에 대한 경고가 없었습니다.",
+      "media": [],
+      "translation_status": "pending",
+      "translation_path": null,
+      "review_notes": null
+    },
+    {
+      "id": "8911dcc5922b4442a80d4407926e65bf",
+      "title": "학습 계획 예시",
+      "source_url": "https://pengsida.notion.site/8911dcc5922b4442a80d4407926e65bf",
+      "fetched_on": "2026-11-04",
+      "source_last_edited_at": "2023-10-09T08:13:05.936Z",
+      "content_sha256": "f6cb0b099ff49d9ca85522f2d0e2941edf147195dc84c994160714dba9ee8fef",
+      "content_characters": 762,
+      "omission_check": "조회 결과에 잘림 또는 알 수 없는 블록에 대한 경고가 없었습니다.",
+      "media": [
+        {
+          "type": "image",
+          "reference": "notion-file-block://1c48d71d-3ee6-48d3-bd06-26a04fb02839/5e205a84-74cf-4fa4-9483-be0ceee5a6fa?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        }
+      ],
+      "translation_status": "translated",
+      "translation_path": "docs/notion/learning-plan.md",
+      "review_notes": "본문의 목표 두 개와 학습 단계 세 개를 대조했습니다. 첨부 이미지 한 개를 직접 열어 모든 분기와 논문명, 설명을 한국어 표로 옮겼습니다. 원문에서 비어 있는 대표 연구·처리 과정은 보충하지 않았습니다."
+    },
+    {
+      "id": "a3fe9f17b8af46558cd1112627009c83",
+      "title": "연구를 시작하기 전에 알아 둘 점",
+      "source_url": "https://pengsida.notion.site/a3fe9f17b8af46558cd1112627009c83",
+      "fetched_on": "2026-11-04",
+      "source_last_edited_at": "2024-07-19T11:44:03.487Z",
+      "content_sha256": "100852b691a81d9f48d2e5c80da947c00fdfc8c4bdc44264c9151ec90f5f608a",
+      "content_characters": 4167,
+      "omission_check": "조회 결과에 잘림 또는 알 수 없는 블록에 대한 경고가 없었습니다.",
+      "media": [
+        {
+          "type": "image",
+          "reference": "notion-file-block://966a63bf-487f-4cee-a4f8-306fbdf0eef0/9a0cedff-ff40-48c7-a9e7-aaa9123cd5a4?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://9475bc0c-2913-4c76-a992-c330b1b04187/e2012e16-dedd-4d3c-95de-8febcf6762b6?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://55bec4bd-972a-4d53-9af6-fb76130170e6/940e3f51-194e-4943-a66c-20cbb8261cb8?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://3b3bcb31-0720-4ad8-a04b-d4475f9ee7b0/8a9adc94-a100-43d2-aaaf-dbcffcd95dc1?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png"
+        },
+        {
+          "type": "image",
+          "reference": "notion-file-block://0ffdec50-cafe-420f-8f85-bfbbd4e52d6c/f93aef46-b847-4de1-8b78-61f1990ffcee?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E6%25B2%2588%25E5%2590%2591%25E6%25B4%258B%25E8%2580%2581%25E5%25B8%2588%25E7%259A%2584%25E7%25A7%2591%25E7%25A0%2594%25E7%25BB%258F%25E9%25AA%258C.png"
+        },
+        {
+          "type": "file",
+          "reference": "notion-file-block://643bd113-2df3-4bdb-a982-56009c2ec3d9/6d0e9367-b6e9-4ea1-ae91-425a03aa85e0?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=doresearch.pdf"
+        },
+        {
+          "type": "file",
+          "reference": "notion-file-block://c5e0fe79-1c21-42a8-a844-be0d54020ad9/1e75fd4c-9d3b-4afd-ac92-1ed2942f1017?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E4%25BC%2597%25E5%25A4%259A%25E9%25AB%2598%25E6%25B0%25B4%25E5%25B9%25B3%25E7%25A7%2591%25E7%25A0%2594%25E5%25B7%25A5%25E4%25BD%259C%25E8%2580%2585%25E8%25AE%25A4%25E4%25B8%25BA%25E7%259A%2584%25E4%25B8%2580%25E4%25B8%25AATop_Ph.D._student%25E6%2589%2580%25E9%259C%2580%25E8%25A6%2581%25E7%259A%2584%25E5%2593%2581%25E8%25B4%25A8.pdf.pdf"
+        }
+      ],
+      "translation_status": "pending",
+      "translation_path": null,
+      "review_notes": null
+    }
+  ],
+  "linked_pages": [
+    {
+      "id": "1703fe292ff1809e92d2ff48f47e06de",
+      "title": "Sebastian Starke 논문 노트",
+      "url": "https://pengsida.notion.site/1703fe292ff1809e92d2ff48f47e06de",
+      "found_in": [
+        "notion-1713fe292ff1808eb33be93ea2d79ad9"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "0051678d2df74d73ae236b9b44875193",
+      "title": "논문 그림 작성 템플릿 · 비공개 표시",
+      "url": "https://pengsida.notion.site/0051678d2df74d73ae236b9b44875193",
+      "found_in": [
+        "notion-c1a22465a0fa4b15a12985223916048e",
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "marked_private",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "1143fe292ff180feb5d0fe76d05e085b",
+      "title": "글의 개요와 Copilot·GPT를 활용한 영어 글쓰기",
+      "url": "https://pengsida.notion.site/1143fe292ff180feb5d0fe76d05e085b",
+      "found_in": [
+        "notion-c1a22465a0fa4b15a12985223916048e",
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "1293fe292ff180bfa5deeed526821d78",
+      "title": "논문의 글을 다듬는 법",
+      "url": "https://pengsida.notion.site/1293fe292ff180bfa5deeed526821d78",
+      "found_in": [
+        "notion-c1a22465a0fa4b15a12985223916048e",
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "1fa3fe292ff1807e98c5e3513045cbab",
+      "title": "연구에서 피해야 할 행동",
+      "url": "https://pengsida.notion.site/1fa3fe292ff1807e98c5e3513045cbab",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "31d3fe292ff1801a97aceb84f067a0ed",
+      "title": "연구와 삶에서 목표 관리가 하는 역할",
+      "url": "https://pengsida.notion.site/31d3fe292ff1801a97aceb84f067a0ed",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "4a4a6aa51614420eb146e8cf82c32bd4",
+      "title": "좋은 연구를 알아보는 안목을 기르는 법",
+      "url": "https://pengsida.notion.site/4a4a6aa51614420eb146e8cf82c32bd4",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "1053fe292ff18015b2f3cde4498a5f0f",
+      "title": "자연과학이란 무엇인가",
+      "url": "https://pengsida.notion.site/1053fe292ff18015b2f3cde4498a5f0f",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "903b997097d343dbaba6d5e0780eab0f",
+      "title": "지도교수와 선배의 지식을 효과적으로 배우는 법",
+      "url": "https://pengsida.notion.site/903b997097d343dbaba6d5e0780eab0f",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116",
+        "notion-a3fe9f17b8af46558cd1112627009c83"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "13f822dc3a5e4242ab1282789a47c346",
+      "title": "선임 연구자의 도움을 더 효과적으로 받는 법",
+      "url": "https://pengsida.notion.site/13f822dc3a5e4242ab1282789a47c346",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "b3697365df674503b38e8265489fb336",
+      "title": "연구실에 처음 들어왔을 때 겪기 쉬운 문제와 예방 방법",
+      "url": "https://pengsida.notion.site/b3697365df674503b38e8265489fb336",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "4db27521e7014e7a925a0f07e4f5c80f",
+      "title": "학부 교육과 대학원 교육의 차이",
+      "url": "https://pengsida.notion.site/4db27521e7014e7a925a0f07e4f5c80f",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "1b69debf803a4c268fc8a09a9a748bbf",
+      "title": "알고리즘과 코드를 디버깅하는 법",
+      "url": "https://pengsida.notion.site/1b69debf803a4c268fc8a09a9a748bbf",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116",
+        "notion-1aee6e718de6472f834d13da8f4ff097"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "1053fe292ff180b59bbfe55c0961a796",
+      "title": "클린 코드 독서 노트",
+      "url": "https://pengsida.notion.site/1053fe292ff180b59bbfe55c0961a796",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "f8b36e484b344a2893a94e4608b72ec2",
+      "title": "문헌 조사와 문헌 트리 구성하기",
+      "url": "https://pengsida.notion.site/f8b36e484b344a2893a94e4608b72ec2",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116",
+        "notion-d192db870bc64436ae4a4a590b36772a",
+        "notion-1aee6e718de6472f834d13da8f4ff097",
+        "notion-da6ce171c13846b7a7ffaa7473ffa6ea"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "1363fe292ff1805b84a6c97e3601ac4d",
+      "title": "스스로 폭넓게 논문을 조사해야 하는 이유",
+      "url": "https://pengsida.notion.site/1363fe292ff1805b84a6c97e3601ac4d",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "24f2a9617d2f475c9be20139d5c49a1a",
+      "title": "논문과 알고리즘의 코드를 공부하는 법",
+      "url": "https://pengsida.notion.site/24f2a9617d2f475c9be20139d5c49a1a",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "27409ef7cd1c4e7d8b6365cd732348e2",
+      "title": "연구에서 검색 능력이 중요한 이유",
+      "url": "https://pengsida.notion.site/27409ef7cd1c4e7d8b6365cd732348e2",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "997f611cd2e24ef1a62210ff099948e2",
+      "title": "해결책을 설계하는 능력을 기르는 법",
+      "url": "https://pengsida.notion.site/997f611cd2e24ef1a62210ff099948e2",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116",
+        "notion-da6ce171c13846b7a7ffaa7473ffa6ea"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "e5cc4f108cc4414d82abbf7b8e31dfae",
+      "title": "기본 원리에서 출발해 방법을 설계하기",
+      "url": "https://pengsida.notion.site/e5cc4f108cc4414d82abbf7b8e31dfae",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "d9c6556326e84962a2d7ae190e2705af",
+      "title": "목표 중심 연구란 무엇인가",
+      "url": "https://pengsida.notion.site/d9c6556326e84962a2d7ae190e2705af",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116",
+        "notion-da6ce171c13846b7a7ffaa7473ffa6ea"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "434a6b3e34d0403ca178fb0db2338232",
+      "title": "논문의 기술적 기여도를 높이는 법",
+      "url": "https://pengsida.notion.site/434a6b3e34d0403ca178fb0db2338232",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116",
+        "notion-da6ce171c13846b7a7ffaa7473ffa6ea"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "2d4db9a1e86346068ecb59bb57c0f9fd",
+      "title": "기술적 해결책을 구상할 때 겪기 쉬운 문제",
+      "url": "https://pengsida.notion.site/2d4db9a1e86346068ecb59bb57c0f9fd",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "2863fe292ff180759413f51ed1d1fdc3",
+      "title": "탐색적 실험은 최소한의 검증부터 시작하기",
+      "url": "https://pengsida.notion.site/2863fe292ff180759413f51ed1d1fdc3",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "849f6606e5fb49b5b73a3778de64e43e",
+      "title": "아이디어를 검증할 탐색적 실험을 설계하는 법",
+      "url": "https://pengsida.notion.site/849f6606e5fb49b5b73a3778de64e43e",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "4be609919b914b7587a5477bddc83001",
+      "title": "실험 결과를 분석할 때 던져 볼 열 가지 질문",
+      "url": "https://pengsida.notion.site/4be609919b914b7587a5477bddc83001",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "afe9ef02def04f6f992d0ad6070076ce",
+      "title": "탐색적 실험에서 겪기 쉬운 문제와 예방 방법",
+      "url": "https://pengsida.notion.site/afe9ef02def04f6f992d0ad6070076ce",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "eed9ed1e9dc44a1c9437b114e6d5d9fd",
+      "title": "자신과 다른 사람의 논문을 검토하는 법",
+      "url": "https://pengsida.notion.site/eed9ed1e9dc44a1c9437b114e6d5d9fd",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116",
+        "notion-c1a22465a0fa4b15a12985223916048e"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "d820794145a041be9599e45dc0cdb3b5",
+      "title": "매력적인 데모와 응용 사례를 만드는 법",
+      "url": "https://pengsida.notion.site/d820794145a041be9599e45dc0cdb3b5",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116",
+        "notion-c1a22465a0fa4b15a12985223916048e"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "33275442af8d40fb9d09b335106a8595",
+      "title": "연구 프로젝트 소개 페이지를 만드는 법",
+      "url": "https://pengsida.notion.site/33275442af8d40fb9d09b335106a8595",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "5dae86dfa4b0446fbe69c490e1165815",
+      "title": "논문을 쓰면서 겪기 쉬운 문제와 예방 방법",
+      "url": "https://pengsida.notion.site/5dae86dfa4b0446fbe69c490e1165815",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "e94fd42c49614acc98d8457cf00d5903",
+      "title": "논문의 인용을 늘리는 법",
+      "url": "https://pengsida.notion.site/e94fd42c49614acc98d8457cf00d5903",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "5828f74458ee4e3fa32c20100c6855ec",
+      "title": "연구에서 소통과 토론이 중요한 이유",
+      "url": "https://pengsida.notion.site/5828f74458ee4e3fa32c20100c6855ec",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "c5549978134a4b348a49fc387c500578",
+      "title": "연구실에 처음 들어와 동료들과 친해지는 법",
+      "url": "https://pengsida.notion.site/c5549978134a4b348a49fc387c500578",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "15c3fe292ff18021861af936361e8a87",
+      "title": "일과 생활에서 신뢰받는 일 처리 방법",
+      "url": "https://pengsida.notion.site/15c3fe292ff18021861af936361e8a87",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "2d01e7e2a36f4860acc655c78c57cf4f",
+      "title": "불필요한 내적 소모와 그 해결 방법",
+      "url": "https://pengsida.notion.site/2d01e7e2a36f4860acc655c78c57cf4f",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "ff09e6f41b394f56835591db70b4980f",
+      "title": "연구에 도움이 되지 않는 학생식 사고방식",
+      "url": "https://pengsida.notion.site/ff09e6f41b394f56835591db70b4980f",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "1533fe292ff18090ba8bd603b4fcf64e",
+      "title": "연구를 할지 결정하고 연구 방향을 고르는 법",
+      "url": "https://pengsida.notion.site/1533fe292ff18090ba8bd603b4fcf64e",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "1773fe292ff1802ebb83c2baaae5529d",
+      "title": "좋은 작업 상태란 무엇인가",
+      "url": "https://pengsida.notion.site/1773fe292ff1802ebb83c2baaae5529d",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "2bd4d371117a45e1af4021ccc25e0515",
+      "title": "논문 그림 작성 템플릿",
+      "url": "https://pengsida.notion.site/2bd4d371117a45e1af4021ccc25e0515",
+      "found_in": [
+        "notion-c1a22465a0fa4b15a12985223916048e"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "a7b846d0082b458e8eb366f506f10182",
+      "title": "실험 기록 양식",
+      "url": "https://pengsida.notion.site/a7b846d0082b458e8eb366f506f10182",
+      "found_in": [
+        "notion-caf34717f4c046c69ee7e14ea953c46f"
+      ],
+      "access_status": "text_available",
+      "translation_status": "translated",
+      "translation_path": "docs/notion/experiment-record-template.md",
+      "review_notes": "다섯 개 제목과 각 안내 문장을 대조했습니다. 첨부 자료는 없습니다."
+    },
+    {
+      "id": "492bf030bc8a48fcbe9dfd1a246678b1",
+      "title": "3월 24일 실험 기록 예시",
+      "url": "https://pengsida.notion.site/492bf030bc8a48fcbe9dfd1a246678b1",
+      "found_in": [
+        "notion-caf34717f4c046c69ee7e14ea953c46f"
+      ],
+      "access_status": "text_available",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "37a3fe292ff180e18ffec36ece8a7818",
+      "title": "바이브 코딩 시대에 개발자가 갖춰야 할 역량",
+      "url": "https://pengsida.notion.site/37a3fe292ff180e18ffec36ece8a7818",
+      "found_in": [
+        "notion-b43507ef26d044bd888ac29f4736e116"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    },
+    {
+      "id": "f1e4f77f0f3943e39dd1210bd3fe71ea",
+      "title": "PowerPoint 사용법",
+      "url": "https://pengsida.notion.site/f1e4f77f0f3943e39dd1210bd3fe71ea",
+      "found_in": [
+        "notion-810f02670691444f8c94cc3d5b76dcbc"
+      ],
+      "access_status": "not_checked",
+      "translation_status": "pending",
+      "translation_path": null
+    }
+  ]
+}

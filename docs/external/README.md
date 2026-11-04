@@ -2,7 +2,7 @@
 
 [처음으로](../../README.md) · [한국어판 안내](../../TRANSLATION.md) · [확인한 자료의 읽기 길잡이](./reading-guide.md)
 
-**외부 자료의 전문 번역은 아직 완료하지 않았습니다.** 저장소 내부 문서의 번역 완료와 외부 자료의 번역 완료는 별개입니다. 아래에서 ‘텍스트 확인’은 원문을 읽을 수 있었다는 뜻이며, 번역 완료를 뜻하지 않습니다.
+**Notion 연구 가이드 6개를 번역했으며, 외부 자료 전체의 완역은 진행 중입니다.** 저장소 내부 문서의 번역 완료와 외부 자료의 번역 완료는 별개입니다. 아래에서 ‘텍스트 확인’은 원문을 읽을 수 있었다는 뜻이며, 번역 완료를 뜻하지 않습니다.
 
 ## 현재 확인 범위
 
@@ -10,15 +10,16 @@
 - 저장소에 직접 등장하는 외부 URL: **68개**
 - 같은 Notion 페이지의 주소를 합친 자료·출처: **63개**
 - 이 중 학습 자료: **47개**, 저자·기여자와 원본 출처: **16개**
-- Notion 연구 가이드: **18개 모두 본문 미확보**
-- 전문 번역 완료: **0개**
+- 직접 연결된 Notion 연구 가이드: **18개 모두 본문 확보, 5개 페이지 번역 완료**
+- 추가 연결 Notion 문서: 첫 단계에서 **44개 발견, 실험 기록 양식 1개 번역 완료**
+- Notion 번역 문서: **총 6개** — 직접 연결 문서 5개와 하위 문서 1개
 - 확인한 내용에 대한 짧은 한국어 읽기 길잡이: **9개**
 
-Notion 본문을 확보하지 못했으므로 그 안의 하위 페이지, 첨부 이미지, 추가 링크는 아직 조사하지 못했습니다. 이 목록을 외부 전체 자료의 최종 목록으로 보아서는 안 됩니다. 강의 페이지에서 연결되는 모든 강의와 교재 전체도 포함 여부와 분량을 별도로 확인해야 합니다.
+Notion 본문과 그 안의 첫 단계 연결 문서·첨부 자료 목록을 확인했습니다. 추가 연결 문서의 본문과 더 깊은 하위 문서, 대부분의 첨부 자료는 아직 검수하지 않았습니다. 이 목록을 외부 전체 자료의 최종 목록으로 보아서는 안 됩니다. 강의 페이지에서 연결되는 모든 강의와 교재 전체도 포함 여부와 분량을 별도로 확인해야 합니다.
 
 ## 완역에 필요한 원문
 
-Notion 자료는 하위 페이지와 첨부 이미지를 포함한 Markdown 또는 HTML 내보내기 파일이 필요합니다. PDF·이미지 자료는 원본 파일, 영상은 시간 정보가 있는 자막이나 대본을 함께 준비하면 대조할 수 있습니다. 해당 파일을 제공받으면 본문·표·각주·그림 속 텍스트를 확인하면서 번역 범위를 확정할 수 있습니다.
+Notion 공개 페이지는 연결된 도구로 읽을 수 있습니다. 원문에서 비공개로 표시한 자료와 별도 권한이 필요한 외부 문서는 해당 원문이나 내보내기 파일이 있어야 이어서 작업할 수 있습니다. PDF·이미지 자료는 원본 파일, 영상은 시간 정보가 있는 자막이나 대본을 함께 준비하면 대조할 수 있습니다. 해당 파일을 제공받으면 본문·표·각주·그림 속 텍스트를 확인하면서 번역 범위를 확정할 수 있습니다.
 
 외부 저자의 교재·강의·글은 원본 저장소에 링크되어 있다는 이유만으로 전문 번역과 재배포가 허용되는 것은 아닙니다. 공개본에 전문을 수록할 때는 자료별 이용 허락을 확인해야 합니다. 현재의 읽기 길잡이는 짧은 해설이며 전문을 대체하지 않습니다.
 
@@ -26,26 +27,81 @@ Notion 자료는 하위 페이지와 첨부 이미지를 포함한 Markdown 또�
 
 ## Notion 연구 가이드
 
+완료는 해당 페이지 본문과 포함된 도표의 번역·대조 완료를 뜻합니다. 링크된 별도 문서는 아래 추가 목록에서 따로 추적합니다.
+
 | 자료 | 원문 접근 | 한국어 진행 |
 | --- | --- | --- |
-| [뛰어난 연구자들의 글쓰기 경험](https://pengsida.notion.site/74aef88b9187439fa4e301704f6eb49a) | 본문 확보 불가 | 전문 미번역 |
-| [박사과정 연구자의 좋은 본보기: Sebastian Starke](https://pengsida.notion.site/Sebastian-Starke-1713fe292ff1808eb33be93ea2d79ad9?pvs=4) · [다른 주소 1](https://www.notion.so/Sebastian-Starke-1713fe292ff1808eb33be93ea2d79ad9?pvs=4) | 본문 확보 불가 | 전문 미번역 |
-| [논문 쓰기를 연습하는 법](https://pengsida.notion.site/c13c7e52aab64c1a8e3576b97fcb9851) | 본문 확보 불가 | 전문 미번역 |
-| [논문 작성 템플릿](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e) · [다른 주소 1](https://www.notion.so/pengsida/c1a22465a0fa4b15a12985223916048e) | 본문 확보 불가 | 전문 미번역 |
-| [심사 의견에 답변하는 법: 리버털(rebuttal)](https://pengsida.notion.site/rebuttal-af99ce47103e4917b6a5bd1fd4b3c022) · [다른 주소 1](https://www.notion.so/pengsida/rebuttal-af99ce47103e4917b6a5bd1fd4b3c022) | 본문 확보 불가 | 전문 미번역 |
-| [연구 프로젝트를 수행하는 법: 박사과정 연구자가 갖춰야 할 역량](https://pengsida.notion.site/research-project-b43507ef26d044bd888ac29f4736e116) · [다른 주소 1](https://pengsida.notion.site/Research-Project-b43507ef26d044bd888ac29f4736e116?pvs=74) | 본문 확보 불가 | 전문 미번역 |
-| [학술 발표 슬라이드를 만드는 법](https://pengsida.notion.site/slides-810f02670691444f8c94cc3d5b76dcbc) | 본문 확보 불가 | 전문 미번역 |
-| [면접 질문을 통해 돌아보는 연구자의 중요한 자질](https://www.notion.so/1d13fe292ff180de91afcb7f2eb57b69?pvs=4) | 본문 확보 불가 | 전문 미번역 |
-| [프로젝트의 핵심 기술 문제 분석 템플릿](https://www.notion.so/Project-1753fe292ff180948215cf82cd2b30ae?pvs=4) | 본문 확보 불가 | 전문 미번역 |
-| [논문을 찾는 법](https://www.notion.so/pengsida/c278dab7e4764d61a92c1fd1ef3135b1) | 본문 확보 불가 | 전문 미번역 |
-| [논문을 효과적으로 읽는 법](https://www.notion.so/pengsida/d192db870bc64436ae4a4a590b36772a) · [다른 주소 1](https://pengsida.notion.site/d192db870bc64436ae4a4a590b36772a) | 본문 확보 불가 | 전문 미번역 |
-| [실험이 기대대로 되지 않는 원인 분석하기](https://pengsida.notion.site/1aee6e718de6472f834d13da8f4ff097) | 본문 확보 불가 | 전문 미번역 |
-| [실험 기록 작성하기](https://pengsida.notion.site/caf34717f4c046c69ee7e14ea953c46f) | 본문 확보 불가 | 전문 미번역 |
-| [연구 아이디어를 발전시키는 법](https://pengsida.notion.site/idea-da6ce171c13846b7a7ffaa7473ffa6ea) | 본문 확보 불가 | 전문 미번역 |
-| [매주 연구 미팅에서 슬라이드로 발표하기](https://pengsida.notion.site/meet-ppt-d697ef578d784c869d4f8314f0d617da) | 본문 확보 불가 | 전문 미번역 |
-| [자주 사용하는 도구와 환경 설정](https://pengsida.notion.site/59569d7b66954578b21bf1dc6ea35776) | 본문 확보 불가 | 전문 미번역 |
-| [학습 계획 예시](https://pengsida.notion.site/8911dcc5922b4442a80d4407926e65bf) | 본문 확보 불가 | 전문 미번역 |
-| [연구를 시작하기 전에 알아 둘 점](https://pengsida.notion.site/a3fe9f17b8af46558cd1112627009c83) | 본문 확보 불가 | 전문 미번역 |
+| [뛰어난 연구자들의 글쓰기 경험](https://pengsida.notion.site/74aef88b9187439fa4e301704f6eb49a) | 본문 확보 | 전문 미번역 |
+| [박사과정 연구자의 좋은 본보기: Sebastian Starke](https://pengsida.notion.site/Sebastian-Starke-1713fe292ff1808eb33be93ea2d79ad9?pvs=4) · [다른 주소 1](https://www.notion.so/Sebastian-Starke-1713fe292ff1808eb33be93ea2d79ad9?pvs=4) | 본문 확보 | [번역 읽기](../../docs/notion/sebastian-starke.md) |
+| [논문 쓰기를 연습하는 법](https://pengsida.notion.site/c13c7e52aab64c1a8e3576b97fcb9851) | 본문 확보 | [번역 읽기](../../docs/notion/writing-practice.md) |
+| [논문 작성 템플릿](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e) · [다른 주소 1](https://www.notion.so/pengsida/c1a22465a0fa4b15a12985223916048e) | 본문 확보 | 전문 미번역 |
+| [심사 의견에 답변하는 법: 리버털(rebuttal)](https://pengsida.notion.site/rebuttal-af99ce47103e4917b6a5bd1fd4b3c022) · [다른 주소 1](https://www.notion.so/pengsida/rebuttal-af99ce47103e4917b6a5bd1fd4b3c022) | 본문 확보 | 전문 미번역 |
+| [연구 프로젝트를 수행하는 법: 박사과정 연구자가 갖춰야 할 역량](https://pengsida.notion.site/research-project-b43507ef26d044bd888ac29f4736e116) · [다른 주소 1](https://pengsida.notion.site/Research-Project-b43507ef26d044bd888ac29f4736e116?pvs=74) | 본문 확보 | [번역 읽기](../../docs/notion/research-project.md) |
+| [학술 발표 슬라이드를 만드는 법](https://pengsida.notion.site/slides-810f02670691444f8c94cc3d5b76dcbc) | 본문 확보 | 전문 미번역 |
+| [면접 질문을 통해 돌아보는 연구자의 중요한 자질](https://www.notion.so/1d13fe292ff180de91afcb7f2eb57b69?pvs=4) | 본문 확보 | 전문 미번역 |
+| [프로젝트의 핵심 기술 문제 분석 템플릿](https://www.notion.so/Project-1753fe292ff180948215cf82cd2b30ae?pvs=4) | 본문 확보 | 전문 미번역 |
+| [논문을 찾는 법](https://www.notion.so/pengsida/c278dab7e4764d61a92c1fd1ef3135b1) | 본문 확보 | 전문 미번역 |
+| [논문을 효과적으로 읽는 법](https://www.notion.so/pengsida/d192db870bc64436ae4a4a590b36772a) · [다른 주소 1](https://pengsida.notion.site/d192db870bc64436ae4a4a590b36772a) | 본문 확보 | 전문 미번역 |
+| [실험이 기대대로 되지 않는 원인 분석하기](https://pengsida.notion.site/1aee6e718de6472f834d13da8f4ff097) | 본문 확보 | 전문 미번역 |
+| [실험 기록 작성하기](https://pengsida.notion.site/caf34717f4c046c69ee7e14ea953c46f) | 본문 확보 | [번역 읽기](../../docs/notion/experiment-records.md) |
+| [연구 아이디어를 발전시키는 법](https://pengsida.notion.site/idea-da6ce171c13846b7a7ffaa7473ffa6ea) | 본문 확보 | 전문 미번역 |
+| [매주 연구 미팅에서 슬라이드로 발표하기](https://pengsida.notion.site/meet-ppt-d697ef578d784c869d4f8314f0d617da) | 본문 확보 | 전문 미번역 |
+| [자주 사용하는 도구와 환경 설정](https://pengsida.notion.site/59569d7b66954578b21bf1dc6ea35776) | 본문 확보 | 전문 미번역 |
+| [학습 계획 예시](https://pengsida.notion.site/8911dcc5922b4442a80d4407926e65bf) | 본문 확보 | [번역 읽기](../../docs/notion/learning-plan.md) |
+| [연구를 시작하기 전에 알아 둘 점](https://pengsida.notion.site/a3fe9f17b8af46558cd1112627009c83) | 본문 확보 | 전문 미번역 |
+
+## 추가로 확인한 Notion 문서
+
+직접 연결된 18개 페이지에서 발견한 **첫 단계 연결 문서 44개**입니다. 더 깊은 연결까지 확인한 최종 목록은 아닙니다. 제목은 연결 문맥을 한국어로 옮긴 것이며, 본문 미확인 항목은 실제 페이지 제목과 다를 수 있습니다.
+
+| 자료 | 현재 상태 |
+| --- | --- |
+| [Sebastian Starke 논문 노트](https://pengsida.notion.site/1703fe292ff1809e92d2ff48f47e06de) | 본문 미확인 |
+| [논문 그림 작성 템플릿 · 비공개 표시](https://pengsida.notion.site/0051678d2df74d73ae236b9b44875193) | 원문에서 비공개로 표시 |
+| [글의 개요와 Copilot·GPT를 활용한 영어 글쓰기](https://pengsida.notion.site/1143fe292ff180feb5d0fe76d05e085b) | 본문 미확인 |
+| [논문의 글을 다듬는 법](https://pengsida.notion.site/1293fe292ff180bfa5deeed526821d78) | 본문 미확인 |
+| [연구에서 피해야 할 행동](https://pengsida.notion.site/1fa3fe292ff1807e98c5e3513045cbab) | 본문 미확인 |
+| [연구와 삶에서 목표 관리가 하는 역할](https://pengsida.notion.site/31d3fe292ff1801a97aceb84f067a0ed) | 본문 미확인 |
+| [좋은 연구를 알아보는 안목을 기르는 법](https://pengsida.notion.site/4a4a6aa51614420eb146e8cf82c32bd4) | 본문 미확인 |
+| [자연과학이란 무엇인가](https://pengsida.notion.site/1053fe292ff18015b2f3cde4498a5f0f) | 본문 미확인 |
+| [지도교수와 선배의 지식을 효과적으로 배우는 법](https://pengsida.notion.site/903b997097d343dbaba6d5e0780eab0f) | 본문 미확인 |
+| [선임 연구자의 도움을 더 효과적으로 받는 법](https://pengsida.notion.site/13f822dc3a5e4242ab1282789a47c346) | 본문 미확인 |
+| [연구실에 처음 들어왔을 때 겪기 쉬운 문제와 예방 방법](https://pengsida.notion.site/b3697365df674503b38e8265489fb336) | 본문 미확인 |
+| [학부 교육과 대학원 교육의 차이](https://pengsida.notion.site/4db27521e7014e7a925a0f07e4f5c80f) | 본문 미확인 |
+| [알고리즘과 코드를 디버깅하는 법](https://pengsida.notion.site/1b69debf803a4c268fc8a09a9a748bbf) | 본문 미확인 |
+| [클린 코드 독서 노트](https://pengsida.notion.site/1053fe292ff180b59bbfe55c0961a796) | 본문 미확인 |
+| [문헌 조사와 문헌 트리 구성하기](https://pengsida.notion.site/f8b36e484b344a2893a94e4608b72ec2) | 본문 미확인 |
+| [스스로 폭넓게 논문을 조사해야 하는 이유](https://pengsida.notion.site/1363fe292ff1805b84a6c97e3601ac4d) | 본문 미확인 |
+| [논문과 알고리즘의 코드를 공부하는 법](https://pengsida.notion.site/24f2a9617d2f475c9be20139d5c49a1a) | 본문 미확인 |
+| [연구에서 검색 능력이 중요한 이유](https://pengsida.notion.site/27409ef7cd1c4e7d8b6365cd732348e2) | 본문 미확인 |
+| [해결책을 설계하는 능력을 기르는 법](https://pengsida.notion.site/997f611cd2e24ef1a62210ff099948e2) | 본문 미확인 |
+| [기본 원리에서 출발해 방법을 설계하기](https://pengsida.notion.site/e5cc4f108cc4414d82abbf7b8e31dfae) | 본문 미확인 |
+| [목표 중심 연구란 무엇인가](https://pengsida.notion.site/d9c6556326e84962a2d7ae190e2705af) | 본문 미확인 |
+| [논문의 기술적 기여도를 높이는 법](https://pengsida.notion.site/434a6b3e34d0403ca178fb0db2338232) | 본문 미확인 |
+| [기술적 해결책을 구상할 때 겪기 쉬운 문제](https://pengsida.notion.site/2d4db9a1e86346068ecb59bb57c0f9fd) | 본문 미확인 |
+| [탐색적 실험은 최소한의 검증부터 시작하기](https://pengsida.notion.site/2863fe292ff180759413f51ed1d1fdc3) | 본문 미확인 |
+| [아이디어를 검증할 탐색적 실험을 설계하는 법](https://pengsida.notion.site/849f6606e5fb49b5b73a3778de64e43e) | 본문 미확인 |
+| [실험 결과를 분석할 때 던져 볼 열 가지 질문](https://pengsida.notion.site/4be609919b914b7587a5477bddc83001) | 본문 미확인 |
+| [탐색적 실험에서 겪기 쉬운 문제와 예방 방법](https://pengsida.notion.site/afe9ef02def04f6f992d0ad6070076ce) | 본문 미확인 |
+| [자신과 다른 사람의 논문을 검토하는 법](https://pengsida.notion.site/eed9ed1e9dc44a1c9437b114e6d5d9fd) | 본문 미확인 |
+| [매력적인 데모와 응용 사례를 만드는 법](https://pengsida.notion.site/d820794145a041be9599e45dc0cdb3b5) | 본문 미확인 |
+| [연구 프로젝트 소개 페이지를 만드는 법](https://pengsida.notion.site/33275442af8d40fb9d09b335106a8595) | 본문 미확인 |
+| [논문을 쓰면서 겪기 쉬운 문제와 예방 방법](https://pengsida.notion.site/5dae86dfa4b0446fbe69c490e1165815) | 본문 미확인 |
+| [논문의 인용을 늘리는 법](https://pengsida.notion.site/e94fd42c49614acc98d8457cf00d5903) | 본문 미확인 |
+| [연구에서 소통과 토론이 중요한 이유](https://pengsida.notion.site/5828f74458ee4e3fa32c20100c6855ec) | 본문 미확인 |
+| [연구실에 처음 들어와 동료들과 친해지는 법](https://pengsida.notion.site/c5549978134a4b348a49fc387c500578) | 본문 미확인 |
+| [일과 생활에서 신뢰받는 일 처리 방법](https://pengsida.notion.site/15c3fe292ff18021861af936361e8a87) | 본문 미확인 |
+| [불필요한 내적 소모와 그 해결 방법](https://pengsida.notion.site/2d01e7e2a36f4860acc655c78c57cf4f) | 본문 미확인 |
+| [연구에 도움이 되지 않는 학생식 사고방식](https://pengsida.notion.site/ff09e6f41b394f56835591db70b4980f) | 본문 미확인 |
+| [연구를 할지 결정하고 연구 방향을 고르는 법](https://pengsida.notion.site/1533fe292ff18090ba8bd603b4fcf64e) | 본문 미확인 |
+| [좋은 작업 상태란 무엇인가](https://pengsida.notion.site/1773fe292ff1802ebb83c2baaae5529d) | 본문 미확인 |
+| [논문 그림 작성 템플릿](https://pengsida.notion.site/2bd4d371117a45e1af4021ccc25e0515) | 본문 미확인 |
+| [실험 기록 양식](https://pengsida.notion.site/a7b846d0082b458e8eb366f506f10182) | [번역 읽기](../../docs/notion/experiment-record-template.md) |
+| [3월 24일 실험 기록 예시](https://pengsida.notion.site/492bf030bc8a48fcbe9dfd1a246678b1) | 본문 확보·첨부 자료 검수 대기 |
+| [바이브 코딩 시대에 개발자가 갖춰야 할 역량](https://pengsida.notion.site/37a3fe292ff180e18ffec36ece8a7818) | 본문 미확인 |
+| [PowerPoint 사용법](https://pengsida.notion.site/f1e4f77f0f3943e39dd1210bd3fe71ea) | 본문 미확인 |
+
+원문 확인일, 본문 해시, 첨부 자료 목록과 번역 검수 기록은 [Notion 원문 확인 기록](../../translation/notion-source-manifest.json)에 보관합니다.
 
 ## PDF 발표·연구 자료
 

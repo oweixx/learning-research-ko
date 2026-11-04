@@ -267,8 +267,8 @@
       "urls": [
         "https://pengsida.notion.site/74aef88b9187439fa4e301704f6eb49a"
       ],
-      "access_status": "blocked",
-      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "access_status": "text_available",
+      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
       "translation_status": "pending",
       "translation_path": null,
       "reading_guide_path": null,
@@ -284,15 +284,16 @@
         "https://pengsida.notion.site/Sebastian-Starke-1713fe292ff1808eb33be93ea2d79ad9?pvs=4",
         "https://www.notion.so/Sebastian-Starke-1713fe292ff1808eb33be93ea2d79ad9?pvs=4"
       ],
-      "access_status": "blocked",
-      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
-      "translation_status": "pending",
-      "translation_path": null,
+      "access_status": "text_available",
+      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
+      "translation_status": "translated",
+      "translation_path": "docs/notion/sebastian-starke.md",
       "reading_guide_path": null,
       "found_in": [
         "README.md",
         "changelog"
-      ]
+      ],
+      "review_notes": "도입부, 다섯 가지 연구 방식, 여섯 가지 반성, 맺음말과 작성일을 대조했습니다. 별도 논문 노트는 원문 링크로 유지합니다. 통계와 평가가 작성 당시 원저자의 관찰임을 표시했습니다."
     },
     {
       "id": "notion-c13c7e52aab64c1a8e3576b97fcb9851",
@@ -301,15 +302,16 @@
       "urls": [
         "https://pengsida.notion.site/c13c7e52aab64c1a8e3576b97fcb9851"
       ],
-      "access_status": "blocked",
-      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
-      "translation_status": "pending",
-      "translation_path": null,
+      "access_status": "text_available",
+      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
+      "translation_status": "translated",
+      "translation_path": "docs/notion/writing-practice.md",
       "reading_guide_path": null,
       "found_in": [
         "README.md",
         "getting_advanced_in_research.md"
-      ]
+      ],
+      "review_notes": "원문 본문의 세 가지 연습 방법과 첫 번째 방법의 하위 항목 두 개를 대조했습니다. 첨부 이미지나 파일은 없습니다."
     },
     {
       "id": "notion-c1a22465a0fa4b15a12985223916048e",
@@ -319,8 +321,8 @@
         "https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e",
         "https://www.notion.so/pengsida/c1a22465a0fa4b15a12985223916048e"
       ],
-      "access_status": "blocked",
-      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "access_status": "text_available",
+      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
       "translation_status": "pending",
       "translation_path": null,
       "reading_guide_path": null,
@@ -338,8 +340,8 @@
         "https://pengsida.notion.site/rebuttal-af99ce47103e4917b6a5bd1fd4b3c022",
         "https://www.notion.so/pengsida/rebuttal-af99ce47103e4917b6a5bd1fd4b3c022"
       ],
-      "access_status": "blocked",
-      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "access_status": "text_available",
+      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
       "translation_status": "pending",
       "translation_path": null,
       "reading_guide_path": null,
@@ -356,17 +358,18 @@
         "https://pengsida.notion.site/research-project-b43507ef26d044bd888ac29f4736e116",
         "https://pengsida.notion.site/Research-Project-b43507ef26d044bd888ac29f4736e116?pvs=74"
       ],
-      "access_status": "blocked",
-      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
-      "translation_status": "pending",
-      "translation_path": null,
+      "access_status": "text_available",
+      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
+      "translation_status": "translated",
+      "translation_path": "docs/notion/research-project.md",
       "reading_guide_path": null,
       "found_in": [
         "README.md",
         "changelog",
         "getting_advanced_in_research.md",
         "getting_started_in_research.md"
-      ]
+      ],
+      "review_notes": "원문의 세 표를 읽기 쉬운 절과 단계로 재구성했습니다. 연구 태도 7개, 역량 8개, 수행 단계 15개와 각 설명·학습 자료를 대조했습니다. 첨부 파일과 이미지는 없으며 연결된 별도 문서는 번역 완료 범위에 포함하지 않습니다."
     },
     {
       "id": "notion-810f02670691444f8c94cc3d5b76dcbc",
@@ -375,8 +378,8 @@
       "urls": [
         "https://pengsida.notion.site/slides-810f02670691444f8c94cc3d5b76dcbc"
       ],
-      "access_status": "blocked",
-      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "access_status": "text_available",
+      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
       "translation_status": "pending",
       "translation_path": null,
       "reading_guide_path": null,
@@ -583,8 +586,8 @@
       "urls": [
         "https://www.notion.so/1d13fe292ff180de91afcb7f2eb57b69?pvs=4"
       ],
-      "access_status": "blocked",
-      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "access_status": "text_available",
+      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
       "translation_status": "pending",
       "translation_path": null,
       "reading_guide_path": null,
@@ -599,8 +602,8 @@
       "urls": [
         "https://www.notion.so/Project-1753fe292ff180948215cf82cd2b30ae?pvs=4"
       ],
-      "access_status": "blocked",
-      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "access_status": "text_available",
+      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
       "translation_status": "pending",
       "translation_path": null,
       "reading_guide_path": null,
@@ -615,8 +618,8 @@
       "urls": [
         "https://www.notion.so/pengsida/c278dab7e4764d61a92c1fd1ef3135b1"
       ],
-      "access_status": "blocked",
-      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "access_status": "text_available",
+      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
       "translation_status": "pending",
       "translation_path": null,
       "reading_guide_path": null,
@@ -632,8 +635,8 @@
         "https://www.notion.so/pengsida/d192db870bc64436ae4a4a590b36772a",
         "https://pengsida.notion.site/d192db870bc64436ae4a4a590b36772a"
       ],
-      "access_status": "blocked",
-      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "access_status": "text_available",
+      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
       "translation_status": "pending",
       "translation_path": null,
       "reading_guide_path": null,
@@ -777,8 +780,8 @@
       "urls": [
         "https://pengsida.notion.site/1aee6e718de6472f834d13da8f4ff097"
       ],
-      "access_status": "blocked",
-      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "access_status": "text_available",
+      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
       "translation_status": "pending",
       "translation_path": null,
       "reading_guide_path": null,
@@ -793,14 +796,15 @@
       "urls": [
         "https://pengsida.notion.site/caf34717f4c046c69ee7e14ea953c46f"
       ],
-      "access_status": "blocked",
-      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
-      "translation_status": "pending",
-      "translation_path": null,
+      "access_status": "text_available",
+      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
+      "translation_status": "translated",
+      "translation_path": "docs/notion/experiment-records.md",
       "reading_guide_path": null,
       "found_in": [
         "getting_advanced_in_research.md"
-      ]
+      ],
+      "review_notes": "본문의 다섯 항목과 원문에 있는 하위 페이지 두 개의 제목·링크를 대조했습니다. 하위 페이지 본문은 별도 자료로 추적합니다."
     },
     {
       "id": "notion-da6ce171c13846b7a7ffaa7473ffa6ea",
@@ -809,8 +813,8 @@
       "urls": [
         "https://pengsida.notion.site/idea-da6ce171c13846b7a7ffaa7473ffa6ea"
       ],
-      "access_status": "blocked",
-      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "access_status": "text_available",
+      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
       "translation_status": "pending",
       "translation_path": null,
       "reading_guide_path": null,
@@ -825,8 +829,8 @@
       "urls": [
         "https://pengsida.notion.site/meet-ppt-d697ef578d784c869d4f8314f0d617da"
       ],
-      "access_status": "blocked",
-      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "access_status": "text_available",
+      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
       "translation_status": "pending",
       "translation_path": null,
       "reading_guide_path": null,
@@ -921,8 +925,8 @@
       "urls": [
         "https://pengsida.notion.site/59569d7b66954578b21bf1dc6ea35776"
       ],
-      "access_status": "blocked",
-      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "access_status": "text_available",
+      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
       "translation_status": "pending",
       "translation_path": null,
       "reading_guide_path": null,
@@ -937,14 +941,15 @@
       "urls": [
         "https://pengsida.notion.site/8911dcc5922b4442a80d4407926e65bf"
       ],
-      "access_status": "blocked",
-      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
-      "translation_status": "pending",
-      "translation_path": null,
+      "access_status": "text_available",
+      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
+      "translation_status": "translated",
+      "translation_path": "docs/notion/learning-plan.md",
       "reading_guide_path": null,
       "found_in": [
         "getting_started_in_research.md"
-      ]
+      ],
+      "review_notes": "본문의 목표 두 개와 학습 단계 세 개를 대조했습니다. 첨부 이미지 한 개를 직접 열어 모든 분기와 논문명, 설명을 한국어 표로 옮겼습니다. 원문에서 비어 있는 대표 연구·처리 과정은 보충하지 않았습니다."
     },
     {
       "id": "notion-a3fe9f17b8af46558cd1112627009c83",
@@ -953,8 +958,8 @@
       "urls": [
         "https://pengsida.notion.site/a3fe9f17b8af46558cd1112627009c83"
       ],
-      "access_status": "blocked",
-      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "access_status": "text_available",
+      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
       "translation_status": "pending",
       "translation_path": null,
       "reading_guide_path": null,

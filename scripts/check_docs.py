@@ -24,6 +24,7 @@ REQUIRED = {
     "changelog", "TRANSLATION.md", "PUBLISHING.md", "docs/external/README.md",
     "docs/external/reading-guide.md", "translation/source-manifest.json",
     "translation/external-sources.json", ".github/workflows/check-docs.yml",
+    "translation/notion-source-manifest.json", "docs/notion/README.md",
 }
 
 
@@ -162,11 +163,47 @@ def audit(root: Path, require_external: bool = False) -> tuple[list[str], dict[s
         if status == "translated" and not source.get("review_notes"):
             errors.append(f"{source['title']}: 원문 대조 검수 기록이 없습니다.")
 
+    pending_nested = []
+    try:
+        notion = json.loads(texts.get("translation/notion-source-manifest.json", ""))
+        direct = notion["direct_pages"]
+        linked = notion["linked_pages"]
+        direct_ids = {s["id"].removeprefix("notion-") for s in sources if s["category"] == "notion"}
+        manifest_ids = [s["id"] for s in direct]
+        linked_ids = [s["id"] for s in linked]
+        if set(manifest_ids) != direct_ids or len(set(manifest_ids)) != len(manifest_ids):
+            errors.append("Notion 원문 기록의 직접 연결 문서 목록이 외부 자료 목록과 다릅니다.")
+        if len(set(linked_ids)) != len(linked_ids) or set(linked_ids) & direct_ids:
+            errors.append("Notion 추가 연결 문서에 중복 항목이 있습니다.")
+        for page in direct:
+            entry = next((s for s in sources if s["id"] == "notion-" + page["id"]), None)
+            if entry and any(entry.get(k) != page.get(k) for k in ("translation_status", "translation_path")):
+                errors.append(f"Notion 번역 상태 기록 불일치: {page['title']}")
+            if not re.fullmatch(r"[0-9a-f]{64}", page.get("content_sha256", "")):
+                errors.append(f"Notion 원문 본문 해시 오류: {page['title']}")
+        for page in direct + linked:
+            if page["translation_status"] not in {"pending", "translated"}:
+                errors.append(f"Notion 번역 상태 오류: {page['title']}")
+            if page["translation_status"] == "translated":
+                path = page.get("translation_path")
+                if not path or not page.get("review_notes"):
+                    errors.append(f"Notion 번역 파일 또는 검수 기록 없음: {page['title']}")
+                else:
+                    target, error = local_target(root, root, path)
+                    if error or not target or not target.is_file():
+                        errors.append(f"Notion 번역 파일 경로 오류: {page['title']}")
+        pending_nested = [p for p in linked if p["translation_status"] != "translated"]
+    except (ValueError, KeyError, TypeError) as error:
+        errors.append(f"Notion 원문 확인 기록을 읽을 수 없습니다: {error}")
+
     if require_external and incomplete:
         errors.append(f"외부 학습 자료 {len(incomplete)}개의 전문 번역이 미완료입니다. docs/external/README.md를 확인하세요.")
+    if require_external and pending_nested:
+        errors.append(f"추가 연결 Notion 문서 {len(pending_nested)}개의 전문 번역이 미완료입니다.")
     return errors, {
         "files": len(texts), "source_files": len(source_files), "urls": len(original_urls),
         "entries": len(entries), "pending_external": len(incomplete),
+        "pending_nested_notion": len(pending_nested),
     }
 
 
@@ -185,6 +222,8 @@ def main() -> int:
     print(f"원문 {stats['source_files']}개 파일의 외부 URL {stats['urls']}개와 변경 이력 {stats['entries']}개를 보존했습니다.")
     if stats["pending_external"]:
         print(f"별도 진행 상태: 외부 학습 자료 {stats['pending_external']}개의 전문 번역이 남아 있습니다.")
+    if stats["pending_nested_notion"]:
+        print(f"추가 연결 Notion 문서 {stats['pending_nested_notion']}개의 번역이 남아 있습니다.")
     return 0
 
 
