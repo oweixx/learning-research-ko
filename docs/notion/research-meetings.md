@@ -40,7 +40,16 @@
 
 > 번역자 주: 원문 앞부분은 ‘미팅에서 논문을 소개하지 말고 평소에 공유하라’고 하고, 뒤의 구성안은 ‘매번 한 편을 공유하라’고 하여 지침이 일치하지 않습니다. 두 내용을 모두 보존했습니다. 실무에서는 문제 해결 시간을 먼저 확보하고 논문 소개 시간을 별도로 정하는 방식으로 조정할 수 있습니다. 이는 번역자의 보완 제안입니다.
 
-자료: [프로젝트 미팅 양식](https://docs.google.com/presentation/d/1m9SJ6cRZeYXVoqO97x1iCJwWlhDs1bbuzJrKzcSx3Ws/edit#slide=id.g1a080df7cc6_0_17), [기존 프로젝트 발표 예시](https://docs.google.com/presentation/d/19JDX9zjA4Ew3IkDxTlZfvAXiXs1CrHaevJLKBULwjZM/edit?usp=sharing). 원문의 슬라이드 이미지들은 별도 첨부 자료로 관리합니다.
+자료: [프로젝트 미팅 양식](https://docs.google.com/presentation/d/1m9SJ6cRZeYXVoqO97x1iCJwWlhDs1bbuzJrKzcSx3Ws/edit#slide=id.g1a080df7cc6_0_17), [기존 프로젝트 발표 예시](https://docs.google.com/presentation/d/19JDX9zjA4Ew3IkDxTlZfvAXiXs1CrHaevJLKBULwjZM/edit?usp=sharing). 원문의 슬라이드 이미지 7장과 경험담 이미지 2장을 확인했습니다. 경험담은 위에서 요약했고, 슬라이드의 작성 항목은 위 표와 아래 점검표에 옮겼습니다.
+
+### 슬라이드 양식의 세부 점검표
+
+- 현재 진척은 세 문장 이내로, 논의할 질문은 각각 한 문장으로 적습니다.
+- 질문을 먼저 제시하고 필요한 실험 현상과 자신의 해석을 보여 줍니다.
+- 연구의 기술적 기여가 무엇인지 확인합니다.
+- 초기 미팅에서는 이미 정립된 답이 있는지, 기술적 접근이 타당한지, 연구 과제 자체가 가치 있는지를 확인합니다. 세부 구현에 몰두하다가 한두 달 뒤 새로움이 부족하거나 접근이 불가능하다는 사실을 발견하지 않기 위해서입니다.
+- 다음 계획을 공유하고 조언을 받습니다.
+- 관련 논문을 소개한다면 처리 과정을 그대로 반복하지 말고, 새로 배운 지식과 통찰을 한 문장으로 말합니다. [스스로 논문을 찾아 배우는 습관](./independent-literature-search.md)을 기르는 목적입니다.
 
 ## 동등하고 솔직하게 논의하기
 

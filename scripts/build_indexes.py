@@ -7,7 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 LABELS = {
     "translated": "본문·도표 대조 완료",
-    "body_translated": "본문 번역 · 첨부 검수 중",
+    "body_translated": "본문 번역 · 외부 인용·첨부 별도",
     "reading_guide_only": "한국어 소개·요약",
     "pending": "번역 대기",
     "blocked": "원문 접근 제한",
@@ -58,7 +58,8 @@ def build() -> None:
         status = LABELS[item["translation_status"]]
         if path:
             status = f"[{status}](../../{path})"
-        lines.append(f"| {item['title'].replace('|', '·')} · {links} | {item['category']} | {status} |")
+        category = {"attribution": "출처", "notion": "Notion", "pdf": "PDF", "course": "강의", "video": "영상", "book": "교재", "assignments": "과제", "image": "이미지", "article": "글"}.get(item["category"], item["category"])
+        lines.append(f"| {item['title'].replace('|', '·')} · {links} | {category} | {status} |")
     lines += [
         "", "## 추가 Notion 문서와 첨부 자료", "",
         "[Notion 한국어 문서 목록](../notion/README.md)에서 하위 문서까지 확인할 수 있습니다. 본문만 번역한 자료, 도표까지 대조한 자료, 짧은 요약과 접근 제한을 구분했습니다.", "",

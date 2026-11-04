@@ -1,7 +1,7 @@
 {
   "checked_on": "2026-11-04",
   "source_commit": "1ee561e5019fcc7d102b9a647591372871e40204",
-  "scope": "원문 저장소에서 직접 연결된 학습 자료를 추적합니다. 개인 홈페이지와 원본 저장소는 출처 링크입니다. Notion 하위 페이지와 강의 전체 자료는 아직 목록화하지 못했습니다.",
+  "scope": "원문 저장소에서 직접 연결된 학습 자료 47개와 출처 16개를 추적합니다. Notion 64개 문서와 첨부 자료는 별도 목록에 기록하며, 외부 강의·교재는 한국어 안내와 원문 링크를 제공합니다.",
   "sources": [
     {
       "id": "https://chingswy.github.io/",
@@ -155,14 +155,18 @@
       "urls": [
         "https://pengsida.net/files/CCF_Talk.pdf"
       ],
-      "access_status": "text_available",
-      "access_note": "웹 조회에서 본문의 텍스트를 확인했습니다. 전문 번역과 도표 검수는 완료하지 않았습니다.",
-      "translation_status": "reading_guide_only",
-      "translation_path": null,
-      "reading_guide_path": "docs/external/reading-guide.md",
+      "access_status": "fetched",
+      "access_note": "파일을 직접 내려받아 본문을 읽고 학습용 도표를 열어 대조했습니다.",
+      "translation_status": "body_translated",
+      "translation_path": "docs/external/ccf-retrospective.md",
+      "reading_guide_path": null,
       "found_in": [
         "README.md"
-      ]
+      ],
+      "fetched_on": "2026-11-04",
+      "content_sha256": "5af457e3135fd7fb72f727015af46cb91d49f8aafcfaadb3f4f23afd36c8c9ea",
+      "page_count": 45,
+      "review_notes": "본문과 학습용 도표를 쪽수별 한국어 읽기 문서로 옮겼습니다. 반복 화면은 합쳤으며, 인용 논문·시연·원본 슬라이드 디자인의 전체 재제작은 포함하지 않습니다."
     },
     {
       "id": "https://pengsida.net/files/learning_research_v4.pdf",
@@ -171,14 +175,18 @@
       "urls": [
         "https://pengsida.net/files/learning_research_v4.pdf"
       ],
-      "access_status": "text_available",
-      "access_note": "웹 조회에서 본문의 텍스트를 확인했습니다. 전문 번역과 도표 검수는 완료하지 않았습니다.",
-      "translation_status": "reading_guide_only",
-      "translation_path": null,
-      "reading_guide_path": "docs/external/reading-guide.md",
+      "access_status": "fetched",
+      "access_note": "파일을 직접 내려받아 본문을 읽고 학습용 도표를 열어 대조했습니다.",
+      "translation_status": "body_translated",
+      "translation_path": "docs/external/learning-process-slides.md",
+      "reading_guide_path": null,
       "found_in": [
         "README.md"
-      ]
+      ],
+      "fetched_on": "2026-11-04",
+      "content_sha256": "e3debd9eaadca58bb72a6bcfd62494a97682e2a048fb237c3a1a31ff5174a6da",
+      "page_count": 60,
+      "review_notes": "본문과 학습용 도표를 쪽수별 한국어 읽기 문서로 옮겼습니다. 반복 화면은 합쳤으며, 인용 논문·시연·원본 슬라이드 디자인의 전체 재제작은 포함하지 않습니다."
     },
     {
       "id": "https://pengsida.net/files/research_topic_selection.pdf",
@@ -187,14 +195,18 @@
       "urls": [
         "https://pengsida.net/files/research_topic_selection.pdf"
       ],
-      "access_status": "text_available",
-      "access_note": "웹 조회에서 본문의 텍스트를 확인했습니다. 전문 번역과 도표 검수는 완료하지 않았습니다.",
-      "translation_status": "reading_guide_only",
-      "translation_path": null,
-      "reading_guide_path": "docs/external/reading-guide.md",
+      "access_status": "fetched",
+      "access_note": "파일을 직접 내려받아 본문을 읽고 학습용 도표를 열어 대조했습니다.",
+      "translation_status": "body_translated",
+      "translation_path": "docs/external/research-topic-selection.md",
+      "reading_guide_path": null,
       "found_in": [
         "README.md"
-      ]
+      ],
+      "fetched_on": "2026-11-04",
+      "content_sha256": "14557329d10f230a67f34698ebc2400acf021dc392fc927b8b6b5e11d0317139",
+      "page_count": 55,
+      "review_notes": "본문과 학습용 도표를 쪽수별 한국어 읽기 문서로 옮겼습니다. 반복 화면은 합쳤으며, 인용 논문·시연·원본 슬라이드 디자인의 전체 재제작은 포함하지 않습니다."
     },
     {
       "id": "https://pengsida.net/games003/",
@@ -204,13 +216,14 @@
         "https://pengsida.net/games003/"
       ],
       "access_status": "text_available",
-      "access_note": "안내 페이지를 확인했습니다. 연결된 강의·과제 본문은 전체 번역하지 않았습니다.",
-      "translation_status": "pending",
+      "access_note": "안내 페이지와 목차를 확인했습니다. 연결된 전체 강의·교재 본문을 번역하지 않았습니다.",
+      "translation_status": "reading_guide_only",
       "translation_path": null,
-      "reading_guide_path": null,
+      "reading_guide_path": "docs/external/course-guide.md",
       "found_in": [
         "README.md"
-      ]
+      ],
+      "review_notes": "한국어 주제·목차·읽기 경로와 원문 링크를 제공합니다. 강의·교재·과제 전체나 영상 자막의 완역은 아닙니다."
     },
     {
       "id": "https://pengsida.net/games003/GAMES003_files/week_1.pdf",
@@ -219,14 +232,18 @@
       "urls": [
         "https://pengsida.net/games003/GAMES003_files/week_1.pdf"
       ],
-      "access_status": "text_available",
-      "access_note": "웹 조회에서 본문의 텍스트를 확인했습니다. 전문 번역과 도표 검수는 완료하지 않았습니다.",
-      "translation_status": "reading_guide_only",
-      "translation_path": null,
-      "reading_guide_path": "docs/external/reading-guide.md",
+      "access_status": "fetched",
+      "access_note": "파일을 직접 내려받아 본문을 읽고 학습용 도표를 열어 대조했습니다.",
+      "translation_status": "body_translated",
+      "translation_path": "docs/external/games003-week1.md",
+      "reading_guide_path": null,
       "found_in": [
         "README.md"
-      ]
+      ],
+      "fetched_on": "2026-11-04",
+      "content_sha256": "abffea208442aa96fcb6a395459cd29964615469761bba1cd71b889b96c7eccd",
+      "page_count": 81,
+      "review_notes": "본문과 학습용 도표를 쪽수별 한국어 읽기 문서로 옮겼습니다. 반복 화면은 합쳤으며, 인용 논문·시연·원본 슬라이드 디자인의 전체 재제작은 포함하지 않습니다."
     },
     {
       "id": "https://pengsida.net/games003/GAMES003_files/week_3.pdf",
@@ -235,14 +252,18 @@
       "urls": [
         "https://pengsida.net/games003/GAMES003_files/week_3.pdf"
       ],
-      "access_status": "text_available",
-      "access_note": "웹 조회에서 본문의 텍스트를 확인했습니다. 전문 번역과 도표 검수는 완료하지 않았습니다.",
-      "translation_status": "reading_guide_only",
-      "translation_path": null,
-      "reading_guide_path": "docs/external/reading-guide.md",
+      "access_status": "fetched",
+      "access_note": "파일을 직접 내려받아 본문을 읽고 학습용 도표를 열어 대조했습니다.",
+      "translation_status": "body_translated",
+      "translation_path": "docs/external/games003-week3.md",
+      "reading_guide_path": null,
       "found_in": [
         "README.md"
-      ]
+      ],
+      "fetched_on": "2026-11-04",
+      "content_sha256": "335628cf8c3b1ab3b840951613e9b4fd27fd1b6e4c6831fa831a60d87686b055",
+      "page_count": 65,
+      "review_notes": "본문과 학습용 도표를 쪽수별 한국어 읽기 문서로 옮겼습니다. 반복 화면은 합쳤으며, 인용 논문·시연·원본 슬라이드 디자인의 전체 재제작은 포함하지 않습니다."
     },
     {
       "id": "https://pengsida.net/games003/GAMES003_files/week_5.pdf",
@@ -251,31 +272,35 @@
       "urls": [
         "https://pengsida.net/games003/GAMES003_files/week_5.pdf"
       ],
-      "access_status": "tool_size_limit",
-      "access_note": "웹 조회 도구의 파일 크기 제한으로 본문을 가져오지 못했습니다(약 11.3 MB).",
-      "translation_status": "pending",
-      "translation_path": null,
+      "access_status": "fetched",
+      "access_note": "파일을 직접 내려받아 본문을 읽고 학습용 도표를 열어 대조했습니다.",
+      "translation_status": "body_translated",
+      "translation_path": "docs/external/games003-week5.md",
       "reading_guide_path": null,
       "found_in": [
         "README.md"
-      ]
+      ],
+      "fetched_on": "2026-11-04",
+      "content_sha256": "8edc09580dc327f3256584866a1670b30e46efb69119a01b690797f4761d2e48",
+      "page_count": 66,
+      "review_notes": "본문과 학습용 도표를 쪽수별 한국어 읽기 문서로 옮겼습니다. 반복 화면은 합쳤으며, 인용 논문·시연·원본 슬라이드 디자인의 전체 재제작은 포함하지 않습니다."
     },
     {
       "id": "notion-74aef88b9187439fa4e301704f6eb49a",
-      "title": "뛰어난 연구자들의 글쓰기 경험",
+      "title": "논문 쓰기와 글의 흐름을 배우는 자료",
       "category": "notion",
       "urls": [
         "https://pengsida.notion.site/74aef88b9187439fa4e301704f6eb49a"
       ],
       "access_status": "fetched",
       "access_note": "공개 본문을 확보했습니다. 첨부 자료와 번역 완료 상태는 별도로 추적합니다.",
-      "translation_status": "pending",
-      "translation_path": null,
+      "translation_status": "reading_guide_only",
+      "translation_path": "docs/notion/writing-resources.md",
       "reading_guide_path": null,
       "found_in": [
         "README.md"
       ],
-      "review_notes": null
+      "review_notes": "공개 자료의 성격과 출처를 확인했습니다. 외부 저작물은 한국어 소개·요약으로 제공하며 전문 번역 완료로 집계하지 않습니다. 접근 제한 자료는 조회 가능한 범위만 안내합니다."
     },
     {
       "id": "notion-1713fe292ff1808eb33be93ea2d79ad9",
@@ -316,7 +341,7 @@
     },
     {
       "id": "notion-c1a22465a0fa4b15a12985223916048e",
-      "title": "논문 작성 템플릿",
+      "title": "논문 작성의 순서와 문단 구성 템플릿",
       "category": "notion",
       "urls": [
         "https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e",
@@ -324,15 +349,15 @@
       ],
       "access_status": "fetched",
       "access_note": "공개 본문을 확보했습니다. 첨부 자료와 번역 완료 상태는 별도로 추적합니다.",
-      "translation_status": "pending",
-      "translation_path": null,
+      "translation_status": "body_translated",
+      "translation_path": "docs/notion/paper-writing-template.md",
       "reading_guide_path": null,
       "found_in": [
         "README.md",
         "changelog",
         "getting_advanced_in_research.md"
       ],
-      "review_notes": null
+      "review_notes": "작성 절차 11단계, 일정, 초록 3유형, 서론의 도입·난점·기여 유형, 방법·실험·결론의 지침을 대조했습니다. 이미지 19개를 열어 구조와 주석을 확인했습니다. 긴 논문 인용은 사례 해설로 구분했고 별도 PDF·편집 파일의 대조는 남아 있습니다. 첨부 방법 절 작성 안내 6쪽은 본문과 사례를 한국어로 옮겼고, 외부 글쓰기 센터 자료는 짧게 요약했습니다."
     },
     {
       "id": "notion-af99ce47103e4917b6a5bd1fd4b3c022",
@@ -389,7 +414,7 @@
       "found_in": [
         "README.md"
       ],
-      "review_notes": "공개 텍스트 본문을 번역했습니다. 첨부 이미지·파일의 별도 대조가 남아 있습니다."
+      "review_notes": "공개 텍스트 본문을 번역했습니다. 첨부 이미지·파일의 별도 대조가 남아 있습니다. 첨부 이미지를 직접 확인해 저자의 도표는 표·설명으로 옮기고 외부 인용은 요약으로 구분했습니다. 외부 첨부 전문은 완료로 집계하지 않습니다."
     },
     {
       "id": "https://pengsongyou.github.io/",
@@ -446,14 +471,15 @@
       "urls": [
         "https://www.bilibili.com/video/BV1DA4m1V7D3/"
       ],
-      "access_status": "not_checked",
-      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
-      "translation_status": "pending",
+      "access_status": "limited",
+      "access_note": "영상 본문을 확보하지 못했습니다. Bilibili는 접근 제한, YouTube는 재생목록 제목 수준만 확인했습니다.",
+      "translation_status": "reading_guide_only",
       "translation_path": null,
-      "reading_guide_path": null,
+      "reading_guide_path": "docs/external/course-guide.md",
       "found_in": [
         "README.md"
-      ]
+      ],
+      "review_notes": "한국어 주제·목차·읽기 경로와 원문 링크를 제공합니다. 강의·교재·과제 전체나 영상 자막의 완역은 아닙니다."
     },
     {
       "id": "https://www.bilibili.com/video/BV1RitTezEa9?p=1",
@@ -462,14 +488,15 @@
       "urls": [
         "https://www.bilibili.com/video/BV1RitTezEa9?p=1"
       ],
-      "access_status": "not_checked",
-      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
-      "translation_status": "pending",
+      "access_status": "limited",
+      "access_note": "영상 본문을 확보하지 못했습니다. Bilibili는 접근 제한, YouTube는 재생목록 제목 수준만 확인했습니다.",
+      "translation_status": "reading_guide_only",
       "translation_path": null,
-      "reading_guide_path": null,
+      "reading_guide_path": "docs/external/course-guide.md",
       "found_in": [
         "README.md"
-      ]
+      ],
+      "review_notes": "한국어 주제·목차·읽기 경로와 원문 링크를 제공합니다. 강의·교재·과제 전체나 영상 자막의 완역은 아닙니다."
     },
     {
       "id": "https://www.bilibili.com/video/BV1RitTezEa9?p=3",
@@ -478,14 +505,15 @@
       "urls": [
         "https://www.bilibili.com/video/BV1RitTezEa9?p=3"
       ],
-      "access_status": "not_checked",
-      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
-      "translation_status": "pending",
+      "access_status": "limited",
+      "access_note": "영상 본문을 확보하지 못했습니다. Bilibili는 접근 제한, YouTube는 재생목록 제목 수준만 확인했습니다.",
+      "translation_status": "reading_guide_only",
       "translation_path": null,
-      "reading_guide_path": null,
+      "reading_guide_path": "docs/external/course-guide.md",
       "found_in": [
         "README.md"
-      ]
+      ],
+      "review_notes": "한국어 주제·목차·읽기 경로와 원문 링크를 제공합니다. 강의·교재·과제 전체나 영상 자막의 완역은 아닙니다."
     },
     {
       "id": "https://www.bilibili.com/video/BV1RitTezEa9?p=5",
@@ -494,14 +522,15 @@
       "urls": [
         "https://www.bilibili.com/video/BV1RitTezEa9?p=5"
       ],
-      "access_status": "not_checked",
-      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
-      "translation_status": "pending",
+      "access_status": "limited",
+      "access_note": "영상 본문을 확보하지 못했습니다. Bilibili는 접근 제한, YouTube는 재생목록 제목 수준만 확인했습니다.",
+      "translation_status": "reading_guide_only",
       "translation_path": null,
-      "reading_guide_path": null,
+      "reading_guide_path": "docs/external/course-guide.md",
       "found_in": [
         "README.md"
-      ]
+      ],
+      "review_notes": "한국어 주제·목차·읽기 경로와 원문 링크를 제공합니다. 강의·교재·과제 전체나 영상 자막의 완역은 아닙니다."
     },
     {
       "id": "https://www.cs.toronto.edu/~jungao/",
@@ -574,31 +603,35 @@
       "urls": [
         "https://pengsida.net/files/how_to_do_research.pdf"
       ],
-      "access_status": "text_garbled",
-      "access_note": "PDF는 열리지만 추출된 텍스트가 깨져 있어 원본 화면과 대조가 필요합니다.",
-      "translation_status": "pending",
-      "translation_path": null,
+      "access_status": "fetched",
+      "access_note": "파일을 직접 내려받아 본문을 읽고 학습용 도표를 열어 대조했습니다.",
+      "translation_status": "body_translated",
+      "translation_path": "docs/external/research-experience-slides.md",
       "reading_guide_path": null,
       "found_in": [
         "changelog"
-      ]
+      ],
+      "fetched_on": "2026-11-04",
+      "content_sha256": "3ca6b6410bc2fee2dc17f555f5f97932e2b4167da4cbf5cc7ab1ca6d17289f5f",
+      "page_count": 37,
+      "review_notes": "본문과 학습용 도표를 쪽수별 한국어 읽기 문서로 옮겼습니다. 반복 화면은 합쳤으며, 인용 논문·시연·원본 슬라이드 디자인의 전체 재제작은 포함하지 않습니다."
     },
     {
       "id": "notion-1d13fe292ff180de91afcb7f2eb57b69",
-      "title": "면접 질문을 통해 돌아보는 연구자의 중요한 자질",
+      "title": "영향력 있는 연구를 위한 여섯 가지 질문",
       "category": "notion",
       "urls": [
         "https://www.notion.so/1d13fe292ff180de91afcb7f2eb57b69?pvs=4"
       ],
       "access_status": "fetched",
       "access_note": "공개 본문을 확보했습니다. 첨부 자료와 번역 완료 상태는 별도로 추적합니다.",
-      "translation_status": "pending",
-      "translation_path": null,
+      "translation_status": "reading_guide_only",
+      "translation_path": "docs/notion/researcher-qualities.md",
       "reading_guide_path": null,
       "found_in": [
         "changelog"
       ],
-      "review_notes": null
+      "review_notes": "공개 자료의 성격과 출처를 확인했습니다. 외부 저작물은 한국어 소개·요약으로 제공하며 전문 번역 완료로 집계하지 않습니다. 접근 제한 자료는 조회 가능한 범위만 안내합니다."
     },
     {
       "id": "notion-1753fe292ff180948215cf82cd2b30ae",
@@ -609,13 +642,13 @@
       ],
       "access_status": "fetched",
       "access_note": "공개 본문을 확보했습니다. 첨부 자료와 번역 완료 상태는 별도로 추적합니다.",
-      "translation_status": "body_translated",
+      "translation_status": "translated",
       "translation_path": "docs/notion/technical-problem-template.md",
       "reading_guide_path": null,
       "found_in": [
         "changelog"
       ],
-      "review_notes": "공개 본문의 절·항목·예시를 한국어로 옮겼습니다. 인용 출처의 불확실성과 원저자의 견해를 구분했으며 별도 첨부 자료의 대조는 남아 있습니다."
+      "review_notes": "공개 본문의 절·항목·예시를 한국어로 옮겼습니다. 인용 출처의 불확실성과 원저자의 견해를 구분했으며 별도 첨부 자료의 대조는 남아 있습니다. 첨부 이미지의 학습 내용을 한국어로 대조했습니다."
     },
     {
       "id": "notion-c278dab7e4764d61a92c1fd1ef3135b1",
@@ -660,14 +693,17 @@
       "urls": [
         "https://github.com/user-attachments/files/18051592/YouAndYourResearch.pdf"
       ],
-      "access_status": "blocked",
-      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 사이트나 파일의 영구적인 삭제 여부는 확인하지 않았습니다.",
-      "translation_status": "pending",
+      "access_status": "fetched",
+      "access_note": "파일 다운로드로 접근 제한을 해결했습니다. 글꼴이 깨지는 인터뷰는 페이지 이미지를 읽었습니다.",
+      "translation_status": "reading_guide_only",
       "translation_path": null,
-      "reading_guide_path": null,
+      "reading_guide_path": "docs/external/reading-guide.md",
       "found_in": [
         "getting_advanced_in_research.md"
-      ]
+      ],
+      "review_notes": "외부 저자의 강연·글·인터뷰이므로 짧은 한국어 요약과 출처를 제공합니다.",
+      "fetched_on": "2026-11-04",
+      "content_sha256": "29e929fb607a2ca81320931935c83a5cc84671cfe92aaf616b6baffbdfbab4ca"
     },
     {
       "id": "https://pengsida.net/files/Bill_Freeman_How_to_do_research.pdf",
@@ -724,14 +760,17 @@
       "urls": [
         "https://pengsida.net/files/Wujun_Li_Undergraduate_learning_research.pdf"
       ],
-      "access_status": "blocked",
-      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 사이트나 파일의 영구적인 삭제 여부는 확인하지 않았습니다.",
-      "translation_status": "pending",
+      "access_status": "fetched",
+      "access_note": "파일 다운로드로 접근 제한을 해결했습니다. 글꼴이 깨지는 인터뷰는 페이지 이미지를 읽었습니다.",
+      "translation_status": "reading_guide_only",
       "translation_path": null,
-      "reading_guide_path": null,
+      "reading_guide_path": "docs/external/reading-guide.md",
       "found_in": [
         "getting_advanced_in_research.md"
-      ]
+      ],
+      "review_notes": "외부 저자의 강연·글·인터뷰이므로 짧은 한국어 요약과 출처를 제공합니다.",
+      "fetched_on": "2026-11-04",
+      "content_sha256": "0ca94e822c82cfa3b613c853818abbeb1818743c80f34ae5ef7a1efe658d1e60"
     },
     {
       "id": "https://pengsida.net/files/Xiangyang_Shen_How_to_do_research.png",
@@ -740,14 +779,15 @@
       "urls": [
         "https://pengsida.net/files/Xiangyang_Shen_How_to_do_research.png"
       ],
-      "access_status": "blocked",
-      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 사이트나 파일의 영구적인 삭제 여부는 확인하지 않았습니다.",
-      "translation_status": "pending",
+      "access_status": "mirror_available",
+      "access_note": "공개 Notion 재수록 이미지를 확인했습니다.",
+      "translation_status": "reading_guide_only",
       "translation_path": null,
-      "reading_guide_path": null,
+      "reading_guide_path": "docs/external/reading-guide.md",
       "found_in": [
         "getting_advanced_in_research.md"
-      ]
+      ],
+      "review_notes": "이미지의 성격과 원문의 맥락을 짧게 설명했습니다."
     },
     {
       "id": "https://pengsida.net/files/Zhihua_Zhou_How_to_do_research.pdf",
@@ -772,14 +812,17 @@
       "urls": [
         "https://pengsida.net/files/Zhilin_Yang_How_to_do_research.pdf"
       ],
-      "access_status": "text_garbled",
-      "access_note": "PDF는 열리지만 추출된 텍스트가 깨져 있어 원본 화면과 대조가 필요합니다.",
-      "translation_status": "pending",
+      "access_status": "fetched",
+      "access_note": "파일 다운로드로 접근 제한을 해결했습니다. 글꼴이 깨지는 인터뷰는 페이지 이미지를 읽었습니다.",
+      "translation_status": "reading_guide_only",
       "translation_path": null,
-      "reading_guide_path": null,
+      "reading_guide_path": "docs/external/reading-guide.md",
       "found_in": [
         "getting_advanced_in_research.md"
-      ]
+      ],
+      "review_notes": "외부 저자의 강연·글·인터뷰이므로 짧은 한국어 요약과 출처를 제공합니다.",
+      "fetched_on": "2026-11-04",
+      "content_sha256": "35794bbbddb0fddc38c0d91849c8c3e5ed27c29eacabfb0c269f3954d9ab9049"
     },
     {
       "id": "notion-1aee6e718de6472f834d13da8f4ff097",
@@ -796,7 +839,7 @@
       "found_in": [
         "getting_advanced_in_research.md"
       ],
-      "review_notes": "공개 본문의 절·항목·예시를 한국어로 옮겼습니다. 인용 출처의 불확실성과 원저자의 견해를 구분했으며 별도 첨부 자료의 대조는 남아 있습니다."
+      "review_notes": "공개 본문의 절·항목·예시를 한국어로 옮겼습니다. 인용 출처의 불확실성과 원저자의 견해를 구분했으며 별도 첨부 자료의 대조는 남아 있습니다. 첨부 이미지를 직접 확인해 저자의 도표는 표·설명으로 옮기고 외부 인용은 요약으로 구분했습니다. 외부 첨부 전문은 완료로 집계하지 않습니다."
     },
     {
       "id": "notion-caf34717f4c046c69ee7e14ea953c46f",
@@ -830,7 +873,7 @@
       "found_in": [
         "getting_advanced_in_research.md"
       ],
-      "review_notes": "공개 본문의 모든 절과 역할 분담·미팅 구성 항목을 대조했습니다. 취소된 과거 견해와 서로 다른 지침을 명시했습니다. 별도 인용 이미지와 파일은 따로 추적합니다."
+      "review_notes": "공개 본문의 모든 절과 역할 분담·미팅 구성 항목을 대조했습니다. 취소된 과거 견해와 서로 다른 지침을 명시했습니다. 별도 인용 이미지와 파일은 따로 추적합니다. 첨부 이미지를 직접 확인해 저자의 도표는 표·설명으로 옮기고 외부 인용은 요약으로 구분했습니다. 외부 첨부 전문은 완료로 집계하지 않습니다."
     },
     {
       "id": "notion-d697ef578d784c869d4f8314f0d617da",
@@ -847,7 +890,7 @@
       "found_in": [
         "getting_advanced_in_research.md"
       ],
-      "review_notes": "공개 본문의 모든 절과 역할 분담·미팅 구성 항목을 대조했습니다. 취소된 과거 견해와 서로 다른 지침을 명시했습니다. 별도 인용 이미지와 파일은 따로 추적합니다."
+      "review_notes": "공개 본문의 모든 절과 역할 분담·미팅 구성 항목을 대조했습니다. 취소된 과거 견해와 서로 다른 지침을 명시했습니다. 별도 인용 이미지와 파일은 따로 추적합니다. 첨부 이미지를 직접 확인해 저자의 도표는 표·설명으로 옮기고 외부 인용은 요약으로 구분했습니다. 외부 첨부 전문은 완료로 집계하지 않습니다."
     },
     {
       "id": "https://www.yuque.com/xinntao/nm1yxs/uwzezu0qebdxs38t",
@@ -856,14 +899,15 @@
       "urls": [
         "https://www.yuque.com/xinntao/nm1yxs/uwzezu0qebdxs38t"
       ],
-      "access_status": "blocked",
-      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 사이트나 파일의 영구적인 삭제 여부는 확인하지 않았습니다.",
-      "translation_status": "pending",
+      "access_status": "metadata_only",
+      "access_note": "제목·설명과 새 Notion 주소를 확인했습니다. 전체 본문은 제공되지 않고 새 Notion은 조회되지 않았습니다.",
+      "translation_status": "blocked",
       "translation_path": null,
-      "reading_guide_path": null,
+      "reading_guide_path": "docs/external/reading-guide.md",
       "found_in": [
         "getting_advanced_in_research.md"
-      ]
+      ],
+      "review_notes": "이전 안내와 조회 범위만 기록했습니다."
     },
     {
       "id": "http://cs231n.stanford.edu/schedule.html",
@@ -872,14 +916,15 @@
       "urls": [
         "http://cs231n.stanford.edu/schedule.html"
       ],
-      "access_status": "not_checked",
-      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
-      "translation_status": "pending",
+      "access_status": "text_available",
+      "access_note": "안내 페이지와 목차를 확인했습니다. 연결된 전체 강의·교재 본문을 번역하지 않았습니다.",
+      "translation_status": "reading_guide_only",
       "translation_path": null,
-      "reading_guide_path": null,
+      "reading_guide_path": "docs/external/course-guide.md",
       "found_in": [
         "getting_started_in_research.md"
-      ]
+      ],
+      "review_notes": "한국어 주제·목차·읽기 경로와 원문 링크를 제공합니다. 강의·교재·과제 전체나 영상 자막의 완역은 아닙니다."
     },
     {
       "id": "https://games-105.github.io/",
@@ -888,14 +933,15 @@
       "urls": [
         "https://games-105.github.io/"
       ],
-      "access_status": "not_checked",
-      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
-      "translation_status": "pending",
+      "access_status": "text_available",
+      "access_note": "안내 페이지와 목차를 확인했습니다. 연결된 전체 강의·교재 본문을 번역하지 않았습니다.",
+      "translation_status": "reading_guide_only",
       "translation_path": null,
-      "reading_guide_path": null,
+      "reading_guide_path": "docs/external/course-guide.md",
       "found_in": [
         "getting_started_in_research.md"
-      ]
+      ],
+      "review_notes": "한국어 주제·목차·읽기 경로와 원문 링크를 제공합니다. 강의·교재·과제 전체나 영상 자막의 완역은 아닙니다."
     },
     {
       "id": "https://games-cn.org/intro-graphics/",
@@ -904,14 +950,15 @@
       "urls": [
         "https://games-cn.org/intro-graphics/"
       ],
-      "access_status": "not_checked",
-      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
-      "translation_status": "pending",
+      "access_status": "text_available",
+      "access_note": "안내 페이지와 목차를 확인했습니다. 연결된 전체 강의·교재 본문을 번역하지 않았습니다.",
+      "translation_status": "reading_guide_only",
       "translation_path": null,
-      "reading_guide_path": null,
+      "reading_guide_path": "docs/external/course-guide.md",
       "found_in": [
         "getting_started_in_research.md"
-      ]
+      ],
+      "review_notes": "한국어 주제·목차·읽기 경로와 원문 링크를 제공합니다. 강의·교재·과제 전체나 영상 자막의 완역은 아닙니다."
     },
     {
       "id": "https://github.com/nizne9/EECS498-WI22",
@@ -921,30 +968,31 @@
         "https://github.com/nizne9/EECS498-WI22"
       ],
       "access_status": "text_available",
-      "access_note": "안내 페이지를 확인했습니다. 연결된 강의·과제 본문은 전체 번역하지 않았습니다.",
-      "translation_status": "pending",
+      "access_note": "안내 페이지와 목차를 확인했습니다. 연결된 전체 강의·교재 본문을 번역하지 않았습니다.",
+      "translation_status": "reading_guide_only",
       "translation_path": null,
-      "reading_guide_path": null,
+      "reading_guide_path": "docs/external/course-guide.md",
       "found_in": [
         "getting_started_in_research.md"
-      ]
+      ],
+      "review_notes": "한국어 주제·목차·읽기 경로와 원문 링크를 제공합니다. 강의·교재·과제 전체나 영상 자막의 완역은 아닙니다."
     },
     {
       "id": "notion-59569d7b66954578b21bf1dc6ea35776",
-      "title": "자주 사용하는 도구와 환경 설정",
+      "title": "Linux 연구 환경 설정 노트",
       "category": "notion",
       "urls": [
         "https://pengsida.notion.site/59569d7b66954578b21bf1dc6ea35776"
       ],
       "access_status": "fetched",
       "access_note": "공개 본문을 확보했습니다. 첨부 자료와 번역 완료 상태는 별도로 추적합니다.",
-      "translation_status": "pending",
-      "translation_path": null,
+      "translation_status": "translated",
+      "translation_path": "docs/notion/linux-research-environment.md",
       "reading_guide_path": null,
       "found_in": [
         "getting_started_in_research.md"
       ],
-      "review_notes": null
+      "review_notes": "공개 본문의 절과 예시를 대조했습니다. 논문 수정 문서의 이미지 2개도 확인해 옮겼습니다. 개발 환경의 과거 설정·오타·현재 설명을 구분했습니다."
     },
     {
       "id": "notion-8911dcc5922b4442a80d4407926e65bf",
@@ -978,7 +1026,7 @@
       "found_in": [
         "getting_started_in_research.md"
       ],
-      "review_notes": "공개 본문의 절·항목·예시를 한국어로 옮겼습니다. 인용 출처의 불확실성과 원저자의 견해를 구분했으며 별도 첨부 자료의 대조는 남아 있습니다."
+      "review_notes": "공개 본문의 절·항목·예시를 한국어로 옮겼습니다. 인용 출처의 불확실성과 원저자의 견해를 구분했으며 별도 첨부 자료의 대조는 남아 있습니다. 첨부 이미지를 직접 확인해 저자의 도표는 표·설명으로 옮기고 외부 인용은 요약으로 구분했습니다. 외부 첨부 전문은 완료로 집계하지 않습니다."
     },
     {
       "id": "https://sites.cs.ucsb.edu/~lingqi/teaching/games202.html",
@@ -987,14 +1035,15 @@
       "urls": [
         "https://sites.cs.ucsb.edu/~lingqi/teaching/games202.html"
       ],
-      "access_status": "not_checked",
-      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
-      "translation_status": "pending",
+      "access_status": "text_available",
+      "access_note": "안내 페이지와 목차를 확인했습니다. 연결된 전체 강의·교재 본문을 번역하지 않았습니다.",
+      "translation_status": "reading_guide_only",
       "translation_path": null,
-      "reading_guide_path": null,
+      "reading_guide_path": "docs/external/course-guide.md",
       "found_in": [
         "getting_started_in_research.md"
-      ]
+      ],
+      "review_notes": "한국어 주제·목차·읽기 경로와 원문 링크를 제공합니다. 강의·교재·과제 전체나 영상 자막의 완역은 아닙니다."
     },
     {
       "id": "https://www.bilibili.com/video/BV1eD4y1U7uu/",
@@ -1003,14 +1052,15 @@
       "urls": [
         "https://www.bilibili.com/video/BV1eD4y1U7uu/"
       ],
-      "access_status": "not_checked",
-      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
-      "translation_status": "pending",
+      "access_status": "limited",
+      "access_note": "영상 본문을 확보하지 못했습니다. Bilibili는 접근 제한, YouTube는 재생목록 제목 수준만 확인했습니다.",
+      "translation_status": "reading_guide_only",
       "translation_path": null,
-      "reading_guide_path": null,
+      "reading_guide_path": "docs/external/course-guide.md",
       "found_in": [
         "getting_started_in_research.md"
-      ]
+      ],
+      "review_notes": "한국어 주제·목차·읽기 경로와 원문 링크를 제공합니다. 강의·교재·과제 전체나 영상 자막의 완역은 아닙니다."
     },
     {
       "id": "https://www.deeplearningbook.org/",
@@ -1019,14 +1069,15 @@
       "urls": [
         "https://www.deeplearningbook.org/"
       ],
-      "access_status": "not_checked",
-      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
-      "translation_status": "pending",
+      "access_status": "text_available",
+      "access_note": "안내 페이지와 목차를 확인했습니다. 연결된 전체 강의·교재 본문을 번역하지 않았습니다.",
+      "translation_status": "reading_guide_only",
       "translation_path": null,
-      "reading_guide_path": null,
+      "reading_guide_path": "docs/external/course-guide.md",
       "found_in": [
         "getting_started_in_research.md"
-      ]
+      ],
+      "review_notes": "한국어 주제·목차·읽기 경로와 원문 링크를 제공합니다. 강의·교재·과제 전체나 영상 자막의 완역은 아닙니다."
     },
     {
       "id": "https://www.youtube.com/playlist?list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r",
@@ -1035,14 +1086,15 @@
       "urls": [
         "https://www.youtube.com/playlist?list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r"
       ],
-      "access_status": "not_checked",
-      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
-      "translation_status": "pending",
+      "access_status": "limited",
+      "access_note": "영상 본문을 확보하지 못했습니다. Bilibili는 접근 제한, YouTube는 재생목록 제목 수준만 확인했습니다.",
+      "translation_status": "reading_guide_only",
       "translation_path": null,
-      "reading_guide_path": null,
+      "reading_guide_path": "docs/external/course-guide.md",
       "found_in": [
         "getting_started_in_research.md"
-      ]
+      ],
+      "review_notes": "한국어 주제·목차·읽기 경로와 원문 링크를 제공합니다. 강의·교재·과제 전체나 영상 자막의 완역은 아닙니다."
     }
   ]
 }

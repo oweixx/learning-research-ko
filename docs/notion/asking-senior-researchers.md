@@ -15,7 +15,7 @@
 ## 기본 원칙
 
 1. 어려움과 지금까지의 생각을 정리한 뒤, 미루지 말고 도움을 요청합니다.
-2. [미팅 자료](https://pengsida.notion.site/d697ef578d784c869d4f8314f0d617da)를 준비합니다.
+2. [미팅 자료](./research-meetings.md)를 준비합니다.
 3. 프로젝트의 전체 방향을 상대가 이해할 수 있게 설명합니다.
 4. 현재 막힌 문제를 구체적으로 설명합니다.
 5. 평소에도 프로젝트 정보를 꾸준히 공유합니다.
@@ -38,6 +38,6 @@
 
 각 상황에서는 위 내용을 명확한 슬라이드로 만들어 제때 논의하고, 필요하면 경험 있는 선배 연구자도 함께 참여하도록 요청합니다.
 
-관련 자료: [논문 읽기](https://pengsida.notion.site/d192db870bc64436ae4a4a590b36772a), [아이디어 기르기](https://pengsida.notion.site/da6ce171c13846b7a7ffaa7473ffa6ea), [논문 검토](https://pengsida.notion.site/eed9ed1e9dc44a1c9437b114e6d5d9fd), [실패 원인 분석](https://pengsida.notion.site/1aee6e718de6472f834d13da8f4ff097), [실험 결과 열 가지 질문](https://pengsida.notion.site/4be609919b914b7587a5477bddc83001), [실험 기록](./experiment-records.md), [논문 작성 템플릿](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e), [글쓰기 연습](./writing-practice.md), [연구자들의 글쓰기 경험](https://pengsida.notion.site/74aef88b9187439fa4e301704f6eb49a).
+관련 자료: [논문 읽기](./reading-papers.md), [아이디어 기르기](./research-ideas.md), [논문 검토](./reviewing-papers.md), [실패 원인 분석](./experiment-failures.md), [실험 결과 열 가지 질문](./experiment-questions.md), [실험 기록](./experiment-records.md), [논문 작성 템플릿](./paper-writing-template.md), [글쓰기 연습](./writing-practice.md), [연구자들의 글쓰기 경험](./writing-resources.md).
 
 > 번역자 주: 원문에서 반복되는 도입부와 동일한 표는 한 번씩만 실었습니다. 고유한 항목은 모두 유지했습니다.

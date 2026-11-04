@@ -27,7 +27,7 @@ def digest(content: str) -> str:
 
 def render(path: str, content: str, mapping: dict) -> tuple[str, str]:
     lines = content.splitlines()
-    title = lines[0].removeprefix("# ") if lines and lines[0].startswith("# ") else path
+    title = lines[0].removeprefix("# ") if lines and lines[0].startswith("# ") else {"changelog": "원문 변경 이력"}.get(path, path)
     body = "\n".join(lines[1:] if lines and lines[0].startswith("# ") else lines).strip()
     body = re.sub(r"<!--[\s\S]*?-->", "", body)
 
@@ -58,6 +58,8 @@ def document_paths() -> list[str]:
     paths = ["README.md", "getting_started_in_research.md", "getting_advanced_in_research.md", "changelog", "TRANSLATION.md", "PUBLISHING.md", "docs/notion/README.md", "docs/external/README.md", "docs/external/reading-guide.md"]
     manifest = json.loads((ROOT / "translation/notion-source-manifest.json").read_text(encoding="utf-8"))
     paths += [p["translation_path"] for p in manifest["direct_pages"] + manifest["linked_pages"] if p.get("translation_path")]
+    catalog = json.loads((ROOT / "translation/external-sources.json").read_text(encoding="utf-8"))
+    paths += [p[key] for p in catalog["sources"] for key in ("translation_path", "reading_guide_path") if p.get(key)]
     return sorted(set(paths))
 
 

@@ -2,22 +2,22 @@
 
 원본 저장소의 변경 이력 62개 항목을 한국어로 옮겼습니다. 날짜는 원문 기준이며, 한국어판의 작업일이나 번역 완료일을 뜻하지 않습니다. 문서 제목은 한국어로 표기했으며, 외부 링크는 원문 자료로 연결됩니다.
 
-- 2026년 6월 6일: [논문 작성 템플릿](https://www.notion.so/pengsida/c1a22465a0fa4b15a12985223916048e)에 피라미드 원리를 활용한 글쓰기 방법을 추가했습니다.
-- 2026년 5월 8일: [심사 의견에 답변하는 법](https://www.notion.so/pengsida/rebuttal-af99ce47103e4917b6a5bd1fd4b3c022)에 리버털의 문체와 표현 방식을 추가했습니다.
-- 2026년 5월 3일: [심사 의견에 답변하는 법](https://www.notion.so/pengsida/rebuttal-af99ce47103e4917b6a5bd1fd4b3c022)에 리버털의 기본 절차를 보여 주는 흐름도를 추가했습니다.
-- 2026년 1월 25일: [논문을 찾는 법](https://www.notion.so/pengsida/c278dab7e4764d61a92c1fd1ef3135b1)에 Deep Research를 활용한 논문 검색 방법을 추가했습니다.
-- 2026년 1월 25일: [논문 작성 템플릿](https://www.notion.so/pengsida/c1a22465a0fa4b15a12985223916048e)에 논문 작성 계획도를 추가했습니다.
-- 2026년 1월 23일: [심사 의견에 답변하는 법](https://www.notion.so/pengsida/rebuttal-af99ce47103e4917b6a5bd1fd4b3c022)에 심사 의견을 도식으로 정리하는 도구를 추가했습니다.
-- 2026년 1월 18일: [연구 프로젝트를 수행하는 법](https://pengsida.notion.site/Research-Project-b43507ef26d044bd888ac29f4736e116?pvs=74)에 바이브 코딩 관련 내용을 추가했습니다.
-- 2026년 1월 18일: [논문을 효과적으로 읽는 법](https://www.notion.so/pengsida/d192db870bc64436ae4a4a590b36772a)을 업데이트했습니다.
-- 2026년 1월 10일: [연구 프로젝트를 수행하는 법](https://pengsida.notion.site/Research-Project-b43507ef26d044bd888ac29f4736e116?pvs=74)에 시스템적 사고에 관한 내용을 추가했습니다.
-- 2025년 10월 23일: [프로젝트의 핵심 기술 문제 분석 템플릿](https://www.notion.so/Project-1753fe292ff180948215cf82cd2b30ae?pvs=4)을 업데이트했습니다.
-- 2025년 8월 1일: [프로젝트의 핵심 기술 문제 분석 템플릿](https://www.notion.so/Project-1753fe292ff180948215cf82cd2b30ae?pvs=4)을 업데이트했습니다.
-- 2025년 4월 13일: [프로젝트의 핵심 기술 문제 분석 템플릿](https://www.notion.so/Project-1753fe292ff180948215cf82cd2b30ae?pvs=4)을 업데이트했습니다.
-- 2025년 4월 11일: [면접 질문을 통해 돌아보는 연구자의 중요한 자질](https://www.notion.so/1d13fe292ff180de91afcb7f2eb57b69?pvs=4)을 추가했습니다.
-- 2025년 3월 11일: [프로젝트의 핵심 기술 문제 분석 템플릿](https://www.notion.so/Project-1753fe292ff180948215cf82cd2b30ae?pvs=4)을 추가했습니다.
-- 2025년 1월 5일: [논문 작성 템플릿](https://www.notion.so/pengsida/c1a22465a0fa4b15a12985223916048e)을 업데이트했습니다.
-- 2025년 1월 4일: [박사과정 연구자의 좋은 본보기: Sebastian Starke](https://www.notion.so/Sebastian-Starke-1713fe292ff1808eb33be93ea2d79ad9?pvs=4)를 추가했습니다.
+- 2026년 6월 6일: [논문 작성 템플릿](./docs/notion/paper-writing-template.md) · [원문](https://www.notion.so/pengsida/c1a22465a0fa4b15a12985223916048e)에 피라미드 원리를 활용한 글쓰기 방법을 추가했습니다.
+- 2026년 5월 8일: [심사 의견에 답변하는 법](./docs/notion/rebuttal.md) · [원문](https://www.notion.so/pengsida/rebuttal-af99ce47103e4917b6a5bd1fd4b3c022)에 리버털의 문체와 표현 방식을 추가했습니다.
+- 2026년 5월 3일: [심사 의견에 답변하는 법](./docs/notion/rebuttal.md) · [원문](https://www.notion.so/pengsida/rebuttal-af99ce47103e4917b6a5bd1fd4b3c022)에 리버털의 기본 절차를 보여 주는 흐름도를 추가했습니다.
+- 2026년 1월 25일: [논문을 찾는 법](./docs/notion/finding-papers.md) · [원문](https://www.notion.so/pengsida/c278dab7e4764d61a92c1fd1ef3135b1)에 Deep Research를 활용한 논문 검색 방법을 추가했습니다.
+- 2026년 1월 25일: [논문 작성 템플릿](./docs/notion/paper-writing-template.md) · [원문](https://www.notion.so/pengsida/c1a22465a0fa4b15a12985223916048e)에 논문 작성 계획도를 추가했습니다.
+- 2026년 1월 23일: [심사 의견에 답변하는 법](./docs/notion/rebuttal.md) · [원문](https://www.notion.so/pengsida/rebuttal-af99ce47103e4917b6a5bd1fd4b3c022)에 심사 의견을 도식으로 정리하는 도구를 추가했습니다.
+- 2026년 1월 18일: [연구 프로젝트를 수행하는 법](./docs/notion/research-project.md) · [원문](https://pengsida.notion.site/Research-Project-b43507ef26d044bd888ac29f4736e116?pvs=74)에 바이브 코딩 관련 내용을 추가했습니다.
+- 2026년 1월 18일: [논문을 효과적으로 읽는 법](./docs/notion/reading-papers.md) · [원문](https://www.notion.so/pengsida/d192db870bc64436ae4a4a590b36772a)을 업데이트했습니다.
+- 2026년 1월 10일: [연구 프로젝트를 수행하는 법](./docs/notion/research-project.md) · [원문](https://pengsida.notion.site/Research-Project-b43507ef26d044bd888ac29f4736e116?pvs=74)에 시스템적 사고에 관한 내용을 추가했습니다.
+- 2025년 10월 23일: [프로젝트의 핵심 기술 문제 분석 템플릿](./docs/notion/technical-problem-template.md) · [원문](https://www.notion.so/Project-1753fe292ff180948215cf82cd2b30ae?pvs=4)을 업데이트했습니다.
+- 2025년 8월 1일: [프로젝트의 핵심 기술 문제 분석 템플릿](./docs/notion/technical-problem-template.md) · [원문](https://www.notion.so/Project-1753fe292ff180948215cf82cd2b30ae?pvs=4)을 업데이트했습니다.
+- 2025년 4월 13일: [프로젝트의 핵심 기술 문제 분석 템플릿](./docs/notion/technical-problem-template.md) · [원문](https://www.notion.so/Project-1753fe292ff180948215cf82cd2b30ae?pvs=4)을 업데이트했습니다.
+- 2025년 4월 11일: [면접 질문을 통해 돌아보는 연구자의 중요한 자질](./docs/notion/researcher-qualities.md) · [원문](https://www.notion.so/1d13fe292ff180de91afcb7f2eb57b69?pvs=4)을 추가했습니다.
+- 2025년 3월 11일: [프로젝트의 핵심 기술 문제 분석 템플릿](./docs/notion/technical-problem-template.md) · [원문](https://www.notion.so/Project-1753fe292ff180948215cf82cd2b30ae?pvs=4)을 추가했습니다.
+- 2025년 1월 5일: [논문 작성 템플릿](./docs/notion/paper-writing-template.md) · [원문](https://www.notion.so/pengsida/c1a22465a0fa4b15a12985223916048e)을 업데이트했습니다.
+- 2025년 1월 4일: [박사과정 연구자의 좋은 본보기: Sebastian Starke](./docs/notion/sebastian-starke.md) · [원문](https://www.notion.so/Sebastian-Starke-1713fe292ff1808eb33be93ea2d79ad9?pvs=4)를 추가했습니다.
 - 2024년 11월 28일: ‘논문 작성 템플릿’에 방법(Method) 절을 작성할 때 자주 생기는 문제를 추가했습니다.
 - 2024년 10월 24일: ‘논문의 글을 다듬는 법’을 추가했습니다.
 - 2024년 10월 3일: ‘Copilot과 GPT를 활용해 영어 글쓰기를 보완하는 법’을 추가했습니다.
@@ -55,7 +55,7 @@
 - 2023년 7월 21일: ‘연구 아이디어를 발전시키는 법’에 ‘John Schulman의 연구 조언’과 ‘Michael Nielsen의 연구 조언’을 추가했습니다.
 - 2023년 7월 16일: ‘논문을 효과적으로 읽는 법’을 추가했습니다.
 - 2023년 7월 5일: ‘연구 아이디어를 발전시키는 법’에 중요한 연구 문제를 찾는 일에 대한 뛰어난 연구자들의 견해를 추가했습니다.
-- 2023년 6월 29일: 이 저장소의 일부 내용을 [연구 방법 소개 슬라이드](https://pengsida.net/files/how_to_do_research.pdf)로 정리했습니다.
+- 2023년 6월 29일: 이 저장소의 일부 내용을 [연구 방법 소개 슬라이드](./docs/external/research-experience-slides.md) · [원문](https://pengsida.net/files/how_to_do_research.pdf)로 정리했습니다.
 - 2023년 6월 21일: ‘논문 작성 템플릿’에 실험을 통해 논문의 영향력을 높이는 방법을 추가했습니다. 목표 데이터에서 알고리즘이 제대로 작동하도록 만든 뒤에는 더 다양한 새 데이터로 실험해, 알고리즘의 한계와 잠재력을 탐색하라는 내용입니다.
 - 2023년 6월 10일: ‘연구 아이디어를 발전시키는 법’에 독창성(novelty)을 판단하는 기준을 추가했습니다. 새로운 데이터에서 방법의 가능성을 탐색하고 새로운 실험적 발견을 보여 주는 것 자체가 큰 기여라는 내용입니다.
 - 2023년 6월 7일: ‘논문 심사 템플릿’을 업데이트했습니다.

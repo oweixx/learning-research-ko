@@ -4,9 +4,11 @@
 
 이 저장소는 [Sida Peng의 Learning Research](https://github.com/pengsida/learning_research)를 한국어로 옮긴 **비공식 번역본**입니다. 저장소에 포함된 문서 4개를 모두 번역했으며, 원저자의 경험과 관점을 유지했습니다.
 
-> **현재 번역 범위:** 저장소 내부 문서 4개와 [Notion 한국어 문서 43개](./docs/notion/README.md)를 제공합니다. 본문·도표 대조 완료, 본문 번역, 소개·요약과 접근 제한을 구분합니다. **외부 자료 전체의 완역은 아직 끝나지 않았습니다.** [자료별 진행 현황](./docs/external/README.md)에서 실제 완료 범위를 확인하세요.
+> **현재 번역 범위:** 저장소 내부 문서 4개와 [Notion 한국어 문서 61개](./docs/notion/README.md)를 제공합니다. 본문·도표 대조 완료, 본문 번역, 소개·요약과 접근 제한을 구분합니다. **외부 자료 전체의 완역은 아직 끝나지 않았습니다.** [자료별 진행 현황](./docs/external/README.md)에서 실제 완료 범위를 확인하세요.
 >
 > 아래 본문의 ‘저’와 ‘우리 연구실’은 원저자와 원저자의 연구실을 뜻합니다.
+
+원저자의 **발표 PDF 7편(원본 합계 409쪽)**도 한국어 읽기 문서로 옮겼습니다. 반복 슬라이드는 합쳤고 인용 논문·시연은 별도로 표시했습니다. [발표 자료와 강의 길잡이](./docs/external/reading-guide.md)에서 이어서 읽을 수 있습니다.
 
 ## 어디서부터 읽으면 좋을까요?
 
@@ -47,24 +49,24 @@
 3. [연구 프로젝트를 수행하는 법: 박사과정 연구자가 갖춰야 할 역량](./docs/notion/research-project.md) · [원문](https://pengsida.notion.site/research-project-b43507ef26d044bd888ac29f4736e116)
 4. 논문 쓰기
    - [논문 쓰기를 연습하는 법](./docs/notion/writing-practice.md) · [원문](https://pengsida.notion.site/c13c7e52aab64c1a8e3576b97fcb9851)
-   - [논문 작성 템플릿](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e) — 우리 연구실에서 유용하게 사용하는 자료입니다.
-   - [뛰어난 연구자들의 글쓰기 경험](https://pengsida.notion.site/74aef88b9187439fa4e301704f6eb49a)
-5. [심사 의견에 답변하는 법: 리버털(rebuttal)](https://pengsida.notion.site/rebuttal-af99ce47103e4917b6a5bd1fd4b3c022)
-6. [학술 발표 슬라이드를 만드는 법](https://pengsida.notion.site/slides-810f02670691444f8c94cc3d5b76dcbc)
+   - [논문 작성 템플릿](./docs/notion/paper-writing-template.md) · [원문](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e) — 우리 연구실에서 유용하게 사용하는 자료입니다.
+   - [뛰어난 연구자들의 글쓰기 경험](./docs/notion/writing-resources.md) · [원문](https://pengsida.notion.site/74aef88b9187439fa4e301704f6eb49a)
+5. [심사 의견에 답변하는 법: 리버털(rebuttal)](./docs/notion/rebuttal.md) · [원문](https://pengsida.notion.site/rebuttal-af99ce47103e4917b6a5bd1fd4b3c022)
+6. [학술 발표 슬라이드를 만드는 법](./docs/notion/academic-talks.md) · [원문](https://pengsida.notion.site/slides-810f02670691444f8c94cc3d5b76dcbc)
 
 ## 강의 슬라이드와 영상
 
-위 조언의 일부는 다음 슬라이드와 영상에도 정리되어 있습니다. 모두 외부 원어 자료입니다.
+위 조언의 일부는 다음 슬라이드와 영상에도 정리되어 있습니다. 한국어 읽기 문서와 안내를 먼저 연결하고, 원문 슬라이드와 영상 주소도 함께 보존했습니다.
 
 1. **GAMES003: 연구의 기초 소양**
-   - 연구 과정의 이해와 분야를 보는 안목 기르기: [슬라이드](https://pengsida.net/games003/GAMES003_files/week_1.pdf) · [강의 영상](https://www.bilibili.com/video/BV1RitTezEa9?p=1)
-   - 기술적 해결책을 설계하는 방법: [슬라이드](https://pengsida.net/games003/GAMES003_files/week_3.pdf) · [강의 영상](https://www.bilibili.com/video/BV1RitTezEa9?p=3)
-   - 실험 결과를 바탕으로 해결책 개선하기: [슬라이드](https://pengsida.net/games003/GAMES003_files/week_5.pdf) · [강의 영상](https://www.bilibili.com/video/BV1RitTezEa9?p=5)
-2. **Learning Research**: [슬라이드](https://pengsida.net/files/learning_research_v4.pdf) · [발표 영상](https://www.bilibili.com/video/BV1DA4m1V7D3/)
-3. **분야를 보는 안목과 연구 주제 선정**에 초점을 맞춘 발표(2025년 8월 12일): [슬라이드](https://pengsida.net/files/research_topic_selection.pdf)
-4. **중국컴퓨터학회(CCF) 우수 박사학위논문 수상자가 되기까지**: [슬라이드](https://pengsida.net/files/CCF_Talk.pdf)
+   - 연구 과정의 이해와 분야를 보는 안목 기르기: [슬라이드](./docs/external/games003-week1.md) · [원문](https://pengsida.net/games003/GAMES003_files/week_1.pdf) · [강의 영상](./docs/external/course-guide.md) · [원문](https://www.bilibili.com/video/BV1RitTezEa9?p=1)
+   - 기술적 해결책을 설계하는 방법: [슬라이드](./docs/external/games003-week3.md) · [원문](https://pengsida.net/games003/GAMES003_files/week_3.pdf) · [강의 영상](./docs/external/course-guide.md) · [원문](https://www.bilibili.com/video/BV1RitTezEa9?p=3)
+   - 실험 결과를 바탕으로 해결책 개선하기: [슬라이드](./docs/external/games003-week5.md) · [원문](https://pengsida.net/games003/GAMES003_files/week_5.pdf) · [강의 영상](./docs/external/course-guide.md) · [원문](https://www.bilibili.com/video/BV1RitTezEa9?p=5)
+2. **Learning Research**: [슬라이드](./docs/external/learning-process-slides.md) · [원문](https://pengsida.net/files/learning_research_v4.pdf) · [발표 영상](./docs/external/course-guide.md) · [원문](https://www.bilibili.com/video/BV1DA4m1V7D3/)
+3. **분야를 보는 안목과 연구 주제 선정**에 초점을 맞춘 발표(2025년 8월 12일): [슬라이드](./docs/external/research-topic-selection.md) · [원문](https://pengsida.net/files/research_topic_selection.pdf)
+4. **중국컴퓨터학회(CCF) 우수 박사학위논문 수상자가 되기까지**: [슬라이드](./docs/external/ccf-retrospective.md) · [원문](https://pengsida.net/files/CCF_Talk.pdf)
 
-저는 [Jun Gao](https://www.cs.toronto.edu/~jungao/), [Songyou Peng](https://pengsongyou.github.io/), [Qianqian Wang](https://qianqianwang68.github.io/)과 함께 GAMES 플랫폼에서 [GAMES003: 그래픽스·비전 연구의 기초 소양](https://pengsida.net/games003/) 강의를 개설했습니다.
+저는 [Jun Gao](https://www.cs.toronto.edu/~jungao/), [Songyou Peng](https://pengsongyou.github.io/), [Qianqian Wang](https://qianqianwang68.github.io/)과 함께 GAMES 플랫폼에서 [GAMES003: 그래픽스·비전 연구의 기초 소양](./docs/external/course-guide.md) · [원문](https://pengsida.net/games003/) 강의를 개설했습니다.
 
 ## 출처와 이용 안내
 

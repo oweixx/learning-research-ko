@@ -8,7 +8,7 @@
 
 > 이 글의 ‘저’는 원저자 Sida Peng을 뜻합니다. 연구 평가와 수치는 원문 작성 당시의 관찰입니다. 원문 작성일은 2025년 1월 4일입니다.
 
-최근 이틀 동안 Sebastian Starke가 박사과정에서 발표한 캐릭터 제어(character control) 논문들을 읽으며 많은 것을 배웠습니다. [논문 노트](https://pengsida.notion.site/1703fe292ff1809e92d2ff48f47e06de)도 남겼습니다. 저는 그를 개인적으로 알지는 못하지만, 일련의 논문을 읽는 것만으로 깊은 존경심이 들었습니다. 나중에 다시 읽고 돌아보기 위해 느낀 점을 적습니다.
+최근 이틀 동안 Sebastian Starke가 박사과정에서 발표한 캐릭터 제어(character control) 논문들을 읽으며 많은 것을 배웠습니다. [논문 노트](./phase-character-control.md)도 남겼습니다. 저는 그를 개인적으로 알지는 못하지만, 일련의 논문을 읽는 것만으로 깊은 존경심이 들었습니다. 나중에 다시 읽고 돌아보기 위해 느낀 점을 적습니다.
 
 [Sebastian Starke](https://github.com/sebastianstarke)는 Taku Komura 연구실에서 박사과정을 밟았습니다. 박사과정 동안 매년 SIGGRAPH에 논문을 발표하며, 5년에 걸쳐 상용화에 가까운 캐릭터 제어 시스템을 구축했습니다. 게임 업계에서 사용할 수 있는 동작 시스템의 수준을 크게 끌어올린 놀라운 성과입니다. 그의 GitHub 프로젝트 [AI4Animation](https://github.com/sebastianstarke/AI4Animation)은 원문 작성 당시 별 7,400개를 받았습니다.
 

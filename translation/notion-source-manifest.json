@@ -2,11 +2,11 @@
   "checked_on": "2026-11-04",
   "scope": "저장소에서 직접 연결한 Notion 18개와 재귀적으로 발견한 추가 페이지 46개를 추적합니다. 비공개 페이지와 조회 실패, 별도 데이터베이스 및 외부 첨부 자료는 완료로 간주하지 않습니다.",
   "source_cache": "원문 응답과 이미지는 로컬 .git/notion-cache에만 보관하며 공개 저장소에는 포함하지 않습니다.",
-  "completion_rule": "translated는 공개 본문과 해당 문서의 학습용 도표를 대조한 상태입니다. body_translated는 본문을 옮겼지만 첨부 검수가 남은 상태, reading_guide_only는 짧은 소개·요약, blocked는 원문 접근 제한입니다. 링크된 외부 저작물과 강의 영상 전문은 독립적으로 추적합니다.",
+  "completion_rule": "translated는 공개 본문과 해당 문서의 학습용 도표를 대조한 상태입니다. body_translated는 본문을 옮겼지만 외부 인용·첨부가 별도이거나 추가 검수가 필요한 상태, reading_guide_only는 짧은 소개·요약, blocked는 원문 접근 제한입니다. 링크된 외부 저작물과 강의 영상 전문은 독립적으로 추적합니다.",
   "direct_pages": [
     {
       "id": "74aef88b9187439fa4e301704f6eb49a",
-      "title": "뛰어난 연구자들의 글쓰기 경험",
+      "title": "논문 쓰기와 글의 흐름을 배우는 자료",
       "source_url": "https://pengsida.notion.site/74aef88b9187439fa4e301704f6eb49a",
       "fetched_on": "2026-11-04",
       "source_last_edited_at": "2026-10-31T09:01:59.803Z",
@@ -17,37 +17,37 @@
         {
           "type": "file",
           "reference": "notion-file-block://6f11bf77-4046-4120-86d8-67ecaafddca2/d654c4b6-5711-4fcf-9bcb-16ff31bac72c?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=how_to_write_a_good_CVPR_submission.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://483f6925-fd06-4d65-9dbb-9eeab06e36ff/566b7cfd-3fac-48c2-a140-b0a0705d7fbe?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "file",
           "reference": "notion-file-block://e7914ff6-4c26-427d-9a4f-ee3f4a33cdd3/48cdbf3a-810c-47ac-b066-63b470a9b76c?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=paper_chairs_writing.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "file",
           "reference": "notion-file-block://9228d4c2-6649-4bbc-ae35-f0a948142232/b8bb5b18-5449-431d-bd49-433733ea5740?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Writing_Science.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://0690a8b2-6b0d-4fe5-8773-5b38c8ff30c3/88297f91-31f0-4607-8e16-82e9f499f798?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "file",
           "reference": "notion-file-block://1cadf4cd-f842-4d48-951f-b4cf09c25bc3/afb153ec-eddd-4d51-b6c2-71610222ac94?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=does-my-writing-flow.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         }
       ],
-      "translation_status": "pending",
-      "translation_path": null,
-      "review_notes": null,
+      "translation_status": "reading_guide_only",
+      "translation_path": "docs/notion/writing-resources.md",
+      "review_notes": "공개 자료의 성격과 출처를 확인했습니다. 외부 저작물은 한국어 소개·요약으로 제공하며 전문 번역 완료로 집계하지 않습니다. 접근 제한 자료는 조회 가능한 범위만 안내합니다.",
       "access_status": "fetched"
     },
     {
@@ -82,7 +82,7 @@
     },
     {
       "id": "c1a22465a0fa4b15a12985223916048e",
-      "title": "논문 작성 템플릿",
+      "title": "논문 작성의 순서와 문단 구성 템플릿",
       "source_url": "https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e",
       "fetched_on": "2026-11-04",
       "source_last_edited_at": "2026-06-05T11:14:02.050Z",
@@ -93,127 +93,127 @@
         {
           "type": "file",
           "reference": "notion-file-block://2f33fe29-2ff1-8034-9d07-d83a9fa262c6/b967f438-297a-4b23-ae38-74b11c5df93a?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C%E8%A7%84%E5%88%92.drawio",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://2f33fe29-2ff1-803c-aa1c-fcdf1d47e716/a8ae5a4f-02b4-4430-bc0c-1f919387f112?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=page1.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://2f33fe29-2ff1-809c-9f29-eb2954c826b5/1c16dd8c-0c8e-4d66-b433-cc2d14003ffc?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=180c747c-a47d-4ecc-8520-6d9e30d25728.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://2f33fe29-2ff1-801e-8a21-d0dbdbb89bdf/76bf1a25-cd42-4af8-be93-6bc9a2ab8765?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=83930b48-c627-4b05-aac1-630121ff5c3a.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://2f33fe29-2ff1-80dc-89ef-f2a8aabdb8ae/12b8764e-f22a-4bc0-838a-8e07ba89c530?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=page4.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://da0c83a1-2795-4ce7-bf18-d1a2703b68c8/815d0c8a-2b68-44a5-abbf-a9faca613f9e?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "file",
           "reference": "notion-file-block://95a8838e-bc2c-49fe-a8aa-e4a073a9c840/f555d465-8e65-42f6-b95c-f754ebe8d0af?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=does-my-writing-flow.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "file",
           "reference": "notion-file-block://b5416686-09a4-47dd-bae6-431af7bcfae8/8f97609d-1caa-48de-a1df-ad5be53e996e?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=neuralbody.ai",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://3684005d-ef7a-4c67-8a4b-7e1bfdb1beab/983b7c2e-be08-4169-83ba-5e1f5710b3d1?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "file",
           "reference": "notion-file-block://2dcb18fd-b953-4b16-b010-54919331ed47/008448e1-2f6a-4ad2-845d-f26927f6d675?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=instant_ngp.ai",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://6e28cb54-e3e8-4aa3-8acd-f3fea3d75344/91a4d6f8-4788-4ee7-8459-e513061f3a65?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "file",
           "reference": "notion-file-block://14c3fe29-2ff1-8037-a6b3-db19ec1e6ec4/f8ca731d-407e-41f0-aa0b-f930aea6d9c2?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Method%25E5%2586%2599%25E4%25BD%259C%25E5%25B8%25B8%25E8%25A7%2581%25E9%2597%25AE%25E9%25A2%2598.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://4d4c5614-5ad9-4bc5-8d3e-e2cd4e4c4066/8307a05b-9808-41c2-af60-5140c5fc2d6b?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://13d3fe29-2ff1-8061-8451-e5c7de1408c3/4c5681c8-4ae0-4921-9bc8-f5f41fe74017?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://13d3fe29-2ff1-8079-8c40-eb63190ab9f3/1d96ec63-f89e-4432-bce9-3a8d84649a55?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://1af3fe29-2ff1-805e-8696-ce9b5e60aac9/16dfea3e-67ab-4807-bbdd-07adc0c94aae?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://13d3fe29-2ff1-80c1-bd58-f6799d9e65ed/b9043789-150b-4154-a08e-891236a40517?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://13d3fe29-2ff1-8080-9fce-fc90d9d09f1e/d10c8832-faf1-40d4-b978-f078c064a83e?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://13d3fe29-2ff1-8042-869d-c3502b33ada3/8a2d2375-0f36-44a3-bec0-63e9020186f2?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://f3142bf8-909a-4052-b4b1-c21eb1fd081f/8b8babfb-70a5-4dd6-92e0-5ec85db4058d?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://84bd5d74-4dfc-4915-a6b9-5f565558deb9/22237095-a0bf-4920-b9c0-7b48076370c8?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://972389c9-e134-43ee-b6c3-029d23f0751b/6736cb5f-0aff-4e83-bef8-c4d342f0d923?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://3745210f-97ec-4daf-8f3e-98f066df432a/25eb5132-931b-458e-8f9b-2c774f4b6f3d?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://fc7ace48-9521-4a9f-8211-d9efcc456733/60269689-8f65-4be5-b109-9bf20173e3be?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         }
       ],
-      "translation_status": "pending",
-      "translation_path": null,
-      "review_notes": null,
+      "translation_status": "body_translated",
+      "translation_path": "docs/notion/paper-writing-template.md",
+      "review_notes": "작성 절차 11단계, 일정, 초록 3유형, 서론의 도입·난점·기여 유형, 방법·실험·결론의 지침을 대조했습니다. 이미지 19개를 열어 구조와 주석을 확인했습니다. 긴 논문 인용은 사례 해설로 구분했고 별도 PDF·편집 파일의 대조는 남아 있습니다. 첨부 방법 절 작성 안내 6쪽은 본문과 사례를 한국어로 옮겼고, 외부 글쓰기 센터 자료는 짧게 요약했습니다.",
       "access_status": "fetched"
     },
     {
@@ -229,17 +229,18 @@
         {
           "type": "file",
           "reference": "notion-file-block://35a3fe29-2ff1-8038-842f-dd7322e8de9e/6ff1ea4f-4a26-4434-9c48-6dd7e11e7ecd?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Rebuttal%E8%AF%AD%E8%A8%80%E9%A3%8E%E6%A0%BC%E7%A4%BA%E4%BE%8B.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "file",
           "reference": "notion-file-block://2f13fe29-2ff1-80d1-abc9-eb44869ca9cd/a4d05740-5617-497d-b380-ac50efcf4ae0?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Rebuttal%E6%95%B4%E7%90%86%E6%A8%A1%E6%9D%BF.drawio",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://3553fe29-2ff1-8082-9544-f8223557b369/d11ca5fc-12cd-416d-9689-3e0f497b8f0f?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "translated",
+          "review_notes": "본문의 한국어 답변 작성 순서와 도표를 대조했습니다."
         }
       ],
       "translation_status": "body_translated",
@@ -275,72 +276,72 @@
         {
           "type": "image",
           "reference": "notion-file-block://c5db4099-6047-40f2-9406-806ea5fbeffa/4320cd20-686c-4846-89a2-fb0b4db41808?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://d5fa0ede-5149-4065-999c-73f19d646e13/bd92df9d-7a06-43a6-86f3-de7b4988c6f4?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://f211f196-e37a-4e1f-9328-8b14bfab0d2e/60564a9a-e5ab-4ee4-9451-e0e652fe850d?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://4e4204cf-840a-4bff-a791-f29ee633811b/26c877e2-2299-491e-b867-7ebb6fc71287?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://868d2d02-e244-4d14-a03f-d65e3c58daa5/4741ff25-87d4-48ec-b189-396f02dba60d?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://73f2a9c7-1760-4d9c-8011-35c5f088f874/8e2db037-f524-4bdd-b33d-510ac9ad9a57?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://fd5835f6-b093-4ab5-aa37-3e611f3c8750/a16eed09-d03d-4544-855d-2a37ceb8e3d2?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://aa6c615d-dc0a-447c-ab00-a718a102d0ec/6a0a64c6-32ff-41eb-baca-a90c5f2a744d?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://e6bcdaac-fb3a-4d51-988e-cae62aa019b8/c88f22f8-0efa-4a7b-ac65-a3a90e5d34d6?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://482786d5-a097-4122-9d0b-f87ad8696f0a/1ab1ecc0-7de2-48bb-912a-f4593ad7023d?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://8b380bda-e8c8-46d3-8f20-c9d2d84807f5/a788c776-2714-4bc0-ba4d-e629525515db?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://cd41062d-8b7f-487a-91d0-eea7d9779c32/e7b34d49-d4e5-41a9-8b6d-8a01209773b0?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         }
       ],
       "translation_status": "body_translated",
       "translation_path": "docs/notion/academic-talks.md",
-      "review_notes": "공개 텍스트 본문을 번역했습니다. 첨부 이미지·파일의 별도 대조가 남아 있습니다.",
+      "review_notes": "공개 텍스트 본문을 번역했습니다. 첨부 이미지·파일의 별도 대조가 남아 있습니다. 첨부 이미지를 직접 확인해 저자의 도표는 표·설명으로 옮기고 외부 인용은 요약으로 구분했습니다. 외부 첨부 전문은 완료로 집계하지 않습니다.",
       "access_status": "fetched"
     },
     {
       "id": "1d13fe292ff180de91afcb7f2eb57b69",
-      "title": "면접 질문을 통해 돌아보는 연구자의 중요한 자질",
+      "title": "영향력 있는 연구를 위한 여섯 가지 질문",
       "source_url": "https://www.notion.so/1d13fe292ff180de91afcb7f2eb57b69?pvs=4",
       "fetched_on": "2026-11-04",
       "source_last_edited_at": "2025-06-25T01:17:41.410Z",
@@ -348,9 +349,9 @@
       "content_characters": 2132,
       "omission_check": "공개 조회 응답을 확보했습니다. 이미지와 첨부 파일은 본문과 별도로 검수합니다.",
       "media": [],
-      "translation_status": "pending",
-      "translation_path": null,
-      "review_notes": null,
+      "translation_status": "reading_guide_only",
+      "translation_path": "docs/notion/researcher-qualities.md",
+      "review_notes": "공개 자료의 성격과 출처를 확인했습니다. 외부 저작물은 한국어 소개·요약으로 제공하며 전문 번역 완료로 집계하지 않습니다. 접근 제한 자료는 조회 가능한 범위만 안내합니다.",
       "access_status": "fetched"
     },
     {
@@ -366,17 +367,17 @@
         {
           "type": "image",
           "reference": "notion-file-block://19a3fe29-2ff1-8071-89d3-c8b845dcf4d9/6ea94f99-bb4e-4dea-adc2-aa7d638642a5?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         },
         {
           "type": "image",
           "reference": "notion-file-block://1bd3fe29-2ff1-8095-940b-ecd20dc635a3/f4cb1e2d-0877-42c0-be96-8194e85a5dc9?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         }
       ],
-      "translation_status": "body_translated",
+      "translation_status": "translated",
       "translation_path": "docs/notion/technical-problem-template.md",
-      "review_notes": "공개 본문의 절·항목·예시를 한국어로 옮겼습니다. 인용 출처의 불확실성과 원저자의 견해를 구분했으며 별도 첨부 자료의 대조는 남아 있습니다.",
+      "review_notes": "공개 본문의 절·항목·예시를 한국어로 옮겼습니다. 인용 출처의 불확실성과 원저자의 견해를 구분했으며 별도 첨부 자료의 대조는 남아 있습니다. 첨부 이미지의 학습 내용을 한국어로 대조했습니다.",
       "access_status": "fetched"
     },
     {
@@ -459,47 +460,47 @@
         {
           "type": "image",
           "reference": "notion-file-block://776cbdc6-b8bb-4848-a909-454624dc8f86/de108a13-9686-4116-8bd9-8bcc8c7f1445?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://56a23210-32a3-4033-8a37-322688efa8cf/1526a5b0-ce71-4883-b16a-42e1407c9c4c?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://501858ad-4c5d-4733-ac5d-a6a1a3a22ad9/57774e5b-58b9-4c31-aeac-b19d9c01b78f?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://55b8c1be-ae21-480a-a1c5-cedde59cbad2/42e206f3-ddff-4513-b68f-efdbf529b24c?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://465263f6-8cc8-4a80-9538-66e72a98d5f7/c37b5d15-a854-4288-9c2b-659c8d049d5f?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://e587b0e7-e236-44cc-bd05-394a1ef7ee7c/6909e8fa-c751-43ea-91ec-7970de80e559?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "file",
           "reference": "notion-file-block://5beae0a0-35db-471f-9011-ce6b4105c4fd/6d0e9367-b6e9-4ea1-ae91-425a03aa85e0?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=doresearch.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "file",
           "reference": "notion-file-block://64f3b300-aef3-471a-9432-7dea4afbd662/f9ecc77a-b91a-44d5-8801-0179279a94a5?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E6%259D%25A8%25E6%25A4%258D%25E9%25BA%259F%25E7%259A%2584%25E7%25A7%2591%25E7%25A0%2594%25E7%25BB%258F%25E9%25AA%258C.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         }
       ],
       "translation_status": "body_translated",
       "translation_path": "docs/notion/experiment-failures.md",
-      "review_notes": "공개 본문의 절·항목·예시를 한국어로 옮겼습니다. 인용 출처의 불확실성과 원저자의 견해를 구분했으며 별도 첨부 자료의 대조는 남아 있습니다.",
+      "review_notes": "공개 본문의 절·항목·예시를 한국어로 옮겼습니다. 인용 출처의 불확실성과 원저자의 견해를 구분했으며 별도 첨부 자료의 대조는 남아 있습니다. 첨부 이미지를 직접 확인해 저자의 도표는 표·설명으로 옮기고 외부 인용은 요약으로 구분했습니다. 외부 첨부 전문은 완료로 집계하지 않습니다.",
       "access_status": "fetched"
     },
     {
@@ -530,47 +531,47 @@
         {
           "type": "file",
           "reference": "notion-file-block://8024fdad-b9e8-4210-b20d-4318085ec552/914bd0cd-928d-4ad4-8497-7829a16ca237?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=John_Schulman%25E7%259A%2584%25E7%25A7%2591%25E7%25A0%2594%25E7%25BB%258F%25E9%25AA%258C.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "file",
           "reference": "notion-file-block://cf8cadb3-976d-4f8a-a923-1ab3172443f7/95f5f8fa-0285-4f85-8342-638736a07836?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Michael_Nielsen%25E7%259A%2584%25E7%25A7%2591%25E7%25A0%2594%25E7%25BB%258F%25E9%25AA%258C.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://1933fe29-2ff1-8087-b9e9-f02acc5a237e/b46ad1d2-b496-4737-afa6-7cd1c0b83a9b?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://1933fe29-2ff1-805f-b1fe-cb7141fd116b/3df343dd-5dc1-4a96-b200-36e148aefc20?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://1933fe29-2ff1-8049-8cb0-dff8ef49d81c/d9e05db2-bfb9-4166-94c7-f9d38344da9b?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://1933fe29-2ff1-80f1-b7cd-fdcae42eab2a/a6b6d15c-f65d-4478-b74b-427f615b5455?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://b803c4be-c27c-4e29-aeff-64de4fa51c7e/2becd311-d5e4-4644-a63e-5af5aa2affbf?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://9f10858e-51bd-49b9-8c23-fff3d0b3f488/301e769d-cb50-4fef-be25-d87fe03b5487?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=problem-driven_research.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         }
       ],
       "translation_status": "body_translated",
       "translation_path": "docs/notion/research-ideas.md",
-      "review_notes": "공개 본문의 모든 절과 역할 분담·미팅 구성 항목을 대조했습니다. 취소된 과거 견해와 서로 다른 지침을 명시했습니다. 별도 인용 이미지와 파일은 따로 추적합니다.",
+      "review_notes": "공개 본문의 모든 절과 역할 분담·미팅 구성 항목을 대조했습니다. 취소된 과거 견해와 서로 다른 지침을 명시했습니다. 별도 인용 이미지와 파일은 따로 추적합니다. 첨부 이미지를 직접 확인해 저자의 도표는 표·설명으로 옮기고 외부 인용은 요약으로 구분했습니다. 외부 첨부 전문은 완료로 집계하지 않습니다.",
       "access_status": "fetched"
     },
     {
@@ -586,57 +587,57 @@
         {
           "type": "image",
           "reference": "notion-file-block://f2727348-6274-4b6b-b102-54c15ed41293/c747a933-a4b9-4188-a6c1-f324620ac3ba?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://ace8dab1-b79e-4c65-9a72-c2bc50f5d049/d66a5e72-e130-4f94-8cc6-ae88e7c0c87f?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://219f3d4c-35e3-4aaa-930e-2750c67930b6/8247955c-45ac-4ba8-ae67-a72c675c4cb9?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         },
         {
           "type": "image",
           "reference": "notion-file-block://12470c1b-5b94-4c98-a239-e6179fc28455/b6c87cef-73c1-4032-916d-72be837c7f8e?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         },
         {
           "type": "image",
           "reference": "notion-file-block://c573c7c2-ab3c-44d9-87df-f380caf52191/265923cc-c2bf-480f-a1be-1406b755da02?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         },
         {
           "type": "image",
           "reference": "notion-file-block://7d0e8631-2c63-459a-89e3-eb21de8b3fcc/7cb86ed2-7d2f-415b-9ad3-74b7a328156f?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         },
         {
           "type": "image",
           "reference": "notion-file-block://1543fe29-2ff1-805e-87fb-d4d9ea5ef013/dc1083fe-a7d5-4555-8c55-7c5ddcf5a522?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         },
         {
           "type": "image",
           "reference": "notion-file-block://b1920a87-377e-4876-bd7c-eb2eefc6b98e/1c171f9e-62c2-4f7b-ba89-5d8b3cb54268?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         },
         {
           "type": "image",
           "reference": "notion-file-block://14c3fe29-2ff1-8085-8d7f-e4f930de1110/f4bd54a8-3f39-4ff9-8309-1364359d57f2?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         }
       ],
       "translation_status": "body_translated",
       "translation_path": "docs/notion/research-meetings.md",
-      "review_notes": "공개 본문의 모든 절과 역할 분담·미팅 구성 항목을 대조했습니다. 취소된 과거 견해와 서로 다른 지침을 명시했습니다. 별도 인용 이미지와 파일은 따로 추적합니다.",
+      "review_notes": "공개 본문의 모든 절과 역할 분담·미팅 구성 항목을 대조했습니다. 취소된 과거 견해와 서로 다른 지침을 명시했습니다. 별도 인용 이미지와 파일은 따로 추적합니다. 첨부 이미지를 직접 확인해 저자의 도표는 표·설명으로 옮기고 외부 인용은 요약으로 구분했습니다. 외부 첨부 전문은 완료로 집계하지 않습니다.",
       "access_status": "fetched"
     },
     {
       "id": "59569d7b66954578b21bf1dc6ea35776",
-      "title": "자주 사용하는 도구와 환경 설정",
+      "title": "Linux 연구 환경 설정 노트",
       "source_url": "https://pengsida.notion.site/59569d7b66954578b21bf1dc6ea35776",
       "fetched_on": "2026-11-04",
       "source_last_edited_at": "2023-05-26T13:41:42.185Z",
@@ -644,9 +645,9 @@
       "content_characters": 6141,
       "omission_check": "공개 조회 응답을 확보했습니다. 이미지와 첨부 파일은 본문과 별도로 검수합니다.",
       "media": [],
-      "translation_status": "pending",
-      "translation_path": null,
-      "review_notes": null,
+      "translation_status": "translated",
+      "translation_path": "docs/notion/linux-research-environment.md",
+      "review_notes": "공개 본문의 절과 예시를 대조했습니다. 논문 수정 문서의 이미지 2개도 확인해 옮겼습니다. 개발 환경의 과거 설정·오타·현재 설명을 구분했습니다.",
       "access_status": "fetched"
     },
     {
@@ -662,7 +663,7 @@
         {
           "type": "image",
           "reference": "notion-file-block://1c48d71d-3ee6-48d3-bd06-26a04fb02839/5e205a84-74cf-4fa4-9483-be0ceee5a6fa?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         }
       ],
       "translation_status": "translated",
@@ -683,42 +684,42 @@
         {
           "type": "image",
           "reference": "notion-file-block://966a63bf-487f-4cee-a4f8-306fbdf0eef0/9a0cedff-ff40-48c7-a9e7-aaa9123cd5a4?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://9475bc0c-2913-4c76-a992-c330b1b04187/e2012e16-dedd-4d3c-95de-8febcf6762b6?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://55bec4bd-972a-4d53-9af6-fb76130170e6/940e3f51-194e-4943-a66c-20cbb8261cb8?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://3b3bcb31-0720-4ad8-a04b-d4475f9ee7b0/8a9adc94-a100-43d2-aaaf-dbcffcd95dc1?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://0ffdec50-cafe-420f-8f85-bfbbd4e52d6c/f93aef46-b847-4de1-8b78-61f1990ffcee?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E6%25B2%2588%25E5%2590%2591%25E6%25B4%258B%25E8%2580%2581%25E5%25B8%2588%25E7%259A%2584%25E7%25A7%2591%25E7%25A0%2594%25E7%25BB%258F%25E9%25AA%258C.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "file",
           "reference": "notion-file-block://643bd113-2df3-4bdb-a982-56009c2ec3d9/6d0e9367-b6e9-4ea1-ae91-425a03aa85e0?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=doresearch.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "file",
           "reference": "notion-file-block://c5e0fe79-1c21-42a8-a844-be0d54020ad9/1e75fd4c-9d3b-4afd-ac92-1ed2942f1017?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E4%25BC%2597%25E5%25A4%259A%25E9%25AB%2598%25E6%25B0%25B4%25E5%25B9%25B3%25E7%25A7%2591%25E7%25A0%2594%25E5%25B7%25A5%25E4%25BD%259C%25E8%2580%2585%25E8%25AE%25A4%25E4%25B8%25BA%25E7%259A%2584%25E4%25B8%2580%25E4%25B8%25AATop_Ph.D._student%25E6%2589%2580%25E9%259C%2580%25E8%25A6%2581%25E7%259A%2584%25E5%2593%2581%25E8%25B4%25A8.pdf.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         }
       ],
       "translation_status": "body_translated",
       "translation_path": "docs/notion/research-vs-coursework.md",
-      "review_notes": "공개 본문의 절·항목·예시를 한국어로 옮겼습니다. 인용 출처의 불확실성과 원저자의 견해를 구분했으며 별도 첨부 자료의 대조는 남아 있습니다.",
+      "review_notes": "공개 본문의 절·항목·예시를 한국어로 옮겼습니다. 인용 출처의 불확실성과 원저자의 견해를 구분했으며 별도 첨부 자료의 대조는 남아 있습니다. 첨부 이미지를 직접 확인해 저자의 도표는 표·설명으로 옮기고 외부 인용은 요약으로 구분했습니다. 외부 첨부 전문은 완료로 집계하지 않습니다.",
       "access_status": "fetched"
     }
   ],
@@ -756,15 +757,15 @@
     },
     {
       "id": "1143fe292ff180feb5d0fe76d05e085b",
-      "title": "글의 개요와 Copilot·GPT를 활용한 영어 글쓰기",
+      "title": "AI를 활용한 영어 논문 작성",
       "url": "https://pengsida.notion.site/1143fe292ff180feb5d0fe76d05e085b",
       "found_in": [
         "notion-c1a22465a0fa4b15a12985223916048e",
         "notion-b43507ef26d044bd888ac29f4736e116"
       ],
       "access_status": "fetched",
-      "translation_status": "pending",
-      "translation_path": null,
+      "translation_status": "translated",
+      "translation_path": "docs/notion/ai-assisted-writing.md",
       "fetched_on": "2026-11-04",
       "source_last_edited_at": "2025-08-23T06:16:29.316Z",
       "content_sha256": "b1ec8ecef824b736d1f8a6f41e866883a9128b3814ecf0b42e55391965a40208",
@@ -774,101 +775,102 @@
         {
           "type": "image",
           "reference": "notion-file-block://1143fe29-2ff1-805d-812d-db353a50b716/d9c8cff0-ebd6-4086-b98f-6bd9cd655937?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         },
         {
           "type": "image",
           "reference": "notion-file-block://1143fe29-2ff1-8008-940e-d875071cc72c/f1ab178d-7770-4c48-b8ce-692c502a8073?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         },
         {
           "type": "image",
           "reference": "notion-file-block://1143fe29-2ff1-8068-88a6-d2091acf544c/b3dd0a0d-096b-4385-a12b-8a3877153bad?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         },
         {
           "type": "image",
           "reference": "notion-file-block://1143fe29-2ff1-804a-bd46-c9c31a866635/f1ab178d-7770-4c48-b8ce-692c502a8073?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         },
         {
           "type": "image",
           "reference": "notion-file-block://1143fe29-2ff1-80d6-a08d-d3d8817faeaa/ea550e73-c338-4085-86d1-a6f9d1137f99?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         },
         {
           "type": "image",
           "reference": "notion-file-block://1143fe29-2ff1-80be-ab9f-c6908961bff4/e438c453-ef95-4856-95c4-9ed6bf518c18?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         },
         {
           "type": "image",
           "reference": "notion-file-block://1143fe29-2ff1-80d2-af74-d289cc49f51a/4c6ede4c-df8f-40ce-86b1-96ba6031a1c0?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         },
         {
           "type": "image",
           "reference": "notion-file-block://1143fe29-2ff1-805c-802a-c40bb281b04b/f6c8e177-8db5-42c6-99b9-4a1f63e9bfbb?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         },
         {
           "type": "image",
           "reference": "notion-file-block://1143fe29-2ff1-8033-8bcd-f541db66f285/10927cf5-da49-43ff-9f22-c506f2bfc4cb?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         },
         {
           "type": "image",
           "reference": "notion-file-block://1143fe29-2ff1-8083-b22d-d170eec997d8/5b6b8e31-59a2-4bff-9311-2ada503f1634?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         },
         {
           "type": "image",
           "reference": "notion-file-block://1143fe29-2ff1-80a4-84b0-d4fd34d4dd95/85999390-a043-46c8-b9ae-e08cf951c880?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         },
         {
           "type": "image",
           "reference": "notion-file-block://1143fe29-2ff1-80a7-9913-f6406dac852e/4592ed82-87df-4048-ade6-ff231584c45b?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         },
         {
           "type": "image",
           "reference": "notion-file-block://1143fe29-2ff1-8096-8881-d6c7e05d0c1b/e6d38ad7-20c2-4916-8b03-51dc65a76971?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         },
         {
           "type": "image",
           "reference": "notion-file-block://1143fe29-2ff1-8043-bbb2-e195a5c93cfd/7e0a3e8a-e880-4a4d-a04f-c585a62370c1?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         },
         {
           "type": "image",
           "reference": "notion-file-block://1143fe29-2ff1-80af-aa85-eaa1d7f160d1/330d5fa3-5f4e-49d8-a8b1-9242afdeaccb?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         },
         {
           "type": "image",
           "reference": "notion-file-block://1143fe29-2ff1-8082-9e48-fbdac98ffc72/353aef15-ff90-44c8-bc75-84b654ec26cc?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         },
         {
           "type": "image",
           "reference": "notion-file-block://1143fe29-2ff1-80c6-b919-f94af323130f/be204393-1c8b-43a6-a6e9-37aebd429ddd?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         }
-      ]
+      ],
+      "review_notes": "공개 본문과 작성 예시를 대조했습니다. AI 글쓰기의 이미지 17장을 확인해 변화를 표와 설명으로 옮겼습니다. 원문의 빈 수식과 미완성 메모를 구분했습니다."
     },
     {
       "id": "1293fe292ff180bfa5deeed526821d78",
-      "title": "논문의 글을 다듬는 법",
+      "title": "논문 고쳐 쓰기: 구성과 문장 연결",
       "url": "https://pengsida.notion.site/1293fe292ff180bfa5deeed526821d78",
       "found_in": [
         "notion-c1a22465a0fa4b15a12985223916048e",
         "notion-b43507ef26d044bd888ac29f4736e116"
       ],
       "access_status": "fetched",
-      "translation_status": "pending",
-      "translation_path": null,
+      "translation_status": "translated",
+      "translation_path": "docs/notion/revising-papers.md",
       "fetched_on": "2026-11-04",
       "source_last_edited_at": "2025-06-25T01:17:30.126Z",
       "content_sha256": "19a3652ffa4f12168151a3b41bfe3a98d0e9ccb55eeb0c7e469d64d0553b1865",
@@ -878,25 +880,26 @@
         {
           "type": "image",
           "reference": "notion-file-block://1293fe29-2ff1-80e7-8f5a-e11e3a1caddf/01742771-1ad4-4f3d-8fbb-09302dc0d574?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         },
         {
           "type": "image",
           "reference": "notion-file-block://1293fe29-2ff1-801a-9f25-d873720dc868/8f8bce93-9b39-4374-a080-68f8a37927f9?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         }
-      ]
+      ],
+      "review_notes": "공개 본문의 절과 예시를 대조했습니다. 논문 수정 문서의 이미지 2개도 확인해 옮겼습니다. 개발 환경의 과거 설정·오타·현재 설명을 구분했습니다."
     },
     {
       "id": "1fa3fe292ff1807e98c5e3513045cbab",
-      "title": "연구에서 피해야 할 행동",
+      "title": "연구 생활에서 조심할 네 가지 함정",
       "url": "https://pengsida.notion.site/1fa3fe292ff1807e98c5e3513045cbab",
       "found_in": [
         "notion-b43507ef26d044bd888ac29f4736e116"
       ],
       "access_status": "fetched",
-      "translation_status": "pending",
-      "translation_path": null,
+      "translation_status": "reading_guide_only",
+      "translation_path": "docs/notion/research-life-pitfalls.md",
       "fetched_on": "2026-11-04",
       "source_last_edited_at": "2025-06-25T01:17:41.410Z",
       "content_sha256": "20f8906b710d1f5b5389f4c445044b7098aa278688987a328fb5b49f1ea382eb",
@@ -906,37 +909,39 @@
         {
           "type": "image",
           "reference": "notion-file-block://1fa3fe29-2ff1-8077-acd8-ec208deee8c7/4137e4c7-bf5f-40a7-8b9c-49161e969590?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         }
-      ]
+      ],
+      "review_notes": "공개 자료의 성격과 출처를 확인했습니다. 외부 저작물은 한국어 소개·요약으로 제공하며 전문 번역 완료로 집계하지 않습니다. 접근 제한 자료는 조회 가능한 범위만 안내합니다."
     },
     {
       "id": "31d3fe292ff1801a97aceb84f067a0ed",
-      "title": "연구와 삶에서 목표 관리가 하는 역할",
+      "title": "목표를 이루는 과정에서 의미 찾기",
       "url": "https://pengsida.notion.site/31d3fe292ff1801a97aceb84f067a0ed",
       "found_in": [
         "notion-b43507ef26d044bd888ac29f4736e116"
       ],
       "access_status": "fetched",
-      "translation_status": "pending",
-      "translation_path": null,
+      "translation_status": "reading_guide_only",
+      "translation_path": "docs/notion/meaningful-goals.md",
       "fetched_on": "2026-11-04",
       "source_last_edited_at": "2026-03-08T01:46:27.462Z",
       "content_sha256": "d2eaedb6b3292516c958265cf75c0c805992f08d484961058723051212fce3e9",
       "content_characters": 1002,
       "omission_check": "공개 조회 응답을 확보했습니다. 이미지와 첨부 파일은 본문과 별도로 검수합니다.",
-      "media": []
+      "media": [],
+      "review_notes": "공개 자료의 성격과 출처를 확인했습니다. 외부 저작물은 한국어 소개·요약으로 제공하며 전문 번역 완료로 집계하지 않습니다. 접근 제한 자료는 조회 가능한 범위만 안내합니다."
     },
     {
       "id": "4a4a6aa51614420eb146e8cf82c32bd4",
-      "title": "좋은 연구를 알아보는 안목을 기르는 법",
+      "title": "좋은 연구 문제를 고르는 안목",
       "url": "https://pengsida.notion.site/4a4a6aa51614420eb146e8cf82c32bd4",
       "found_in": [
         "notion-b43507ef26d044bd888ac29f4736e116"
       ],
       "access_status": "fetched",
-      "translation_status": "pending",
-      "translation_path": null,
+      "translation_status": "reading_guide_only",
+      "translation_path": "docs/notion/research-taste.md",
       "fetched_on": "2026-11-04",
       "source_last_edited_at": "2026-04-16T11:45:34.494Z",
       "content_sha256": "1595a89b82184b7eca72cb91ca65e6287dc9911710a9286e1158a81a9fc0bab9",
@@ -946,26 +951,29 @@
         {
           "type": "image",
           "reference": "notion-file-block://3443fe29-2ff1-80fa-ae7f-f3bff0bb7f4a/d6c3a689-4df3-4f8d-94aa-0763914d2c02?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "재수록 글의 참고 이미지입니다. 원문 링크로 보존합니다."
         }
-      ]
+      ],
+      "review_notes": "공개 자료의 성격과 출처를 확인했습니다. 외부 저작물은 한국어 소개·요약으로 제공하며 전문 번역 완료로 집계하지 않습니다. 접근 제한 자료는 조회 가능한 범위만 안내합니다."
     },
     {
       "id": "1053fe292ff18015b2f3cde4498a5f0f",
-      "title": "자연과학이란 무엇인가",
+      "title": "과학과 수학을 구분해 생각하기",
       "url": "https://pengsida.notion.site/1053fe292ff18015b2f3cde4498a5f0f",
       "found_in": [
         "notion-b43507ef26d044bd888ac29f4736e116"
       ],
       "access_status": "fetched",
-      "translation_status": "pending",
-      "translation_path": null,
+      "translation_status": "reading_guide_only",
+      "translation_path": "docs/notion/science-and-mathematics.md",
       "fetched_on": "2026-11-04",
       "source_last_edited_at": "2025-06-25T01:17:30.126Z",
       "content_sha256": "4944366f7dab5db6814afb3a50b1b7d1b06629ea8835e710a69435ad9346c248",
       "content_characters": 1424,
       "omission_check": "공개 조회 응답을 확보했습니다. 이미지와 첨부 파일은 본문과 별도로 검수합니다.",
-      "media": []
+      "media": [],
+      "review_notes": "공개 자료의 성격과 출처를 확인했습니다. 외부 저작물은 한국어 소개·요약으로 제공하며 전문 번역 완료로 집계하지 않습니다. 접근 제한 자료는 조회 가능한 범위만 안내합니다."
     },
     {
       "id": "903b997097d343dbaba6d5e0780eab0f",
@@ -1029,21 +1037,21 @@
         {
           "type": "image",
           "reference": "notion-file-block://ddbc1768-6c45-4845-88e9-d90cf1888fb5/3fa440d0-ff3b-4d20-a285-9cde04c62078?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         }
       ],
-      "review_notes": "공개 본문의 항목과 예시를 대조했습니다. 반복된 내용은 의미를 보존해 정리했으며 첨부 자료는 별도 추적합니다."
+      "review_notes": "공개 본문의 항목과 예시를 대조했습니다. 반복된 내용은 의미를 보존해 정리했으며 첨부 자료는 별도 추적합니다. 첨부 이미지를 직접 확인해 저자의 도표는 표·설명으로 옮기고 외부 인용은 요약으로 구분했습니다. 외부 첨부 전문은 완료로 집계하지 않습니다."
     },
     {
       "id": "4db27521e7014e7a925a0f07e4f5c80f",
-      "title": "학부 교육과 대학원 교육의 차이",
+      "title": "학부 수업에서 대학원 연구로 넘어가기",
       "url": "https://pengsida.notion.site/4db27521e7014e7a925a0f07e4f5c80f",
       "found_in": [
         "notion-b43507ef26d044bd888ac29f4736e116"
       ],
       "access_status": "fetched",
-      "translation_status": "pending",
-      "translation_path": null,
+      "translation_status": "reading_guide_only",
+      "translation_path": "docs/notion/undergraduate-to-research.md",
       "fetched_on": "2026-11-04",
       "source_last_edited_at": "2025-06-25T01:17:07.704Z",
       "content_sha256": "8c6a4b08e78568de28787192c9c24166b75f571bc7de9e689d84cf0fe2e62ff3",
@@ -1053,31 +1061,32 @@
         {
           "type": "image",
           "reference": "notion-file-block://9ee1f4e1-c9da-484f-810b-d2acf5bdb879/6e29f015-55bf-49bb-a82f-109711bc43ae?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://fe0df64f-16fc-4195-8c67-df41276a5c65/ebfc705d-60c4-4ae6-b3d6-f7331a543c8a?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://e8072f8d-c82f-42a9-a362-29629c4597e1/8a9adc94-a100-43d2-aaaf-dbcffcd95dc1?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         }
-      ]
+      ],
+      "review_notes": "공개 자료의 성격과 출처를 확인했습니다. 외부 저작물은 한국어 소개·요약으로 제공하며 전문 번역 완료로 집계하지 않습니다. 접근 제한 자료는 조회 가능한 범위만 안내합니다."
     },
     {
       "id": "1b69debf803a4c268fc8a09a9a748bbf",
-      "title": "알고리즘과 코드를 디버깅하는 법",
+      "title": "디버깅의 아홉 가지 원칙",
       "url": "https://pengsida.notion.site/1b69debf803a4c268fc8a09a9a748bbf",
       "found_in": [
         "notion-b43507ef26d044bd888ac29f4736e116",
         "notion-1aee6e718de6472f834d13da8f4ff097"
       ],
       "access_status": "fetched",
-      "translation_status": "pending",
-      "translation_path": null,
+      "translation_status": "reading_guide_only",
+      "translation_path": "docs/notion/debugging-guide.md",
       "fetched_on": "2026-11-04",
       "source_last_edited_at": "2024-04-14T13:15:22.963Z",
       "content_sha256": "85a65e20bf633be80b88813588f60ba11286bb4ec328cbf6dc86a0365c0ea945",
@@ -1087,36 +1096,38 @@
         {
           "type": "file",
           "reference": "notion-file-block://6ecb6a04-b192-45af-b2e4-cab8b2205eb4/0c8da58b-1e7c-4edb-a49b-3aa9514fed7c?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E8%25B0%2583%25E8%25AF%2595%25E4%25B9%259D%25E6%25B3%2595.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "file",
           "reference": "notion-file-block://fb59c904-e1ff-46a0-8d36-56d9d2a8f0a1/813574f5-3f80-4da9-8d2a-91f83c1866a5?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E8%25B0%2583%25E8%25AF%2595%25E4%25B9%259D%25E6%25B3%2595.epub",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://34afba04-07e3-4089-a4a3-7039027b6828/c84346db-5d4f-42d8-86ab-89777f984e72?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         }
-      ]
+      ],
+      "review_notes": "외부 책과 정리 글의 원칙을 한국어로 요약했습니다. 첨부 책 전문의 번역·재배포는 포함하지 않습니다."
     },
     {
       "id": "1053fe292ff180b59bbfe55c0961a796",
-      "title": "클린 코드 독서 노트",
+      "title": "클린 코드 읽기 길잡이",
       "url": "https://pengsida.notion.site/1053fe292ff180b59bbfe55c0961a796",
       "found_in": [
         "notion-b43507ef26d044bd888ac29f4736e116"
       ],
       "access_status": "fetched",
-      "translation_status": "pending",
-      "translation_path": null,
+      "translation_status": "reading_guide_only",
+      "translation_path": "docs/notion/clean-code-guide.md",
       "fetched_on": "2026-11-04",
       "source_last_edited_at": "2025-06-25T01:17:30.126Z",
       "content_sha256": "99911efd568a8bd14a85f1481d1ce3b8576a147c1fbe836bc68184a32932d6f8",
       "content_characters": 11550,
       "omission_check": "공개 조회 응답을 확보했습니다. 이미지와 첨부 파일은 본문과 별도로 검수합니다.",
-      "media": []
+      "media": [],
+      "review_notes": "공개 자료의 성격과 출처를 확인했습니다. 외부 저작물은 한국어 소개·요약으로 제공하며 전문 번역 완료로 집계하지 않습니다. 접근 제한 자료는 조회 가능한 범위만 안내합니다."
     },
     {
       "id": "f8b36e484b344a2893a94e4608b72ec2",
@@ -1129,7 +1140,7 @@
         "notion-da6ce171c13846b7a7ffaa7473ffa6ea"
       ],
       "access_status": "fetched",
-      "translation_status": "body_translated",
+      "translation_status": "translated",
       "translation_path": "docs/notion/literature-tree.md",
       "fetched_on": "2026-11-04",
       "source_last_edited_at": "2026-01-25T14:25:00.077Z",
@@ -1140,10 +1151,10 @@
         {
           "type": "image",
           "reference": "notion-file-block://2f33fe29-2ff1-8030-a414-c54c6cf2bbc8/90531249-dd01-47ae-a3c9-1d8df171b19e?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "translated"
         }
       ],
-      "review_notes": "공개 텍스트 본문을 번역했습니다. 첨부 이미지·파일의 별도 대조가 남아 있습니다."
+      "review_notes": "공개 텍스트 본문을 번역했습니다. 첨부 이미지·파일의 별도 대조가 남아 있습니다. 첨부 이미지의 학습 내용을 한국어로 대조했습니다."
     },
     {
       "id": "1363fe292ff1805b84a6c97e3601ac4d",
@@ -1347,15 +1358,15 @@
         {
           "type": "image",
           "reference": "notion-file-block://357fe2ed-9fc0-4ab8-b2c4-a9793cf1aaae/8990df9a-e2e8-4b12-8cdc-0f90e9410f93?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://caa6243f-bccb-43ab-b6f3-84474ce6e31f/a3e18bc9-b2bf-48fe-b119-30f34cad311c?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         }
       ],
-      "review_notes": "공개 텍스트 본문을 번역했습니다. 첨부 이미지·파일의 별도 대조가 남아 있습니다."
+      "review_notes": "공개 텍스트 본문을 번역했습니다. 첨부 이미지·파일의 별도 대조가 남아 있습니다. 첨부 이미지를 직접 확인해 저자의 도표는 표·설명으로 옮기고 외부 인용은 요약으로 구분했습니다. 외부 첨부 전문은 완료로 집계하지 않습니다."
     },
     {
       "id": "afe9ef02def04f6f992d0ad6070076ce",
@@ -1420,33 +1431,34 @@
         {
           "type": "video",
           "reference": "notion-file-block://cdac41d2-0170-457f-9955-afe53d68bcc4/bf442190-67bb-4f2f-9203-a6e723361650?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=mirror-demo.mp4",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://9adfaf84-b49a-4b6f-8ee1-bbd918445013/8084f94f-38fc-4285-987c-1ab73faa8843?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=IMG_7918.jpg",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         }
       ],
-      "review_notes": "공개 텍스트 본문을 번역했습니다. 첨부 이미지·파일의 별도 대조가 남아 있습니다."
+      "review_notes": "공개 텍스트 본문을 번역했습니다. 첨부 이미지·파일의 별도 대조가 남아 있습니다. 첨부 이미지를 직접 확인해 저자의 도표는 표·설명으로 옮기고 외부 인용은 요약으로 구분했습니다. 외부 첨부 전문은 완료로 집계하지 않습니다."
     },
     {
       "id": "33275442af8d40fb9d09b335106a8595",
-      "title": "연구 프로젝트 소개 페이지를 만드는 법",
+      "title": "논문 프로젝트 페이지의 시각화 자료",
       "url": "https://pengsida.notion.site/33275442af8d40fb9d09b335106a8595",
       "found_in": [
         "notion-b43507ef26d044bd888ac29f4736e116"
       ],
       "access_status": "fetched",
-      "translation_status": "pending",
-      "translation_path": null,
+      "translation_status": "blocked",
+      "translation_path": "docs/notion/project-page-resources.md",
       "fetched_on": "2026-11-04",
       "source_last_edited_at": "2023-12-11T13:38:33.275Z",
       "content_sha256": "35db79a170375102a75d02069c27a4b2ffcb7cc40e307852b16505bac86c1977",
       "content_characters": 232,
       "omission_check": "공개 조회 응답을 확보했습니다. 이미지와 첨부 파일은 본문과 별도로 검수합니다.",
       "media": [],
-      "access_note": "공개 페이지는 제목과 데이터베이스로 구성됩니다. 외부 워크스페이스의 데이터베이스 행은 현재 연결에서 조회할 수 없습니다."
+      "access_note": "공개 페이지는 제목과 데이터베이스로 구성됩니다. 외부 워크스페이스의 데이터베이스 행은 현재 연결에서 조회할 수 없습니다.",
+      "review_notes": "공개 자료의 성격과 출처를 확인했습니다. 외부 저작물은 한국어 소개·요약으로 제공하며 전문 번역 완료로 집계하지 않습니다. 접근 제한 자료는 조회 가능한 범위만 안내합니다."
     },
     {
       "id": "5dae86dfa4b0446fbe69c490e1165815",
@@ -1567,20 +1579,21 @@
     },
     {
       "id": "2d01e7e2a36f4860acc655c78c57cf4f",
-      "title": "불필요한 내적 소모와 그 해결 방법",
+      "title": "생각이 많아 지칠 때 참고할 글",
       "url": "https://pengsida.notion.site/2d01e7e2a36f4860acc655c78c57cf4f",
       "found_in": [
         "notion-b43507ef26d044bd888ac29f4736e116"
       ],
       "access_status": "fetched",
-      "translation_status": "pending",
-      "translation_path": null,
+      "translation_status": "reading_guide_only",
+      "translation_path": "docs/notion/mental-overload.md",
       "fetched_on": "2026-11-04",
       "source_last_edited_at": "2025-06-25T01:17:30.126Z",
       "content_sha256": "9283d2d0c53a69e323eef4e7e048c245a50fd57a03ef0734da6aebc31da54062",
       "content_characters": 4600,
       "omission_check": "공개 조회 응답을 확보했습니다. 이미지와 첨부 파일은 본문과 별도로 검수합니다.",
-      "media": []
+      "media": [],
+      "review_notes": "공개 자료의 성격과 출처를 확인했습니다. 외부 저작물은 한국어 소개·요약으로 제공하며 전문 번역 완료로 집계하지 않습니다. 접근 제한 자료는 조회 가능한 범위만 안내합니다."
     },
     {
       "id": "ff09e6f41b394f56835591db70b4980f",
@@ -1681,8 +1694,8 @@
         "notion-caf34717f4c046c69ee7e14ea953c46f"
       ],
       "access_status": "fetched",
-      "translation_status": "pending",
-      "translation_path": null,
+      "translation_status": "body_translated",
+      "translation_path": "docs/notion/experiment-log-march24.md",
       "fetched_on": "2026-11-04",
       "source_last_edited_at": "2026-03-24T13:37:15.553Z",
       "content_sha256": "18ed67fd01689cbf4800965618574654078b3a47d4146264467959919e3e0e3b",
@@ -1692,254 +1705,280 @@
         {
           "type": "video",
           "reference": "notion-file-block://da97001a-6f2a-4e07-841a-95cb6c9f35d3/42f4fb4e-d13d-4c63-a8cc-0930f0a29a09?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=step00000000.mp4",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "video",
           "reference": "notion-file-block://82bc965c-cbe3-477f-843f-f8abbcc973c3/97f19d17-7881-44e8-8a0c-e93fbd2eaa89?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=step00000000.mp4",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "video",
           "reference": "notion-file-block://8f5b2073-fb09-48cb-89bc-65d8ddaff4b6/63b38420-3d24-42f2-83db-b8bd8bc3b3b8?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=step00030000.mp4",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "video",
           "reference": "notion-file-block://869d0116-f06f-45fe-b5c4-46c75cbf1fd9/6bc223f5-db39-48bd-84d8-7553eed6c2cb?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=step00030000.mp4",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "video",
           "reference": "notion-file-block://47b53f0d-d79b-4963-8004-2b8bf6e77037/74e39da6-2e6c-40be-b21d-4eaa898c9f9c?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=step00060000.mp4",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "video",
           "reference": "notion-file-block://0e898b25-8801-4c7c-bd33-c48bc9df0f7a/84ab22d8-e6a8-4fcf-ade7-b82bb14fea5d?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=step00060000.mp4",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://fcd08ba0-853b-412a-9fbe-0a4a7ae91c18/475ed71e-d469-4457-9709-eaf38a53a046?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only",
+          "review_notes": "렌더링 비교와 영어 실험 로그를 직접 열어 확인하고 표시 항목을 한국어로 설명했습니다. 원본 실험을 재현하지 않았습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://1fab26ea-7e81-4bab-a0fc-80d59f01da91/61aa8c42-ad24-4a21-b797-3f2f9fb954bd?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only",
+          "review_notes": "렌더링 비교와 영어 실험 로그를 직접 열어 확인하고 표시 항목을 한국어로 설명했습니다. 원본 실험을 재현하지 않았습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://2020471c-30df-4548-8304-ff61854c702c/95477c71-afa2-40ad-962e-71cc8f1a8562?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only",
+          "review_notes": "렌더링 비교와 영어 실험 로그를 직접 열어 확인하고 표시 항목을 한국어로 설명했습니다. 원본 실험을 재현하지 않았습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://a7c4aefa-c6e6-4f88-8dc8-2af526e56e30/e8482d91-db30-4e46-9605-ac132a47c4ee?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only",
+          "review_notes": "렌더링 비교와 영어 실험 로그를 직접 열어 확인하고 표시 항목을 한국어로 설명했습니다. 원본 실험을 재현하지 않았습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://68dc342b-e0a1-4eed-950c-065554cf0e4c/b591b293-fc9e-4b2e-a9cc-ec0cdcb71e4a?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only",
+          "review_notes": "렌더링 비교와 영어 실험 로그를 직접 열어 확인하고 표시 항목을 한국어로 설명했습니다. 원본 실험을 재현하지 않았습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://725d2aac-a786-4f37-b755-b5da3939fcca/e5d20b49-6cd7-4969-b527-211d9ba454df?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only",
+          "review_notes": "렌더링 비교와 영어 실험 로그를 직접 열어 확인하고 표시 항목을 한국어로 설명했습니다. 원본 실험을 재현하지 않았습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://740c53d1-0260-4c68-b35a-423cbb30ae89/626d04d0-33bc-4771-baad-8edb3d1abd6a?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only",
+          "review_notes": "렌더링 비교와 영어 실험 로그를 직접 열어 확인하고 표시 항목을 한국어로 설명했습니다. 원본 실험을 재현하지 않았습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://83475c11-630b-43b6-b244-bf701d086d9a/fab98fbf-02f0-4841-a3c5-aff3fbde54e6?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only",
+          "review_notes": "렌더링 비교와 영어 실험 로그를 직접 열어 확인하고 표시 항목을 한국어로 설명했습니다. 원본 실험을 재현하지 않았습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://614a4e49-7cdf-4120-a64a-07d2a7979c22/59941c59-0886-4256-82e1-034d33b3c785?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only",
+          "review_notes": "렌더링 비교와 영어 실험 로그를 직접 열어 확인하고 표시 항목을 한국어로 설명했습니다. 원본 실험을 재현하지 않았습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://ec064f19-009a-48ab-8865-3c1521139197/e9659e6e-e930-47a2-a557-4af984ca057b?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only",
+          "review_notes": "렌더링 비교와 영어 실험 로그를 직접 열어 확인하고 표시 항목을 한국어로 설명했습니다. 원본 실험을 재현하지 않았습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://c0c94c73-33a5-4d3e-ad9f-b9517742efad/627be11c-e969-4622-8447-21afa3ab15e7?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only",
+          "review_notes": "렌더링 비교와 영어 실험 로그를 직접 열어 확인하고 표시 항목을 한국어로 설명했습니다. 원본 실험을 재현하지 않았습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://2aea4fe0-bba4-40be-8864-82ebdd0e0de7/6cbe547b-7af4-40d2-8235-4c1a427d3d18?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only",
+          "review_notes": "렌더링 비교와 영어 실험 로그를 직접 열어 확인하고 표시 항목을 한국어로 설명했습니다. 원본 실험을 재현하지 않았습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://2a0a895a-330e-4cce-b48e-7021c9c90045/45b2ef08-12ae-46c6-bc32-3e33521d0662?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only",
+          "review_notes": "렌더링 비교와 영어 실험 로그를 직접 열어 확인하고 표시 항목을 한국어로 설명했습니다. 원본 실험을 재현하지 않았습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://32cf35ab-8b02-49a0-be51-9b070668e873/4d295337-272c-419b-a550-775158e46125?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only",
+          "review_notes": "렌더링 비교와 영어 실험 로그를 직접 열어 확인하고 표시 항목을 한국어로 설명했습니다. 원본 실험을 재현하지 않았습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://266fe91e-2f32-4824-87f2-cf62a5f0b678/915c2a39-3e86-4ed9-a33b-3de61d63355a?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only",
+          "review_notes": "렌더링 비교와 영어 실험 로그를 직접 열어 확인하고 표시 항목을 한국어로 설명했습니다. 원본 실험을 재현하지 않았습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://32eae92a-474e-4bf2-bb6f-4f62cd3e3a3a/fb526109-e081-4908-8cb2-175c83d6427c?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only",
+          "review_notes": "렌더링 비교와 영어 실험 로그를 직접 열어 확인하고 표시 항목을 한국어로 설명했습니다. 원본 실험을 재현하지 않았습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://3668895f-8b67-49d9-915a-1c40f9f45e6a/e6de1d19-e42d-4a00-9837-90412cc81fa3?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only",
+          "review_notes": "렌더링 비교와 영어 실험 로그를 직접 열어 확인하고 표시 항목을 한국어로 설명했습니다. 원본 실험을 재현하지 않았습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://ea16335d-a8f5-468c-b5b0-42410ab59f9f/bbb55e4e-1bfd-45cc-b62a-1cd97f207880?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only",
+          "review_notes": "렌더링 비교와 영어 실험 로그를 직접 열어 확인하고 표시 항목을 한국어로 설명했습니다. 원본 실험을 재현하지 않았습니다."
         },
         {
           "type": "video",
           "reference": "notion-file-block://bbed0c4c-a8f4-49d6-abd6-3b51bc2b244f/f4d05853-754b-4c5c-af2c-7eb736c29de2?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=step00030000_depth.mp4",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "video",
           "reference": "notion-file-block://516eaff5-653d-40d3-a648-c99d27ecfdbb/b5261581-84a7-4605-92f2-6847e7497023?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=step00030000.mp4",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "video",
           "reference": "notion-file-block://e5e93b93-8681-46f7-bf13-7c83ac48c20a/6a7419f2-2cb1-4b16-9202-efaed2d01bd5?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=step00060000_depth.mp4",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "video",
           "reference": "notion-file-block://064796e8-3343-475f-b7fa-1c191f7e473d/f9794f2d-e92a-4fa6-83dd-a516a97cbbd5?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=step00060000.mp4",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "video",
           "reference": "notion-file-block://b5fd070c-d4d6-4e1d-a237-2ab8686fd46e/5008e418-b756-4b15-9d8c-40580b71180e?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=step00090000_depth.mp4",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "video",
           "reference": "notion-file-block://64f2f6b2-fa9f-4870-bb8b-98b0e55ec936/093d2942-4de4-4d87-80d2-3156072e38d8?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=step00090000.mp4",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "video",
           "reference": "notion-file-block://0c7d5e46-dbb8-46bd-bd21-62087c3b7dff/6d84f366-3616-4e54-b74e-9207044cb6a9?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=step00000000_depth.mp4",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "video",
           "reference": "notion-file-block://7d3bbb7b-480a-447a-a002-014977a439b8/0ea92d03-5eed-4825-8976-8d75501dde2d?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=step00000000.mp4",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "video",
           "reference": "notion-file-block://f435804f-b048-4d58-b1b0-4e7d985d2839/52443ef6-7c29-4618-9389-7fdec2fa8ea8?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=step00030000.mp4",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "video",
           "reference": "notion-file-block://3620d420-ba90-49fe-9dd3-baaef6ef3bdd/b5e8eb9f-c0d3-4ea4-ac9c-34d14538a7b2?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=step00060000.mp4",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "video",
           "reference": "notion-file-block://1815ed7f-c8de-41e6-b332-7a9dbcb9e0c9/546be128-cb58-411c-9427-f70cecf5c191?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=step00090000.mp4",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "video",
           "reference": "notion-file-block://193b25ef-e918-44ce-ac6b-eb162eb029fc/0673c044-ced3-4d85-b90e-c2847163a1ba?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=step00030000.mp4",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "video",
           "reference": "notion-file-block://22f41c66-889d-406a-b976-220150cb5bf3/664e5518-6ce3-44ba-9d0f-f34d3f94a7a2?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=step00060000.mp4",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "video",
           "reference": "notion-file-block://ecb2ebf4-9fe8-442e-b3c7-009cbbdd5c25/ca47d4c6-831b-42a9-93e0-62593e40d3aa?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=step00000000.mp4",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "video",
           "reference": "notion-file-block://58a8f27d-c73d-4e93-9bc5-5a9b08ccd07b/f0615c4b-0884-44d4-91d4-34fa098a773d?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=step00000000.mp4",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "video",
           "reference": "notion-file-block://68163d21-b2e7-47d7-9cce-8b888320ca65/7e645fa0-8ece-4d73-a445-6f4e0931f6bd?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=step00000000.mp4",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://af2fa5b4-df3f-47e3-99df-3dcede6ed57c/b718942e-8ef2-450f-a433-0f5811ad99cc?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only",
+          "review_notes": "렌더링 비교와 영어 실험 로그를 직접 열어 확인하고 표시 항목을 한국어로 설명했습니다. 원본 실험을 재현하지 않았습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://aba3e2eb-d511-414d-b859-6967d632d64b/5979847a-cfa0-48f9-955a-81c3fcbd2615?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only",
+          "review_notes": "렌더링 비교와 영어 실험 로그를 직접 열어 확인하고 표시 항목을 한국어로 설명했습니다. 원본 실험을 재현하지 않았습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://ace55b2f-f8ae-494e-8dbe-955a6d77a058/d0a6241e-733a-4de6-a52d-4fb5f8799465?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only",
+          "review_notes": "렌더링 비교와 영어 실험 로그를 직접 열어 확인하고 표시 항목을 한국어로 설명했습니다. 원본 실험을 재현하지 않았습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://466e7bca-6d45-473c-8005-fa0b764dd93c/250ae502-dcfb-4bee-b860-1e97709cdf8a?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only",
+          "review_notes": "렌더링 비교와 영어 실험 로그를 직접 열어 확인하고 표시 항목을 한국어로 설명했습니다. 원본 실험을 재현하지 않았습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://87b49fb6-0165-45dc-9b9e-e6cd6b46f261/57ee6aac-91a9-422f-9acc-a25eca47a30e?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only",
+          "review_notes": "렌더링 비교와 영어 실험 로그를 직접 열어 확인하고 표시 항목을 한국어로 설명했습니다. 원본 실험을 재현하지 않았습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://86517f87-2080-4a24-8d0d-a0b456fc0588/98d078e4-621a-440c-9979-5a8a303a7269?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only",
+          "review_notes": "렌더링 비교와 영어 실험 로그를 직접 열어 확인하고 표시 항목을 한국어로 설명했습니다. 원본 실험을 재현하지 않았습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://dee3f0fd-b294-4b53-bf56-d971c6120f33/05493665-3526-4ff1-9317-7bc7406808ca?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only",
+          "review_notes": "렌더링 비교와 영어 실험 로그를 직접 열어 확인하고 표시 항목을 한국어로 설명했습니다. 원본 실험을 재현하지 않았습니다."
         },
         {
           "type": "video",
           "reference": "notion-file-block://eaf3d925-ceb8-4909-88e3-2dd17fb9cd10/2ed4fcb6-140a-4d60-825d-020321954ba5?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=step00000000.mp4",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "video",
           "reference": "notion-file-block://203c14a4-c694-45a4-9b69-d747124195a0/1ee817f8-753c-45e8-a963-a83ed81c9550?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=step00000000.mp4",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         },
         {
           "type": "video",
           "reference": "notion-file-block://5bf91b9f-80cf-45bc-a9e6-033fceaa2fbf/9615ad33-b059-4b38-8922-bba6ef11ff64?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=step00000000.mp4",
-          "translation_status": "pending"
+          "translation_status": "reference_only"
         }
-      ]
+      ],
+      "review_notes": "실험 본문, 가설, 시간·샘플 수와 캡션을 옮겼습니다. 원본 이미지 내부와 시연 영상의 프레임별 검수는 완료로 집계하지 않습니다. 첨부 이미지 25개를 열어 렌더링과 로그를 확인했습니다. 시연 영상 25개는 별도 참고 자료입니다."
     },
     {
       "id": "37a3fe292ff180e18ffec36ece8a7818",
@@ -1960,26 +1999,26 @@
         {
           "type": "image",
           "reference": "notion-file-block://37a3fe29-2ff1-80d9-8695-d099ef63727a/a16f7698-023e-4571-b871-c757c243a439?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         },
         {
           "type": "image",
           "reference": "notion-file-block://37a3fe29-2ff1-8092-8076-ea5d14341569/7a14af03-b196-469c-b08f-63e8f6cd6a6d?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=image.png",
-          "translation_status": "pending"
+          "translation_status": "reading_guide_only"
         }
       ],
-      "review_notes": "공개 텍스트 본문을 번역했습니다. 첨부 이미지·파일의 별도 대조가 남아 있습니다."
+      "review_notes": "공개 텍스트 본문을 번역했습니다. 첨부 이미지·파일의 별도 대조가 남아 있습니다. 첨부 이미지를 직접 확인해 저자의 도표는 표·설명으로 옮기고 외부 인용은 요약으로 구분했습니다. 외부 첨부 전문은 완료로 집계하지 않습니다."
     },
     {
       "id": "f1e4f77f0f3943e39dd1210bd3fe71ea",
-      "title": "PowerPoint 사용법",
+      "title": "발표 슬라이드 구성과 디자인 자료 안내",
       "url": "https://pengsida.notion.site/f1e4f77f0f3943e39dd1210bd3fe71ea",
       "found_in": [
         "notion-810f02670691444f8c94cc3d5b76dcbc"
       ],
       "access_status": "fetched",
-      "translation_status": "pending",
-      "translation_path": null,
+      "translation_status": "reading_guide_only",
+      "translation_path": "docs/notion/presentation-design.md",
       "fetched_on": "2026-11-04",
       "source_last_edited_at": "2025-11-24T06:02:47.752Z",
       "content_sha256": "74c0f4bd23c63429d2d848e28f0a87ae2cd28eae7af2056c7817659dc65b0731",
@@ -1989,501 +2028,599 @@
         {
           "type": "file",
           "reference": "notion-file-block://ea31df08-ec8a-4c65-8c3a-869932c718b4/1d0ef220-6f38-4434-844e-e6c996d49703?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E5%258D%25A1%25E7%2589%2587%25E5%25BC%258F%25E6%258E%2592%25E7%2589%2588.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "file",
           "reference": "notion-file-block://21493a4e-a3c3-4380-ba74-f691f309d926/cf8b1daa-6d9d-4202-9843-b5dafb3faecd?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E5%2588%2586%25E6%25A0%258F%25E5%25BC%258F%25E6%258E%2592%25E7%2589%2588.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "file",
           "reference": "notion-file-block://7e74d511-e580-414f-a5cc-274ef1e460a3/554e908a-0f27-4390-a120-c09a7b0fbffc?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E6%258B%25A6%25E8%2585%25B0%25E5%25BC%258F%25E6%258E%2592%25E7%2589%2588.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "file",
           "reference": "notion-file-block://6c60d043-39f8-4428-9120-6dff5e9196d3/8559bc70-f681-423b-9913-69d0933b4aea?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E7%258E%25AF%25E7%25BB%2595%25E5%25BC%258F%25E6%258E%2592%25E7%2589%2588.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "file",
           "reference": "notion-file-block://9f32f598-da5f-4d60-86a4-6169ee5c1793/509e70d0-8e4f-4491-b520-576653fad67d?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E8%25AF%25BE%25E7%25A8%258B.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://b2dd6fff-6df4-4fc5-b750-ee263020c3c7/c35a2ca2-9a53-47de-b957-9112bd1b847b?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://663c0a8e-d438-4bf1-b765-4e6025467c8f/e81ad0b9-b265-472b-8ce2-c9ae63bda153?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://e4dbffba-ff39-4de0-ac55-be64e976ced9/1af69f8f-37ca-4873-ac3e-1f95bf98d164?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://87773c78-25fa-4fb7-bd32-93b54b1e37eb/93f7c601-f4c5-46d2-b53e-174a58cbaa29?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://4e11cd91-4bbd-41d9-9ef9-2bfb8cb3a4e5/4780ffd1-406a-4b3a-bfe8-acd75e5133b7?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "file",
           "reference": "notion-file-block://79584a4c-e3a5-4a24-9fb3-28b2a2fdbcc8/027f4e42-ddad-4a5e-acf2-4c51b3346173?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E7%25BE%258E%25E5%258C%2596%25E7%259A%2584SmartArt%25E5%259B%25BE%25E5%25BD%25A2%25E7%25B4%25A0%25E6%259D%2590.pptx",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "file",
           "reference": "notion-file-block://d61c60c4-279a-455b-bae3-b345ceb131e5/a22b0304-443f-4862-a61d-4d4336a0c5a0?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E8%25AF%25BE%25E7%25A8%258B.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://18af2e14-8bb9-4504-82c7-2963f70d8e31/297d4309-7196-4072-b83d-11f308862fbc?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "file",
           "reference": "notion-file-block://21615742-f05d-4e3f-93c8-6c0f3085f48d/24902b52-f482-46c2-9fb2-256b48a1cb3e?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E9%2585%258D%25E8%2589%25B2%25E7%25B4%25A0%25E6%259D%2590%25E5%25BA%2593.pptx",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://8d463b67-8788-4238-bc0a-73e778e1ba27/fe535fb5-a502-46f0-ab66-ba42f6664f15?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://9319282f-fb13-4227-b340-8b30992b8fb6/d002bd51-674f-4098-acc9-382ad57752b2?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://0524ef03-3ebf-4764-8cc9-41b2b5f71389/c39068cd-1abf-4921-a40c-683afb2a18d3?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://8f6afd6f-dc94-4aee-b74e-eabb5044a54c/2f157cad-6cf3-410d-b5e5-97b17132f54e?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://cf1cbf81-2bac-4de7-841b-6a679d9253a2/00570b33-116c-4054-bebc-ec7396469945?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://86c22c77-234e-469c-987e-d431bebcb136/5a5c89ef-920d-4693-b4e2-0371be4e7b5c?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://e4a9d3a0-013f-4c8e-ac87-8ddd3f7ed007/9c3be7a4-61fc-48cf-aa36-4463941651ba?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://c1150ed8-4eeb-4fb5-af8c-d5de209f6ee4/9b026742-df08-468d-a9ba-61905b0511b6?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://ed33e602-4051-49c9-ac18-c07920e22d0b/ca05ef20-d264-4582-8307-ba747a3941bc?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://0b4cfe6f-78eb-41bd-afaa-48ac5e200554/deb26ee8-0c96-49c5-ba60-5907decfa986?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://983891cd-d0c2-4f14-97a6-a8e1a096b887/c7e4f3df-0e22-4fb8-b76a-04bf7fd96297?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://3ab149b5-206c-46c4-8163-f775b899664f/a2459b55-892c-4363-8242-06fb77505757?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://b14a8dea-7350-456f-a237-b461a19c659e/57eb69ab-e862-4e94-84dd-4481d5d2d060?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://6febf693-52e3-4188-8e57-e969efc7ec7a/adb3daa6-14fa-4b6f-b8fb-cbbef01a95c6?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "file",
           "reference": "notion-file-block://68649686-43bc-42c8-bb05-241afc56f4ec/c0e2c81e-a4b8-46b7-9fca-c193f82f2083?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E8%25AF%25BE%25E7%25A8%258B.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://24a981fc-7c4a-49c7-93c2-21a45b3ead0f/297d4309-7196-4072-b83d-11f308862fbc?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "file",
           "reference": "notion-file-block://f6a185b1-7ef0-435c-b29d-997aa68bdb97/303e20c6-abf3-4951-b3ba-eec3619515d0?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E5%25AD%2597%25E4%25BD%2593%25E7%25B4%25A0%25E6%259D%2590.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://f102d8ee-8009-492e-b9e3-a9a66aaf1161/83fb7554-4579-4df3-a315-cd1cfdb13cd0?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://b8377435-1b34-4069-bb3d-f66525ae3a0e/1e88de08-dceb-4ef4-a0e7-2df3adf05742?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://d33a4739-5c2f-47ae-8d6a-32c0a5f5afa6/63ad6c9b-f478-4581-b7a3-6bdfccc19f1b?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://91b4601d-e869-4bb7-ab93-a0f54ca48930/31162872-6355-4de9-89fd-fff6c20ce358?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://9dad5749-2421-4cba-a265-557dbc48c8ca/820fe3c4-38bd-49bc-a3af-51cff008fcd6?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://4aec6630-1770-4ba9-859f-8a3918dda240/b90a6614-aaa6-4e39-a65c-d3714c5e6ca4?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://edd72089-8c60-4715-9afa-28314fbdc9fa/c9e1381d-f542-4e8b-a0a1-794629929cd6?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://52570ceb-ac74-404f-a847-41bfd898a9b9/88c04891-c7b5-4734-a377-ffa2475f22fe?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://3502d964-a5e9-4fa3-bbd1-5fe318f53fd5/297d4309-7196-4072-b83d-11f308862fbc?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "file",
           "reference": "notion-file-block://db76373f-f072-4b7c-8686-7e99eb164385/9bc51a06-9bf0-4844-aeba-e9a6710aeb70?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E5%25BD%25A2%25E7%258A%25B6%25E8%25BD%25AE%25E5%25BB%2593%25E7%25B4%25A0%25E6%259D%2590.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "file",
           "reference": "notion-file-block://ec03e5e4-85b3-4672-a047-ba6e58089490/af867c8a-3912-40d6-ba1b-bb06eec5eae8?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E5%25BD%25A2%25E7%258A%25B6%25E7%25BA%25B9%25E7%2590%2586%25E7%25B4%25A0%25E6%259D%2590.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "file",
           "reference": "notion-file-block://577c786a-0db9-4f77-afc9-b499afa81c48/bdd5d336-6651-4c1b-9894-5e1fd0924b1c?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E5%25BD%25A2%25E7%258A%25B6%25E6%2595%2588%25E6%259E%259C%25E7%25B4%25A0%25E6%259D%2590.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://51a6e69d-2628-4ef7-a4aa-86aa28110b46/c8e56814-d6e6-4c30-8f66-2662c5251af7?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://91b7da8e-71ca-4cfc-8ac7-ed0d37949d35/ab3b4357-b967-490a-acb0-b5f3d5760451?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://cd8424f7-308b-4a98-adc0-6ac55d91f218/9249f15b-5dfb-4d05-9806-726f8122aadc?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://d3a160a9-5aad-44f7-873e-8828d77dc41e/22f1b4fe-c1fa-47db-8529-069429dc370c?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://c54b3447-7e3b-4d67-9a13-748145ba3f3a/297d4309-7196-4072-b83d-11f308862fbc?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://b08c4869-b9ea-414c-9fc1-d9c544baad90/297d4309-7196-4072-b83d-11f308862fbc?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://e67897d9-ca99-4637-aa95-4e6ef0d54873/b39f4426-d94b-46d5-8023-04f36075b0a7?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://3c019810-f709-4d45-a61e-0f910f6c98e5/77826b40-7451-4d20-99bd-016327f5f8d5?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://6cd64c9a-2d9c-45a3-82f8-2af40acf1f49/753fc713-3136-49c3-8dce-f90d27e99bde?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://0bf741d3-76de-40fe-b2e3-22eda3e9ef7e/8f21dddf-e334-4f02-a3f7-09b243e8ef51?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://0fedbf6a-6d4e-483b-aaf8-5715b1df9b7a/6d4b2378-ebac-49f8-a691-243bbb4ca252?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://fddce3ab-e888-4afe-aa9b-f70d1573c71b/0266c1eb-9eba-48a6-99cf-4877129d6c33?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://57d4cf1f-0cf4-4043-bae5-de5ffcbf8ccb/35c18829-dbd5-4200-8700-12fd2b4f14a8?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "file",
           "reference": "notion-file-block://87904d39-3084-4b6f-a516-75e523384db8/30186831-8dc8-4fa8-8099-7a0aa23fc44a?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E8%25AF%25BE%25E7%25A8%258B.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://b11c01a4-8325-47ab-91f1-8df691d524ea/6cd8c213-a359-4b68-9860-2845e18d0bb9?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://637d6fbb-aacb-4d6b-89da-11d418831412/82283acb-de30-4567-a133-b3411224e051?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://45cc210b-98d6-4800-b725-5450d64b2ec4/e3a92b7f-7c4f-4681-b9e7-029d36e9dfd8?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://28857048-9807-4f8c-a2c0-2004fa0509c6/1a41173c-b03f-417a-a143-a3816359a51b?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://02a191dd-63e2-4338-8f24-75542dd8c40c/b4c51f86-4146-45bf-b257-8655e6db2cbe?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://60b321e9-9101-4345-a8db-bf80eae30f36/5bb16dd0-8170-4d01-8884-ba4083af0604?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://b95d7b1f-fc00-426b-9237-0e8aa7cef333/659cac63-b92f-468c-bdd5-3c2c7f627f22?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://9f3cd85d-6812-4bc8-add2-a2d42ccace88/b5cbfd49-193a-4fb1-8057-2c7281ec1d5f?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://b6e7d833-1d5a-48fd-afaf-184ddc6b5c79/f969e40d-ccd7-4630-927c-dff64e539fab?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "file",
           "reference": "notion-file-block://17ceeca8-ce46-45ad-ac3f-332e82b152ff/75606742-5bed-4b21-a961-b2b39cd8a564?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E6%2596%2587%25E6%259C%25AC%25E6%258E%2592%25E7%2589%2588.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "file",
           "reference": "notion-file-block://e2e967e1-4ad9-4a3e-9bd0-32a8daa47af0/97698b6a-8257-4be0-bbe9-1a7f95478739?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E6%258E%2592%25E7%2589%2588%25E8%25AE%25BE%25E8%25AE%25A1.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "file",
           "reference": "notion-file-block://98170117-971b-499c-85fa-d66cf3f595fb/c528ca62-b2c3-4d05-93e7-d0055bd2e392?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E5%25A4%259A%25E7%2582%25B9%25E5%25BC%258F%25E6%258E%2592%25E7%2589%2588%25E8%25AE%25BE%25E8%25AE%25A1.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "file",
           "reference": "notion-file-block://b7307648-11d7-4242-bd60-46520e7cb7c8/8d0a486e-8e65-4c1c-9260-b945d5a503ea?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E5%2588%259B%25E6%2584%258F%25E6%258E%2592%25E7%2589%2588%25E8%25AE%25BE%25E8%25AE%25A1.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "file",
           "reference": "notion-file-block://4d128667-39aa-4b9c-bb04-d16e2eba503e/42a37e79-24fb-4ae4-9a2c-e18bbb0ac2df?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=PPT%25E6%258E%2592%25E7%2589%2588%25E6%25A8%25A1%25E6%259D%25BF.pptx",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://8e942947-3ea6-4758-9da6-e935e72ed5cd/ad6fba67-3c40-403f-8b9d-567afa108ea3?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://1fd7ec06-481b-4ba3-a7eb-281590c0e4e6/4a7eb65c-1d2f-4454-b5c8-52b31f80cf10?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://9d0f8a11-404c-445f-b75a-9490321e1367/10fe5058-8643-4b05-8f83-f2c1a1a704b1?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://8d59df02-4695-4dfb-aa12-54a734a51433/bef6e319-1cc4-4fa0-b659-6cc0e400f724?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://3fd71a45-93e4-4adb-be54-090957825159/414fe4f8-a84d-4dc4-b84b-4135339fafe5?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://65f02fb9-f30e-4b41-8907-8750a49b169f/3ec62a90-55c9-4e5f-9a7b-e1bf3295ebc2?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://fed60e98-a3c3-406c-918f-813e4af21bb5/758db272-bb50-49bc-bd4b-6af76e3e15ca?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://65db6441-b9a3-41fc-ad2b-84b6d72f230a/30ebc599-e278-48fd-b4d9-f9fa0701cc9a?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://073f4881-8fbf-4c43-8595-0ebb039e1fab/8435b105-19ef-467c-8f79-ed31ccd779cf?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://db184def-a8e8-4481-9757-9a051d3a40fb/16905530-0610-490c-813e-1dc2a3112b11?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://fee0c283-0bf1-4832-ab12-527dbabe7ef6/f158c0dc-4758-43cc-a2dd-90bad83a9977?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://8e065e34-acda-4d1d-9e8a-9b2c748b78fe/bed73c2c-2e08-40b8-8d00-a7e2611fc122?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://c31e2275-07bd-4275-87ea-f9174f5fe705/b290aa23-a566-44b9-b7d8-d67bb2ff39db?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://44e41a27-0266-427c-8674-48605ea3a68b/35fcce33-1825-499f-ab38-c8799d5f2137?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://e871dad2-d985-4844-bd96-5e34df019075/8118ceeb-d128-400e-989a-dc014430cc10?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "image",
           "reference": "notion-file-block://7874fc61-26b3-4e13-890d-ce797f15135e/fbc06ebd-606a-42cf-b919-e0cb7d00d357?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=Untitled.png",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "file",
           "reference": "notion-file-block://6eead4cd-7184-4978-bd09-af4311c3eef5/9770225d-f365-47d8-95ec-11ffd9fdd0ac?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E5%25A4%259A%25E5%259B%25BE%25E6%258E%2592%25E7%2589%2588.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "file",
           "reference": "notion-file-block://9932407e-1259-46e4-b125-b0260dbfbd40/e1de063f-8c13-4f09-82f4-ae552f3afe6b?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E6%2595%25B0%25E6%258D%25AE%25E6%258E%2592%25E7%2589%2588.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "file",
           "reference": "notion-file-block://d99a570e-6eac-4371-9e76-c1797eb2c395/d353f2c2-c7aa-4251-a2a7-8173008d6963?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E4%25B8%25AA%25E4%25BA%25BA%25E5%259B%25A2%25E9%2598%259F%25E4%25BB%258B%25E7%25BB%258D.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "file",
           "reference": "notion-file-block://3b1730d9-654b-43aa-b933-4b842692863b/0a0e3e0a-7679-4b28-9c44-f906e7942a5c?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E8%25A1%25A8%25E6%25A0%25BC%25E9%25A1%25B5%25E8%25AE%25BE%25E8%25AE%25A1.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "file",
           "reference": "notion-file-block://aad12df2-4a1e-473c-a631-d5f01ac239eb/7da12b3b-d22c-408c-9ec2-7f645c59e090?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E6%2597%25B6%25E9%2597%25B4%25E8%25BD%25B4%25E8%25AE%25BE%25E8%25AE%25A1.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "file",
           "reference": "notion-file-block://95a56f37-53ef-4fc3-baad-8627594f0f3a/9db3f711-9192-4f7a-81d8-04589a3775ff?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E7%25BB%2584%25E7%25BB%2587%25E6%259E%25B6%25E6%259E%2584%25E5%259B%25BE%25E8%25AE%25BE%25E8%25AE%25A1.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "file",
           "reference": "notion-file-block://484819dd-96b8-4462-9b55-8d4f5cd806b0/7ed28655-bb37-4eb3-ad0b-38e72bc0407f?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E5%25B7%25A5%25E4%25BD%259C%25E5%259E%258BPPT%25E6%25B1%2587%25E6%258A%25A5%25E4%25B8%2593%25E9%25A2%2598%25E7%259B%25B4%25E6%2592%25AD%25E8%25AF%25BE.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "file",
           "reference": "notion-file-block://df3a63c3-79ef-4d42-8f70-852e3c5292db/3f6b9509-b47f-45e1-8c94-4d3e115f9052?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E5%25AD%25A6%25E6%259C%25AF%25E5%259E%258BPPT%25E6%25B1%2587%25E6%258A%25A5%25E4%25B8%2593%25E9%25A2%2598%25E7%259B%25B4%25E6%2592%25AD%25E8%25AF%25BE.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         },
         {
           "type": "file",
           "reference": "notion-file-block://239ed8c7-eaf4-4cd7-be9e-fa6d4e6b9a4a/fae42fe9-9cdd-4618-aee1-1534755b86ab?space_id=952f5f87-b692-4249-a557-7f7ad0a77d56&name=%25E5%2588%259B%25E6%2584%258F%25E9%25A3%258E%25E6%25A0%25BCPPT%25E4%25B8%2593%25E9%25A2%2598%25E7%259B%25B4%25E6%2592%25AD%25E8%25AF%25BE.pdf",
-          "translation_status": "pending"
+          "translation_status": "reference_only",
+          "review_notes": "외부 발표 디자인 강의의 예시 자료입니다. 한국어 목차와 짧은 안내만 제공하며 첨부 전체의 번역·재배포는 하지 않습니다."
         }
-      ]
+      ],
+      "review_notes": "외부 강의·템플릿 모음의 한국어 안내입니다. 다수 예제 이미지와 파일의 전문 번역·재배포를 포함하지 않습니다."
     },
     {
       "id": "1723fe292ff18053ade0d7afa6c0328a",
-      "title": "논문 작성 개요 예시",
+      "title": "논문 작성 개요 예시: 의미 정보를 이용한 장면 재구성",
       "url": "https://pengsida.notion.site/1723fe292ff18053ade0d7afa6c0328a",
       "found_in": [
         "notion-1143fe292ff180feb5d0fe76d05e085b"
       ],
-      "translation_status": "pending",
-      "translation_path": null,
+      "translation_status": "translated",
+      "translation_path": "docs/notion/writing-outline-example.md",
       "fetched_on": "2026-11-04",
       "source_last_edited_at": "2025-01-21T08:50:00.047Z",
       "content_sha256": "0929c0a12911b644bcd9c14619f4bbadefb45706c376b84cc1230dd2c57d2f21",
       "content_characters": 13814,
       "access_status": "fetched",
       "omission_check": "공개 조회 응답을 확보했습니다. 이미지와 첨부 파일은 본문과 별도로 검수합니다.",
-      "media": []
+      "media": [],
+      "review_notes": "공개 본문과 작성 예시를 대조했습니다. AI 글쓰기의 이미지 17장을 확인해 변화를 표와 설명으로 옮겼습니다. 원문의 빈 수식과 미완성 메모를 구분했습니다."
     },
     {
       "id": "8beb455efdd54cf8bc6de579bca3c211",

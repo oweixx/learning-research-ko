@@ -83,6 +83,8 @@ def audit(root: Path, require_external: bool = False) -> tuple[list[str], dict[s
         texts[name] = text
         if text.startswith("\ufeff") or "\ufffd" in text:
             errors.append(f"{name}: BOM 또는 깨진 문자가 있습니다.")
+        if re.search(r"\?{3,}", text):
+            errors.append(f"{name}: 인코딩 손실로 의심되는 연속 물음표가 있습니다.")
         if not text.strip():
             errors.append(f"{name}: 파일이 비어 있습니다.")
         match = CJK.search(text)

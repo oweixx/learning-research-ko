@@ -11,9 +11,9 @@
 먼저 다음 두 글을 읽어 보기를 권합니다.
 
 - [박사과정 연구자의 좋은 본보기: Sebastian Starke](./sebastian-starke.md)
-- [면접 질문을 통해 돌아보는 연구자의 중요한 자질](https://pengsida.notion.site/1d13fe292ff180de91afcb7f2eb57b69)
+- [면접 질문을 통해 돌아보는 연구자의 중요한 자질](./researcher-qualities.md)
 
-다른 연구자의 관점은 [연구에서 피해야 할 행동](https://pengsida.notion.site/1fa3fe292ff1807e98c5e3513045cbab)을 참고하세요.
+다른 연구자의 관점은 [연구에서 피해야 할 행동](./research-life-pitfalls.md)을 참고하세요.
 
 > **번역자 주:** 원문의 세 표를 읽기 쉽도록 항목별 설명과 단계별 안내로 풀어 썼습니다. 원문에서 자료 제목만 있고 링크가 없는 항목은 그 상태를 유지했습니다.
 
@@ -23,7 +23,7 @@
 
 개별 문제뿐 아니라 서로 연결된 구조를 살펴보는 시스템적 사고와, 목표를 구체화하고 관리하는 사고가 필요합니다.
 
-- 필요한 이유: [연구에서 시스템적 사고가 하는 역할](https://yb.tencent.com/s/ch5CEC3bodWc), [연구와 삶에서 목표 관리가 하는 역할](https://pengsida.notion.site/31d3fe292ff1801a97aceb84f067a0ed)
+- 필요한 이유: [연구에서 시스템적 사고가 하는 역할](https://yb.tencent.com/s/ch5CEC3bodWc), [연구와 삶에서 목표 관리가 하는 역할](./meaningful-goals.md)
 - 참고 도서: [복잡한 세계를 시스템으로 사고하고 모델링하기](https://book.douban.com/subject/3106569//), [도식으로 사고하는 법](https://book.douban.com/subject/10771463/), 목표 트리로 목표를 관리하는 [논리적 사고 과정: 복잡한 문제를 해결하는 체계적 방법](https://book.douban.com/subject/36202651/)
 
 도서명은 내용을 이해할 수 있도록 한국어로 옮긴 것이며, 국내 출간 제목을 뜻하지는 않습니다.
@@ -33,8 +33,8 @@
 무엇이 좋은 연구인지 판단하는 안목은 스스로 뛰어난 연구를 해내기 위한 바탕입니다.
 
 - [Sebastian Starke의 연구에서 배우기](./sebastian-starke.md)
-- [좋은 연구를 알아보는 안목을 기르는 법](https://pengsida.notion.site/4a4a6aa51614420eb146e8cf82c32bd4)
-- [자연과학이란 무엇인가](https://pengsida.notion.site/1053fe292ff18015b2f3cde4498a5f0f)
+- [좋은 연구를 알아보는 안목을 기르는 법](./research-taste.md)
+- [자연과학이란 무엇인가](./science-and-mathematics.md)
 
 ### 한 분야를 깊이 파고들어 전문가가 되기
 
@@ -49,26 +49,26 @@
 기술을 보는 감각이 있으면 앞으로 주목받을 기술을 예상하고, 어떤 기술이 믿을 만한지 판단할 수 있습니다. 새로운 연구 방향과 첨단 기술을 배우는 일은 연구의 창의성을 유지하는 데도 도움이 됩니다.
 
 - 기술을 보는 감각을 기르는 법 — 원문에 링크 없음
-- [연구 아이디어를 발전시키는 법](https://pengsida.notion.site/da6ce171c13846b7a7ffaa7473ffa6ea)
+- [연구 아이디어를 발전시키는 법](./research-ideas.md)
 
 ### 다른 사람에게서 지식을 배우는 습관 들이기
 
 다른 사람의 경험과 지식에서 핵심을 배우면 연구를 한결 수월하게 진행할 수 있습니다. 혼자서만 문제를 붙잡고 고민하면 불필요한 어려움을 겪기 쉽습니다.
 
-- [효율적으로 토론하는 법](https://pengsida.notion.site/d697ef578d784c869d4f8314f0d617da)
-- [지도교수와 선배의 지식을 효과적으로 배우는 법](https://pengsida.notion.site/903b997097d343dbaba6d5e0780eab0f)
-- [선임 연구자의 도움을 더 효과적으로 받는 법](https://pengsida.notion.site/13f822dc3a5e4242ab1282789a47c346)
-- [연구실에 처음 들어왔을 때 겪기 쉬운 문제와 예방 방법](https://pengsida.notion.site/b3697365df674503b38e8265489fb336)
-- [연구를 배우는 일과 수업 공부의 차이](https://pengsida.notion.site/a3fe9f17b8af46558cd1112627009c83)
-- [학부 교육과 대학원 교육의 차이](https://pengsida.notion.site/4db27521e7014e7a925a0f07e4f5c80f)
+- [효율적으로 토론하는 법](./research-meetings.md)
+- [지도교수와 선배의 지식을 효과적으로 배우는 법](./learning-from-mentors.md)
+- [선임 연구자의 도움을 더 효과적으로 받는 법](./asking-senior-researchers.md)
+- [연구실에 처음 들어왔을 때 겪기 쉬운 문제와 예방 방법](./joining-a-lab.md)
+- [연구를 배우는 일과 수업 공부의 차이](./research-vs-coursework.md)
+- [학부 교육과 대학원 교육의 차이](./undergraduate-to-research.md)
 
 ### 알고리즘과 코드의 문제를 추적하는 사고 익히기
 
 디버깅은 문제를 해결하는 핵심 역량입니다.
 
-- [실험이 기대대로 되지 않는 원인 분석하기](https://pengsida.notion.site/1aee6e718de6472f834d13da8f4ff097)
-- [알고리즘과 코드를 디버깅하는 법](https://pengsida.notion.site/1b69debf803a4c268fc8a09a9a748bbf)
-- [『클린 코드』 독서 노트](https://pengsida.notion.site/1053fe292ff180b59bbfe55c0961a796)
+- [실험이 기대대로 되지 않는 원인 분석하기](./experiment-failures.md)
+- [알고리즘과 코드를 디버깅하는 법](./debugging-guide.md)
+- [『클린 코드』 독서 노트](./clean-code-guide.md)
 
 ## 2. 박사과정 연구자에게 필요한 여덟 가지 역량
 
@@ -84,36 +84,36 @@
 
 참고 자료:
 
-1. [스스로 폭넓게 논문을 조사해야 하는 이유](https://pengsida.notion.site/1363fe292ff1805b84a6c97e3601ac4d) — 뛰어난 연구자에게 필요한 중요한 역량입니다.
-2. [논문을 효과적으로 읽는 법](https://pengsida.notion.site/d192db870bc64436ae4a4a590b36772a)
-3. [문헌 조사와 문헌 트리 구성하기](https://pengsida.notion.site/f8b36e484b344a2893a94e4608b72ec2)
+1. [스스로 폭넓게 논문을 조사해야 하는 이유](./independent-literature-search.md) — 뛰어난 연구자에게 필요한 중요한 역량입니다.
+2. [논문을 효과적으로 읽는 법](./reading-papers.md)
+3. [문헌 조사와 문헌 트리 구성하기](./literature-tree.md)
 4. 문헌 조사에서 겪기 쉬운 문제와 예방 방법 — 원문에 링크 없음
-5. [논문을 찾는 법](https://pengsida.notion.site/c278dab7e4764d61a92c1fd1ef3135b1)
-6. [논문과 알고리즘의 코드를 공부하는 법](https://pengsida.notion.site/24f2a9617d2f475c9be20139d5c49a1a)
+5. [논문을 찾는 법](./finding-papers.md)
+6. [논문과 알고리즘의 코드를 공부하는 법](./reading-research-code.md)
 
 ### 혁신: 중요한 문제를 고르고 해결책 제안하기
 
 목표 중심 연구(goal-driven research)를 수행하고, 필요한 내용을 검색하며, 새로운 기술을 제안하는 능력입니다.
 
-연구(research)를 하려면 먼저 검색(search)을 할 줄 알아야 합니다. 무언가 떠올랐다면 관련된 해결책이나 참고할 내용이 이미 있는지 찾아보는 것이 기본입니다. 이 습관은 불필요한 수고를 줄이고 사고의 폭을 넓힙니다. [연구에서 검색 능력이 중요한 이유](https://pengsida.notion.site/27409ef7cd1c4e7d8b6365cd732348e2)를 참고하세요.
+연구(research)를 하려면 먼저 검색(search)을 할 줄 알아야 합니다. 무언가 떠올랐다면 관련된 해결책이나 참고할 내용이 이미 있는지 찾아보는 것이 기본입니다. 이 습관은 불필요한 수고를 줄이고 사고의 폭을 넓힙니다. [연구에서 검색 능력이 중요한 이유](./search-skills.md)를 참고하세요.
 
 문제를 해결하려면 새로운 기술을 제안할 수 있어야 합니다. 목표 중심 연구는 계획과 연속성을 갖추게 해 주며, 자신의 연구가 뚜렷하게 드러나도록 돕습니다.
 
 참고 자료:
 
 1. [Sebastian Starke의 연구에서 배우기](./sebastian-starke.md)
-2. [좋은 연구를 알아보는 안목을 기르는 법](https://pengsida.notion.site/4a4a6aa51614420eb146e8cf82c32bd4)
-3. [자연과학이란 무엇인가](https://pengsida.notion.site/1053fe292ff18015b2f3cde4498a5f0f)
-4. [연구 아이디어를 발전시키는 법: 주제 선정과 문제 해결](https://pengsida.notion.site/da6ce171c13846b7a7ffaa7473ffa6ea) — 연구를 처음 시작하면 문제를 고르는 경험이 부족하기 쉽습니다.
-5. [해결책을 설계하는 능력을 기르는 법](https://pengsida.notion.site/997f611cd2e24ef1a62210ff099948e2) — 초보 연구자가 문제 해결의 실마리를 찾는 데 도움이 되는 중요한 자료입니다.
-6. [프로젝트의 핵심 기술 문제 분석 양식](https://pengsida.notion.site/1753fe292ff180948215cf82cd2b30ae)
-7. [기본 원리에서 출발해 방법을 설계하기](https://pengsida.notion.site/e5cc4f108cc4414d82abbf7b8e31dfae)
+2. [좋은 연구를 알아보는 안목을 기르는 법](./research-taste.md)
+3. [자연과학이란 무엇인가](./science-and-mathematics.md)
+4. [연구 아이디어를 발전시키는 법: 주제 선정과 문제 해결](./research-ideas.md) — 연구를 처음 시작하면 문제를 고르는 경험이 부족하기 쉽습니다.
+5. [해결책을 설계하는 능력을 기르는 법](./designing-solutions.md) — 초보 연구자가 문제 해결의 실마리를 찾는 데 도움이 되는 중요한 자료입니다.
+6. [프로젝트의 핵심 기술 문제 분석 양식](./technical-problem-template.md)
+7. [기본 원리에서 출발해 방법을 설계하기](./first-principles.md)
 8. 검색의 필요성을 인식하고 검색 능력을 기르는 법 — 원문에 링크 없음
-9. [문헌 트리로 아이디어를 만드는 능력 기르기](https://pengsida.notion.site/f8b36e484b344a2893a94e4608b72ec2) — 분야의 주요 문제와 기술을 파악합니다.
-10. [목표 중심 연구란 무엇인가](https://pengsida.notion.site/d9c6556326e84962a2d7ae190e2705af)
+9. [문헌 트리로 아이디어를 만드는 능력 기르기](./literature-tree.md) — 분야의 주요 문제와 기술을 파악합니다.
+10. [목표 중심 연구란 무엇인가](./goal-driven-research.md)
 11. [논문의 기술적 기여도를 높이는 법](https://pengsida.notion.site/434a6b3e34d0403ca178fb0db2338232) — 초보 연구자가 자주 부딪히는 중요한 문제입니다.
 12. 프로젝트의 과제를 계획할 때 겪기 쉬운 문제와 예방 방법 — 원문에 링크 없음
-13. [기술적 해결책을 구상할 때 겪기 쉬운 문제와 예방 방법](https://pengsida.notion.site/2d4db9a1e86346068ecb59bb57c0f9fd)
+13. [기술적 해결책을 구상할 때 겪기 쉬운 문제와 예방 방법](./solution-pitfalls.md)
 
 ### 실천: 구현, 실험, 실패 원인 분석
 
@@ -122,16 +122,16 @@
 참고 자료:
 
 1. [바이브 코딩으로 프로그래밍 역량 기르기](https://www.vibevibe.cn/)
-2. [탐색적 실험은 최소한의 검증부터 시작하기](https://pengsida.notion.site/2863fe292ff180759413f51ed1d1fdc3)
-3. [아이디어를 검증할 탐색적 실험을 설계하는 법](https://pengsida.notion.site/849f6606e5fb49b5b73a3778de64e43e)
-4. [실험이 기대대로 되지 않는 원인 분석하기](https://pengsida.notion.site/1aee6e718de6472f834d13da8f4ff097)
-5. [실험 결과를 분석할 때 던져 볼 열 가지 질문](https://pengsida.notion.site/4be609919b914b7587a5477bddc83001)
+2. [탐색적 실험은 최소한의 검증부터 시작하기](./minimum-experiment.md)
+3. [아이디어를 검증할 탐색적 실험을 설계하는 법](./exploratory-experiments.md)
+4. [실험이 기대대로 되지 않는 원인 분석하기](./experiment-failures.md)
+5. [실험 결과를 분석할 때 던져 볼 열 가지 질문](./experiment-questions.md)
 6. [실험 기록 작성하기](./experiment-records.md)
-7. [알고리즘과 코드를 디버깅하는 법](https://pengsida.notion.site/1b69debf803a4c268fc8a09a9a748bbf) — 초보 연구자에게 특히 중요합니다.
-8. [『클린 코드』 독서 노트](https://pengsida.notion.site/1053fe292ff180b59bbfe55c0961a796)
-9. [탐색적 실험에서 겪기 쉬운 문제와 예방 방법](https://pengsida.notion.site/afe9ef02def04f6f992d0ad6070076ce)
-10. [논문과 알고리즘의 코드를 공부하는 법](https://pengsida.notion.site/24f2a9617d2f475c9be20139d5c49a1a)
-11. [바이브 코딩 시대에 개발자가 갖춰야 할 역량](https://pengsida.notion.site/37a3fe292ff180e18ffec36ece8a7818)
+7. [알고리즘과 코드를 디버깅하는 법](./debugging-guide.md) — 초보 연구자에게 특히 중요합니다.
+8. [『클린 코드』 독서 노트](./clean-code-guide.md)
+9. [탐색적 실험에서 겪기 쉬운 문제와 예방 방법](./experiment-pitfalls.md)
+10. [논문과 알고리즘의 코드를 공부하는 법](./reading-research-code.md)
+11. [바이브 코딩 시대에 개발자가 갖춰야 할 역량](./ai-assisted-programming.md)
 
 ### 전달: 글, 발표, 데모로 연구를 알리기
 
@@ -139,35 +139,35 @@
 
 참고 자료:
 
-1. [논문 작성 템플릿](https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e)
+1. [논문 작성 템플릿](./paper-writing-template.md)
 2. [논문 그림 작성 템플릿](https://pengsida.notion.site/0051678d2df74d73ae236b9b44875193)
-3. [Copilot과 GPT를 활용해 영어 글쓰기를 보완하는 법](https://pengsida.notion.site/1143fe292ff180feb5d0fe76d05e085b) — 원저자가 중요하게 꼽은 자료입니다.
-4. [논문의 글을 다듬는 법](https://pengsida.notion.site/1293fe292ff180bfa5deeed526821d78)
+3. [Copilot과 GPT를 활용해 영어 글쓰기를 보완하는 법](./ai-assisted-writing.md) — 원저자가 중요하게 꼽은 자료입니다.
+4. [논문의 글을 다듬는 법](./revising-papers.md)
 5. [논문 쓰기를 연습하는 법](./writing-practice.md)
-6. [뛰어난 연구자들의 글쓰기 경험](https://pengsida.notion.site/74aef88b9187439fa4e301704f6eb49a)
-7. [자신과 다른 사람의 논문을 검토하는 법](https://pengsida.notion.site/eed9ed1e9dc44a1c9437b114e6d5d9fd)
-8. [매력적인 데모와 응용 사례를 만드는 법](https://pengsida.notion.site/d820794145a041be9599e45dc0cdb3b5) — 논문의 영향력과 밀접하게 관련됩니다.
-9. [심사 의견에 답변하는 법](https://pengsida.notion.site/af99ce47103e4917b6a5bd1fd4b3c022)
-10. [학술 발표 슬라이드를 만드는 법](https://pengsida.notion.site/810f02670691444f8c94cc3d5b76dcbc)
-11. [연구 프로젝트 소개 페이지를 만드는 법](https://pengsida.notion.site/33275442af8d40fb9d09b335106a8595)
-12. [논문을 쓰면서 겪기 쉬운 문제와 예방 방법](https://pengsida.notion.site/5dae86dfa4b0446fbe69c490e1165815)
-13. [논문의 인용을 늘리는 법](https://pengsida.notion.site/e94fd42c49614acc98d8457cf00d5903)
+6. [뛰어난 연구자들의 글쓰기 경험](./writing-resources.md)
+7. [자신과 다른 사람의 논문을 검토하는 법](./reviewing-papers.md)
+8. [매력적인 데모와 응용 사례를 만드는 법](./research-demos.md) — 논문의 영향력과 밀접하게 관련됩니다.
+9. [심사 의견에 답변하는 법](./rebuttal.md)
+10. [학술 발표 슬라이드를 만드는 법](./academic-talks.md)
+11. [연구 프로젝트 소개 페이지를 만드는 법](./project-page-resources.md)
+12. [논문을 쓰면서 겪기 쉬운 문제와 예방 방법](./paper-writing-pitfalls.md)
+13. [논문의 인용을 늘리는 법](./research-impact.md)
 14. [30분으로 이해하는 피라미드 원리](https://weread.qq.com/web/reader/781327e0813abb61cg019003) — 도서명의 뜻을 옮긴 표현입니다.
 
 ### 소통: 지도교수와 동료와 함께 생각하기
 
-다른 사람에게 연구의 도움을 받고, 자신의 의문을 풀고, 아이디어를 검증하고, 새로운 실마리를 얻는 능력입니다. [연구에서 소통과 토론이 중요한 이유](https://pengsida.notion.site/5828f74458ee4e3fa32c20100c6855ec)에는 동료와의 관계를 좋게 만드는 효과도 포함됩니다.
+다른 사람에게 연구의 도움을 받고, 자신의 의문을 풀고, 아이디어를 검증하고, 새로운 실마리를 얻는 능력입니다. [연구에서 소통과 토론이 중요한 이유](./research-communication.md)에는 동료와의 관계를 좋게 만드는 효과도 포함됩니다.
 
 참고 자료:
 
-1. [효율적으로 토론하는 법](https://pengsida.notion.site/d697ef578d784c869d4f8314f0d617da)
-2. [연구실에 처음 들어와 동료들과 친해지는 법](https://pengsida.notion.site/c5549978134a4b348a49fc387c500578)
+1. [효율적으로 토론하는 법](./research-meetings.md)
+2. [연구실에 처음 들어와 동료들과 친해지는 법](./getting-to-know-colleagues.md)
 3. 모르는 것을 질문하는 능력 기르기 — 원문에 링크 없음
-4. [지도교수와 선배의 지식을 효과적으로 배우는 법](https://pengsida.notion.site/903b997097d343dbaba6d5e0780eab0f)
-5. [선임 연구자의 도움을 더 효과적으로 받는 법](https://pengsida.notion.site/13f822dc3a5e4242ab1282789a47c346)
-6. [연구실에 처음 들어왔을 때 겪기 쉬운 문제와 예방 방법](https://pengsida.notion.site/b3697365df674503b38e8265489fb336)
-7. [연구를 배우는 일과 수업 공부의 차이](https://pengsida.notion.site/a3fe9f17b8af46558cd1112627009c83)
-8. [학부 교육과 대학원 교육의 차이](https://pengsida.notion.site/4db27521e7014e7a925a0f07e4f5c80f)
+4. [지도교수와 선배의 지식을 효과적으로 배우는 법](./learning-from-mentors.md)
+5. [선임 연구자의 도움을 더 효과적으로 받는 법](./asking-senior-researchers.md)
+6. [연구실에 처음 들어왔을 때 겪기 쉬운 문제와 예방 방법](./joining-a-lab.md)
+7. [연구를 배우는 일과 수업 공부의 차이](./research-vs-coursework.md)
+8. [학부 교육과 대학원 교육의 차이](./undergraduate-to-research.md)
 9. [일과 생활에서 신뢰받는 일 처리 방법](https://pengsida.notion.site/15c3fe292ff18021861af936361e8a87)
 
 ### 마음가짐: 여러 상황에서도 평정을 유지하기
@@ -176,10 +176,10 @@
 
 참고 자료:
 
-1. [불필요한 내적 소모와 그 해결 방법](https://pengsida.notion.site/2d01e7e2a36f4860acc655c78c57cf4f)
-2. [연구에 도움이 되지 않는 학생식 사고방식](https://pengsida.notion.site/ff09e6f41b394f56835591db70b4980f)
-3. [연구를 할지 결정하고 연구 방향을 고르는 법](https://pengsida.notion.site/1533fe292ff18090ba8bd603b4fcf64e)
-4. [좋은 작업 상태란 무엇인가](https://pengsida.notion.site/1773fe292ff1802ebb83c2baaae5529d)
+1. [불필요한 내적 소모와 그 해결 방법](./mental-overload.md)
+2. [연구에 도움이 되지 않는 학생식 사고방식](./student-mindset.md)
+3. [연구를 할지 결정하고 연구 방향을 고르는 법](./choosing-research.md)
+4. [좋은 작업 상태란 무엇인가](./working-state.md)
 
 스스로 연구하기 어렵다고 느낀다면, 위 역량 가운데 무엇이 부족한지 돌아보세요.
 

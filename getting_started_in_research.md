@@ -12,11 +12,11 @@
 
 원문에서는 Andrej Karpathy의 강의를 추천하며 다음 학습 자료를 안내합니다.
 
-1. 강의 영상: [Bilibili](https://www.bilibili.com/video/BV1eD4y1U7uu/) · [YouTube 재생목록](https://www.youtube.com/playlist?list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r)
-2. 과제: [EECS498 2022년 겨울 학기 과제 A1–A6](https://github.com/nizne9/EECS498-WI22)
-3. 교재: [Deep Learning](https://www.deeplearningbook.org/)
+1. 강의 영상: [Bilibili](./docs/external/course-guide.md) · [원문](https://www.bilibili.com/video/BV1eD4y1U7uu/) · [YouTube 재생목록](./docs/external/course-guide.md) · [원문](https://www.youtube.com/playlist?list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r)
+2. 과제: [EECS498 2022년 겨울 학기 과제 A1–A6](./docs/external/course-guide.md) · [원문](https://github.com/nizne9/EECS498-WI22)
+3. 교재: [Deep Learning](./docs/external/course-guide.md) · [원문](https://www.deeplearningbook.org/)
 
-> **번역자 주:** 원문의 강의 추천과 자료 링크를 그대로 보존했습니다. 다만 과제 저장소는 자체 안내에 따르면 미시간대학교 EECS498 과목의 개인 학습용 저장소이며, 공식 강의 저장소는 아닙니다. 강의를 선택할 때 영상과 과제의 과목·학기가 서로 맞는지 확인하세요. [과제 저장소 안내](https://github.com/nizne9/EECS498-WI22)
+> **번역자 주:** 원문의 강의 추천과 자료 링크를 그대로 보존했습니다. 다만 과제 저장소는 자체 안내에 따르면 미시간대학교 EECS498 과목의 개인 학습용 저장소이며, 공식 강의 저장소는 아닙니다. 강의를 선택할 때 영상과 과제의 과목·학기가 서로 맞는지 확인하세요. [과제 저장소 안내](./docs/external/course-guide.md) · [원문](https://github.com/nizne9/EECS498-WI22)
 
 알고리즘이나 코드에서 이해되지 않는 부분이 있다면 Google에서 검색하거나 AI 검색 도구에 질문해 보세요. 원문에서는 ‘new Bing’을 예로 들었습니다. 그래도 답을 찾지 못했다면 주저하지 말고 연구실 선배에게 물어보세요.
 
@@ -34,14 +34,14 @@
 
 ### 2. 관련 강의로 배경지식 넓히기
 
-프로젝트와 병행해 [Stanford CS231n 강의](http://cs231n.stanford.edu/schedule.html)를 들어 보세요. 딥러닝이 컴퓨터 비전에 어떻게 활용되는지 폭넓게 배울 수 있습니다.
+프로젝트와 병행해 [Stanford CS231n 강의](./docs/external/course-guide.md) · [원문](http://cs231n.stanford.edu/schedule.html)를 들어 보세요. 딥러닝이 컴퓨터 비전에 어떻게 활용되는지 폭넓게 배울 수 있습니다.
 
 이 단계에서는 이미 논문의 알고리즘을 직접 구현하고 있으므로 강의 과제까지 풀 필요는 없습니다. 시간 배분을 고려해 영상과 강의 자료를 중심으로 공부하면 됩니다.
 
 관심 분야에 따라 다음 강의도 참고하세요.
 
-- **전통적인 컴퓨터 그래픽스:** [GAMES101: 현대 컴퓨터 그래픽스 입문](https://games-cn.org/intro-graphics/), [GAMES202: 고품질 실시간 렌더링](https://sites.cs.ucsb.edu/~lingqi/teaching/games202.html). 원저자가 설명이 뛰어나다고 추천한 Lingqi Yan의 강의입니다.
-- **동작 합성(motion synthesis)과 컴퓨터 애니메이션:** [GAMES105: 컴퓨터 캐릭터 애니메이션 기초](https://games-105.github.io/). 원저자가 추천한 Libin Liu의 강의입니다.
+- **전통적인 컴퓨터 그래픽스:** [GAMES101: 현대 컴퓨터 그래픽스 입문](./docs/external/course-guide.md) · [원문](https://games-cn.org/intro-graphics/), [GAMES202: 고품질 실시간 렌더링](./docs/external/course-guide.md) · [원문](https://sites.cs.ucsb.edu/~lingqi/teaching/games202.html). 원저자가 설명이 뛰어나다고 추천한 Lingqi Yan의 강의입니다.
+- **동작 합성(motion synthesis)과 컴퓨터 애니메이션:** [GAMES105: 컴퓨터 캐릭터 애니메이션 기초](./docs/external/course-guide.md) · [원문](https://games-105.github.io/). 원저자가 추천한 Libin Liu의 강의입니다.
 
 ### 3. 연구 미팅에 참여하고 실험을 맡아 보기
 
@@ -49,12 +49,12 @@
 
 알고리즘에 대한 이해와 실험 역량이 충분히 쌓이면, 우리 연구실에서는 진행 중인 프로젝트의 일부 실험을 맡겨 봅니다. 이를 통해 논문을 읽고 실험하며 본격적으로 연구에 참여하게 됩니다. 필요한 역량과 관련 학습 자료 역시 위 문서에서 확인할 수 있습니다.
 
-이 시기에는 [자주 사용하는 도구와 환경 설정](https://pengsida.notion.site/59569d7b66954578b21bf1dc6ea35776)도 익혀 두면 좋습니다. 우리 연구실의 [Xingyi He](https://github.com/hxy-123)가 정리한 자료입니다.
+이 시기에는 [자주 사용하는 도구와 환경 설정](./docs/notion/linux-research-environment.md) · [원문](https://pengsida.notion.site/59569d7b66954578b21bf1dc6ea35776)도 익혀 두면 좋습니다. 우리 연구실의 [Xingyi He](https://github.com/hxy-123)가 정리한 자료입니다.
 
 ## 3단계: 제1저자로 연구 프로젝트 이끌기
 
 알고리즘 기초가 어느 정도 갖춰졌다면 연구실의 지도를 받으며 **자신이 제1저자가 되는 프로젝트**를 시작합니다. 목표는 연구 문제를 찾는 단계부터 아이디어 구상, 실험, 논문 작성까지 전 과정을 직접 경험하는 것입니다. 가능하다면 논문 투고까지 마무리해, 특정 세부 분야에서 자신의 연구 성과를 만들어 보세요.
 
-본격적으로 시작하기 전에 연구가 수업을 듣고 공부하는 일과는 상당히 다르다는 점을 이해할 필요가 있습니다. [연구를 시작하기 전에 알아 둘 점](https://pengsida.notion.site/a3fe9f17b8af46558cd1112627009c83)을 읽고 마음의 준비를 해 보세요.
+본격적으로 시작하기 전에 연구가 수업을 듣고 공부하는 일과는 상당히 다르다는 점을 이해할 필요가 있습니다. [연구를 시작하기 전에 알아 둘 점](./docs/notion/research-vs-coursework.md) · [원문](https://pengsida.notion.site/a3fe9f17b8af46558cd1112627009c83)을 읽고 마음의 준비를 해 보세요.
 
 이 단계에서는 아직 풀리지 않은 문제를 다루고 새로운 시도를 해야 하므로, 정해진 학습 경로를 제시하기 어렵습니다. 연구실에서 직접 조언을 듣고 배우는 과정의 비중이 커집니다. 그래도 독립적인 연구자가 갖춰야 할 역량을 최대한 정리해 두었습니다. 이어서 [연구 역량을 키우는 법](./getting_advanced_in_research.md)을 읽어 보세요.
