@@ -1,0 +1,1030 @@
+{
+  "checked_on": "2026-11-04",
+  "source_commit": "1ee561e5019fcc7d102b9a647591372871e40204",
+  "scope": "원문 저장소에서 직접 연결된 학습 자료를 추적합니다. 개인 홈페이지와 원본 저장소는 출처 링크입니다. Notion 하위 페이지와 강의 전체 자료는 아직 목록화하지 못했습니다.",
+  "sources": [
+    {
+      "id": "https://chingswy.github.io/",
+      "title": "Qing Shuai",
+      "category": "attribution",
+      "urls": [
+        "https://chingswy.github.io/"
+      ],
+      "access_status": "not_checked",
+      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
+      "translation_status": "reference_only",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "https://github.com/dendenxu",
+      "title": "Zhen Xu",
+      "category": "attribution",
+      "urls": [
+        "https://github.com/dendenxu"
+      ],
+      "access_status": "not_checked",
+      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
+      "translation_status": "reference_only",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "https://github.com/ghy0324",
+      "title": "Haoyu Guo",
+      "category": "attribution",
+      "urls": [
+        "https://github.com/ghy0324"
+      ],
+      "access_status": "not_checked",
+      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
+      "translation_status": "reference_only",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "https://github.com/hxy-123",
+      "title": "Xingyi He",
+      "category": "attribution",
+      "urls": [
+        "https://github.com/hxy-123"
+      ],
+      "access_status": "not_checked",
+      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
+      "translation_status": "reference_only",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md",
+        "getting_started_in_research.md"
+      ]
+    },
+    {
+      "id": "https://github.com/pengsida/learning_research",
+      "title": "Sida Peng의 Learning Research",
+      "category": "attribution",
+      "urls": [
+        "https://github.com/pengsida/learning_research"
+      ],
+      "access_status": "not_checked",
+      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
+      "translation_status": "reference_only",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "https://github.com/phj128",
+      "title": "Huaijin Pi",
+      "category": "attribution",
+      "urls": [
+        "https://github.com/phj128"
+      ],
+      "access_status": "not_checked",
+      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
+      "translation_status": "reference_only",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "https://haotongl.github.io/",
+      "title": "Haotong Lin",
+      "category": "attribution",
+      "urls": [
+        "https://haotongl.github.io/"
+      ],
+      "access_status": "not_checked",
+      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
+      "translation_status": "reference_only",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "https://jiamingsun.ml/",
+      "title": "Jiaming Sun",
+      "category": "attribution",
+      "urls": [
+        "https://jiamingsun.ml/"
+      ],
+      "access_status": "not_checked",
+      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
+      "translation_status": "reference_only",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "https://pengsida.net/",
+      "title": "Sida Peng 개인 홈페이지",
+      "category": "attribution",
+      "urls": [
+        "https://pengsida.net/"
+      ],
+      "access_status": "not_checked",
+      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
+      "translation_status": "reference_only",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "https://pengsida.net/files/CCF_Talk.pdf",
+      "title": "CCF 우수 박사학위논문 수상자가 되기까지",
+      "category": "pdf",
+      "urls": [
+        "https://pengsida.net/files/CCF_Talk.pdf"
+      ],
+      "access_status": "text_available",
+      "access_note": "웹 조회에서 본문의 텍스트를 확인했습니다. 전문 번역과 도표 검수는 완료하지 않았습니다.",
+      "translation_status": "reading_guide_only",
+      "translation_path": null,
+      "reading_guide_path": "docs/external/reading-guide.md",
+      "found_in": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "https://pengsida.net/files/learning_research_v4.pdf",
+      "title": "Learning Research 발표 자료",
+      "category": "pdf",
+      "urls": [
+        "https://pengsida.net/files/learning_research_v4.pdf"
+      ],
+      "access_status": "text_available",
+      "access_note": "웹 조회에서 본문의 텍스트를 확인했습니다. 전문 번역과 도표 검수는 완료하지 않았습니다.",
+      "translation_status": "reading_guide_only",
+      "translation_path": null,
+      "reading_guide_path": "docs/external/reading-guide.md",
+      "found_in": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "https://pengsida.net/files/research_topic_selection.pdf",
+      "title": "분야를 보는 안목과 연구 주제 선정",
+      "category": "pdf",
+      "urls": [
+        "https://pengsida.net/files/research_topic_selection.pdf"
+      ],
+      "access_status": "text_available",
+      "access_note": "웹 조회에서 본문의 텍스트를 확인했습니다. 전문 번역과 도표 검수는 완료하지 않았습니다.",
+      "translation_status": "reading_guide_only",
+      "translation_path": null,
+      "reading_guide_path": "docs/external/reading-guide.md",
+      "found_in": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "https://pengsida.net/games003/",
+      "title": "GAMES003: 그래픽스·비전 연구의 기초 소양",
+      "category": "course",
+      "urls": [
+        "https://pengsida.net/games003/"
+      ],
+      "access_status": "text_available",
+      "access_note": "안내 페이지를 확인했습니다. 연결된 강의·과제 본문은 전체 번역하지 않았습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "https://pengsida.net/games003/GAMES003_files/week_1.pdf",
+      "title": "GAMES003 1주차: 연구 과정과 분야 이해",
+      "category": "pdf",
+      "urls": [
+        "https://pengsida.net/games003/GAMES003_files/week_1.pdf"
+      ],
+      "access_status": "text_available",
+      "access_note": "웹 조회에서 본문의 텍스트를 확인했습니다. 전문 번역과 도표 검수는 완료하지 않았습니다.",
+      "translation_status": "reading_guide_only",
+      "translation_path": null,
+      "reading_guide_path": "docs/external/reading-guide.md",
+      "found_in": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "https://pengsida.net/games003/GAMES003_files/week_3.pdf",
+      "title": "GAMES003 3주차: 기술적 해결책 설계",
+      "category": "pdf",
+      "urls": [
+        "https://pengsida.net/games003/GAMES003_files/week_3.pdf"
+      ],
+      "access_status": "text_available",
+      "access_note": "웹 조회에서 본문의 텍스트를 확인했습니다. 전문 번역과 도표 검수는 완료하지 않았습니다.",
+      "translation_status": "reading_guide_only",
+      "translation_path": null,
+      "reading_guide_path": "docs/external/reading-guide.md",
+      "found_in": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "https://pengsida.net/games003/GAMES003_files/week_5.pdf",
+      "title": "GAMES003 5주차: 실험 결과를 통한 개선",
+      "category": "pdf",
+      "urls": [
+        "https://pengsida.net/games003/GAMES003_files/week_5.pdf"
+      ],
+      "access_status": "tool_size_limit",
+      "access_note": "웹 조회 도구의 파일 크기 제한으로 본문을 가져오지 못했습니다(약 11.3 MB).",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "notion-74aef88b9187439fa4e301704f6eb49a",
+      "title": "뛰어난 연구자들의 글쓰기 경험",
+      "category": "notion",
+      "urls": [
+        "https://pengsida.notion.site/74aef88b9187439fa4e301704f6eb49a"
+      ],
+      "access_status": "blocked",
+      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "notion-1713fe292ff1808eb33be93ea2d79ad9",
+      "title": "박사과정 연구자의 좋은 본보기: Sebastian Starke",
+      "category": "notion",
+      "urls": [
+        "https://pengsida.notion.site/Sebastian-Starke-1713fe292ff1808eb33be93ea2d79ad9?pvs=4",
+        "https://www.notion.so/Sebastian-Starke-1713fe292ff1808eb33be93ea2d79ad9?pvs=4"
+      ],
+      "access_status": "blocked",
+      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md",
+        "changelog"
+      ]
+    },
+    {
+      "id": "notion-c13c7e52aab64c1a8e3576b97fcb9851",
+      "title": "논문 쓰기를 연습하는 법",
+      "category": "notion",
+      "urls": [
+        "https://pengsida.notion.site/c13c7e52aab64c1a8e3576b97fcb9851"
+      ],
+      "access_status": "blocked",
+      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md",
+        "getting_advanced_in_research.md"
+      ]
+    },
+    {
+      "id": "notion-c1a22465a0fa4b15a12985223916048e",
+      "title": "논문 작성 템플릿",
+      "category": "notion",
+      "urls": [
+        "https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e",
+        "https://www.notion.so/pengsida/c1a22465a0fa4b15a12985223916048e"
+      ],
+      "access_status": "blocked",
+      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md",
+        "changelog",
+        "getting_advanced_in_research.md"
+      ]
+    },
+    {
+      "id": "notion-af99ce47103e4917b6a5bd1fd4b3c022",
+      "title": "심사 의견에 답변하는 법: 리버털(rebuttal)",
+      "category": "notion",
+      "urls": [
+        "https://pengsida.notion.site/rebuttal-af99ce47103e4917b6a5bd1fd4b3c022",
+        "https://www.notion.so/pengsida/rebuttal-af99ce47103e4917b6a5bd1fd4b3c022"
+      ],
+      "access_status": "blocked",
+      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md",
+        "changelog"
+      ]
+    },
+    {
+      "id": "notion-b43507ef26d044bd888ac29f4736e116",
+      "title": "연구 프로젝트를 수행하는 법: 박사과정 연구자가 갖춰야 할 역량",
+      "category": "notion",
+      "urls": [
+        "https://pengsida.notion.site/research-project-b43507ef26d044bd888ac29f4736e116",
+        "https://pengsida.notion.site/Research-Project-b43507ef26d044bd888ac29f4736e116?pvs=74"
+      ],
+      "access_status": "blocked",
+      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md",
+        "changelog",
+        "getting_advanced_in_research.md",
+        "getting_started_in_research.md"
+      ]
+    },
+    {
+      "id": "notion-810f02670691444f8c94cc3d5b76dcbc",
+      "title": "학술 발표 슬라이드를 만드는 법",
+      "category": "notion",
+      "urls": [
+        "https://pengsida.notion.site/slides-810f02670691444f8c94cc3d5b76dcbc"
+      ],
+      "access_status": "blocked",
+      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "https://pengsongyou.github.io/",
+      "title": "Songyou Peng",
+      "category": "attribution",
+      "urls": [
+        "https://pengsongyou.github.io/"
+      ],
+      "access_status": "not_checked",
+      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
+      "translation_status": "reference_only",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "https://qianqianwang68.github.io/",
+      "title": "Qianqian Wang",
+      "category": "attribution",
+      "urls": [
+        "https://qianqianwang68.github.io/"
+      ],
+      "access_status": "not_checked",
+      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
+      "translation_status": "reference_only",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "https://shenyujun.github.io/",
+      "title": "Yujun Shen",
+      "category": "attribution",
+      "urls": [
+        "https://shenyujun.github.io/"
+      ],
+      "access_status": "not_checked",
+      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
+      "translation_status": "reference_only",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "https://www.bilibili.com/video/BV1DA4m1V7D3/",
+      "title": "Learning Research 발표 영상",
+      "category": "video",
+      "urls": [
+        "https://www.bilibili.com/video/BV1DA4m1V7D3/"
+      ],
+      "access_status": "not_checked",
+      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "https://www.bilibili.com/video/BV1RitTezEa9?p=1",
+      "title": "GAMES003 1주차 영상",
+      "category": "video",
+      "urls": [
+        "https://www.bilibili.com/video/BV1RitTezEa9?p=1"
+      ],
+      "access_status": "not_checked",
+      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "https://www.bilibili.com/video/BV1RitTezEa9?p=3",
+      "title": "GAMES003 3주차 영상",
+      "category": "video",
+      "urls": [
+        "https://www.bilibili.com/video/BV1RitTezEa9?p=3"
+      ],
+      "access_status": "not_checked",
+      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "https://www.bilibili.com/video/BV1RitTezEa9?p=5",
+      "title": "GAMES003 5주차 영상",
+      "category": "video",
+      "urls": [
+        "https://www.bilibili.com/video/BV1RitTezEa9?p=5"
+      ],
+      "access_status": "not_checked",
+      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "https://www.cs.toronto.edu/~jungao/",
+      "title": "Jun Gao",
+      "category": "attribution",
+      "urls": [
+        "https://www.cs.toronto.edu/~jungao/"
+      ],
+      "access_status": "not_checked",
+      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
+      "translation_status": "reference_only",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "https://xzhou.me/",
+      "title": "Xiaowei Zhou 연구실",
+      "category": "attribution",
+      "urls": [
+        "https://xzhou.me/"
+      ],
+      "access_status": "not_checked",
+      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
+      "translation_status": "reference_only",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "https://zehongs.github.io/",
+      "title": "Zehong Shen",
+      "category": "attribution",
+      "urls": [
+        "https://zehongs.github.io/"
+      ],
+      "access_status": "not_checked",
+      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
+      "translation_status": "reference_only",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "https://zhanghe3z.github.io/",
+      "title": "Shangzhan Zhang",
+      "category": "attribution",
+      "urls": [
+        "https://zhanghe3z.github.io/"
+      ],
+      "access_status": "not_checked",
+      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
+      "translation_status": "reference_only",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "https://pengsida.net/files/how_to_do_research.pdf",
+      "title": "연구 방법 소개 슬라이드",
+      "category": "pdf",
+      "urls": [
+        "https://pengsida.net/files/how_to_do_research.pdf"
+      ],
+      "access_status": "text_garbled",
+      "access_note": "PDF는 열리지만 추출된 텍스트가 깨져 있어 원본 화면과 대조가 필요합니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "changelog"
+      ]
+    },
+    {
+      "id": "notion-1d13fe292ff180de91afcb7f2eb57b69",
+      "title": "면접 질문을 통해 돌아보는 연구자의 중요한 자질",
+      "category": "notion",
+      "urls": [
+        "https://www.notion.so/1d13fe292ff180de91afcb7f2eb57b69?pvs=4"
+      ],
+      "access_status": "blocked",
+      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "changelog"
+      ]
+    },
+    {
+      "id": "notion-1753fe292ff180948215cf82cd2b30ae",
+      "title": "프로젝트의 핵심 기술 문제 분석 템플릿",
+      "category": "notion",
+      "urls": [
+        "https://www.notion.so/Project-1753fe292ff180948215cf82cd2b30ae?pvs=4"
+      ],
+      "access_status": "blocked",
+      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "changelog"
+      ]
+    },
+    {
+      "id": "notion-c278dab7e4764d61a92c1fd1ef3135b1",
+      "title": "논문을 찾는 법",
+      "category": "notion",
+      "urls": [
+        "https://www.notion.so/pengsida/c278dab7e4764d61a92c1fd1ef3135b1"
+      ],
+      "access_status": "blocked",
+      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "changelog"
+      ]
+    },
+    {
+      "id": "notion-d192db870bc64436ae4a4a590b36772a",
+      "title": "논문을 효과적으로 읽는 법",
+      "category": "notion",
+      "urls": [
+        "https://www.notion.so/pengsida/d192db870bc64436ae4a4a590b36772a",
+        "https://pengsida.notion.site/d192db870bc64436ae4a4a590b36772a"
+      ],
+      "access_status": "blocked",
+      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "changelog",
+        "getting_advanced_in_research.md"
+      ]
+    },
+    {
+      "id": "https://github.com/user-attachments/files/18051592/YouAndYourResearch.pdf",
+      "title": "Richard Hamming의 연구 조언",
+      "category": "pdf",
+      "urls": [
+        "https://github.com/user-attachments/files/18051592/YouAndYourResearch.pdf"
+      ],
+      "access_status": "blocked",
+      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 사이트나 파일의 영구적인 삭제 여부는 확인하지 않았습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "getting_advanced_in_research.md"
+      ]
+    },
+    {
+      "id": "https://pengsida.net/files/Bill_Freeman_How_to_do_research.pdf",
+      "title": "Bill Freeman의 연구 조언",
+      "category": "pdf",
+      "urls": [
+        "https://pengsida.net/files/Bill_Freeman_How_to_do_research.pdf"
+      ],
+      "access_status": "text_available",
+      "access_note": "웹 조회에서 본문의 텍스트를 확인했습니다. 전문 번역과 도표 검수는 완료하지 않았습니다.",
+      "translation_status": "reading_guide_only",
+      "translation_path": null,
+      "reading_guide_path": "docs/external/reading-guide.md",
+      "found_in": [
+        "getting_advanced_in_research.md"
+      ]
+    },
+    {
+      "id": "https://pengsida.net/files/John_Schulman_How_to_do_research.pdf",
+      "title": "John Schulman의 연구 조언",
+      "category": "pdf",
+      "urls": [
+        "https://pengsida.net/files/John_Schulman_How_to_do_research.pdf"
+      ],
+      "access_status": "text_available",
+      "access_note": "웹 조회에서 본문의 텍스트를 확인했습니다. 전문 번역과 도표 검수는 완료하지 않았습니다.",
+      "translation_status": "reading_guide_only",
+      "translation_path": null,
+      "reading_guide_path": "docs/external/reading-guide.md",
+      "found_in": [
+        "getting_advanced_in_research.md"
+      ]
+    },
+    {
+      "id": "https://pengsida.net/files/Michael_Nielsen_How_to_do_research.pdf",
+      "title": "Michael Nielsen의 연구 조언",
+      "category": "pdf",
+      "urls": [
+        "https://pengsida.net/files/Michael_Nielsen_How_to_do_research.pdf"
+      ],
+      "access_status": "text_available",
+      "access_note": "웹 조회에서 본문의 텍스트를 확인했습니다. 전문 번역과 도표 검수는 완료하지 않았습니다.",
+      "translation_status": "reading_guide_only",
+      "translation_path": null,
+      "reading_guide_path": "docs/external/reading-guide.md",
+      "found_in": [
+        "getting_advanced_in_research.md"
+      ]
+    },
+    {
+      "id": "https://pengsida.net/files/Wujun_Li_Undergraduate_learning_research.pdf",
+      "title": "Wujun Li: 학부생의 연구 역량을 기르는 법",
+      "category": "pdf",
+      "urls": [
+        "https://pengsida.net/files/Wujun_Li_Undergraduate_learning_research.pdf"
+      ],
+      "access_status": "blocked",
+      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 사이트나 파일의 영구적인 삭제 여부는 확인하지 않았습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "getting_advanced_in_research.md"
+      ]
+    },
+    {
+      "id": "https://pengsida.net/files/Xiangyang_Shen_How_to_do_research.png",
+      "title": "Xiangyang Shen의 연구 조언",
+      "category": "image",
+      "urls": [
+        "https://pengsida.net/files/Xiangyang_Shen_How_to_do_research.png"
+      ],
+      "access_status": "blocked",
+      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 사이트나 파일의 영구적인 삭제 여부는 확인하지 않았습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "getting_advanced_in_research.md"
+      ]
+    },
+    {
+      "id": "https://pengsida.net/files/Zhihua_Zhou_How_to_do_research.pdf",
+      "title": "Zhihua Zhou의 연구 조언",
+      "category": "pdf",
+      "urls": [
+        "https://pengsida.net/files/Zhihua_Zhou_How_to_do_research.pdf"
+      ],
+      "access_status": "text_available",
+      "access_note": "웹 조회에서 본문의 텍스트를 확인했습니다. 전문 번역과 도표 검수는 완료하지 않았습니다.",
+      "translation_status": "reading_guide_only",
+      "translation_path": null,
+      "reading_guide_path": "docs/external/reading-guide.md",
+      "found_in": [
+        "getting_advanced_in_research.md"
+      ]
+    },
+    {
+      "id": "https://pengsida.net/files/Zhilin_Yang_How_to_do_research.pdf",
+      "title": "Zhilin Yang의 연구 조언",
+      "category": "pdf",
+      "urls": [
+        "https://pengsida.net/files/Zhilin_Yang_How_to_do_research.pdf"
+      ],
+      "access_status": "text_garbled",
+      "access_note": "PDF는 열리지만 추출된 텍스트가 깨져 있어 원본 화면과 대조가 필요합니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "getting_advanced_in_research.md"
+      ]
+    },
+    {
+      "id": "notion-1aee6e718de6472f834d13da8f4ff097",
+      "title": "실험이 기대대로 되지 않는 원인 분석하기",
+      "category": "notion",
+      "urls": [
+        "https://pengsida.notion.site/1aee6e718de6472f834d13da8f4ff097"
+      ],
+      "access_status": "blocked",
+      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "getting_advanced_in_research.md"
+      ]
+    },
+    {
+      "id": "notion-caf34717f4c046c69ee7e14ea953c46f",
+      "title": "실험 기록 작성하기",
+      "category": "notion",
+      "urls": [
+        "https://pengsida.notion.site/caf34717f4c046c69ee7e14ea953c46f"
+      ],
+      "access_status": "blocked",
+      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "getting_advanced_in_research.md"
+      ]
+    },
+    {
+      "id": "notion-da6ce171c13846b7a7ffaa7473ffa6ea",
+      "title": "연구 아이디어를 발전시키는 법",
+      "category": "notion",
+      "urls": [
+        "https://pengsida.notion.site/idea-da6ce171c13846b7a7ffaa7473ffa6ea"
+      ],
+      "access_status": "blocked",
+      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "getting_advanced_in_research.md"
+      ]
+    },
+    {
+      "id": "notion-d697ef578d784c869d4f8314f0d617da",
+      "title": "매주 연구 미팅에서 슬라이드로 발표하기",
+      "category": "notion",
+      "urls": [
+        "https://pengsida.notion.site/meet-ppt-d697ef578d784c869d4f8314f0d617da"
+      ],
+      "access_status": "blocked",
+      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "getting_advanced_in_research.md"
+      ]
+    },
+    {
+      "id": "https://www.yuque.com/xinntao/nm1yxs/uwzezu0qebdxs38t",
+      "title": "Xintao Wang의 연구용 프로그래밍과 실험 노하우",
+      "category": "article",
+      "urls": [
+        "https://www.yuque.com/xinntao/nm1yxs/uwzezu0qebdxs38t"
+      ],
+      "access_status": "blocked",
+      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 사이트나 파일의 영구적인 삭제 여부는 확인하지 않았습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "getting_advanced_in_research.md"
+      ]
+    },
+    {
+      "id": "http://cs231n.stanford.edu/schedule.html",
+      "title": "Stanford CS231n 강의",
+      "category": "course",
+      "urls": [
+        "http://cs231n.stanford.edu/schedule.html"
+      ],
+      "access_status": "not_checked",
+      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "getting_started_in_research.md"
+      ]
+    },
+    {
+      "id": "https://games-105.github.io/",
+      "title": "GAMES105: 컴퓨터 캐릭터 애니메이션 기초",
+      "category": "course",
+      "urls": [
+        "https://games-105.github.io/"
+      ],
+      "access_status": "not_checked",
+      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "getting_started_in_research.md"
+      ]
+    },
+    {
+      "id": "https://games-cn.org/intro-graphics/",
+      "title": "GAMES101: 현대 컴퓨터 그래픽스 입문",
+      "category": "course",
+      "urls": [
+        "https://games-cn.org/intro-graphics/"
+      ],
+      "access_status": "not_checked",
+      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "getting_started_in_research.md"
+      ]
+    },
+    {
+      "id": "https://github.com/nizne9/EECS498-WI22",
+      "title": "EECS498 2022년 겨울 학기 과제 A1–A6",
+      "category": "assignments",
+      "urls": [
+        "https://github.com/nizne9/EECS498-WI22"
+      ],
+      "access_status": "text_available",
+      "access_note": "안내 페이지를 확인했습니다. 연결된 강의·과제 본문은 전체 번역하지 않았습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "getting_started_in_research.md"
+      ]
+    },
+    {
+      "id": "notion-59569d7b66954578b21bf1dc6ea35776",
+      "title": "자주 사용하는 도구와 환경 설정",
+      "category": "notion",
+      "urls": [
+        "https://pengsida.notion.site/59569d7b66954578b21bf1dc6ea35776"
+      ],
+      "access_status": "blocked",
+      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "getting_started_in_research.md"
+      ]
+    },
+    {
+      "id": "notion-8911dcc5922b4442a80d4407926e65bf",
+      "title": "학습 계획 예시",
+      "category": "notion",
+      "urls": [
+        "https://pengsida.notion.site/8911dcc5922b4442a80d4407926e65bf"
+      ],
+      "access_status": "blocked",
+      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "getting_started_in_research.md"
+      ]
+    },
+    {
+      "id": "notion-a3fe9f17b8af46558cd1112627009c83",
+      "title": "연구를 시작하기 전에 알아 둘 점",
+      "category": "notion",
+      "urls": [
+        "https://pengsida.notion.site/a3fe9f17b8af46558cd1112627009c83"
+      ],
+      "access_status": "blocked",
+      "access_note": "웹 조회에서 본문을 가져오지 못했습니다. 대표 프로젝트 문서는 직접 다운로드도 HTTP 403으로 차단됐으며, 내장 브라우저는 연결 오류가 발생했습니다. 하위 페이지는 아직 조사하지 못했습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "getting_started_in_research.md"
+      ]
+    },
+    {
+      "id": "https://sites.cs.ucsb.edu/~lingqi/teaching/games202.html",
+      "title": "GAMES202: 고품질 실시간 렌더링",
+      "category": "course",
+      "urls": [
+        "https://sites.cs.ucsb.edu/~lingqi/teaching/games202.html"
+      ],
+      "access_status": "not_checked",
+      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "getting_started_in_research.md"
+      ]
+    },
+    {
+      "id": "https://www.bilibili.com/video/BV1eD4y1U7uu/",
+      "title": "딥러닝 입문 강의 영상",
+      "category": "video",
+      "urls": [
+        "https://www.bilibili.com/video/BV1eD4y1U7uu/"
+      ],
+      "access_status": "not_checked",
+      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "getting_started_in_research.md"
+      ]
+    },
+    {
+      "id": "https://www.deeplearningbook.org/",
+      "title": "Deep Learning",
+      "category": "book",
+      "urls": [
+        "https://www.deeplearningbook.org/"
+      ],
+      "access_status": "not_checked",
+      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "getting_started_in_research.md"
+      ]
+    },
+    {
+      "id": "https://www.youtube.com/playlist?list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r",
+      "title": "딥러닝 입문 강의 재생목록",
+      "category": "video",
+      "urls": [
+        "https://www.youtube.com/playlist?list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r"
+      ],
+      "access_status": "not_checked",
+      "access_note": "본문과 세부 하위 자료를 아직 확인하지 않았습니다.",
+      "translation_status": "pending",
+      "translation_path": null,
+      "reading_guide_path": null,
+      "found_in": [
+        "getting_started_in_research.md"
+      ]
+    }
+  ]
+}

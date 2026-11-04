@@ -1,0 +1,31 @@
+name: 한국어 문서 검사
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      require_external:
+        description: 외부 자료의 전문 번역 완료 여부도 검사
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  check-docs:
+    name: 문서와 링크 검사
+    runs-on: ubuntu-latest
+    steps:
+      - name: 저장소 내려받기
+        uses: actions/checkout@v6
+      - name: Python 준비
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - name: 번역 문서 검사
+        run: python scripts/check_docs.py
+      - name: 외부 자료 완역 확인
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.require_external }}
+        run: python scripts/check_docs.py --require-external
