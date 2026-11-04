@@ -147,7 +147,7 @@ def audit(root: Path, require_external: bool = False) -> tuple[list[str], dict[s
     incomplete = []
     for source in sources:
         status = source["translation_status"]
-        if status not in {"pending", "reading_guide_only", "reference_only", "translated"}:
+        if status not in {"pending", "reading_guide_only", "reference_only", "translated", "body_translated", "blocked"}:
             errors.append(f"알 수 없는 번역 상태: {source['title']}")
         if status == "reference_only" and source["category"] != "attribution":
             errors.append(f"학습 자료를 출처 링크로만 표시했습니다: {source['title']}")
@@ -182,9 +182,9 @@ def audit(root: Path, require_external: bool = False) -> tuple[list[str], dict[s
             if not re.fullmatch(r"[0-9a-f]{64}", page.get("content_sha256", "")):
                 errors.append(f"Notion 원문 본문 해시 오류: {page['title']}")
         for page in direct + linked:
-            if page["translation_status"] not in {"pending", "translated"}:
+            if page["translation_status"] not in {"pending", "translated", "body_translated", "reading_guide_only", "blocked"}:
                 errors.append(f"Notion 번역 상태 오류: {page['title']}")
-            if page["translation_status"] == "translated":
+            if page["translation_status"] in {"translated", "body_translated", "reading_guide_only"}:
                 path = page.get("translation_path")
                 if not path or not page.get("review_notes"):
                     errors.append(f"Notion 번역 파일 또는 검수 기록 없음: {page['title']}")

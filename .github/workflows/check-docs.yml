@@ -26,6 +26,8 @@ jobs:
           python-version: '3.13'
       - name: 번역 문서 검사
         run: python scripts/check_docs.py
+      - name: Notion 게시 변환 검사
+        run: python -m unittest discover -s tests -v
       - name: 외부 자료 완역 확인
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.require_external }}
         run: python scripts/check_docs.py --require-external

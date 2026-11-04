@@ -267,14 +267,15 @@
       "urls": [
         "https://pengsida.notion.site/74aef88b9187439fa4e301704f6eb49a"
       ],
-      "access_status": "text_available",
-      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
+      "access_status": "fetched",
+      "access_note": "공개 본문을 확보했습니다. 첨부 자료와 번역 완료 상태는 별도로 추적합니다.",
       "translation_status": "pending",
       "translation_path": null,
       "reading_guide_path": null,
       "found_in": [
         "README.md"
-      ]
+      ],
+      "review_notes": null
     },
     {
       "id": "notion-1713fe292ff1808eb33be93ea2d79ad9",
@@ -284,8 +285,8 @@
         "https://pengsida.notion.site/Sebastian-Starke-1713fe292ff1808eb33be93ea2d79ad9?pvs=4",
         "https://www.notion.so/Sebastian-Starke-1713fe292ff1808eb33be93ea2d79ad9?pvs=4"
       ],
-      "access_status": "text_available",
-      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
+      "access_status": "fetched",
+      "access_note": "공개 본문을 확보했습니다. 첨부 자료와 번역 완료 상태는 별도로 추적합니다.",
       "translation_status": "translated",
       "translation_path": "docs/notion/sebastian-starke.md",
       "reading_guide_path": null,
@@ -302,8 +303,8 @@
       "urls": [
         "https://pengsida.notion.site/c13c7e52aab64c1a8e3576b97fcb9851"
       ],
-      "access_status": "text_available",
-      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
+      "access_status": "fetched",
+      "access_note": "공개 본문을 확보했습니다. 첨부 자료와 번역 완료 상태는 별도로 추적합니다.",
       "translation_status": "translated",
       "translation_path": "docs/notion/writing-practice.md",
       "reading_guide_path": null,
@@ -321,8 +322,8 @@
         "https://pengsida.notion.site/c1a22465a0fa4b15a12985223916048e",
         "https://www.notion.so/pengsida/c1a22465a0fa4b15a12985223916048e"
       ],
-      "access_status": "text_available",
-      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
+      "access_status": "fetched",
+      "access_note": "공개 본문을 확보했습니다. 첨부 자료와 번역 완료 상태는 별도로 추적합니다.",
       "translation_status": "pending",
       "translation_path": null,
       "reading_guide_path": null,
@@ -330,25 +331,27 @@
         "README.md",
         "changelog",
         "getting_advanced_in_research.md"
-      ]
+      ],
+      "review_notes": null
     },
     {
       "id": "notion-af99ce47103e4917b6a5bd1fd4b3c022",
-      "title": "심사 의견에 답변하는 법: 리버털(rebuttal)",
+      "title": "심사 의견에 답변하는 법",
       "category": "notion",
       "urls": [
         "https://pengsida.notion.site/rebuttal-af99ce47103e4917b6a5bd1fd4b3c022",
         "https://www.notion.so/pengsida/rebuttal-af99ce47103e4917b6a5bd1fd4b3c022"
       ],
-      "access_status": "text_available",
-      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
-      "translation_status": "pending",
-      "translation_path": null,
+      "access_status": "fetched",
+      "access_note": "공개 본문을 확보했습니다. 첨부 자료와 번역 완료 상태는 별도로 추적합니다.",
+      "translation_status": "body_translated",
+      "translation_path": "docs/notion/rebuttal.md",
       "reading_guide_path": null,
       "found_in": [
         "README.md",
         "changelog"
-      ]
+      ],
+      "review_notes": "공개 본문과 설명 도표를 번역했습니다. 별도 첨부 파일은 독립적으로 추적합니다."
     },
     {
       "id": "notion-b43507ef26d044bd888ac29f4736e116",
@@ -358,8 +361,8 @@
         "https://pengsida.notion.site/research-project-b43507ef26d044bd888ac29f4736e116",
         "https://pengsida.notion.site/Research-Project-b43507ef26d044bd888ac29f4736e116?pvs=74"
       ],
-      "access_status": "text_available",
-      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
+      "access_status": "fetched",
+      "access_note": "공개 본문을 확보했습니다. 첨부 자료와 번역 완료 상태는 별도로 추적합니다.",
       "translation_status": "translated",
       "translation_path": "docs/notion/research-project.md",
       "reading_guide_path": null,
@@ -373,19 +376,20 @@
     },
     {
       "id": "notion-810f02670691444f8c94cc3d5b76dcbc",
-      "title": "학술 발표 슬라이드를 만드는 법",
+      "title": "학술 발표 슬라이드 구성하기",
       "category": "notion",
       "urls": [
         "https://pengsida.notion.site/slides-810f02670691444f8c94cc3d5b76dcbc"
       ],
-      "access_status": "text_available",
-      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
-      "translation_status": "pending",
-      "translation_path": null,
+      "access_status": "fetched",
+      "access_note": "공개 본문을 확보했습니다. 첨부 자료와 번역 완료 상태는 별도로 추적합니다.",
+      "translation_status": "body_translated",
+      "translation_path": "docs/notion/academic-talks.md",
       "reading_guide_path": null,
       "found_in": [
         "README.md"
-      ]
+      ],
+      "review_notes": "공개 텍스트 본문을 번역했습니다. 첨부 이미지·파일의 별도 대조가 남아 있습니다."
     },
     {
       "id": "https://pengsongyou.github.io/",
@@ -586,64 +590,68 @@
       "urls": [
         "https://www.notion.so/1d13fe292ff180de91afcb7f2eb57b69?pvs=4"
       ],
-      "access_status": "text_available",
-      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
+      "access_status": "fetched",
+      "access_note": "공개 본문을 확보했습니다. 첨부 자료와 번역 완료 상태는 별도로 추적합니다.",
       "translation_status": "pending",
       "translation_path": null,
       "reading_guide_path": null,
       "found_in": [
         "changelog"
-      ]
+      ],
+      "review_notes": null
     },
     {
       "id": "notion-1753fe292ff180948215cf82cd2b30ae",
-      "title": "프로젝트의 핵심 기술 문제 분석 템플릿",
+      "title": "프로젝트의 핵심 기술 문제 분석 양식",
       "category": "notion",
       "urls": [
         "https://www.notion.so/Project-1753fe292ff180948215cf82cd2b30ae?pvs=4"
       ],
-      "access_status": "text_available",
-      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
-      "translation_status": "pending",
-      "translation_path": null,
+      "access_status": "fetched",
+      "access_note": "공개 본문을 확보했습니다. 첨부 자료와 번역 완료 상태는 별도로 추적합니다.",
+      "translation_status": "body_translated",
+      "translation_path": "docs/notion/technical-problem-template.md",
       "reading_guide_path": null,
       "found_in": [
         "changelog"
-      ]
+      ],
+      "review_notes": "공개 본문의 절·항목·예시를 한국어로 옮겼습니다. 인용 출처의 불확실성과 원저자의 견해를 구분했으며 별도 첨부 자료의 대조는 남아 있습니다."
     },
     {
       "id": "notion-c278dab7e4764d61a92c1fd1ef3135b1",
-      "title": "논문을 찾는 법",
+      "title": "관련 논문을 찾는 방법",
       "category": "notion",
       "urls": [
         "https://www.notion.so/pengsida/c278dab7e4764d61a92c1fd1ef3135b1"
       ],
-      "access_status": "text_available",
-      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
-      "translation_status": "pending",
-      "translation_path": null,
+      "access_status": "fetched",
+      "access_note": "공개 본문을 확보했습니다. 첨부 자료와 번역 완료 상태는 별도로 추적합니다.",
+      "translation_status": "translated",
+      "translation_path": "docs/notion/finding-papers.md",
       "reading_guide_path": null,
       "found_in": [
         "changelog"
-      ]
+      ],
+      "review_notes": "공개 본문과 이미지에 실제로 표시된 내용을 대조하여 한국어로 옮겼습니다. 접힌 화면과 숨겨진 인용 출처는 확인 불가로 명시했습니다."
     },
     {
       "id": "notion-d192db870bc64436ae4a4a590b36772a",
-      "title": "논문을 효과적으로 읽는 법",
+      "title": "읽고 나서 남는 논문 읽기",
       "category": "notion",
       "urls": [
         "https://www.notion.so/pengsida/d192db870bc64436ae4a4a590b36772a",
         "https://pengsida.notion.site/d192db870bc64436ae4a4a590b36772a"
       ],
-      "access_status": "text_available",
-      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
-      "translation_status": "pending",
-      "translation_path": null,
+      "access_status": "fetched",
+      "access_note": "공개 본문을 확보했습니다. 첨부 자료와 번역 완료 상태는 별도로 추적합니다.",
+      "translation_status": "translated",
+      "translation_path": "docs/notion/reading-papers.md",
       "reading_guide_path": null,
       "found_in": [
         "changelog",
         "getting_advanced_in_research.md"
-      ]
+      ],
+      "review_notes": "공개 본문과 첨부 이미지의 모든 주요 항목을 직접 읽고 한국어 문장·표로 대조했습니다. 이미지 속 빈 항목과 남은 질문도 구분했습니다."
     },
     {
       "id": "https://github.com/user-attachments/files/18051592/YouAndYourResearch.pdf",
@@ -775,19 +783,20 @@
     },
     {
       "id": "notion-1aee6e718de6472f834d13da8f4ff097",
-      "title": "실험이 기대대로 되지 않는 원인 분석하기",
+      "title": "실험이 잘되지 않는 원인 찾기",
       "category": "notion",
       "urls": [
         "https://pengsida.notion.site/1aee6e718de6472f834d13da8f4ff097"
       ],
-      "access_status": "text_available",
-      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
-      "translation_status": "pending",
-      "translation_path": null,
+      "access_status": "fetched",
+      "access_note": "공개 본문을 확보했습니다. 첨부 자료와 번역 완료 상태는 별도로 추적합니다.",
+      "translation_status": "body_translated",
+      "translation_path": "docs/notion/experiment-failures.md",
       "reading_guide_path": null,
       "found_in": [
         "getting_advanced_in_research.md"
-      ]
+      ],
+      "review_notes": "공개 본문의 절·항목·예시를 한국어로 옮겼습니다. 인용 출처의 불확실성과 원저자의 견해를 구분했으며 별도 첨부 자료의 대조는 남아 있습니다."
     },
     {
       "id": "notion-caf34717f4c046c69ee7e14ea953c46f",
@@ -796,8 +805,8 @@
       "urls": [
         "https://pengsida.notion.site/caf34717f4c046c69ee7e14ea953c46f"
       ],
-      "access_status": "text_available",
-      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
+      "access_status": "fetched",
+      "access_note": "공개 본문을 확보했습니다. 첨부 자료와 번역 완료 상태는 별도로 추적합니다.",
       "translation_status": "translated",
       "translation_path": "docs/notion/experiment-records.md",
       "reading_guide_path": null,
@@ -808,35 +817,37 @@
     },
     {
       "id": "notion-da6ce171c13846b7a7ffaa7473ffa6ea",
-      "title": "연구 아이디어를 발전시키는 법",
+      "title": "좋은 연구 문제를 고르고 해결책을 떠올리는 법",
       "category": "notion",
       "urls": [
         "https://pengsida.notion.site/idea-da6ce171c13846b7a7ffaa7473ffa6ea"
       ],
-      "access_status": "text_available",
-      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
-      "translation_status": "pending",
-      "translation_path": null,
+      "access_status": "fetched",
+      "access_note": "공개 본문을 확보했습니다. 첨부 자료와 번역 완료 상태는 별도로 추적합니다.",
+      "translation_status": "body_translated",
+      "translation_path": "docs/notion/research-ideas.md",
       "reading_guide_path": null,
       "found_in": [
         "getting_advanced_in_research.md"
-      ]
+      ],
+      "review_notes": "공개 본문의 모든 절과 역할 분담·미팅 구성 항목을 대조했습니다. 취소된 과거 견해와 서로 다른 지침을 명시했습니다. 별도 인용 이미지와 파일은 따로 추적합니다."
     },
     {
       "id": "notion-d697ef578d784c869d4f8314f0d617da",
-      "title": "매주 연구 미팅에서 슬라이드로 발표하기",
+      "title": "문제를 해결하는 연구 미팅",
       "category": "notion",
       "urls": [
         "https://pengsida.notion.site/meet-ppt-d697ef578d784c869d4f8314f0d617da"
       ],
-      "access_status": "text_available",
-      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
-      "translation_status": "pending",
-      "translation_path": null,
+      "access_status": "fetched",
+      "access_note": "공개 본문을 확보했습니다. 첨부 자료와 번역 완료 상태는 별도로 추적합니다.",
+      "translation_status": "body_translated",
+      "translation_path": "docs/notion/research-meetings.md",
       "reading_guide_path": null,
       "found_in": [
         "getting_advanced_in_research.md"
-      ]
+      ],
+      "review_notes": "공개 본문의 모든 절과 역할 분담·미팅 구성 항목을 대조했습니다. 취소된 과거 견해와 서로 다른 지침을 명시했습니다. 별도 인용 이미지와 파일은 따로 추적합니다."
     },
     {
       "id": "https://www.yuque.com/xinntao/nm1yxs/uwzezu0qebdxs38t",
@@ -925,14 +936,15 @@
       "urls": [
         "https://pengsida.notion.site/59569d7b66954578b21bf1dc6ea35776"
       ],
-      "access_status": "text_available",
-      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
+      "access_status": "fetched",
+      "access_note": "공개 본문을 확보했습니다. 첨부 자료와 번역 완료 상태는 별도로 추적합니다.",
       "translation_status": "pending",
       "translation_path": null,
       "reading_guide_path": null,
       "found_in": [
         "getting_started_in_research.md"
-      ]
+      ],
+      "review_notes": null
     },
     {
       "id": "notion-8911dcc5922b4442a80d4407926e65bf",
@@ -941,8 +953,8 @@
       "urls": [
         "https://pengsida.notion.site/8911dcc5922b4442a80d4407926e65bf"
       ],
-      "access_status": "text_available",
-      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
+      "access_status": "fetched",
+      "access_note": "공개 본문을 확보했습니다. 첨부 자료와 번역 완료 상태는 별도로 추적합니다.",
       "translation_status": "translated",
       "translation_path": "docs/notion/learning-plan.md",
       "reading_guide_path": null,
@@ -953,19 +965,20 @@
     },
     {
       "id": "notion-a3fe9f17b8af46558cd1112627009c83",
-      "title": "연구를 시작하기 전에 알아 둘 점",
+      "title": "연구를 배우는 방식과 수업을 듣는 방식",
       "category": "notion",
       "urls": [
         "https://pengsida.notion.site/a3fe9f17b8af46558cd1112627009c83"
       ],
-      "access_status": "text_available",
-      "access_note": "연결된 Notion 도구로 본문을 확보했습니다. 이미지와 첨부 파일은 개별 검수가 필요하며, 추가 연결 문서는 별도 목록으로 추적합니다.",
-      "translation_status": "pending",
-      "translation_path": null,
+      "access_status": "fetched",
+      "access_note": "공개 본문을 확보했습니다. 첨부 자료와 번역 완료 상태는 별도로 추적합니다.",
+      "translation_status": "body_translated",
+      "translation_path": "docs/notion/research-vs-coursework.md",
       "reading_guide_path": null,
       "found_in": [
         "getting_started_in_research.md"
-      ]
+      ],
+      "review_notes": "공개 본문의 절·항목·예시를 한국어로 옮겼습니다. 인용 출처의 불확실성과 원저자의 견해를 구분했으며 별도 첨부 자료의 대조는 남아 있습니다."
     },
     {
       "id": "https://sites.cs.ucsb.edu/~lingqi/teaching/games202.html",

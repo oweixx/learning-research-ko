@@ -6,7 +6,7 @@
 
 이 저장소는 Markdown 문서 모음입니다. GitHub에서 바로 읽을 수 있으며 별도의 앱 빌드나 서버 배포는 필요하지 않습니다.
 
-**공개 범위:** 저장소 내부 문서 4개의 한국어 번역, 변경 이력, 외부 자료 목록과 짧은 읽기 안내를 제공합니다. 외부 Notion·PDF·영상의 전문 번역은 아직 완료하지 않았습니다. 저장소 소개와 README에는 실제 완료 범위를 유지합니다.
+**공개 범위:** 저장소 내부 문서 4개, Notion 한국어 문서와 도표, 외부 자료의 한국어 길잡이를 제공합니다. 문서별 실제 범위는 [Notion 목록](./docs/notion/README.md)과 [전체 현황](./docs/external/README.md)을 기준으로 합니다.
 
 ## 이 작업 폴더에서 업데이트하기
 
@@ -68,3 +68,22 @@ python scripts/check_docs.py --require-external
 - 외부 자료의 전문 번역 여부를 실제 진행 상황에 맞게 표시합니다.
 - 원문 저장소에 없던 라이선스를 임의로 추가하지 않습니다.
 - 외부 자료 번역을 추가할 때는 원문·첨부 자료와 대조하고 검수 기록을 남깁니다.
+
+## GitHub와 Notion 연결
+
+GitHub의 Markdown 파일을 기준 문서로 삼고 연결된 Notion 도구로 게시합니다. Notion에서 손으로 수정한 내용을 GitHub로 자동 가져오는 양방향 동기화나 상시 백그라운드 작업은 설정하지 않았습니다.
+
+1. 문서를 수정하고 원문·링크를 검수합니다.
+2. 로컬 페이지 매핑을 사용해 게시 계획을 만듭니다.
+3. 기존 Notion 페이지를 먼저 읽고, 사용자 메모와 하위 페이지를 보존하며 해당 문서만 갱신합니다.
+4. 성공한 도구 응답에 대해서만 문서 경로·내용 해시·게시일을 게시 기록에 반영합니다.
+5. 게시 기록 검사 후 GitHub에 푸시합니다.
+
+```sh
+python scripts/build_indexes.py
+python scripts/check_docs.py
+python scripts/notion_sync.py --map .git/notion-cache/final-page-map.json --output .git/notion-cache/publish-plan.json
+python scripts/notion_sync.py --check
+```
+
+계획 생성 명령은 내용을 변환해 JSON으로 저장하며, 외부 서비스에 직접 쓰지 않습니다. 실제 게시에는 연결된 Notion 도구를 사용합니다. 페이지 매핑과 원문 캐시는 로컬 .git 안에 두며 공개 저장소에 업로드하지 않습니다. GitHub Actions에서 접근 토큰 없이 Notion을 자동 갱신한다고 가정하지 않습니다.
