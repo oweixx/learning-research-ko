@@ -2,6 +2,10 @@
 
 연구를 처음 시작하는 학부생과 대학원생을 위한 안내서입니다. 연구 주제를 찾고, 아이디어를 구체화하고, 실험을 설계하고, 논문과 발표로 성과를 전달하는 과정을 다룹니다.
 
+**[한국어 학습 사이트에서 읽기](https://oweixx.github.io/learning-research-ko/)** · [학습 경로](https://oweixx.github.io/learning-research-ko/paths.html) · [전체 자료 검색](https://oweixx.github.io/learning-research-ko/library.html) · [연구 노트](https://oweixx.github.io/learning-research-ko/notebook.html)
+
+학습 사이트에서는 다섯 가지 추천 경로, 본문 검색과 주제 필터, 읽음·북마크·개인 메모, 네 가지 연구 양식, 기록의 백업·복원을 이용할 수 있습니다. 개인 기록은 현재 브라우저에만 저장됩니다. 학습 경로와 양식은 한국어판에서 추가한 보조 자료이며 원문과 구분합니다.
+
 이 저장소는 [Sida Peng의 Learning Research](https://github.com/pengsida/learning_research)를 한국어로 옮긴 **비공식 번역본**입니다. 저장소에 포함된 문서 4개를 모두 번역했으며, 원저자의 경험과 관점을 유지했습니다.
 
 > **현재 번역 범위:** 저장소 내부 문서 4개와 [Notion 한국어 문서 61개](./docs/notion/README.md)를 제공합니다. 본문·도표 대조 완료, 본문 번역, 소개·요약과 접근 제한을 구분합니다. **외부 자료 전체의 완역은 아직 끝나지 않았습니다.** [자료별 진행 현황](./docs/external/README.md)에서 실제 완료 범위를 확인하세요.

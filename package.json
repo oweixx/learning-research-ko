@@ -1,0 +1,20 @@
+{
+  "name": "learning-research-ko",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "site:prepare": "node scripts/prepare-site.mjs",
+    "site:dev": "npm run site:prepare && vitepress dev site --host 127.0.0.1",
+    "site:build": "npm run site:prepare && vitepress build site",
+    "site:preview": "vitepress preview site --host 127.0.0.1",
+    "test:site": "node --test tests/site.test.mjs",
+    "test:browser": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.58.2",
+    "vitepress": "1.6.4",
+    "vue": "3.5.44"
+  },
+  "overrides": { "vite": "6.4.5" }
+}

@@ -18,7 +18,7 @@ CJK = re.compile(
     r"[\u2e80-\u2fdf\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff"
     r"\U00020000-\U0002fa1f\U00030000-\U000323af]"
 )
-EXCLUDED = {".git", ".venv", ".codex", ".agents", ".aws", "__pycache__"}
+EXCLUDED = {".git", ".venv", ".codex", ".agents", ".aws", "__pycache__", "node_modules", ".generated", ".vitepress", "test-results", "playwright-report"}
 REQUIRED = {
     "README.md", "getting_started_in_research.md", "getting_advanced_in_research.md",
     "changelog", "TRANSLATION.md", "PUBLISHING.md", "docs/external/README.md",

@@ -454,13 +454,13 @@
     },
     {
       "path": "PUBLISHING.md",
-      "sha256": "103b1655ff19e652412bc359e215aa77cd55f2d0bee9aed8009e7939c42e110f",
+      "sha256": "885375963e0b9fc47f1fde42db2224fd2855c64a97a0d43485dc8d94952e529d",
       "published_on": "2026-11-04",
       "action": "updated"
     },
     {
       "path": "README.md",
-      "sha256": "1f1fea7c198a5812a54471dc3038cda4719f8c491c5f731846e0fb27446887f3",
+      "sha256": "0c498c86ec1dcaa9f363a63dd4fb0f94ac9f580b60ef261cf132a4ec88cb5a4c",
       "published_on": "2026-11-04",
       "action": "updated"
     },

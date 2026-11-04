@@ -4,11 +4,45 @@
 
 한국어판 저장소: **[oweixx/learning-research-ko](https://github.com/oweixx/learning-research-ko)**
 
-이 저장소는 Markdown 문서 모음입니다. GitHub에서 바로 읽을 수 있으며 별도의 앱 빌드나 서버 배포는 필요하지 않습니다.
+이 저장소의 Markdown 문서는 GitHub와 [한국어 학습 사이트](https://oweixx.github.io/learning-research-ko/)에서 읽을 수 있습니다. 학습 사이트는 VitePress로 생성하고 GitHub Pages로 배포합니다. `master`에 푸시하면 사이트 검사 후 자동 배포됩니다.
 
 **공개 범위:** 저장소 내부 문서 4개, Notion 한국어 문서와 도표, 외부 자료의 한국어 길잡이를 제공합니다. 문서별 실제 범위는 [Notion 목록](./docs/notion/README.md)과 [전체 현황](./docs/external/README.md)을 기준으로 합니다.
 
-## 이 작업 폴더에서 업데이트하기
+## 학습 사이트 개발과 배포
+
+Node.js 22 이상을 사용합니다. 배포 환경은 Node.js 24입니다.
+
+```sh
+npm ci
+npm run site:dev
+```
+
+원본 Markdown은 저장소 루트와 `docs`에서 수정합니다. `scripts/prepare-site.mjs`가 문서 78개를 읽어 웹사이트용 경로와 검색 목록을 생성합니다. 생성된 `site/.generated`는 직접 수정하거나 커밋하지 않습니다. 개발 서버 실행 중 원문을 수정했다면 `npm run site:prepare`로 다시 반영합니다.
+
+검사와 미리보기:
+
+```sh
+npm run site:build
+npm run test:site
+npx playwright install chromium
+npm run test:browser
+python scripts/check_site.py
+npm run site:preview
+```
+
+화면과 상호작용은 `site/.vitepress/theme`, 학습 경로·주제 분류·연구 양식은 `site/data/learning.mjs`에 있습니다. 문서를 새로 추가하면 해당 주제의 문서 ID 목록에도 추가합니다. VitePress 1의 기본 Vite 의존성 대신 보안 수정이 반영된 Vite 6.4.5를 고정하며, 빌드와 브라우저 테스트로 호환성을 확인합니다.
+
+[deploy-pages.yml](./.github/workflows/deploy-pages.yml)은 문서 사이트를 빌드하고 검색·기록·백업 테스트와 데스크톱·모바일 브라우저 검사를 통과한 산출물을 배포합니다. 풀 리퀘스트는 검사만 실행합니다. 저장소의 Settings → Pages → Source는 **GitHub Actions**로 설정합니다.
+
+### 개인 기록과 개인정보
+
+- 읽음·북마크·문서 메모·연구 노트·글자 크기는 해당 사이트의 브라우저 저장 공간에 저장합니다.
+- 개인 기록을 GitHub, Notion 또는 별도 서버로 보내지 않습니다. 로그인과 기기 간 자동 동기화는 없습니다.
+- 내 서재에서 전체 기록을 JSON으로 백업·복원할 수 있습니다. 같은 기록은 수정 시각이 최근인 내용을 유지합니다.
+- 연구 노트와 문서 메모는 Markdown으로 내려받아 Notion 등에서 활용할 수 있습니다.
+- 브라우저 데이터를 삭제하거나 기기를 변경하기 전에 백업하세요. 저장에 실패하면 화면에 안내합니다.
+
+## 이 작업 폴더에서 문서 업데이트하기
 
 최초 번역을 진행한 로컬 폴더에서는 원저자 저장소를 `origin`, 한국어판 저장소를 `korean` 원격으로 구분합니다. 먼저 연결 주소와 현재 브랜치를 확인합니다.
 

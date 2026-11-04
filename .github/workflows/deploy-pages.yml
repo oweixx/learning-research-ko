@@ -1,0 +1,64 @@
+name: 학습 사이트 검사 및 배포
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 저장소 내려받기
+        uses: actions/checkout@v6
+      - name: Node.js 준비
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+      - name: 의존성 설치
+        run: npm ci
+      - name: 사이트 빌드
+        run: npm run site:build
+      - name: 검색·백업·문서 연결 검사
+        run: npm run test:site
+      - name: 브라우저 준비
+        run: npx playwright install --with-deps chromium
+      - name: 데스크톱·모바일 사용 흐름 검사
+        run: npm run test:browser
+      - name: 생성된 사이트 링크 검사
+        run: python scripts/check_site.py
+      - name: 검사 결과 보관
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-results
+          path: test-results/
+          retention-days: 7
+      - name: Pages 산출물 준비
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site/.vitepress/dist
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: GitHub Pages 배포
+        id: deployment
+        uses: actions/deploy-pages@v5
